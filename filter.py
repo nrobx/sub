@@ -45,6 +45,20 @@ def detect_transport(protocol: str, rest_no_frag: str):
     return None
 
 
+def has_tls(protocol: str, rest_no_frag: str):
+    if protocol in ("vless", "trojan"):
+        if "?" not in rest_no_frag:
+            return False
+        params = urllib.parse.parse_qs(rest_no_frag.split("?", 1)[1])
+        return params.get("security", [""])[0].lower() == "tls"
+    if protocol == "vmess":
+        try:
+            return _b64_decode_vmess(rest_no_frag).get("tls", "") == "tls"
+        except Exception:
+            return False
+    return False
+
+
 def classify(config: str):
     config = config.strip()
     if not config or "://" not in config:
@@ -96,7 +110,9 @@ def clone_source():
     loc_dir = os.path.join(CLONE_DIR, "loc")
     if not os.path.isdir(loc_dir):
         sys.exit(1)
-    return sorted(glob.glob(os.path.join(loc_dir, "*.txt")))
+    SKIP_FILES = {"🏴\u200d☠️.txt"}
+    return sorted(p for p in glob.glob(os.path.join(loc_dir, "*.txt"))
+                  if os.path.basename(p) not in SKIP_FILES)
 
 
 def load_configs(sources):
@@ -110,6 +126,9 @@ def load_configs(sources):
                     continue
                 proto, trans = classify(cfg)
                 if proto is None:
+                    continue
+                rest = cfg.split("://", 1)[1].split("#", 1)[0]
+                if not has_tls(proto, rest):
                     continue
                 key = cfg.split("#", 1)[0]
                 if key in seen:
@@ -140,6 +159,10 @@ def save(port443_only=True):
                 cfg = decode_line(line)
                 if not cfg:
                     continue
+                rest = cfg.split("://", 1)[1].split("#", 1)[0]
+                proto = cfg.split("://", 1)[0].lower()
+                if not has_tls(proto, rest):
+                    continue
                 if port443_only and get_port(cfg) != TARGET_PORT:
                     continue
                 by_proto[proto].append(cfg)
@@ -147,16 +170,19 @@ def save(port443_only=True):
         cfgs = list(dict.fromkeys(by_proto[proto]))
         if not cfgs:
             continue
-        cfgs_b64 = [base64.b64encode(c.encode("utf-8")).decode("utf-8") for c in cfgs]
         if port443_only:
             write_file(f"{proto}_ws_443.txt", cfgs)
-            write_file(f"{proto}_ws_443_b64.txt", cfgs_b64)
         else:
             write_file(f"{proto}_ws.txt", cfgs)
-            write_file(f"{proto}_ws_b64.txt", cfgs_b64)
 
 
 def main():
+    for fn in os.listdir(OUTPUT_DIR) if os.path.isdir(OUTPUT_DIR) else []:
+        if fn.endswith(".txt"):
+            try:
+                os.remove(os.path.join(OUTPUT_DIR, fn))
+            except FileNotFoundError:
+                pass
     sources = clone_source()
     print(f"Source  : {len(sources)} file from loc/ ({SRC_REPO})")
     results = load_configs(sources)
@@ -176,12 +202,21 @@ def main():
         cfgs = by_proto[proto]
         if not cfgs:
             continue
-        cfgs_b64 = [base64.b64encode(c.encode("utf-8")).decode("utf-8") for c in cfgs]
         write_file(f"{proto}_ws.txt", cfgs)
-        write_file(f"{proto}_ws_b64.txt", cfgs_b64)
     print("-" * 50)
     print(f"Filtering port {TARGET_PORT} ->", OUTPUT_DIR)
     save(port443_only=True)
+    all_cfgs = []
+    for proto in TARGET_PROTOCOLS:
+        p = os.path.join(OUTPUT_DIR, f"{proto}_ws_443.txt")
+        if os.path.exists(p):
+            with open(p, encoding="utf-8") as f:
+                for line in f:
+                    cfg = decode_line(line)
+                    if cfg:
+                        all_cfgs.append(cfg)
+    all_cfgs = list(dict.fromkeys(all_cfgs))
+    write_file("All.txt", all_cfgs)
     print("=" * 50)
     print("Done. Output at:", OUTPUT_DIR)
 
