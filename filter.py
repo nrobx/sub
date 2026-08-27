@@ -13,13 +13,13 @@ CLONE_DIR = os.path.expanduser("~/Sub_Checker_Creator")
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.abspath(os.environ.get("OUTPUT_DIR", HERE))
 
-TARGET_TRANSPORTS = ("ws", "httpupgrade")
+TARGET_TRANSPORTS = ("ws",)
 TARGET_PROTOCOLS = ("vless", "vmess", "trojan")
 
 FILE_HEADER = (
     "//profile-title: base64:d3MtaHR0cHVwZ3JhZGUtcG9ydC00NDMtaGFtZWRwNzE=\n"
     "//profile-update-interval: 1\n"
-    "//subscription-userinfo: filter=ws+httpupgrade\n"
+    "//subscription-userinfo: filter=ws\n"
 )
 
 
@@ -56,6 +56,24 @@ def has_tls(protocol: str, rest_no_frag: str):
         except Exception:
             return False
     return False
+
+
+def get_host_sni(protocol: str, rest_no_frag: str):
+    """Return (ws_host_header, sni) for a config, or ('', '') if unknown/empty."""
+    if protocol in ("vless", "trojan"):
+        if "?" not in rest_no_frag:
+            return "", ""
+        params = urllib.parse.parse_qs(rest_no_frag.split("?", 1)[1])
+        host = params.get("host", [""])[0]
+        sni = params.get("sni", [""])[0] or params.get("peer", [""])[0]
+        return host, sni
+    if protocol == "vmess":
+        try:
+            vm = _b64_decode_vmess(rest_no_frag)
+        except Exception:
+            return "", ""
+        return vm.get("host", ""), vm.get("sni", "")
+    return "", ""
 
 
 def classify(config: str):
@@ -110,6 +128,10 @@ def load_configs(sources):
                     continue
                 rest = cfg.split("://", 1)[1].split("#", 1)[0]
                 if not has_tls(proto, rest):
+                    continue
+                # skip configs missing ws host OR sni
+                h, s = get_host_sni(proto, rest)
+                if not h or not s:
                     continue
                 key = cfg.split("#", 1)[0]
                 if key in seen:
@@ -170,6 +192,7 @@ def to_clash_proxy(config: str) -> dict:
     if proto == "vmess":
         base = core.rsplit("@", 1)[-1] if "@" in core else core
         vm = _decode_vmess(base)
+        name = _strip_prefix(vm.get("ps", "node")) or name
         proxy = {
             "name": name or vm.get("ps", "node"),
             "type": "vmess",
@@ -180,6 +203,7 @@ def to_clash_proxy(config: str) -> dict:
             "cipher": vm.get("scy") or vm.get("cipher", "auto"),
             "network": vm.get("net", "ws"),
             "tls": vm.get("tls", "") == "tls",
+            "sni": vm.get("sni") or vm.get("host", vm.get("add")),
         }
         if vm.get("net") == "ws":
             proxy["ws-opts"] = {
@@ -196,7 +220,6 @@ def to_clash_proxy(config: str) -> dict:
     sni = get("sni") or get("peer") or host
     ws_opts = {"path": urllib.parse.unquote(get("path") or "/"),
                "headers": {"Host": get("host") or sni}}
-    skip = get("allowInsecure") == "1" or get("insecure") == "1"
     if proto == "trojan":
         return {
             "name": name,
@@ -207,7 +230,6 @@ def to_clash_proxy(config: str) -> dict:
             "sni": sni,
             "network": "ws",
             "ws-opts": ws_opts,
-            "skip-cert-verify": skip,
         }
     # vless
     flow = get("flow") or ""
@@ -221,7 +243,6 @@ def to_clash_proxy(config: str) -> dict:
         "tls": get("security") == "tls",
         "sni": sni,
         "ws-opts": ws_opts,
-        "skip-cert-verify": skip,
     }
     if flow:
         proxy["flow"] = flow
@@ -239,10 +260,24 @@ def write_clash_yaml(name, configs):
             print(f"  [skip] clash parse error: {e} -> {cfg[:60]}")
     if not proxies:
         return
-    doc = {"proxies": proxies}
+    # renumber all proxies 1..N (strip any existing leading number) so names
+    # stay unique even when several share the same region/flag
+    for i, p in enumerate(proxies, 1):
+        nm = p.get("name", "")
+        if nm and nm[0].isdigit():
+            parts = nm.split(" ", 1)
+            if len(parts) == 2 and parts[0].isdigit():
+                nm = parts[1]
+        p["name"] = f"{i} {nm}"
+    # dump each proxy separately and join with a blank line for readability
+    blocks = []
+    for p in proxies:
+        blocks.append(yaml.safe_dump([p], allow_unicode=True,
+                                     sort_keys=False, default_flow_style=False).strip())
+    text = "proxies:\n" + "\n".join("\n" + b for b in blocks) + "\n"
     path = os.path.join(OUTPUT_DIR, name)
     with open(path, "w", encoding="utf-8") as f:
-        yaml.safe_dump(doc, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+        f.write(text)
     print(f"  [ok] {name}  ({len(proxies)} proxies)")
 
 
@@ -256,7 +291,7 @@ def main():
     sources = clone_source()
     print(f"Source  : {len(sources)} file from loc/ ({SRC_REPO})")
     results = load_configs(sources)
-    print(f"Config ws/httpupgrade found: {len(results)}")
+    print(f"Config ws found: {len(results)}")
     from collections import Counter
     print("  per protocol :", dict(Counter(p for _, p, _ in results)))
     os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -278,14 +313,14 @@ def main():
         proto = cfg.split("://", 1)[0].lower()
         by_proto.setdefault(proto, []).append(cfg)
     print("-" * 50)
-    print("Writing ws/httpupgrade results ->", OUTPUT_DIR)
+    print("Writing ws results ->", OUTPUT_DIR)
     for proto in TARGET_PROTOCOLS:
         cfgs = by_proto[proto]
         if not cfgs:
             continue
         write_file(f"{proto}_ws.txt", cfgs)
     print("-" * 50)
-    print("Building All.txt (all ports, ws/httpupgrade + tls) ->", OUTPUT_DIR)
+    print("Building All.txt (all ports, ws + tls) ->", OUTPUT_DIR)
     all_cfgs = []
     for proto in TARGET_PROTOCOLS:
         p = os.path.join(OUTPUT_DIR, f"{proto}_ws.txt")
@@ -308,6 +343,40 @@ def main():
                 if cfg:
                     vless_cfgs.append(cfg)
     write_clash_yaml("vless_ws.yaml", vless_cfgs)
+    print("-" * 50)
+    print("Building vmess_ws.yaml (Clash format, proxies only) ->", OUTPUT_DIR)
+    vmess_cfgs = []
+    p = os.path.join(OUTPUT_DIR, "vmess_ws.txt")
+    if os.path.exists(p):
+        with open(p, encoding="utf-8") as f:
+            for line in f:
+                cfg = decode_line(line)
+                if cfg:
+                    vmess_cfgs.append(cfg)
+    write_clash_yaml("vmess_ws.yaml", vmess_cfgs)
+    print("-" * 50)
+    print("Building trojan_ws.yaml (Clash format, proxies only) ->", OUTPUT_DIR)
+    trojan_cfgs = []
+    p = os.path.join(OUTPUT_DIR, "trojan_ws.txt")
+    if os.path.exists(p):
+        with open(p, encoding="utf-8") as f:
+            for line in f:
+                cfg = decode_line(line)
+                if cfg:
+                    trojan_cfgs.append(cfg)
+    write_clash_yaml("trojan_ws.yaml", trojan_cfgs)
+    print("-" * 50)
+    print("Building All.yaml (all protocols, Clash format) ->", OUTPUT_DIR)
+    all_yaml = []
+    for proto in TARGET_PROTOCOLS:
+        p = os.path.join(OUTPUT_DIR, f"{proto}_ws.txt")
+        if os.path.exists(p):
+            with open(p, encoding="utf-8") as f:
+                for line in f:
+                    cfg = decode_line(line)
+                    if cfg:
+                        all_yaml.append(cfg)
+    write_clash_yaml("All.yaml", all_yaml)
     print("=" * 50)
     print("Done. Output at:", OUTPUT_DIR)
 
