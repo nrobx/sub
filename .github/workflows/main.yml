@@ -7,7 +7,7 @@ on:
   push:
     paths:
       - "filter.py"
-      - ".github/workflows/filter.yml"
+      - ".github/workflows/main.yml"
 
 jobs:
   filter:
@@ -24,6 +24,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
+      - name: Install deps
+        run: pip install --upgrade pyyaml
 
       - name: run py
         env:
