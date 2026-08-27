@@ -2,7 +2,7 @@ name: sub check
 
 on:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "17 */3 * * *"
   workflow_dispatch:
   push:
     paths:
