@@ -58,6 +58,23 @@ def has_tls(protocol: str, rest_no_frag: str):
     return False
 
 
+def _port_of(protocol: str, rest_no_frag: str):
+    """Extract the port number from a config line, or 0 if unknown."""
+    if protocol == "vmess":
+        try:
+            return int(_b64_decode_vmess(rest_no_frag).get("port", 0))
+        except Exception:
+            return 0
+    # vless / trojan
+    server_part = rest_no_frag.split("?", 1)[0]
+    core = server_part.split("@", 1)[-1] if "@" in server_part else server_part
+    host, _, port = core.rpartition(":")
+    try:
+        return int(port)
+    except ValueError:
+        return 0
+
+
 def get_host_sni(protocol: str, rest_no_frag: str):
     """Return (ws_host_header, sni) for a config, or ('', '') if unknown/empty."""
     if protocol in ("vless", "trojan"):
@@ -128,6 +145,9 @@ def load_configs(sources):
                     continue
                 rest = cfg.split("://", 1)[1].split("#", 1)[0]
                 if not has_tls(proto, rest):
+                    continue
+                port = _port_of(proto, rest)
+                if port not in (443, 8443, 2087):
                     continue
                 # skip configs missing ws host OR sni
                 h, s = get_host_sni(proto, rest)
