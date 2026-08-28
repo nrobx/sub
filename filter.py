@@ -249,6 +249,28 @@ def to_clash_proxy(config: str) -> dict:
     return proxy
 
 
+def write_random_sub(name, count=10):
+    p = os.path.join(OUTPUT_DIR, "All.yaml")
+    if not os.path.exists(p):
+        return
+    with open(p, encoding="utf-8") as f:
+        data = yaml.safe_load(f)
+    proxies = data.get("proxies", []) if isinstance(data, dict) else []
+    if not proxies:
+        return
+    import random
+    if count > len(proxies):
+        count = len(proxies)
+    picked = random.sample(proxies, count)
+    text = "proxies:\n" + "\n".join(
+        "\n" + yaml.safe_dump([pr], allow_unicode=True, sort_keys=False,
+                             default_flow_style=False).strip() for pr in picked) + "\n"
+    path = os.path.join(OUTPUT_DIR, name)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(text)
+    print(f"  [ok] {name}  ({len(picked)} random proxies)")
+
+
 def write_clash_yaml(name, configs):
     if not configs:
         return
@@ -377,6 +399,9 @@ def main():
                     if cfg:
                         all_yaml.append(cfg)
     write_clash_yaml("All.yaml", all_yaml)
+    print("-" * 50)
+    print("Building sub.yaml (10 random proxies) ->", OUTPUT_DIR)
+    write_random_sub("sub.yaml", 10)
     print("=" * 50)
     print("Done. Output at:", OUTPUT_DIR)
 
