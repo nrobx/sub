@@ -1,59 +1,5 @@
 proxies:
 
-- name: 16 🇬🇧
-  type: vless
-  server: 129.121.95.159
-  port: 443
-  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
-  network: ws
-  tls: true
-  sni: 129.121.95.159
-  ws-opts:
-    path: /connect
-    headers:
-      Host: 129.121.95.159
-
-- name: 25 🇳🇱
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: 27315937-5479-49fd-867d-6b2f17246708
-  network: ws
-  tls: true
-  sni: ssl.fastly.com
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-    headers:
-      Host: pan1.global.ssl.fastly.net
-
-- name: 33 🇭🇰
-  type: vmess
-  server: www.shopify.com
-  port: 443
-  uuid: a7fba54d-1031-4b23-b8b6-dbf8ce6ad3b3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  sni: included-shaw-lean-believe.trycloudflare.com
-  ws-opts:
-    path: /a7fba54d-1031-4b23-b8b6-dbf8ce6ad3b3-vm
-    headers:
-      Host: included-shaw-lean-believe.trycloudflare.com
-
-- name: 22 🇳🇱
-  type: vless
-  server: hys42.wba-pn.ru
-  port: 443
-  uuid: f0d24eb0-a88a-455f-92b8-3a99c38dfb0c
-  network: ws
-  tls: true
-  sni: hys42.wba-pn.ru
-  ws-opts:
-    path: /
-    headers:
-      Host: hys42.wba-pn.ru
-
 - name: 11 🇫🇷
   type: vless
   server: bab-6.site
@@ -67,9 +13,54 @@ proxies:
     headers:
       Host: bab-6.site
 
-- name: 18 🇯🇵
+- name: 34 🇭🇰
+  type: vmess
+  server: i2psm3knof5qjjix.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  sni: I2PSm3Knof5qjjix.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: I2PSm3Knof5qjjix.v.3dns.vip
+
+- name: 43 🇺🇸
+  type: vmess
+  server: rush-w1niu.teeopp.online
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  sni: rush-w1niu.teeopp.online
+  ws-opts:
+    path: /
+    headers:
+      Host: rush-w1niu.teeopp.online
+
+- name: 37 🇭🇰
+  type: vmess
+  server: lcv8v9l7oyamxxfz.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  sni: lcv8v9l7OyamxxfZ.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
+
+- name: 17 🇯🇵
   type: vless
-  server: 172.67.156.147
+  server: 162.159.254.3
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   network: ws
@@ -80,35 +71,31 @@ proxies:
     headers:
       Host: jp3.yohototo.top
 
-- name: 45 🇺🇸
-  type: vmess
-  server: 104.17.77.77
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
+- name: 24 🇳🇱
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: a1ee277e-93b7-4aa9-86a2-c7ef85a2adb0
   network: ws
   tls: true
-  sni: v2ray1.dozapp.xyz
+  sni: ssl.fastly.com
   ws-opts:
-    path: /lMnsZUN4/
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
     headers:
-      Host: v2ray1.dozapp.xyz
+      Host: pane3.global.ssl.fastly.net
 
-- name: 47 🇺🇸
-  type: vmess
-  server: 104.21.57.84
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
+- name: 20 🇳🇱
+  type: vless
+  server: 151.101.56.7
+  port: 443
+  uuid: 363c62f2-3f2e-4b20-87eb-78765a67df25
   network: ws
   tls: true
-  sni: v2ray1.dozapp.xyz
+  sni: ssl.fastly.com
   ws-opts:
-    path: /lMnsZUN4/
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
     headers:
-      Host: v2ray1.dozapp.xyz
+      Host: pane2.global.ssl.fastly.net
 
 - name: 46 🇺🇸
   type: vmess
@@ -125,15 +112,30 @@ proxies:
     headers:
       Host: v2ray1.dozapp.xyz
 
-- name: 7 🇩🇪
+- name: 14 🇬🇧
   type: vless
-  server: 169.58.143.21
+  server: 129.121.95.159
   port: 443
-  uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c
+  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
   network: ws
   tls: true
-  sni: finite-node.rtxconfigz.com
+  sni: 129.121.95.159
+  ws-opts:
+    path: /connect
+    headers:
+      Host: 129.121.95.159
+
+- name: 41 🇸🇬
+  type: vmess
+  server: 140.83.57.20
+  port: 13118
+  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  sni: sg.11160321.de5.net
   ws-opts:
     path: /
     headers:
-      Host: telegram.us
+      Host: sg.11160321.de5.net
