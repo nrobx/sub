@@ -1,34 +1,32 @@
 proxies:
 
-- name: 11 🇫🇷
+- name: 16 🇯🇵
   type: vless
-  server: bab-6.site
+  server: 172.67.156.147
   port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   network: ws
   tls: true
-  sni: bab-6.site
+  sni: jp3.yohototo.top
   ws-opts:
-    path: /vws/
+    path: /tyxyws
     headers:
-      Host: bab-6.site
+      Host: jp3.yohototo.top
 
-- name: 34 🇭🇰
-  type: vmess
-  server: i2psm3knof5qjjix.v.3dns.vip
+- name: 9 🇫🇷
+  type: vless
+  server: 169.58.143.21
   port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
+  uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c
   network: ws
   tls: true
-  sni: I2PSm3Knof5qjjix.v.3dns.vip
+  sni: finite-node.rtxconfigz.com
   ws-opts:
-    path: /ws-vmess
+    path: /
     headers:
-      Host: I2PSm3Knof5qjjix.v.3dns.vip
+      Host: telegram.us
 
-- name: 43 🇺🇸
+- name: 36 🇺🇸
   type: vmess
   server: rush-w1niu.teeopp.online
   port: 443
@@ -43,46 +41,72 @@ proxies:
     headers:
       Host: rush-w1niu.teeopp.online
 
-- name: 37 🇭🇰
+- name: 31 🇭🇰
   type: vmess
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
+  server: ce0gedpxwou6cqon.v.3dns.vip
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  sni: lcv8v9l7OyamxxfZ.v.3dns.vip
+  sni: cE0gedPXwOU6cqoN.v.3dns.vip
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
+      Host: cE0gedPXwOU6cqoN.v.3dns.vip
 
-- name: 17 🇯🇵
+- name: 24 🇵🇱
   type: vless
-  server: 162.159.254.3
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  server: chopin.adaspoloandco.com
+  port: 8443
+  uuid: f798a2c4-c51b-409d-b349-ca8455b36796
   network: ws
   tls: true
-  sni: jp3.yohototo.top
+  sni: chopin.adaspoloandco.com
   ws-opts:
-    path: /tyxyws
+    path: /download.php
     headers:
-      Host: jp3.yohototo.top
+      Host: chopin.adaspoloandco.com
 
-- name: 24 🇳🇱
+- name: 3 🇧🇷
   type: vless
-  server: 199.232.78.159
+  server: cdns.doon.eu.org
   port: 443
-  uuid: a1ee277e-93b7-4aa9-86a2-c7ef85a2adb0
+  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
   network: ws
   tls: true
-  sni: ssl.fastly.com
+  sni: mao.kipfel.kdns.fr
   ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    path: /glasspanel/guest000_0_5de14443985f/
     headers:
-      Host: pane3.global.ssl.fastly.net
+      Host: mao.kipfel.kdns.fr
+
+- name: 11 🇫🇷
+  type: vless
+  server: bab-6.site
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  network: ws
+  tls: true
+  sni: bab-6.site
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+
+- name: 2 🇧🇷
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
+  network: ws
+  tls: true
+  sni: mao.kipfel.kdns.fr
+  ws-opts:
+    path: /glasspanel/guest000_0_5de14443985f/
+    headers:
+      Host: mao.kipfel.kdns.fr
 
 - name: 20 🇳🇱
   type: vless
@@ -97,45 +121,17 @@ proxies:
     headers:
       Host: pane2.global.ssl.fastly.net
 
-- name: 46 🇺🇸
+- name: 30 🇭🇰
   type: vmess
-  server: www.nextkyc.com
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  sni: v2ray1.dozapp.xyz
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-
-- name: 14 🇬🇧
-  type: vless
-  server: 129.121.95.159
+  server: lcv8v9l7oyamxxfz.v.3dns.vip
   port: 443
-  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
-  network: ws
-  tls: true
-  sni: 129.121.95.159
-  ws-opts:
-    path: /connect
-    headers:
-      Host: 129.121.95.159
-
-- name: 41 🇸🇬
-  type: vmess
-  server: 140.83.57.20
-  port: 13118
-  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
+  uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  sni: sg.11160321.de5.net
+  sni: lcv8v9l7OyamxxfZ.v.3dns.vip
   ws-opts:
-    path: /
+    path: /ws-vmess
     headers:
-      Host: sg.11160321.de5.net
+      Host: lcv8v9l7OyamxxfZ.v.3dns.vip

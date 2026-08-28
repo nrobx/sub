@@ -120,37 +120,7 @@ proxies:
     headers:
       Host: U2FRxj0G13vDI0Wo.v.3dns.vip
 
-- name: 9 🇸🇬
-  type: vmess
-  server: 140.83.57.20
-  port: 13118
-  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  sni: sg.11160321.de5.net
-  ws-opts:
-    path: /
-    headers:
-      Host: sg.11160321.de5.net
-
-- name: 10 🇹🇷
-  type: vmess
-  server: tr.privatevip.ir
-  port: 2503
-  uuid: 85b27fbd-33d6-4a3a-bf5b-c3cf97772893
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  sni: tr.privatevip.ir
-  ws-opts:
-    path: /WS
-    headers:
-      Host: tr.privatevip.ir
-
-- name: 11 🇺🇸
+- name: 9 🇺🇸
   type: vmess
   server: rush-w1niu.teeopp.online
   port: 443
@@ -165,7 +135,7 @@ proxies:
     headers:
       Host: rush-w1niu.teeopp.online
 
-- name: 12 🇺🇸
+- name: 10 🇺🇸
   type: vmess
   server: rush-6it6b.teeopp.quest
   port: 443
@@ -180,7 +150,7 @@ proxies:
     headers:
       Host: rush-6it6b.teeopp.quest
 
-- name: 13 🇺🇸
+- name: 11 🇺🇸
   type: vmess
   server: 104.17.77.77
   port: 8443
@@ -195,7 +165,7 @@ proxies:
     headers:
       Host: v2ray1.dozapp.xyz
 
-- name: 14 🇺🇸
+- name: 12 🇺🇸
   type: vmess
   server: www.nextkyc.com
   port: 8443
@@ -210,7 +180,7 @@ proxies:
     headers:
       Host: v2ray1.dozapp.xyz
 
-- name: 15 🇺🇸
+- name: 13 🇺🇸
   type: vmess
   server: 104.21.57.84
   port: 8443

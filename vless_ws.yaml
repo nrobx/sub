@@ -145,19 +145,6 @@ proxies:
 
 - name: 12 🇫🇷
   type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  network: ws
-  tls: true
-  sni: bab-6.site
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-
-- name: 13 🇫🇷
-  type: vless
   server: 199.232.78.159
   port: 443
   uuid: 238bc88c-6f47-4622-9d6f-cab2ed76f098
@@ -168,6 +155,19 @@ proxies:
     path: /
     headers:
       Host: frenchji.global.ssl.fastly.net.
+
+- name: 13 🇬🇧
+  type: vless
+  server: 129.121.95.159
+  port: 443
+  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
+  network: ws
+  tls: true
+  sni: 129.121.95.159
+  ws-opts:
+    path: /connect
+    headers:
+      Host: 129.121.95.159
 
 - name: 14 🇬🇧
   type: vless
@@ -182,31 +182,31 @@ proxies:
     headers:
       Host: 129.121.95.159
 
-- name: 15 🇬🇧
+- name: 15 🇯🇵
   type: vless
-  server: 129.121.95.159
+  server: 162.159.254.3
   port: 443
-  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   network: ws
   tls: true
-  sni: 129.121.95.159
+  sni: jp3.yohototo.top
   ws-opts:
-    path: /connect
+    path: /tyxyws
     headers:
-      Host: 129.121.95.159
+      Host: jp3.yohototo.top
 
-- name: 16 🇬🇧
+- name: 16 🇯🇵
   type: vless
-  server: 129.121.95.159
+  server: 172.67.156.147
   port: 443
-  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   network: ws
   tls: true
-  sni: 129.121.95.159
+  sni: jp3.yohototo.top
   ws-opts:
-    path: /connect
+    path: /tyxyws
     headers:
-      Host: 129.121.95.159
+      Host: jp3.yohototo.top
 
 - name: 17 🇯🇵
   type: vless
@@ -221,31 +221,31 @@ proxies:
     headers:
       Host: jp3.yohototo.top
 
-- name: 18 🇯🇵
+- name: 18 🇳🇱
   type: vless
-  server: 172.67.156.147
+  server: 199.232.78.159
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 27315937-5479-49fd-867d-6b2f17246708
   network: ws
   tls: true
-  sni: jp3.yohototo.top
+  sni: ssl.fastly.com
   ws-opts:
-    path: /tyxyws
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053fp=chrome
     headers:
-      Host: jp3.yohototo.top
+      Host: pan1.global.ssl.fastly.net
 
-- name: 19 🇯🇵
+- name: 19 🇳🇱
   type: vless
-  server: 162.159.254.3
+  server: hys42.wba-pn.ru
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: f0d24eb0-a88a-455f-92b8-3a99c38dfb0c
   network: ws
   tls: true
-  sni: jp3.yohototo.top
+  sni: hys42.wba-pn.ru
   ws-opts:
-    path: /tyxyws
+    path: /
     headers:
-      Host: jp3.yohototo.top
+      Host: hys42.wba-pn.ru
 
 - name: 20 🇳🇱
   type: vless
@@ -264,45 +264,6 @@ proxies:
   type: vless
   server: 199.232.78.159
   port: 443
-  uuid: 27315937-5479-49fd-867d-6b2f17246708
-  network: ws
-  tls: true
-  sni: ssl.fastly.com
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053fp=chrome
-    headers:
-      Host: pan1.global.ssl.fastly.net
-
-- name: 22 🇳🇱
-  type: vless
-  server: hys42.wba-pn.ru
-  port: 443
-  uuid: f0d24eb0-a88a-455f-92b8-3a99c38dfb0c
-  network: ws
-  tls: true
-  sni: hys42.wba-pn.ru
-  ws-opts:
-    path: /
-    headers:
-      Host: hys42.wba-pn.ru
-
-- name: 23 🇳🇱
-  type: vless
-  server: 151.101.56.7
-  port: 443
-  uuid: 363c62f2-3f2e-4b20-87eb-78765a67df25
-  network: ws
-  tls: true
-  sni: ssl.fastly.com
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-    headers:
-      Host: pane2.global.ssl.fastly.net
-
-- name: 24 🇳🇱
-  type: vless
-  server: 199.232.78.159
-  port: 443
   uuid: a1ee277e-93b7-4aa9-86a2-c7ef85a2adb0
   network: ws
   tls: true
@@ -312,7 +273,7 @@ proxies:
     headers:
       Host: pane3.global.ssl.fastly.net
 
-- name: 25 🇳🇱
+- name: 22 🇳🇱
   type: vless
   server: 199.232.78.159
   port: 443
@@ -325,7 +286,7 @@ proxies:
     headers:
       Host: pan1.global.ssl.fastly.net
 
-- name: 26 🇳🇱
+- name: 23 🇳🇱
   type: vless
   server: hys42.wba-pn.ru
   port: 443
@@ -338,7 +299,7 @@ proxies:
     headers:
       Host: hys42.wba-pn.ru
 
-- name: 27 🇵🇱
+- name: 24 🇵🇱
   type: vless
   server: chopin.adaspoloandco.com
   port: 8443
@@ -351,20 +312,7 @@ proxies:
     headers:
       Host: chopin.adaspoloandco.com
 
-- name: 28 🇺🇸
-  type: vless
-  server: 104.25.67.3
-  port: 2053
-  uuid: 97532b08-357e-4140-a6f0-8e07f2ed3327
-  network: ws
-  tls: true
-  sni: yf2.yifangg.de5.net
-  ws-opts:
-    path: /proxyip=kr.william.us.ci
-    headers:
-      Host: yf2.yifangg.de5.net
-
-- name: 29 🇺🇸
+- name: 25 🇺🇸
   type: vless
   server: plan.tabrizonlinemaku.ir
   port: 443
@@ -377,7 +325,7 @@ proxies:
     headers:
       Host: plan.tabrizonlinemaku.ir
 
-- name: 30 🇺🇸
+- name: 26 🇺🇸
   type: vless
   server: plan.tabrizonlinemaku.ir
   port: 443
@@ -390,22 +338,9 @@ proxies:
     headers:
       Host: plan.tabrizonlinemaku.ir
 
-- name: 31 🇺🇸
+- name: 27 🇺🇸
   type: vless
   server: 172.64.152.241
-  port: 443
-  uuid: 98262dbd-3606-437b-b12e-3f38ca62522f
-  network: ws
-  tls: true
-  sni: 1.rmgyvpn.rest
-  ws-opts:
-    path: /ws-cdn
-    headers:
-      Host: 1.rmgyvpn.rest
-
-- name: 32 🇺🇸
-  type: vless
-  server: cf.090227.xyz
   port: 443
   uuid: 98262dbd-3606-437b-b12e-3f38ca62522f
   network: ws
