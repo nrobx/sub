@@ -1,32 +1,45 @@
 proxies:
 
-- name: 26 🇺🇸
+- name: 7 🇫🇷
   type: vless
-  server: plan.tabrizonlinemaku.ir
+  server: 169.58.143.21
   port: 443
-  uuid: 133f016d-81ad-4ed3-8fe1-e431a4134dca
+  uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c
   network: ws
   tls: true
-  sni: plan.tabrizonlinemaku.ir
+  sni: finite-node.rtxconfigz.com
   ws-opts:
     path: /
     headers:
-      Host: plan.tabrizonlinemaku.ir
+      Host: telegram.us
 
-- name: 4 🇧🇷
+- name: 9 🇫🇷
   type: vless
-  server: 188.114.97.6
+  server: 169.58.143.21
   port: 443
-  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
+  uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c
   network: ws
   tls: true
-  sni: mao.kipfel.kdns.fr
+  sni: finite-node.rtxconfigz.com
   ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
+    path: /
     headers:
-      Host: mao.kipfel.kdns.fr
+      Host: telegram.us
 
-- name: 14 🇬🇧
+- name: 24 🇳🇱
+  type: vless
+  server: hys42.wba-pn.ru
+  port: 443
+  uuid: f0d24eb0-a88a-455f-92b8-3a99c38dfb0c
+  network: ws
+  tls: true
+  sni: hys42.wba-pn.ru
+  ws-opts:
+    path: /
+    headers:
+      Host: hys42.wba-pn.ru
+
+- name: 12 🇬🇧
   type: vless
   server: 129.121.95.159
   port: 443
@@ -39,97 +52,85 @@ proxies:
     headers:
       Host: 129.121.95.159
 
-- name: 33 🇭🇰
+- name: 35 🇭🇰
   type: vmess
-  server: 8.218.184.4
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  sni: NYcQg19zkwaCPM1B.v.3dns.vip
+  sni: qtkdr8jxe3wefxjm.v.3dns.vip
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: NYcQg19zkwaCPM1B.v.3dns.vip
+      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
 
-- name: 25 🇺🇸
-  type: vless
-  server: plan.tabrizonlinemaku.ir
-  port: 443
-  uuid: 133f016d-81ad-4ed3-8fe1-e431a4134dca
-  network: ws
-  tls: true
-  sni: plan.tabrizonlinemaku.ir
-  ws-opts:
-    path: /
-    headers:
-      Host: plan.tabrizonlinemaku.ir
-
-- name: 28 🇭🇰
+- name: 37 🇭🇰
   type: vmess
-  server: www.shopify.com
+  server: drbkg16egf3fzlm3.v.3dns.vip
   port: 443
-  uuid: a7fba54d-1031-4b23-b8b6-dbf8ce6ad3b3
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  sni: included-shaw-lean-believe.trycloudflare.com
+  sni: DrBKg16eGf3FZlM3.v.3dns.vip
   ws-opts:
-    path: /a7fba54d-1031-4b23-b8b6-dbf8ce6ad3b3-vm
+    path: /ws-vmess
     headers:
-      Host: included-shaw-lean-believe.trycloudflare.com
+      Host: DrBKg16eGf3FZlM3.v.3dns.vip
 
-- name: 17 🇯🇵
+- name: 31 🇺🇸
   type: vless
-  server: 162.159.254.3
+  server: 188.114.96.7
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
   network: ws
   tls: true
-  sni: jp3.yohototo.top
+  sni: o94yv7lIF0-AnXiSd9EFeHVVS7mxn6Bh.z-ULe-IKA-d-e-Ne-k-E.WORKERs.DEv
   ws-opts:
-    path: /tyxyws
+    path: /dbJqwUHWfrXV0Z3Q?ed=2560
     headers:
-      Host: jp3.yohototo.top
+      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
 
-- name: 1 🇦🇹
-  type: vless
-  server: 41.216.182.105
+- name: 45 🇫🇷
+  type: trojan
+  server: 45.130.125.75
   port: 443
-  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 41 🇺🇸
+  type: vmess
+  server: rush-w1niu.teeopp.online
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
   network: ws
   tls: true
-  sni: vod.ensf.top
+  sni: rush-w1niu.teeopp.online
   ws-opts:
-    path: /api/v1/irc
+    path: /
     headers:
-      Host: vod.ensf.top
+      Host: rush-w1niu.teeopp.online
 
-- name: 22 🇳🇱
+- name: 8 🇫🇷
   type: vless
-  server: 199.232.78.159
+  server: 81.95.4.189
   port: 443
-  uuid: 27315937-5479-49fd-867d-6b2f17246708
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   network: ws
   tls: true
-  sni: ssl.fastly.com
+  sni: bab-6.site
   ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    path: /vws/
     headers:
-      Host: pan1.global.ssl.fastly.net
-
-- name: 21 🇳🇱
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: a1ee277e-93b7-4aa9-86a2-c7ef85a2adb0
-  network: ws
-  tls: true
-  sni: ssl.fastly.com
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-    headers:
-      Host: pane3.global.ssl.fastly.net
+      Host: bab-6.site
