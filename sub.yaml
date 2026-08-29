@@ -1,6 +1,6 @@
 proxies:
 
-- name: 7 🇫🇷
+- name: 8 🇫🇷
   type: vless
   server: 169.58.143.21
   port: 443
@@ -13,91 +13,102 @@ proxies:
     headers:
       Host: telegram.us
 
-- name: 9 🇫🇷
+- name: 26 🇸🇬
   type: vless
-  server: 169.58.143.21
+  server: admin.jikecloud.cc
   port: 443
-  uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c
+  uuid: e55fa822-ad91-4133-8dcf-2587aec10baf
   network: ws
   tls: true
-  sni: finite-node.rtxconfigz.com
+  sni: admin.jikecloud.cc
+  ws-opts:
+    path: /vless
+    headers:
+      Host: admin.jikecloud.cc
+
+- name: 46 🇺🇸
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 97532b08-357e-4140-a6f0-8e07f2ed3327
+  network: ws
+  tls: true
+  sni: yf2.yifangg.de5.net
+  ws-opts:
+    path: /proxyip=kr.william.us.ci
+    headers:
+      Host: yf2.yifangg.de5.net
+
+- name: 11 🇭🇰
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
+  network: ws
+  tls: true
+  sni: mao.kipfel.kdns.fr
+  ws-opts:
+    path: /glasspanel/guest000_0_5de14443985f/
+    headers:
+      Host: mao.kipfel.kdns.fr
+
+- name: 29 🇺🇸
+  type: vless
+  server: 208.103.161.5
+  port: 443
+  uuid: d042a74a-c305-4eec-a89f-39a348022c92
+  network: ws
+  tls: true
+  sni: dry-butterfly-8eb9.tmpgnacio83.workers.dev
   ws-opts:
     path: /
     headers:
-      Host: telegram.us
+      Host: dry-butterfly-8eb9.tmpgnacio83.workers.dev
 
-- name: 24 🇳🇱
-  type: vless
-  server: hys42.wba-pn.ru
-  port: 443
-  uuid: f0d24eb0-a88a-455f-92b8-3a99c38dfb0c
-  network: ws
-  tls: true
-  sni: hys42.wba-pn.ru
-  ws-opts:
-    path: /
-    headers:
-      Host: hys42.wba-pn.ru
-
-- name: 12 🇬🇧
-  type: vless
-  server: 129.121.95.159
-  port: 443
-  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
-  network: ws
-  tls: true
-  sni: 129.121.95.159
-  ws-opts:
-    path: /connect
-    headers:
-      Host: 129.121.95.159
-
-- name: 35 🇭🇰
+- name: 69 🇺🇸
   type: vmess
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  server: rush-6it6b.teeopp.quest
   port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  sni: qtkdr8jxe3wefxjm.v.3dns.vip
+  sni: rush-6it6b.teeopp.quest
   ws-opts:
-    path: /ws-vmess
+    path: /
     headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
+      Host: rush-6it6b.teeopp.quest
 
-- name: 37 🇭🇰
-  type: vmess
-  server: drbkg16egf3fzlm3.v.3dns.vip
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  sni: DrBKg16eGf3FZlM3.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: DrBKg16eGf3FZlM3.v.3dns.vip
-
-- name: 31 🇺🇸
+- name: 54 🇺🇸
   type: vless
-  server: 188.114.96.7
+  server: 141.101.120.73
   port: 443
-  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
+  uuid: 5d8eb33a-2166-4daf-88fe-4be5799c493b
   network: ws
   tls: true
-  sni: o94yv7lIF0-AnXiSd9EFeHVVS7mxn6Bh.z-ULe-IKA-d-e-Ne-k-E.WORKERs.DEv
+  sni: noisy-term-e657.airdrop2014aa5168.workers.dev
   ws-opts:
-    path: /dbJqwUHWfrXV0Z3Q?ed=2560
+    path: /
     headers:
-      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
+      Host: noisy-term-e657.airdrop2014aa5168.workers.dev
 
-- name: 45 🇫🇷
+- name: 58 🇺🇸
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: 8a36be1d-7c78-4885-8a1f-bedf5ba7db1c
+  network: ws
+  tls: true
+  sni: luCky-LAB-AC6D.CAveyi8071.WoRkeRS.DEV
+  ws-opts:
+    path: /rN50nmm9L1DeY73C?ed
+    headers:
+      Host: luCky-LAB-AC6D.CAveyi8071.WoRkeRS.DEV
+
+- name: 87 🇫🇷
   type: trojan
-  server: 45.130.125.75
+  server: 188.114.98.0
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -107,30 +118,15 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 41 🇺🇸
-  type: vmess
-  server: rush-w1niu.teeopp.online
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  sni: rush-w1niu.teeopp.online
-  ws-opts:
-    path: /
-    headers:
-      Host: rush-w1niu.teeopp.online
-
-- name: 8 🇫🇷
+- name: 47 🇺🇸
   type: vless
-  server: 81.95.4.189
+  server: 188.114.97.6
   port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  uuid: 06bfb14e-66cc-48ca-a429-b9301dba2f81
   network: ws
   tls: true
-  sni: bab-6.site
+  sni: long-firefly-a226.216-ce0.workers.dev
   ws-opts:
-    path: /vws/
+    path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
-      Host: bab-6.site
+      Host: long-firefly-a226.216-ce0.workers.dev
