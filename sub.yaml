@@ -1,6 +1,84 @@
 proxies:
 
-- name: 62 🇭🇰
+- name: 34 🇫🇷
+  type: trojan
+  server: www.calmlunch.com
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 31 🇫🇷
+  type: trojan
+  server: am12.levikogjgfdd.ir
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 2 🇩🇪
+  type: vless
+  server: a2.arshia-nova.ir
+  port: 443
+  uuid: d0ee468a-084b-411d-b2be-b886a61065d1
+  network: ws
+  tls: true
+  sni: ssl.fastly.com
+  ws-opts:
+    path: /
+    headers:
+      Host: c12.com
+
+- name: 22 🇭🇰
+  type: vmess
+  server: 43.198.204.35
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  sni: ce0gedpxwou6cqon.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: ce0gedpxwou6cqon.v.3dns.vip
+
+- name: 14 🇯🇵
+  type: vless
+  server: 162.159.254.3
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  tls: true
+  sni: jp3.yohototo.top
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+
+- name: 17 🇵🇱
+  type: vless
+  server: chopin.adaspoloandco.com
+  port: 8443
+  uuid: f798a2c4-c51b-409d-b349-ca8455b36796
+  network: ws
+  tls: true
+  sni: chopin.adaspoloandco.com
+  ws-opts:
+    path: /download.php
+    headers:
+      Host: chopin.adaspoloandco.com
+
+- name: 24 🇭🇰
   type: vmess
   server: 8.218.184.4
   port: 443
@@ -15,7 +93,7 @@ proxies:
     headers:
       Host: NYcQg19zkwaCPM1B.v.3dns.vip
 
-- name: 11 🇭🇰
+- name: 10 🇭🇰
   type: vless
   server: 188.114.97.6
   port: 443
@@ -28,109 +106,28 @@ proxies:
     headers:
       Host: mao.kipfel.kdns.fr
 
-- name: 10 🇭🇰
+- name: 13 🇯🇵
   type: vless
-  server: cdns.doon.eu.org
+  server: 172.67.156.147
   port: 443
-  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   network: ws
   tls: true
-  sni: mao.kipfel.kdns.fr
+  sni: jp3.yohototo.top
   ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
+    path: /tyxyws
     headers:
-      Host: mao.kipfel.kdns.fr
+      Host: jp3.yohototo.top
 
-- name: 93 🇺🇸
-  type: trojan
-  server: www.speedtest.net
-  port: 443
-  password: A4u%5Ep(_UR*F6
-  sni: 027.ELeCTroCelLco-CF-027.wORkERS.dEv
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoidlhnMXN5OXFUSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
-    headers:
-      Host: 027.electrocellco-cf-027.workers.dev
-
-- name: 53 🇺🇸
+- name: 19 🇺🇸
   type: vless
-  server: 104.17.20.214
+  server: 188.114.97.6
   port: 443
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  uuid: 97532b08-357e-4140-a6f0-8e07f2ed3327
   network: ws
   tls: true
-  sni: refighehosein.salamdadash123.workers.dev
+  sni: yf2.yifangg.de5.net
   ws-opts:
-    path: /
+    path: /proxyip=kr.william.us.ci
     headers:
-      Host: refighehosein.salamdadash123.workers.dev
-
-- name: 66 🇭🇰
-  type: vmess
-  server: 6jdvarazgu3qqr6q.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  sni: 6JDvArazgU3qQR6Q.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-
-- name: 26 🇸🇬
-  type: vless
-  server: admin.jikecloud.cc
-  port: 443
-  uuid: e55fa822-ad91-4133-8dcf-2587aec10baf
-  network: ws
-  tls: true
-  sni: admin.jikecloud.cc
-  ws-opts:
-    path: /vless
-    headers:
-      Host: admin.jikecloud.cc
-
-- name: 76 🇺🇸
-  type: vmess
-  server: 172.67.161.144
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  sni: v2ray1.dozapp.xyz
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-
-- name: 45 🇺🇸
-  type: vless
-  server: www.speedtest.net
-  port: 443
-  uuid: f62d35a6-49ed-4b93-b504-b021cb2755ab
-  network: ws
-  tls: true
-  sni: bpB-b589C199.sdvSDC.wORkERS.deV
-  ws-opts:
-    path: /eyJqdW5rIjoiNVpNbHhpeDVhbnFZVWNQIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
-    headers:
-      Host: bpb-b589c199.sdvsdc.workers.dev
-
-- name: 51 🇺🇸
-  type: vless
-  server: www.speedtest.net
-  port: 443
-  uuid: 518de0d4-6ce8-4404-80db-23c4a8806128
-  network: ws
-  tls: true
-  sni: ez-5FAAFb.EsmAoi.wORKeRs.DEv
-  ws-opts:
-    path: /eyJqdW5rIjoiQkFLTnhqM2tZTSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
-    headers:
-      Host: ez-5faafb.esmaoi.workers.dev
+      Host: yf2.yifangg.de5.net
