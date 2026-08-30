@@ -2,20 +2,100 @@ proxies:
 
 - name: 2 🇩🇪
   type: vless
-  server: a2.arshia-nova.ir
+  server: 199.232.78.160
   port: 443
-  uuid: d0ee468a-084b-411d-b2be-b886a61065d1
+  uuid: XpnTeam-35
   network: ws
   tls: true
   sni: ssl.fastly.com
   ws-opts:
     path: /
     headers:
-      Host: c12.com
+      Host: Appxdn.global.ssl.fastly.net
 
-- name: 30 🇫🇷
+- name: 38 🇺🇸
+  type: vless
+  server: 188.114.97.7
+  port: 443
+  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
+  network: ws
+  tls: true
+  sni: o94Yv7LIF0-aNXISd9eFehvvS7mxn6bH.Z-ULe-iKa-d-e-ne-K-e.wORkeRs.Dev
+  ws-opts:
+    path: /7J5lLqtBnJg9WjVT?ed=2560
+    headers:
+      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
+
+- name: 14 🇫🇷
+  type: vless
+  server: 81.95.4.189
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  network: ws
+  tls: true
+  sni: bab-6.site
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+
+- name: 44 🇭🇰
+  type: vmess
+  server: drbkg16egf3fzlm3.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  sni: drbkg16egf3fzlm3.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: DrBKg16eGf3FZlM3.v.3dns.vip
+
+- name: 31 🇳🇱
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: a1ee277e-93b7-4aa9-86a2-c7ef85a2adb0
+  network: ws
+  tls: true
+  sni: ssl.fastly.com
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    headers:
+      Host: pane3.global.ssl.fastly.net
+
+- name: 28 🇳🇱
+  type: vless
+  server: tg1.wba-pn.ru
+  port: 443
+  uuid: ae2009b9-76cb-4d18-8612-7515b2b84398
+  network: ws
+  tls: true
+  sni: tg1.wba-pn.ru
+  ws-opts:
+    path: /
+    headers:
+      Host: tg1.wba-pn.ru
+
+- name: 5 🇩🇪
+  type: vless
+  server: fast.iqiraq.shop
+  port: 443
+  uuid: 5d8fae5f-0427-4da3-99ab-242905fa5c69
+  network: ws
+  tls: true
+  sni: fast.iqiraq.shop
+  ws-opts:
+    path: /
+    headers:
+      Host: fast.iqiraq.shop
+
+- name: 46 🇫🇷
   type: trojan
-  server: 185.18.250.252
+  server: 172.64.152.23
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -25,35 +105,20 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 5 🇫🇷
+- name: 39 🇺🇸
   type: vless
-  server: 199.232.78.159
+  server: 188.114.98.134
   port: 443
-  uuid: 238bc88c-6f47-4622-9d6f-cab2ed76f098
+  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
   network: ws
   tls: true
-  sni: ssl.fastly.com
+  sni: o94yv7LiF0-AnxIsd9EFehVvs7mXn6bh.z-UlE-ikA-d-e-nE-k-E.WorkeRs.dEv
   ws-opts:
-    path: /
+    path: /yraL4HRbwB8cMc0F?ed=2560
     headers:
-      Host: frenchji.global.ssl.fastly.net.
+      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
 
-- name: 26 🇭🇰
-  type: vmess
-  server: 47.83.19.148
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  sni: 6JDvArazgU3qQR6Q.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-
-- name: 13 🇯🇵
+- name: 23 🇯🇵
   type: vless
   server: 172.67.156.147
   port: 443
@@ -65,67 +130,3 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-
-- name: 32 🇫🇷
-  type: trojan
-  server: chat.openai.com
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 22 🇭🇰
-  type: vmess
-  server: 43.198.204.35
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  sni: ce0gedpxwou6cqon.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: ce0gedpxwou6cqon.v.3dns.vip
-
-- name: 31 🇫🇷
-  type: trojan
-  server: am12.levikogjgfdd.ir
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 20 🇺🇸
-  type: vless
-  server: 141.101.122.147
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  sni: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 27 🇫🇷
-  type: trojan
-  server: 45.87.41.18
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
