@@ -1,16 +1,30 @@
 proxies:
 
-- name: 52 🇫🇷
-  type: trojan
-  server: 45.87.41.18
+- name: 1 🇧🇷
+  type: vless
+  server: cdns.doon.eu.org
   port: 443
-  password: humanity
-  sni: www.calmlunch.com
+  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
   network: ws
+  tls: true
+  sni: mao.kipfel.kdns.fr
   ws-opts:
-    path: /assignment
+    path: /glasspanel/guest000_0_5de14443985f/
     headers:
-      Host: www.calmlunch.com
+      Host: mao.kipfel.kdns.fr
+
+- name: 29 🇺🇸
+  type: vless
+  server: medium.com
+  port: 443
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  network: ws
+  tls: true
+  sni: rAyAn-007.mAxImA.DpDnS.OrG
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
 
 - name: 9 🇫🇮
   type: vless
@@ -25,52 +39,32 @@ proxies:
     headers:
       Host: c12.com
 
-- name: 43 🇭🇰
-  type: vmess
-  server: 47.86.107.119
+- name: 10 🇫🇷
+  type: vless
+  server: finite-node.rtxconfigz.com
   port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
+  uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c
   network: ws
   tls: true
-  sni: lcv8v9l7OyamxxfZ.v.3dns.vip
+  sni: finite-node.rtxconfigz.com
   ws-opts:
-    path: /ws-vmess
+    path: /
     headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
+      Host: telegram.us
 
-- name: 35 🇭🇰
-  type: vmess
-  server: 8.218.184.4
+- name: 54 🇫🇷
+  type: trojan
+  server: 188.114.98.0
   port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
+  password: humanity
+  sni: www.calmlunch.com
   network: ws
-  tls: true
-  sni: NYcQg19zkwaCPM1B.v.3dns.vip
   ws-opts:
-    path: /ws-vmess
+    path: /assignment
     headers:
-      Host: NYcQg19zkwaCPM1B.v.3dns.vip
+      Host: www.calmlunch.com
 
-- name: 46 🇺🇸
-  type: vmess
-  server: 104.21.57.84
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  sni: v2ray1.dozapp.xyz
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-
-- name: 27 🇺🇸
+- name: 32 🇺🇸
   type: vless
   server: 104.24.19.99
   port: 443
@@ -82,18 +76,6 @@ proxies:
     path: /LUANVO
     headers:
       Host: novapanell.abdollahvand3.ir
-
-- name: 53 🇫🇷
-  type: trojan
-  server: 172.64.152.23
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
 
 - name: 19 🇯🇵
   type: vless
@@ -108,30 +90,41 @@ proxies:
     headers:
       Host: jp3.yohototo.top
 
-- name: 47 🇺🇸
-  type: vmess
-  server: www.nextkyc.com
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  sni: v2ray1.dozapp.xyz
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-
-- name: 10 🇫🇷
+- name: 8 🇫🇮
   type: vless
-  server: finite-node.rtxconfigz.com
+  server: k2.cloud--vpn.site
   port: 443
-  uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c
+  uuid: d0ee468a-084b-411d-b2be-b886a61065d1
   network: ws
   tls: true
-  sni: finite-node.rtxconfigz.com
+  sni: ssl.fastly.com
   ws-opts:
     path: /
     headers:
-      Host: telegram.us
+      Host: c12.com
+
+- name: 25 🇸🇬
+  type: vless
+  server: admin.jikecloud.cc
+  port: 443
+  uuid: e55fa822-ad91-4133-8dcf-2587aec10baf
+  network: ws
+  tls: true
+  sni: admin.jikecloud.cc
+  ws-opts:
+    path: /vless
+    headers:
+      Host: admin.jikecloud.cc
+
+- name: 30 🇺🇸
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  network: ws
+  tls: true
+  sni: a.cwvps.eu.org
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
