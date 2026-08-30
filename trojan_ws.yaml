@@ -86,7 +86,7 @@ proxies:
 
 - name: 8 🇫🇷
   type: trojan
-  server: www.calmlunch.com
+  server: 188.114.96.3
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -98,7 +98,7 @@ proxies:
 
 - name: 9 🇫🇷
   type: trojan
-  server: 188.114.96.3
+  server: www.calmlunch.com
   port: 443
   password: humanity
   sni: www.calmlunch.com

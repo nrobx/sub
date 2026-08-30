@@ -1,99 +1,89 @@
 proxies:
 
-- name: 2 🇩🇪
-  type: vless
-  server: 199.232.78.160
+- name: 52 🇫🇷
+  type: trojan
+  server: 45.87.41.18
   port: 443
-  uuid: XpnTeam-35
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 9 🇫🇮
+  type: vless
+  server: 151.101.56.6
+  port: 443
+  uuid: d0ee468a-084b-411d-b2be-b886a61065d1
   network: ws
   tls: true
   sni: ssl.fastly.com
   ws-opts:
-    path: /
+    path: /?TELEGRAM--KANAL--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray
     headers:
-      Host: Appxdn.global.ssl.fastly.net
+      Host: c12.com
 
-- name: 38 🇺🇸
-  type: vless
-  server: 188.114.97.7
-  port: 443
-  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
-  network: ws
-  tls: true
-  sni: o94Yv7LIF0-aNXISd9eFehvvS7mxn6bH.Z-ULe-iKa-d-e-ne-K-e.wORkeRs.Dev
-  ws-opts:
-    path: /7J5lLqtBnJg9WjVT?ed=2560
-    headers:
-      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
-
-- name: 14 🇫🇷
-  type: vless
-  server: 81.95.4.189
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  network: ws
-  tls: true
-  sni: bab-6.site
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-
-- name: 44 🇭🇰
+- name: 43 🇭🇰
   type: vmess
-  server: drbkg16egf3fzlm3.v.3dns.vip
+  server: 47.86.107.119
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  sni: drbkg16egf3fzlm3.v.3dns.vip
+  sni: lcv8v9l7OyamxxfZ.v.3dns.vip
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: DrBKg16eGf3FZlM3.v.3dns.vip
+      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
 
-- name: 31 🇳🇱
-  type: vless
-  server: 199.232.78.159
+- name: 35 🇭🇰
+  type: vmess
+  server: 8.218.184.4
   port: 443
-  uuid: a1ee277e-93b7-4aa9-86a2-c7ef85a2adb0
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
   network: ws
   tls: true
-  sni: ssl.fastly.com
+  sni: NYcQg19zkwaCPM1B.v.3dns.vip
   ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    path: /ws-vmess
     headers:
-      Host: pane3.global.ssl.fastly.net
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
 
-- name: 28 🇳🇱
-  type: vless
-  server: tg1.wba-pn.ru
-  port: 443
-  uuid: ae2009b9-76cb-4d18-8612-7515b2b84398
+- name: 46 🇺🇸
+  type: vmess
+  server: 104.21.57.84
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
   network: ws
   tls: true
-  sni: tg1.wba-pn.ru
+  sni: v2ray1.dozapp.xyz
   ws-opts:
-    path: /
+    path: /lMnsZUN4/
     headers:
-      Host: tg1.wba-pn.ru
+      Host: v2ray1.dozapp.xyz
 
-- name: 5 🇩🇪
+- name: 27 🇺🇸
   type: vless
-  server: fast.iqiraq.shop
+  server: 104.24.19.99
   port: 443
-  uuid: 5d8fae5f-0427-4da3-99ab-242905fa5c69
+  uuid: aebeb940-51cb-429f-830d-c421351d18e3
   network: ws
   tls: true
-  sni: fast.iqiraq.shop
+  sni: novapanell.abdollahvand3.ir
   ws-opts:
-    path: /
+    path: /LUANVO
     headers:
-      Host: fast.iqiraq.shop
+      Host: novapanell.abdollahvand3.ir
 
-- name: 46 🇫🇷
+- name: 53 🇫🇷
   type: trojan
   server: 172.64.152.23
   port: 443
@@ -105,22 +95,9 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 39 🇺🇸
+- name: 19 🇯🇵
   type: vless
-  server: 188.114.98.134
-  port: 443
-  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
-  network: ws
-  tls: true
-  sni: o94yv7LiF0-AnxIsd9EFehVvs7mXn6bh.z-UlE-ikA-d-e-nE-k-E.WorkeRs.dEv
-  ws-opts:
-    path: /yraL4HRbwB8cMc0F?ed=2560
-    headers:
-      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
-
-- name: 23 🇯🇵
-  type: vless
-  server: 172.67.156.147
+  server: 162.159.254.3
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   network: ws
@@ -130,3 +107,31 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
+
+- name: 47 🇺🇸
+  type: vmess
+  server: www.nextkyc.com
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  sni: v2ray1.dozapp.xyz
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+
+- name: 10 🇫🇷
+  type: vless
+  server: finite-node.rtxconfigz.com
+  port: 443
+  uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c
+  network: ws
+  tls: true
+  sni: finite-node.rtxconfigz.com
+  ws-opts:
+    path: /
+    headers:
+      Host: telegram.us
