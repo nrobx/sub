@@ -2,7 +2,7 @@ proxies:
 
 - name: 1 🇫🇷
   type: trojan
-  server: 45.87.41.18
+  server: 188.114.96.3
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -14,7 +14,7 @@ proxies:
 
 - name: 2 🇫🇷
   type: trojan
-  server: 172.64.152.23
+  server: 185.220.100.168
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -26,7 +26,7 @@ proxies:
 
 - name: 3 🇫🇷
   type: trojan
-  server: 188.114.98.0
+  server: www.calmlunch.com
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -38,7 +38,7 @@ proxies:
 
 - name: 4 🇫🇷
   type: trojan
-  server: 185.18.250.252
+  server: 198.62.62.23
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -50,7 +50,7 @@ proxies:
 
 - name: 5 🇫🇷
   type: trojan
-  server: chat.openai.com
+  server: 185.18.250.252
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -62,7 +62,7 @@ proxies:
 
 - name: 6 🇫🇷
   type: trojan
-  server: 198.62.62.23
+  server: chat.openai.com
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -74,7 +74,7 @@ proxies:
 
 - name: 7 🇫🇷
   type: trojan
-  server: 188.114.98.0
+  server: 45.87.41.18
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -86,7 +86,7 @@ proxies:
 
 - name: 8 🇫🇷
   type: trojan
-  server: 188.114.96.3
+  server: 188.114.98.0
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -99,6 +99,30 @@ proxies:
 - name: 9 🇫🇷
   type: trojan
   server: www.calmlunch.com
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 10 🇫🇷
+  type: trojan
+  server: 188.114.96.3
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 11 🇫🇷
+  type: trojan
+  server: 188.114.98.0
   port: 443
   password: humanity
   sni: www.calmlunch.com
