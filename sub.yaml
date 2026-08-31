@@ -1,87 +1,34 @@
 proxies:
 
-- name: 13 🇭🇰
+- name: 6 🇸🇬
   type: vless
-  server: tg1.wba-pn.ru
+  server: 104.17.3.81
   port: 443
-  uuid: ae2009b9-76cb-4d18-8612-7515b2b84398
+  uuid: c6c1760f-f6af-4a54-8600-cf9c9971f7d8
   network: ws
   tls: true
-  sni: tg1.wba-pn.ru
+  sni: sgdo1.cassanova.biz.id
   ws-opts:
-    path: /
+    path: /vless
     headers:
-      Host: tg1.wba-pn.ru
+      Host: sgdo1.cassanova.biz.id
 
-- name: 27 🇸🇰
-  type: vless
-  server: 185.112.249.201
-  port: 8443
-  uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142
-  network: ws
-  tls: true
-  sni: web-socket.tgdaosheng.ggff.net
-  ws-opts:
-    path: /proxyip=bpb.yousef.isegaro.comfp=chrome
-    headers:
-      Host: web-socket.tgdaosheng.ggff.net
-
-- name: 39 🇺🇸
-  type: vless
-  server: 188.114.98.134
-  port: 443
-  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
-  network: ws
-  tls: true
-  sni: o94yv7LiF0-AnxIsd9EFehVvs7mXn6bh.z-UlE-ikA-d-e-nE-k-E.WorkeRs.dEv
-  ws-opts:
-    path: /yraL4HRbwB8cMc0F?ed=2560
-    headers:
-      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
-
-- name: 45 🇭🇰
+- name: 10 🇭🇰
   type: vmess
-  server: ejomsxptp19apygl.v.3dns.vip
+  server: vah4urdzl3jdx5r2.v.3dns.vip
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  sni: ejomsxptp19apygl.v.3dns.vip
+  sni: vah4urdzl3jdx5r2.v.3dns.vip
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: ejomsxptp19apygl.v.3dns.vip
+      Host: vah4urdzl3jdx5r2.v.3dns.vip
 
-- name: 61 🇫🇷
-  type: trojan
-  server: 172.64.152.23
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 40 🇭🇰
-  type: vmess
-  server: 6jdvarazgu3qqr6q.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  sni: 6JDvArazgU3qQR6Q.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-
-- name: 28 🇺🇸
+- name: 9 🇺🇸
   type: vless
   server: 141.101.122.147
   port: 443
@@ -94,9 +41,21 @@ proxies:
     headers:
       Host: a.cwvps.eu.org
 
+- name: 13 🇫🇷
+  type: trojan
+  server: 165.215.250.14
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
 - name: 2 🇧🇷
   type: vless
-  server: cdns.doon.eu.org
+  server: mfa.gov.ua
   port: 443
   uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
   network: ws
@@ -107,7 +66,33 @@ proxies:
     headers:
       Host: mao.kipfel.kdns.fr
 
-- name: 46 🇭🇰
+- name: 3 🇩🇪
+  type: vless
+  server: 92.42.96.240
+  port: 443
+  uuid: mahanvpn-mahanvpn
+  network: ws
+  tls: true
+  sni: mAhaNrEaliteAm.MaHkHan.iR
+  ws-opts:
+    path: /
+    headers:
+      Host: mAhaNrEaliteAm.MaHkHan.iR
+
+- name: 7 🇸🇬
+  type: vless
+  server: 104.21.70.21
+  port: 443
+  uuid: c6c1760f-f6af-4a54-8600-cf9c9971f7d8
+  network: ws
+  tls: true
+  sni: sgdo1.cassanova.biz.id
+  ws-opts:
+    path: /vless
+    headers:
+      Host: sgdo1.cassanova.biz.id
+
+- name: 12 🇭🇰
   type: vmess
   server: lcv8v9l7oyamxxfz.v.3dns.vip
   port: 443
@@ -122,17 +107,28 @@ proxies:
     headers:
       Host: lcv8v9l7OyamxxfZ.v.3dns.vip
 
-- name: 41 🇭🇰
-  type: vmess
-  server: 43.198.204.35
+- name: 5 🇫🇮
+  type: vless
+  server: a2.arshia-nova.ir
   port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
+  uuid: d499fa8c-2e14-4bd5-a3ca-73fae7f04cb5
   network: ws
   tls: true
-  sni: ce0gedpxwou6cqon.v.3dns.vip
+  sni: ssl.fastly.com
   ws-opts:
-    path: /ws-vmess
+    path: /
     headers:
-      Host: ce0gedpxwou6cqon.v.3dns.vip
+      Host: c12.com
+
+- name: 4 🇫🇮
+  type: vless
+  server: 151.101.56.6
+  port: 443
+  uuid: d499fa8c-2e14-4bd5-a3ca-73fae7f04cb5
+  network: ws
+  tls: true
+  sni: ssl.fastly.com
+  ws-opts:
+    path: /?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
+    headers:
+      Host: c12.com
