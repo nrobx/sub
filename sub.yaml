@@ -1,18 +1,5 @@
 proxies:
 
-- name: 6 🇸🇬
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: c6c1760f-f6af-4a54-8600-cf9c9971f7d8
-  network: ws
-  tls: true
-  sni: sgdo1.cassanova.biz.id
-  ws-opts:
-    path: /vless
-    headers:
-      Host: sgdo1.cassanova.biz.id
-
 - name: 10 🇭🇰
   type: vmess
   server: vah4urdzl3jdx5r2.v.3dns.vip
@@ -28,19 +15,6 @@ proxies:
     headers:
       Host: vah4urdzl3jdx5r2.v.3dns.vip
 
-- name: 9 🇺🇸
-  type: vless
-  server: 141.101.122.147
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  sni: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
 - name: 13 🇫🇷
   type: trojan
   server: 165.215.250.14
@@ -53,35 +27,9 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 2 🇧🇷
+- name: 6 🇸🇬
   type: vless
-  server: mfa.gov.ua
-  port: 443
-  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
-  network: ws
-  tls: true
-  sni: mao.kipfel.kdns.fr
-  ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
-    headers:
-      Host: mao.kipfel.kdns.fr
-
-- name: 3 🇩🇪
-  type: vless
-  server: 92.42.96.240
-  port: 443
-  uuid: mahanvpn-mahanvpn
-  network: ws
-  tls: true
-  sni: mAhaNrEaliteAm.MaHkHan.iR
-  ws-opts:
-    path: /
-    headers:
-      Host: mAhaNrEaliteAm.MaHkHan.iR
-
-- name: 7 🇸🇬
-  type: vless
-  server: 104.21.70.21
+  server: 104.17.3.81
   port: 443
   uuid: c6c1760f-f6af-4a54-8600-cf9c9971f7d8
   network: ws
@@ -91,6 +39,21 @@ proxies:
     path: /vless
     headers:
       Host: sgdo1.cassanova.biz.id
+
+- name: 11 🇭🇰
+  type: vmess
+  server: 47.86.107.119
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  sni: lcv8v9l7OyamxxfZ.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
 
 - name: 12 🇭🇰
   type: vmess
@@ -120,6 +83,32 @@ proxies:
     headers:
       Host: c12.com
 
+- name: 9 🇺🇸
+  type: vless
+  server: 141.101.122.147
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  network: ws
+  tls: true
+  sni: a.cwvps.eu.org
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+
+- name: 7 🇸🇬
+  type: vless
+  server: 104.21.70.21
+  port: 443
+  uuid: c6c1760f-f6af-4a54-8600-cf9c9971f7d8
+  network: ws
+  tls: true
+  sni: sgdo1.cassanova.biz.id
+  ws-opts:
+    path: /vless
+    headers:
+      Host: sgdo1.cassanova.biz.id
+
 - name: 4 🇫🇮
   type: vless
   server: 151.101.56.6
@@ -132,3 +121,16 @@ proxies:
     path: /?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
     headers:
       Host: c12.com
+
+- name: 1 🇧🇷
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
+  network: ws
+  tls: true
+  sni: mao.kipfel.kdns.fr
+  ws-opts:
+    path: /glasspanel/guest000_0_5de14443985f/
+    headers:
+      Host: mao.kipfel.kdns.fr
