@@ -52,7 +52,7 @@ def has_tls(protocol: str, rest_no_frag: str):
         return params.get("security", [""])[0].lower() == "tls"
     if protocol == "vmess":
         try:
-            return _b64_decode_vmess(rest_no_frag).get("tls", "") == "tls"
+            return (_b64_decode_vmess(rest_no_frag).get("tls") or "") == "tls"
         except Exception:
             return False
     return False
@@ -89,7 +89,15 @@ def get_host_sni(protocol: str, rest_no_frag: str):
             vm = _b64_decode_vmess(rest_no_frag)
         except Exception:
             return "", ""
-        return vm.get("host", ""), vm.get("sni", "")
+        host = vm.get("host") or ""
+        sni = vm.get("sni") or ""
+        # for vmess+tls, host and sni are typically the same CDN domain —
+        # fall back to whichever one is set so we don't drop valid configs
+        if not host and sni:
+            host = sni
+        if not sni and host:
+            sni = host
+        return host, sni
     return "", ""
 
 
@@ -223,7 +231,7 @@ def to_clash_proxy(config: str) -> dict:
             "cipher": vm.get("scy") or vm.get("cipher", "auto"),
             "network": vm.get("net", "ws"),
             "tls": vm.get("tls", "") == "tls",
-            "sni": vm.get("sni") or vm.get("host", vm.get("add")),
+            "servername": vm.get("sni") or vm.get("host", vm.get("add")),
         }
         if vm.get("net") == "ws":
             proxy["ws-opts"] = {
@@ -261,7 +269,7 @@ def to_clash_proxy(config: str) -> dict:
         "uuid": uuid,
         "network": "ws",
         "tls": get("security") == "tls",
-        "sni": sni,
+        "servername": sni,
         "ws-opts": ws_opts,
     }
     if flow:
