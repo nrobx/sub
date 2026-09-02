@@ -1,78 +1,20 @@
 proxies:
 
-- name: 7 🇸🇬
-  type: vless
-  server: 139.64.235.7
-  port: 8443
-  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
-  network: ws
-  tls: true
-  servername: speed.dulacloud.store
-  ws-opts:
-    path: /dula?Telegram-WangCai2
-    headers:
-      Host: speed.dulacloud.store
-
-- name: 44 🇺🇸
+- name: 43 🇺🇸
   type: trojan
-  server: 151.101.56.7
+  server: 199.232.78.160
   port: 443
   password: MiTiVPN
   sni: ssl.fastly.com
   network: ws
   ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
-      Host: mitivpn-ss-ss.global.ssl.fastly.net
+      Host: 1--2---3--mitivpn.global.ssl.fastly.net
 
-- name: 30 🇭🇰
-  type: vmess
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: EX1oGt73NzPQKAc2.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: EX1oGt73NzPQKAc2.v.3dns.vip
-
-- name: 32 🇭🇰
-  type: vmess
-  server: drbkg16egf3fzlm3.v.3dns.vip
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: DrBKg16eGf3FZlM3.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: DrBKg16eGf3FZlM3.v.3dns.vip
-
-- name: 33 🇭🇰
-  type: vmess
-  server: wwafj5lhl6bi8au9.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: wwafj5LHl6bI8aU9.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: wwafj5LHl6bI8aU9.v.3dns.vip
-
-- name: 18 🇸🇬
+- name: 5 🇸🇬
   type: vless
-  server: 164.38.155.7
+  server: 167.68.42.7
   port: 8443
   uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
   network: ws
@@ -83,9 +25,9 @@ proxies:
     headers:
       Host: speed.dulacloud.store
 
-- name: 11 🇸🇬
+- name: 6 🇸🇬
   type: vless
-  server: 193.227.99.7
+  server: 88.216.66.7
   port: 8443
   uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
   network: ws
@@ -96,20 +38,29 @@ proxies:
     headers:
       Host: speed.dulacloud.store
 
-- name: 26 🇭🇰
-  type: vmess
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
+- name: 38 🇳🇱
+  type: trojan
+  server: 188.42.145.180
   port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
+  password: humanity
+  sni: www.volumeroot.com
   network: ws
-  tls: true
-  servername: qtkdr8jxe3wefxjm.v.3dns.vip
   ws-opts:
-    path: /ws-vmess
+    path: /assignment
     headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
+      Host: www.volumeroot.com
+
+- name: 42 🇳🇱
+  type: trojan
+  server: 213.182.199.137
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
 
 - name: 29 🇭🇰
   type: vmess
@@ -126,15 +77,56 @@ proxies:
     headers:
       Host: DrBKg16eGf3FZlM3.v.3dns.vip
 
-- name: 1 🇫🇷
+- name: 3 🇸🇬
   type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 0f0b7f69-78e1-4e9e-8b35-0986444613e4
+  server: 45.12.30.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
   network: ws
   tls: true
-  servername: xwrivr.pages.dev
+  servername: speed.dulacloud.store
   ws-opts:
-    path: /?ed=2048
+    path: /dula?Telegram-WangCai2
     headers:
-      Host: xwrivr.pages.dev
+      Host: speed.dulacloud.store
+
+- name: 9 🇸🇬
+  type: vless
+  server: 185.135.9.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 25 🇭🇰
+  type: vmess
+  server: drbkg16egf3fzlm3.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: drbkg16egf3fzlm3.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: DrBKg16eGf3FZlM3.v.3dns.vip
+
+- name: 21 🇸🇬
+  type: vless
+  server: 154.198.173.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
