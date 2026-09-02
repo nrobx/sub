@@ -1,86 +1,19 @@
 proxies:
 
-- name: 5 🇭🇰
+- name: 27 🇳🇱
   type: vless
-  server: 188.114.97.6
+  server: 151.101.56.7
   port: 443
-  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
+  uuid: d2299018-601d-488e-afd6-8f55b3f7439f
   network: ws
   tls: true
-  sni: mao.kipfel.kdns.fr
+  servername: ssl.fastly.com
   ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
     headers:
-      Host: mao.kipfel.kdns.fr
+      Host: pan1.global.ssl.fastly.net
 
-- name: 6 🇯🇵
-  type: vless
-  server: node1.jjjjjj.eu.cc
-  port: 443
-  uuid: 75bc1bab-ff62-4c7c-a946-ec49fd53f89f
-  network: ws
-  tls: true
-  sni: jpb2.jjjjjj.eu.cc
-  ws-opts:
-    path: /jige?ed=2048
-    headers:
-      Host: jpb2.jjjjjj.eu.cc
-
-- name: 13 🇭🇰
-  type: vmess
-  server: vah4urdzl3jdx5r2.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  sni: vah4urdzl3jdx5r2.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
-
-- name: 2 🇩🇪
-  type: vless
-  server: 216.24.57.15
-  port: 443
-  uuid: 2ee0d2aa-867e-a77e-9538-2edfc0b242aa
-  network: ws
-  tls: true
-  sni: four04-rd37.onrender.com
-  ws-opts:
-    path: /ws/2ee0d2aa-867e-a77e-9538-2edfc0b242aafp=chrome
-    headers:
-      Host: four04-rd37.onrender.com
-
-- name: 11 🇺🇸
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  sni: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 9 🇺🇸
-  type: vless
-  server: 141.101.122.147
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  sni: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 23 🇳🇱
+- name: 66 🇳🇱
   type: trojan
   server: 213.182.199.137
   port: 443
@@ -92,35 +25,19 @@ proxies:
     headers:
       Host: www.pleadcourt.org
 
-- name: 15 🇭🇰
-  type: vmess
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
+- name: 63 🇫🇷
+  type: trojan
+  server: 188.114.96.3
   port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
+  password: humanity
+  sni: www.calmlunch.com
   network: ws
-  tls: true
-  sni: lcv8v9l7OyamxxfZ.v.3dns.vip
   ws-opts:
-    path: /ws-vmess
+    path: /assignment
     headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
+      Host: www.calmlunch.com
 
-- name: 3 🇭🇰
-  type: vless
-  server: 172.67.138.17
-  port: 443
-  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
-  network: ws
-  tls: true
-  sni: mao.kipfel.kdns.fr
-  ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
-    headers:
-      Host: mao.kipfel.kdns.fr
-
-- name: 22 🇳🇱
+- name: 67 🇳🇱
   type: trojan
   server: 213.182.199.137
   port: 443
@@ -131,3 +48,80 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
+
+- name: 32 🇳🇱
+  type: vless
+  server: 151.101.56.7
+  port: 443
+  uuid: d2299018-601d-488e-afd6-8f55b3f7439f
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    headers:
+      Host: pan1.global.ssl.fastly.net
+
+- name: 59 🇫🇷
+  type: trojan
+  server: 172.64.152.23
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 15 🇬🇧
+  type: vless
+  server: 57.128.177.198
+  port: 443
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  network: ws
+  tls: true
+  servername: vp58.cc.cd
+  ws-opts:
+    path: /Telegram🇨🇳 fp=chrome
+    headers:
+      Host: vp58.cc.cd
+
+- name: 36 🇸🇬
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: c6c1760f-f6af-4a54-8600-cf9c9971f7d8
+  network: ws
+  tls: true
+  servername: sgdo1.cassanova.biz.id
+  ws-opts:
+    path: /vless
+    headers:
+      Host: sgdo1.cassanova.biz.id
+
+- name: 11 🇫🇷
+  type: vless
+  server: finite-node.rtxconfigz.com
+  port: 443
+  uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c
+  network: ws
+  tls: true
+  servername: finite-node.rtxconfigz.com
+  ws-opts:
+    path: /
+    headers:
+      Host: telegram.us
+
+- name: 4 🇩🇪
+  type: vless
+  server: 94.156.232.254
+  port: 443
+  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
+  network: ws
+  tls: true
+  servername: cf6.rumedia-cdn.com
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: cf6.rumedia-cdn.com
