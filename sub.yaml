@@ -1,6 +1,19 @@
 proxies:
 
-- name: 33 🇭🇰
+- name: 7 🇺🇸
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  network: ws
+  tls: true
+  servername: a.cwvps.eu.org
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+
+- name: 12 🇭🇰
   type: vmess
   server: 47.83.19.148
   port: 443
@@ -15,62 +28,19 @@ proxies:
     headers:
       Host: 6JDvArazgU3qQR6Q.v.3dns.vip
 
-- name: 87 🇮🇩
+- name: 36 🇫🇷
   type: trojan
-  server: 104.21.70.21
+  server: www.calmlunch.com
   port: 443
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
-  sni: id1.nathaya.web.id
+  password: humanity
+  sni: www.calmlunch.com
   network: ws
   ws-opts:
-    path: /trojan
+    path: /assignment
     headers:
-      Host: id1.nathaya.web.id
+      Host: www.calmlunch.com
 
-- name: 21 🇺🇸
-  type: vless
-  server: mybb.com
-  port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
-  network: ws
-  tls: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rayan-007.nastaran.dpdns.org
-
-- name: 35 🇭🇰
-  type: vmess
-  server: 8.218.184.4
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: NYcQg19zkwaCPM1B.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: NYcQg19zkwaCPM1B.v.3dns.vip
-
-- name: 53 🇭🇰
-  type: vmess
-  server: m01c7b2z26dtqgee.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: M01c7B2z26DtQGEe.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: M01c7B2z26DtQGEe.v.3dns.vip
-
-- name: 34 🇭🇰
+- name: 9 🇭🇰
   type: vmess
   server: lcv8v9l7oyamxxfz.v.3dns.vip
   port: 443
@@ -85,60 +55,80 @@ proxies:
     headers:
       Host: lcv8v9l7OyamxxfZ.v.3dns.vip
 
-- name: 13 🇯🇵
-  type: vless
-  server: 172.67.156.147
+- name: 19 🇭🇰
+  type: vmess
+  server: lcv8v9l7oyamxxfz.v.3dns.vip
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-
-- name: 74 🇺🇸
-  type: vmess
-  server: 172.67.161.144
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  servername: v2ray1.dozapp.xyz
+  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
   ws-opts:
-    path: /lMnsZUN4/
+    path: /ws-vmess
     headers:
-      Host: v2ray1.dozapp.xyz
+      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
 
-- name: 72 🇺🇸
-  type: vmess
-  server: 104.17.77.77
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: none
+- name: 40 🇫🇷
+  type: trojan
+  server: 172.64.152.23
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
   network: ws
-  tls: true
-  servername: v2ray1.dozapp.xyz
   ws-opts:
-    path: /lMnsZUN4/
+    path: /assignment
     headers:
-      Host: v2ray1.dozapp.xyz
+      Host: www.calmlunch.com
 
-- name: 68 🇺🇸
+- name: 18 🇭🇰
   type: vmess
-  server: chatgpt.com
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  servername: v2ray1.dozapp.xyz
+  servername: vah4urdzl3jdx5r2.v.3dns.vip
   ws-opts:
-    path: /lMnsZUN4/
+    path: /ws-vmess
     headers:
-      Host: ''
+      Host: vah4urdzl3jdx5r2.v.3dns.vip
+
+- name: 33 🇫🇷
+  type: trojan
+  server: 104.16.72.41
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 39 🇫🇷
+  type: trojan
+  server: 165.215.250.14
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 43 🇳🇱
+  type: trojan
+  server: 213.182.199.137
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org

@@ -2,7 +2,7 @@ proxies:
 
 - name: 1 🇫🇷
   type: trojan
-  server: 185.18.250.252
+  server: www.speedtest.net
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -14,7 +14,7 @@ proxies:
 
 - name: 2 🇫🇷
   type: trojan
-  server: www.calmlunch.com
+  server: 212.183.88.136
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -26,7 +26,7 @@ proxies:
 
 - name: 3 🇫🇷
   type: trojan
-  server: 185.220.100.168
+  server: 185.255.179.166
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -38,7 +38,7 @@ proxies:
 
 - name: 4 🇫🇷
   type: trojan
-  server: 212.183.88.136
+  server: 104.16.72.41
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -50,7 +50,7 @@ proxies:
 
 - name: 5 🇫🇷
   type: trojan
-  server: 188.114.98.0
+  server: www.calmlunch.com
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -62,7 +62,7 @@ proxies:
 
 - name: 6 🇫🇷
   type: trojan
-  server: www.calmlunch.com
+  server: 188.114.98.0
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -74,7 +74,7 @@ proxies:
 
 - name: 7 🇫🇷
   type: trojan
-  server: 188.114.96.3
+  server: www.calmlunch.com
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -86,7 +86,7 @@ proxies:
 
 - name: 8 🇫🇷
   type: trojan
-  server: 165.215.250.14
+  server: 188.114.96.3
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -98,7 +98,7 @@ proxies:
 
 - name: 9 🇫🇷
   type: trojan
-  server: chat.openai.com
+  server: 185.18.250.252
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -110,7 +110,7 @@ proxies:
 
 - name: 10 🇫🇷
   type: trojan
-  server: 172.64.152.23
+  server: 165.215.250.14
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -122,7 +122,7 @@ proxies:
 
 - name: 11 🇫🇷
   type: trojan
-  server: 188.114.98.0
+  server: 172.64.152.23
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -179,3 +179,39 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
+
+- name: 16 🇺🇸
+  type: trojan
+  server: 199.232.78.160
+  port: 443
+  password: MiTiVPN
+  sni: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: 1--2---3--mitivpn.global.ssl.fastly.net
+
+- name: 17 🇺🇸
+  type: trojan
+  server: 151.101.56.7
+  port: 443
+  password: MiTiVPN
+  sni: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: mitivpn-ss-ss.global.ssl.fastly.net
+
+- name: 18 🇺🇸
+  type: trojan
+  server: www.speedtest.net
+  port: 443
+  password: A4u%5Ep(_UR*F6
+  sni: 027.ELeCTroCelLco-CF-027.wORkERS.dEv
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoidlhnMXN5OXFUSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    headers:
+      Host: 027.electrocellco-cf-027.workers.dev
