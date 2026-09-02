@@ -1,92 +1,300 @@
 proxies:
 
-- name: 1 🇩🇪
-  type: vless
-  server: 216.24.57.15
-  port: 443
-  uuid: 2ee0d2aa-867e-a77e-9538-2edfc0b242aa
-  network: ws
-  tls: true
-  servername: four04-rd37.onrender.com
-  ws-opts:
-    path: /ws/2ee0d2aa-867e-a77e-9538-2edfc0b242aa
-    headers:
-      Host: four04-rd37.onrender.com
-
-- name: 2 🇩🇪
-  type: vless
-  server: 216.24.57.15
-  port: 443
-  uuid: 2ee0d2aa-867e-a77e-9538-2edfc0b242aa
-  network: ws
-  tls: true
-  servername: four04-rd37.onrender.com
-  ws-opts:
-    path: /ws/2ee0d2aa-867e-a77e-9538-2edfc0b242aafp=chrome
-    headers:
-      Host: four04-rd37.onrender.com
-
-- name: 3 🇳🇱
-  type: vless
-  server: vnovavpnnode.up.railway.app
-  port: 443
-  uuid: 7e578298-1674-4565-b220-b41a5d31268a
-  network: ws
-  tls: true
-  servername: vnovavpnnode.up.railway.app
-  ws-opts:
-    path: /vless
-    headers:
-      Host: vnovavpnnode.up.railway.app
-
-- name: 4 🇸🇬
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: c6c1760f-f6af-4a54-8600-cf9c9971f7d8
-  network: ws
-  tls: true
-  servername: sgdo1.cassanova.biz.id
-  ws-opts:
-    path: /vless
-    headers:
-      Host: sgdo1.cassanova.biz.id
-
-- name: 5 🇺🇸
-  type: vless
-  server: 141.101.122.147
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 6 🇺🇸
-  type: vless
-  server: 141.101.122.147
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 7 🇺🇸
+- name: 1 🇫🇷
   type: vless
   server: 188.114.97.6
   port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  uuid: 0f0b7f69-78e1-4e9e-8b35-0986444613e4
   network: ws
   tls: true
-  servername: a.cwvps.eu.org
+  servername: xwrivr.pages.dev
   ws-opts:
-    path: /ws
+    path: /?ed=2048
     headers:
-      Host: a.cwvps.eu.org
+      Host: xwrivr.pages.dev
+
+- name: 2 🇸🇬
+  type: vless
+  server: 190.93.245.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 3 🇸🇬
+  type: vless
+  server: 45.12.30.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 4 🇸🇬
+  type: vless
+  server: 188.42.88.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 5 🇸🇬
+  type: vless
+  server: 167.68.42.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 6 🇸🇬
+  type: vless
+  server: 88.216.66.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 7 🇸🇬
+  type: vless
+  server: 139.64.235.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 8 🇸🇬
+  type: vless
+  server: 155.46.213.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 9 🇸🇬
+  type: vless
+  server: 185.135.9.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 10 🇸🇬
+  type: vless
+  server: 185.158.133.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 11 🇸🇬
+  type: vless
+  server: 193.227.99.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 12 🇸🇬
+  type: vless
+  server: 192.169.222.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 13 🇸🇬
+  type: vless
+  server: 154.211.8.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 14 🇸🇬
+  type: vless
+  server: 185.18.250.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 15 🇸🇬
+  type: vless
+  server: 154.194.0.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 16 🇸🇬
+  type: vless
+  server: 167.68.4.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 17 🇸🇬
+  type: vless
+  server: 160.153.0.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 18 🇸🇬
+  type: vless
+  server: 164.38.155.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 19 🇸🇬
+  type: vless
+  server: 62.72.166.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 20 🇸🇬
+  type: vless
+  server: 185.162.228.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 21 🇸🇬
+  type: vless
+  server: 154.198.173.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 22 🇸🇬
+  type: vless
+  server: 45.131.6.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 23 🇸🇬
+  type: vless
+  server: 45.80.108.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store

@@ -1,134 +1,140 @@
 proxies:
 
-- name: 7 🇺🇸
+- name: 7 🇸🇬
+  type: vless
+  server: 139.64.235.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 44 🇺🇸
+  type: trojan
+  server: 151.101.56.7
+  port: 443
+  password: MiTiVPN
+  sni: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: mitivpn-ss-ss.global.ssl.fastly.net
+
+- name: 30 🇭🇰
+  type: vmess
+  server: ex1ogt73nzpqkac2.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: EX1oGt73NzPQKAc2.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: EX1oGt73NzPQKAc2.v.3dns.vip
+
+- name: 32 🇭🇰
+  type: vmess
+  server: drbkg16egf3fzlm3.v.3dns.vip
+  port: 443
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: DrBKg16eGf3FZlM3.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: DrBKg16eGf3FZlM3.v.3dns.vip
+
+- name: 33 🇭🇰
+  type: vmess
+  server: wwafj5lhl6bi8au9.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: wwafj5LHl6bI8aU9.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: wwafj5LHl6bI8aU9.v.3dns.vip
+
+- name: 18 🇸🇬
+  type: vless
+  server: 164.38.155.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 11 🇸🇬
+  type: vless
+  server: 193.227.99.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 26 🇭🇰
+  type: vmess
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: qtkdr8jxe3wefxjm.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
+
+- name: 29 🇭🇰
+  type: vmess
+  server: 210.138.37.53
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: DrBKg16eGf3FZlM3.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: DrBKg16eGf3FZlM3.v.3dns.vip
+
+- name: 1 🇫🇷
   type: vless
   server: 188.114.97.6
   port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  uuid: 0f0b7f69-78e1-4e9e-8b35-0986444613e4
   network: ws
   tls: true
-  servername: a.cwvps.eu.org
+  servername: xwrivr.pages.dev
   ws-opts:
-    path: /ws
+    path: /?ed=2048
     headers:
-      Host: a.cwvps.eu.org
-
-- name: 12 🇭🇰
-  type: vmess
-  server: 47.83.19.148
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-
-- name: 36 🇫🇷
-  type: trojan
-  server: www.calmlunch.com
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 9 🇭🇰
-  type: vmess
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
-
-- name: 19 🇭🇰
-  type: vmess
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
-
-- name: 40 🇫🇷
-  type: trojan
-  server: 172.64.152.23
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 18 🇭🇰
-  type: vmess
-  server: vah4urdzl3jdx5r2.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: vah4urdzl3jdx5r2.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
-
-- name: 33 🇫🇷
-  type: trojan
-  server: 104.16.72.41
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 39 🇫🇷
-  type: trojan
-  server: 165.215.250.14
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 43 🇳🇱
-  type: trojan
-  server: 213.182.199.137
-  port: 443
-  password: humanity
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
+      Host: xwrivr.pages.dev

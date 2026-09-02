@@ -1,112 +1,305 @@
 proxies:
 
-- name: 1 🇩🇪
-  type: vless
-  server: 216.24.57.15
-  port: 443
-  uuid: 2ee0d2aa-867e-a77e-9538-2edfc0b242aa
-  network: ws
-  tls: true
-  servername: four04-rd37.onrender.com
-  ws-opts:
-    path: /ws/2ee0d2aa-867e-a77e-9538-2edfc0b242aa
-    headers:
-      Host: four04-rd37.onrender.com
-
-- name: 2 🇩🇪
-  type: vless
-  server: 216.24.57.15
-  port: 443
-  uuid: 2ee0d2aa-867e-a77e-9538-2edfc0b242aa
-  network: ws
-  tls: true
-  servername: four04-rd37.onrender.com
-  ws-opts:
-    path: /ws/2ee0d2aa-867e-a77e-9538-2edfc0b242aafp=chrome
-    headers:
-      Host: four04-rd37.onrender.com
-
-- name: 3 🇳🇱
-  type: vless
-  server: vnovavpnnode.up.railway.app
-  port: 443
-  uuid: 7e578298-1674-4565-b220-b41a5d31268a
-  network: ws
-  tls: true
-  servername: vnovavpnnode.up.railway.app
-  ws-opts:
-    path: /vless
-    headers:
-      Host: vnovavpnnode.up.railway.app
-
-- name: 4 🇸🇬
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: c6c1760f-f6af-4a54-8600-cf9c9971f7d8
-  network: ws
-  tls: true
-  servername: sgdo1.cassanova.biz.id
-  ws-opts:
-    path: /vless
-    headers:
-      Host: sgdo1.cassanova.biz.id
-
-- name: 5 🇺🇸
-  type: vless
-  server: 141.101.122.147
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 6 🇺🇸
-  type: vless
-  server: 141.101.122.147
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 7 🇺🇸
+- name: 1 🇫🇷
   type: vless
   server: 188.114.97.6
   port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  uuid: 0f0b7f69-78e1-4e9e-8b35-0986444613e4
   network: ws
   tls: true
-  servername: a.cwvps.eu.org
+  servername: xwrivr.pages.dev
   ws-opts:
-    path: /ws
+    path: /?ed=2048
     headers:
-      Host: a.cwvps.eu.org
+      Host: xwrivr.pages.dev
 
-- name: 8 🇭🇰
-  type: vmess
-  server: 6jdvarazgu3qqr6q.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
+- name: 2 🇸🇬
+  type: vless
+  server: 190.93.245.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
   network: ws
   tls: true
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  servername: speed.dulacloud.store
   ws-opts:
-    path: /ws-vmess
+    path: /dula?Telegram-WangCai2
     headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+      Host: speed.dulacloud.store
 
-- name: 9 🇭🇰
+- name: 3 🇸🇬
+  type: vless
+  server: 45.12.30.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 4 🇸🇬
+  type: vless
+  server: 188.42.88.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 5 🇸🇬
+  type: vless
+  server: 167.68.42.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 6 🇸🇬
+  type: vless
+  server: 88.216.66.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 7 🇸🇬
+  type: vless
+  server: 139.64.235.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 8 🇸🇬
+  type: vless
+  server: 155.46.213.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 9 🇸🇬
+  type: vless
+  server: 185.135.9.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 10 🇸🇬
+  type: vless
+  server: 185.158.133.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 11 🇸🇬
+  type: vless
+  server: 193.227.99.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 12 🇸🇬
+  type: vless
+  server: 192.169.222.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 13 🇸🇬
+  type: vless
+  server: 154.211.8.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 14 🇸🇬
+  type: vless
+  server: 185.18.250.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 15 🇸🇬
+  type: vless
+  server: 154.194.0.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 16 🇸🇬
+  type: vless
+  server: 167.68.4.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 17 🇸🇬
+  type: vless
+  server: 160.153.0.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 18 🇸🇬
+  type: vless
+  server: 164.38.155.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 19 🇸🇬
+  type: vless
+  server: 62.72.166.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 20 🇸🇬
+  type: vless
+  server: 185.162.228.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 21 🇸🇬
+  type: vless
+  server: 154.198.173.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 22 🇸🇬
+  type: vless
+  server: 45.131.6.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 23 🇸🇬
+  type: vless
+  server: 45.80.108.7
+  port: 8443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  network: ws
+  tls: true
+  servername: speed.dulacloud.store
+  ws-opts:
+    path: /dula?Telegram-WangCai2
+    headers:
+      Host: speed.dulacloud.store
+
+- name: 24 🇭🇰
   type: vmess
   server: lcv8v9l7oyamxxfz.v.3dns.vip
   port: 443
@@ -121,157 +314,22 @@ proxies:
     headers:
       Host: lcv8v9l7OyamxxfZ.v.3dns.vip
 
-- name: 10 🇭🇰
+- name: 25 🇭🇰
   type: vmess
-  server: 43.198.204.35
+  server: drbkg16egf3fzlm3.v.3dns.vip
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  servername: ce0gedpxwou6cqon.v.3dns.vip
+  servername: drbkg16egf3fzlm3.v.3dns.vip
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: ce0gedpxwou6cqon.v.3dns.vip
+      Host: DrBKg16eGf3FZlM3.v.3dns.vip
 
-- name: 11 🇭🇰
-  type: vmess
-  server: 47.86.107.119
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
-
-- name: 12 🇭🇰
-  type: vmess
-  server: 47.83.19.148
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-
-- name: 13 🇭🇰
-  type: vmess
-  server: 8.218.184.4
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: NYcQg19zkwaCPM1B.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: NYcQg19zkwaCPM1B.v.3dns.vip
-
-- name: 14 🇭🇰
-  type: vmess
-  server: ejomsxptp19apygl.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: ejomsxptp19apygl.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: ejomsxptp19apygl.v.3dns.vip
-
-- name: 15 🇭🇰
-  type: vmess
-  server: ce0gedpxwou6cqon.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: ce0gedpxwou6cqon.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: ce0gedpxwou6cqon.v.3dns.vip
-
-- name: 16 🇭🇰
-  type: vmess
-  server: nycqg19zkwacpm1b.v.3dns.vip
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: NYcQg19zkwaCPM1B.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: NYcQg19zkwaCPM1B.v.3dns.vip
-
-- name: 17 🇭🇰
-  type: vmess
-  server: nycqg19zkwacpm1b.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: NYcQg19zkwaCPM1B.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: NYcQg19zkwaCPM1B.v.3dns.vip
-
-- name: 18 🇭🇰
-  type: vmess
-  server: vah4urdzl3jdx5r2.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: vah4urdzl3jdx5r2.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
-
-- name: 19 🇭🇰
-  type: vmess
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
-
-- name: 20 🇭🇰
+- name: 26 🇭🇰
   type: vmess
   server: qtkdr8jxe3wefxjm.v.3dns.vip
   port: 443
@@ -286,22 +344,52 @@ proxies:
     headers:
       Host: qTKDR8jXE3wEFxJM.v.3dns.vip
 
-- name: 21 🇭🇰
+- name: 27 🇭🇰
   type: vmess
-  server: 6jdvarazgu3qqr6q.v.3dns.vip
+  server: drbkg16egf3fzlm3.v.3dns.vip
+  port: 443
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: drbkg16egf3fzlm3.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: drbkg16egf3fzlm3.v.3dns.vip
+
+- name: 28 🇭🇰
+  type: vmess
+  server: ejomsxptp19apygl.v.3dns.vip
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  servername: ejOMsxPtP19APyGL.v.3dns.vip
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+      Host: ejOMsxPtP19APyGL.v.3dns.vip
 
-- name: 22 🇭🇰
+- name: 29 🇭🇰
+  type: vmess
+  server: 210.138.37.53
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: DrBKg16eGf3FZlM3.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: DrBKg16eGf3FZlM3.v.3dns.vip
+
+- name: 30 🇭🇰
   type: vmess
   server: ex1ogt73nzpqkac2.v.3dns.vip
   port: 443
@@ -316,7 +404,7 @@ proxies:
     headers:
       Host: EX1oGt73NzPQKAc2.v.3dns.vip
 
-- name: 23 🇭🇰
+- name: 31 🇭🇰
   type: vmess
   server: mtckundigepwu3up.v.3dns.vip
   port: 443
@@ -331,37 +419,37 @@ proxies:
     headers:
       Host: mTCKUNDiGePwU3uP.v.3dns.vip
 
-- name: 24 🇭🇰
+- name: 32 🇭🇰
   type: vmess
-  server: i2psm3knof5qjjix.v.3dns.vip
+  server: drbkg16egf3fzlm3.v.3dns.vip
+  port: 443
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: DrBKg16eGf3FZlM3.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: DrBKg16eGf3FZlM3.v.3dns.vip
+
+- name: 33 🇭🇰
+  type: vmess
+  server: wwafj5lhl6bi8au9.v.3dns.vip
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  servername: I2PSm3Knof5qjjix.v.3dns.vip
+  servername: wwafj5LHl6bI8aU9.v.3dns.vip
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: I2PSm3Knof5qjjix.v.3dns.vip
+      Host: wwafj5LHl6bI8aU9.v.3dns.vip
 
-- name: 25 🇭🇰
-  type: vmess
-  server: m01c7b2z26dtqgee.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: M01c7B2z26DtQGEe.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: M01c7B2z26DtQGEe.v.3dns.vip
-
-- name: 26 🇭🇰
+- name: 34 🇭🇰
   type: vmess
   server: ex1ogt73nzpqkac2.v.3dns.vip
   port: 443
@@ -376,160 +464,22 @@ proxies:
     headers:
       Host: ex1ogt73nzpqkac2.v.3dns.vip
 
-- name: 27 🇭🇰
+- name: 35 🇭🇰
   type: vmess
-  server: 47.86.107.119
+  server: 43.198.204.35
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
+  servername: ce0gedpxwou6cqon.v.3dns.vip
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
-
-- name: 28 🇭🇰
-  type: vmess
-  server: 93ucrn4i0pffuabk.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: 93ucrn4i0PffUAbk.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 93ucrn4i0PffUAbk.v.3dns.vip
-
-- name: 29 🇭🇰
-  type: vmess
-  server: 47.83.19.148
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-
-- name: 30 🇫🇷
-  type: trojan
-  server: www.speedtest.net
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 31 🇫🇷
-  type: trojan
-  server: 212.183.88.136
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 32 🇫🇷
-  type: trojan
-  server: 185.255.179.166
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 33 🇫🇷
-  type: trojan
-  server: 104.16.72.41
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 34 🇫🇷
-  type: trojan
-  server: www.calmlunch.com
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 35 🇫🇷
-  type: trojan
-  server: 188.114.98.0
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
+      Host: ce0gedpxwou6cqon.v.3dns.vip
 
 - name: 36 🇫🇷
-  type: trojan
-  server: www.calmlunch.com
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 37 🇫🇷
-  type: trojan
-  server: 188.114.96.3
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 38 🇫🇷
-  type: trojan
-  server: 185.18.250.252
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 39 🇫🇷
   type: trojan
   server: 165.215.250.14
   port: 443
@@ -541,19 +491,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 40 🇫🇷
-  type: trojan
-  server: 172.64.152.23
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 41 🇮🇩
+- name: 37 🇮🇩
   type: trojan
   server: 104.21.70.21
   port: 443
@@ -565,7 +503,7 @@ proxies:
     headers:
       Host: id1.nathaya.web.id
 
-- name: 42 🇳🇱
+- name: 38 🇳🇱
   type: trojan
   server: 188.42.145.180
   port: 443
@@ -577,7 +515,7 @@ proxies:
     headers:
       Host: www.volumeroot.com
 
-- name: 43 🇳🇱
+- name: 39 🇳🇱
   type: trojan
   server: 213.182.199.137
   port: 443
@@ -589,7 +527,7 @@ proxies:
     headers:
       Host: www.pleadcourt.org
 
-- name: 44 🇳🇱
+- name: 40 🇳🇱
   type: trojan
   server: 213.182.199.137
   port: 443
@@ -601,7 +539,31 @@ proxies:
     headers:
       Host: www.pleadcourt.org
 
-- name: 45 🇺🇸
+- name: 41 🇳🇱
+  type: trojan
+  server: 213.182.199.137
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+
+- name: 42 🇳🇱
+  type: trojan
+  server: 213.182.199.137
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+
+- name: 43 🇺🇸
   type: trojan
   server: 199.232.78.160
   port: 443
@@ -613,7 +575,7 @@ proxies:
     headers:
       Host: 1--2---3--mitivpn.global.ssl.fastly.net
 
-- name: 46 🇺🇸
+- name: 44 🇺🇸
   type: trojan
   server: 151.101.56.7
   port: 443
@@ -624,15 +586,3 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
       Host: mitivpn-ss-ss.global.ssl.fastly.net
-
-- name: 47 🇺🇸
-  type: trojan
-  server: www.speedtest.net
-  port: 443
-  password: A4u%5Ep(_UR*F6
-  sni: 027.ELeCTroCelLco-CF-027.wORkERS.dEv
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoidlhnMXN5OXFUSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
-    headers:
-      Host: 027.electrocellco-cf-027.workers.dev
