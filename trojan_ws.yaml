@@ -2,7 +2,7 @@ proxies:
 
 - name: 1 🇫🇷
   type: trojan
-  server: www.speedtest.net
+  server: 185.220.100.168
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -14,7 +14,7 @@ proxies:
 
 - name: 2 🇫🇷
   type: trojan
-  server: 212.183.88.136
+  server: 45.87.41.18
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -26,7 +26,7 @@ proxies:
 
 - name: 3 🇫🇷
   type: trojan
-  server: 185.220.100.168
+  server: 45.205.0.6
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -38,7 +38,7 @@ proxies:
 
 - name: 4 🇫🇷
   type: trojan
-  server: 185.255.179.166
+  server: 188.114.98.0
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -50,7 +50,7 @@ proxies:
 
 - name: 5 🇫🇷
   type: trojan
-  server: 104.16.72.41
+  server: 188.114.98.0
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -62,7 +62,7 @@ proxies:
 
 - name: 6 🇫🇷
   type: trojan
-  server: www.calmlunch.com
+  server: 188.114.96.3
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -74,7 +74,7 @@ proxies:
 
 - name: 7 🇫🇷
   type: trojan
-  server: 188.114.98.0
+  server: www.calmlunch.com
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -86,7 +86,7 @@ proxies:
 
 - name: 8 🇫🇷
   type: trojan
-  server: www.calmlunch.com
+  server: www.speedtest.net
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -98,7 +98,7 @@ proxies:
 
 - name: 9 🇫🇷
   type: trojan
-  server: 188.114.96.3
+  server: 212.183.88.136
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -110,7 +110,7 @@ proxies:
 
 - name: 10 🇫🇷
   type: trojan
-  server: 185.18.250.252
+  server: www.calmlunch.com
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -122,7 +122,7 @@ proxies:
 
 - name: 11 🇫🇷
   type: trojan
-  server: 165.215.250.14
+  server: 185.18.250.252
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -158,15 +158,15 @@ proxies:
 
 - name: 14 🇳🇱
   type: trojan
-  server: 188.42.145.180
+  server: 213.182.199.137
   port: 443
   password: humanity
-  sni: www.volumeroot.com
+  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
     headers:
-      Host: www.volumeroot.com
+      Host: www.pleadcourt.org
 
 - name: 15 🇳🇱
   type: trojan
@@ -215,3 +215,15 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
+
+- name: 19 🇳🇱
+  type: trojan
+  server: 188.42.145.180
+  port: 443
+  password: humanity
+  sni: www.volumeroot.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.volumeroot.com

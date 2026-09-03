@@ -1,84 +1,46 @@
 proxies:
 
-- name: 72 🇫🇷
-  type: trojan
-  server: 104.16.72.41
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 21 🇯🇵
-  type: vless
-  server: 172.67.156.147
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-
-- name: 70 🇫🇷
-  type: trojan
-  server: 185.220.100.168
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 22 🇳🇱
-  type: vless
-  server: 151.242.2.81
-  port: 443
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-  network: ws
-  tls: true
-  servername: cf9.rumedia-cdn.com
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf9.rumedia-cdn.com
-
-- name: 25 🇸🇬
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: c6c1760f-f6af-4a54-8600-cf9c9971f7d8
-  network: ws
-  tls: true
-  servername: sgdo1.cassanova.biz.id
-  ws-opts:
-    path: /vless
-    headers:
-      Host: sgdo1.cassanova.biz.id
-
-- name: 39 🇭🇰
+- name: 20 🇭🇰
   type: vmess
-  server: 8.218.184.4
+  server: ce0gedpxwou6cqon.v.3dns.vip
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  servername: NYcQg19zkwaCPM1B.v.3dns.vip
+  servername: ce0gedpxwou6cqon.v.3dns.vip
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: NYcQg19zkwaCPM1B.v.3dns.vip
+      Host: ce0gedpxwou6cqon.v.3dns.vip
 
-- name: 51 🇭🇰
+- name: 34 🇫🇷
+  type: trojan
+  server: 188.114.96.3
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 5 🇺🇸
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 0f0b7f69-78e1-4e9e-8b35-0986444613e4
+  network: ws
+  tls: true
+  servername: xwrivr.pages.dev
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: xwrivr.pages.dev
+
+- name: 26 🇭🇰
   type: vmess
   server: mtckundigepwu3up.v.3dns.vip
   port: 443
@@ -93,22 +55,61 @@ proxies:
     headers:
       Host: mTCKUNDiGePwU3uP.v.3dns.vip
 
-- name: 32 🇺🇸
+- name: 2 🇫🇮
   type: vless
-  server: 141.101.122.147
+  server: 31.76.88.10
   port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
   network: ws
   tls: true
-  servername: a.cwvps.eu.org
+  servername: cf5.rumedia-cdn.com
   ws-opts:
-    path: /ws
+    path: /cdn/v3/live
     headers:
-      Host: a.cwvps.eu.org
+      Host: cf5.rumedia-cdn.com
 
-- name: 74 🇫🇷
+- name: 45 🇳🇱
   type: trojan
-  server: 188.114.98.0
+  server: 213.182.199.137
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+
+- name: 42 🇳🇱
+  type: trojan
+  server: 213.182.199.137
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+
+- name: 22 🇭🇰
+  type: vmess
+  server: m01c7b2z26dtqgee.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: M01c7B2z26DtQGEe.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: M01c7B2z26DtQGEe.v.3dns.vip
+
+- name: 37 🇫🇷
+  type: trojan
+  server: 212.183.88.136
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -118,17 +119,14 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 41 🇭🇰
-  type: vmess
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
+- name: 39 🇫🇷
+  type: trojan
+  server: 185.18.250.252
   port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
+  password: humanity
+  sni: www.calmlunch.com
   network: ws
-  tls: true
-  servername: qtkdr8jxe3wefxjm.v.3dns.vip
   ws-opts:
-    path: /ws-vmess
+    path: /assignment
     headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
+      Host: www.calmlunch.com
