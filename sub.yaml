@@ -1,8 +1,20 @@
 proxies:
 
-- name: 24 🇫🇷
+- name: 36 🇮🇩
   type: trojan
-  server: 188.114.98.0
+  server: 104.21.70.21
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  sni: id1.nathaya.web.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+
+- name: 32 🇫🇷
+  type: trojan
+  server: www.speedtest.net
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -12,61 +24,36 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 2 🇹🇷
-  type: vless
-  server: sinavm.soft10.ir
+- name: 43 🇳🇱
+  type: trojan
+  server: 188.42.145.180
   port: 443
-  uuid: 3a09e0c9-4194-4b85-8d7f-fd1fc38f00b2
+  password: humanity
+  sni: www.volumeroot.com
   network: ws
-  tls: true
-  servername: sinavm.soft10.ir
   ws-opts:
-    path: /assignment----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM
+    path: /assignment
     headers:
-      Host: sinavm.soft10.ir
+      Host: www.volumeroot.com
 
-- name: 17 🇭🇰
+- name: 11 🇭🇰
   type: vmess
-  server: u2frxj0g13vdi0wo.v.3dns.vip
+  server: 6jdvarazgu3qqr6q.v.3dns.vip
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  servername: U2FRxj0G13vDI0Wo.v.3dns.vip
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
 
-- name: 38 🇳🇱
+- name: 35 🇫🇷
   type: trojan
-  server: 213.182.199.137
-  port: 443
-  password: humanity
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-
-- name: 40 🇳🇱
-  type: trojan
-  server: 213.182.199.137
-  port: 443
-  password: humanity
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-
-- name: 27 🇫🇷
-  type: trojan
-  server: 185.220.100.168
+  server: 172.64.152.23
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -76,53 +63,71 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 23 🇫🇷
-  type: trojan
-  server: 165.215.250.14
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: //assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 28 🇫🇷
-  type: trojan
-  server: 104.18.12.149
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 31 🇫🇷
-  type: trojan
-  server: 188.114.96.3
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 14 🇭🇰
+- name: 7 🇭🇰
   type: vmess
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  server: 47.83.19.148
+  port: 443
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+
+- name: 18 🇭🇰
+  type: vmess
+  server: mtckundigepwu3up.v.3dns.vip
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  servername: qtkdr8jxe3wefxjm.v.3dns.vip
+  servername: mTCKUNDiGePwU3uP.v.3dns.vip
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
+      Host: mTCKUNDiGePwU3uP.v.3dns.vip
+
+- name: 33 🇫🇷
+  type: trojan
+  server: 88.99.189.60
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 25 🇫🇷
+  type: trojan
+  server: 45.130.125.160
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 6 🇭🇰
+  type: vmess
+  server: 43.198.204.35
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: ce0gedpxwou6cqon.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: ce0gedpxwou6cqon.v.3dns.vip
