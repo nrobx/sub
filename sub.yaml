@@ -1,60 +1,32 @@
 proxies:
 
-- name: 18 🇭🇰
-  type: vmess
-  server: wwafj5lhl6bi8au9.v.3dns.vip
+- name: 4 🇩🇪
+  type: vless
+  server: 169.58.143.21
   port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
+  uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c
   network: ws
   tls: true
-  servername: wwafj5LHl6bI8aU9.v.3dns.vip
+  servername: finite-node.rtxconfigz.com
   ws-opts:
-    path: /ws-vmess
+    path: /
     headers:
-      Host: wwafj5LHl6bI8aU9.v.3dns.vip
+      Host: telegram.us
 
-- name: 13 🇭🇰
-  type: vmess
-  server: vah4urdzl3jdx5r2.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
+- name: 5 🇩🇪
+  type: vless
+  server: sary.vip1111.ir
+  port: 8443
+  uuid: ad5dac05-0416-421e-bbf9-d4f19306b458
   network: ws
   tls: true
-  servername: vah4urdzl3jdx5r2.v.3dns.vip
+  servername: safe.vip1111.ir
   ws-opts:
-    path: /ws-vmess
+    path: /report/466281-elecomp-29-tech-exhibition-opening/
     headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
+      Host: safe.vip1111.ir
 
-- name: 37 🇫🇷
-  type: trojan
-  server: 212.183.88.136
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 30 🇫🇷
-  type: trojan
-  server: 45.87.41.18
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 44 🇳🇱
+- name: 46 🇳🇱
   type: trojan
   server: 213.182.199.137
   port: 443
@@ -66,69 +38,93 @@ proxies:
     headers:
       Host: www.pleadcourt.org
 
-- name: 4 🇺🇸
+- name: 7 🇫🇮
+  type: vless
+  server: 31.76.88.10
+  port: 443
+  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
+  network: ws
+  tls: true
+  servername: cf5.rumedia-cdn.com
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: cf5.rumedia-cdn.com
+
+- name: 22 🇳🇱
+  type: vless
+  server: 151.242.2.81
+  port: 443
+  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
+  network: ws
+  tls: true
+  servername: cf9.rumedia-cdn.com
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: cf9.rumedia-cdn.com
+
+- name: 3 🇩🇪
+  type: vless
+  server: sary.vip1111.ir
+  port: 8443
+  uuid: ad5dac05-0416-421e-bbf9-d4f19306b458
+  network: ws
+  tls: true
+  servername: safe.vip1111.ir
+  ws-opts:
+    path: /report/466281-elecomp-29-tech-exhibition-opening/
+    headers:
+      Host: safe.vip1111.ir
+
+- name: 17 🇯🇵
+  type: vless
+  server: 172.67.156.147
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  tls: true
+  servername: jp3.yohototo.top
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+
+- name: 16 🇭🇰
   type: vless
   server: 188.114.97.6
   port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
   network: ws
   tls: true
-  servername: a.cwvps.eu.org
+  servername: mao.kipfel.kdns.fr
   ws-opts:
-    path: /ws
+    path: /glasspanel/guest000_0_5de14443985f/
     headers:
-      Host: a.cwvps.eu.org
+      Host: mao.kipfel.kdns.fr
 
-- name: 35 🇫🇷
-  type: trojan
-  server: www.calmlunch.com
+- name: 38 🇺🇸
+  type: vless
+  server: 188.114.97.7
   port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 19 🇭🇰
-  type: vmess
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
+  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
   network: ws
   tls: true
-  servername: qTKDR8jXE3wEFxJM.v.3dns.vip
+  servername: o94Yv7LIF0-aNXISd9eFehvvS7mxn6bH.Z-ULe-iKa-d-e-ne-K-e.wORkeRs.Dev
   ws-opts:
-    path: /ws-vmess
+    path: /7J5lLqtBnJg9WjVT?ed=2560
     headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
+      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
 
-- name: 40 🇫🇷
-  type: trojan
-  server: 172.64.152.23
+- name: 39 🇺🇸
+  type: vless
+  server: www.speedtest.net
   port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 10 🇭🇰
-  type: vmess
-  server: 47.83.207.148
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
+  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
   network: ws
   tls: true
-  servername: vah4urdzl3jdx5r2.v.3dns.vip
+  servername: O94yv7LIF0-AnXisD9EFEhVVS7mxN6Bh.Z-UlE-iKA-D-E-ne-k-e.wORkers.dEv
   ws-opts:
-    path: /ws-vmess
+    path: /CmtD3y72juVnvSxU?ed=2560
     headers:
-      Host: ''
+      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
