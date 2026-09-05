@@ -1,58 +1,279 @@
 proxies:
 
-- name: 1 🇹🇷
+- name: 1 🇩🇪
   type: vless
-  server: sinavm.soft10.ir
+  server: 169.58.143.21
   port: 443
-  uuid: 3a09e0c9-4194-4b85-8d7f-fd1fc38f00b2
+  uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c
   network: ws
   tls: true
-  servername: sinavm.soft10.ir
+  servername: finite-node.rtxconfigz.com
   ws-opts:
-    path: /assignment----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM
+    path: /
     headers:
-      Host: sinavm.soft10.ir
+      Host: telegram.us
 
-- name: 2 🇹🇷
+- name: 2 🇫🇮
   type: vless
-  server: sinavm.soft10.ir
+  server: 151.101.56.6
   port: 443
-  uuid: 3a09e0c9-4194-4b85-8d7f-fd1fc38f00b2
+  uuid: 607f4f6c-2a71-43aa-e047-1ff5b5c23f67
   network: ws
   tls: true
-  servername: sinavm.soft10.ir
+  servername: ssl.fastly.com
   ws-opts:
-    path: /assignment----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM
+    path: /?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
     headers:
-      Host: sinavm.soft10.ir
+      Host: c12.com
 
-- name: 3 🇺🇸
+- name: 3 🇫🇮
   type: vless
-  server: 152.53.90.42
+  server: 31.76.88.10
+  port: 443
+  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
+  network: ws
+  tls: true
+  servername: cf5.rumedia-cdn.com
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: cf5.rumedia-cdn.com
+
+- name: 4 🇫🇷
+  type: vless
+  server: 146.59.35.134
   port: 8443
-  uuid: 23578a2c-2493-41f0-89ef-d7d3a7b85252
+  uuid: f798a2c4-c51b-409d-b349-ca8455b36796
   network: ws
   tls: true
-  servername: usa1.pad-service.com
+  servername: chopin.adaspoloandco.com
   ws-opts:
-    path: /USA1
+    path: /download.php
     headers:
-      Host: usa1.pad-service.com
+      Host: chopin.adaspoloandco.com
 
-- name: 4 🇺🇸
+- name: 5 🇫🇷
   type: vless
-  server: 141.101.122.147
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  server: 146.59.35.134
+  port: 8443
+  uuid: f798a2c4-c51b-409d-b349-ca8455b36796
   network: ws
   tls: true
-  servername: a.cwvps.eu.org
+  servername: chopin.adaspoloandco.com
   ws-opts:
-    path: /ws
+    path: /download.php
     headers:
-      Host: a.cwvps.eu.org
+      Host: chopin.adaspoloandco.com
 
-- name: 5 🇺🇸
+- name: 6 🇫🇷
+  type: vless
+  server: chopin.adaspoloandco.com
+  port: 8443
+  uuid: f798a2c4-c51b-409d-b349-ca8455b36796
+  network: ws
+  tls: true
+  servername: chopin.adaspoloandco.com
+  ws-opts:
+    path: /download.php
+    headers:
+      Host: chopin.adaspoloandco.com
+
+- name: 7 🇫🇷
+  type: vless
+  server: 81.95.4.189
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  network: ws
+  tls: true
+  servername: bab-6.site
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+
+- name: 8 🇬🇧
+  type: vless
+  server: 129.121.95.159
+  port: 443
+  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
+  network: ws
+  tls: true
+  servername: 129.121.95.159
+  ws-opts:
+    path: /connect
+    headers:
+      Host: 129.121.95.159
+
+- name: 9 🇬🇧
+  type: vless
+  server: 104.21.55.47
+  port: 2087
+  uuid: 213426db-afb7-48d1-ae51-5093317212df
+  network: ws
+  tls: true
+  servername: iopl90nn.bingnet.online
+  ws-opts:
+    path: /
+    headers:
+      Host: iopl90nn.bingnet.online
+
+- name: 10 🇬🇧
+  type: vless
+  server: 172.66.44.97
+  port: 443
+  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
+  network: ws
+  tls: true
+  servername: terazhediii.info
+  ws-opts:
+    path: /hdgrbws
+    headers:
+      Host: terazhediii.info
+
+- name: 11 🇳🇱
+  type: vless
+  server: 151.101.56.7
+  port: 443
+  uuid: d2299018-601d-488e-afd6-8f55b3f7439f
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
+    headers:
+      Host: pan1.global.ssl.fastly.net
+
+- name: 12 🇳🇱
+  type: vless
+  server: 151.242.2.81
+  port: 443
+  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
+  network: ws
+  tls: true
+  servername: cf9.rumedia-cdn.com
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: cf9.rumedia-cdn.com
+
+- name: 13 🇺🇸
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 0f0b7f69-78e1-4e9e-8b35-0986444613e4
+  network: ws
+  tls: true
+  servername: xwrivr.pages.dev
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: xwrivr.pages.dev
+
+- name: 14 🇺🇸
+  type: vless
+  server: 104.21.85.220
+  port: 443
+  uuid: 7893b302-3882-4c38-9ab6-6313f1575d1a
+  network: ws
+  tls: true
+  servername: cf.udpid.org
+  ws-opts:
+    path: /@zyzzzoao
+    headers:
+      Host: cf.udpid.org
+
+- name: 15 🇺🇸
+  type: vless
+  server: 8.35.211.115
+  port: 2087
+  uuid: 1e49ee8c-33be-4db8-8445-7203f18aecfa
+  network: ws
+  tls: true
+  servername: mysheep.dpdns.org
+  ws-opts:
+    path: /
+    headers:
+      Host: mysheep.dpdns.org
+
+- name: 16 🇺🇸
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
+  network: ws
+  tls: true
+  servername: O94yv7LIF0-AnXisD9EFEhVVS7mxN6Bh.Z-UlE-iKA-D-E-ne-k-e.wORkers.dEv
+  ws-opts:
+    path: /CmtD3y72juVnvSxU?ed=2560
+    headers:
+      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
+
+- name: 17 🇺🇸
+  type: vless
+  server: 188.114.97.7
+  port: 443
+  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
+  network: ws
+  tls: true
+  servername: o94Yv7LIF0-aNXISd9eFehvvS7mxn6bH.Z-ULe-iKa-d-e-ne-K-e.wORkeRs.Dev
+  ws-opts:
+    path: /7J5lLqtBnJg9WjVT?ed=2560
+    headers:
+      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
+
+- name: 18 🇺🇸
+  type: vless
+  server: 188.114.98.134
+  port: 443
+  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
+  network: ws
+  tls: true
+  servername: o94yv7LiF0-AnxIsd9EFehVvs7mXn6bh.z-UlE-ikA-d-e-nE-k-E.WorkeRs.dEv
+  ws-opts:
+    path: /yraL4HRbwB8cMc0F?ed=2560
+    headers:
+      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
+
+- name: 19 🇺🇸
+  type: vless
+  server: 188.114.96.7
+  port: 443
+  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
+  network: ws
+  tls: true
+  servername: o94yv7lIF0-AnXiSd9EFeHVVS7mxn6Bh.z-ULe-IKA-d-e-Ne-k-E.WORKERs.DEv
+  ws-opts:
+    path: /dbJqwUHWfrXV0Z3Q?ed=2560
+    headers:
+      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
+
+- name: 20 🇺🇸
+  type: vless
+  server: cf-vless-4cf55824.aimall.fr
+  port: 443
+  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
+  network: ws
+  tls: true
+  servername: cf-vless-4cf55824.aimall.fr
+  ws-opts:
+    path: /connect
+    headers:
+      Host: cf-vless-4cf55824.aimall.fr
+
+- name: 21 🇺🇸
+  type: vless
+  server: 188.164.248.123
+  port: 8443
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  network: ws
+  tls: true
+  servername: vp21.cc.cd
+  ws-opts:
+    path: /
+    headers:
+      Host: vp21.cc.cd
+
+- name: 22 🇺🇸
   type: vless
   server: 188.114.97.6
   port: 443
