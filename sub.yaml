@@ -1,107 +1,57 @@
 proxies:
 
-- name: 12 🇭🇰
+- name: 14 🇺🇸
+  type: trojan
+  server: 199.232.78.160
+  port: 443
+  password: MiTiVPN
+  sni: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: mitivpn-ss-mitivpn-----mitivpn.global.ssl.fastly.net
+
+- name: 10 🇫🇷
+  type: trojan
+  server: 188.114.98.0
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 8 🇫🇷
+  type: trojan
+  server: 212.183.88.136
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 4 🇭🇰
   type: vmess
-  server: vah4urdzl3jdx5r2.v.3dns.vip
+  server: ex1ogt73nzpqkac2.v.3dns.vip
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  servername: vah4urdzl3jdx5r2.v.3dns.vip
+  servername: EX1oGt73NzPQKAc2.v.3dns.vip
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
+      Host: EX1oGt73NzPQKAc2.v.3dns.vip
 
-- name: 11 🇭🇰
-  type: vmess
-  server: u2frxj0g13vdi0wo.v.3dns.vip
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: U2FRxj0G13vDI0Wo.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
-
-- name: 4 🇺🇸
-  type: vless
-  server: 188.114.97.6
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-
-- name: 9 🇭🇰
-  type: vmess
-  server: 20.235.220.189
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-
-- name: 10 🇭🇰
-  type: vmess
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: qtkdr8jxe3wefxjm.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
-
-- name: 13 🇭🇰
-  type: vmess
-  server: i2psm3knof5qjjix.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: I2PSm3Knof5qjjix.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: I2PSm3Knof5qjjix.v.3dns.vip
-
-- name: 3 🇺🇸
-  type: vless
-  server: 141.101.122.147
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 19 🇳🇱
+- name: 12 🇳🇱
   type: trojan
   server: 213.182.199.137
   port: 443
@@ -113,19 +63,7 @@ proxies:
     headers:
       Host: www.pleadcourt.org
 
-- name: 18 🇳🇱
-  type: trojan
-  server: 188.42.145.180
-  port: 443
-  password: humanity
-  sni: www.volumeroot.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.volumeroot.com
-
-- name: 8 🇭🇰
+- name: 3 🇭🇰
   type: vmess
   server: wwafj5lhl6bi8au9.v.3dns.vip
   port: 443
@@ -139,3 +77,58 @@ proxies:
     path: /ws-vmess
     headers:
       Host: wwafj5LHl6bI8aU9.v.3dns.vip
+
+- name: 13 🇺🇸
+  type: trojan
+  server: 199.232.78.160
+  port: 443
+  password: MiTiVPN
+  sni: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mitivpn-ss-mitivpn-----mitivpn.global.ssl.fastly.net
+
+- name: 5 🇭🇰
+  type: vmess
+  server: m01c7b2z26dtqgee.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: M01c7B2z26DtQGEe.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: M01c7B2z26DtQGEe.v.3dns.vip
+
+- name: 1 🇺🇸
+  type: vless
+  server: 188.114.97.6
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  network: ws
+  tls: true
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+
+- name: 6 🇭🇰
+  type: vmess
+  server: lcv8v9l7oyamxxfz.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
