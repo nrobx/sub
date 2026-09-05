@@ -1,80 +1,113 @@
 proxies:
 
-- name: 25 🇫🇷
-  type: trojan
-  server: 104.19.229.21
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: //assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 2 🇫🇮
+- name: 15 🇳🇱
   type: vless
-  server: 151.101.56.6
+  server: 151.101.56.7
   port: 443
-  uuid: 607f4f6c-2a71-43aa-e047-1ff5b5c23f67
+  uuid: d2299018-601d-488e-afd6-8f55b3f7439f
   network: ws
   tls: true
   servername: ssl.fastly.com
   ws-opts:
-    path: /?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
     headers:
-      Host: c12.com
+      Host: pan1.global.ssl.fastly.net
 
-- name: 37 🇫🇷
+- name: 50 🇫🇷
+  type: trojan
+  server: 104.16.72.41
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 33 🇭🇰
+  type: vmess
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: qtkdr8jxe3wefxjm.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
+
+- name: 54 🇫🇷
+  type: trojan
+  server: 45.130.125.160
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 43 🇺🇸
+  type: vmess
+  server: 104.17.77.77
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: none
+  network: ws
+  tls: true
+  servername: v2ray1.dozapp.xyz
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+
+- name: 69 🇺🇸
   type: trojan
   server: www.speedtest.net
   port: 443
-  password: humanity
-  sni: www.calmlunch.com
+  password: A4u%5Ep(_UR*F6
+  sni: 027.ELeCTroCelLco-CF-027.wORkERS.dEv
   network: ws
   ws-opts:
-    path: /assignment
+    path: /eyJqdW5rIjoidlhnMXN5OXFUSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
     headers:
-      Host: www.calmlunch.com
+      Host: 027.electrocellco-cf-027.workers.dev
 
-- name: 15 🇺🇸
+- name: 5 🇩🇪
   type: vless
-  server: 8.35.211.115
-  port: 2087
-  uuid: 1e49ee8c-33be-4db8-8445-7203f18aecfa
+  server: 169.58.143.21
+  port: 443
+  uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c
   network: ws
   tls: true
-  servername: mysheep.dpdns.org
+  servername: finite-node.rtxconfigz.com
   ws-opts:
     path: /
     headers:
-      Host: mysheep.dpdns.org
+      Host: telegram.us
 
-- name: 35 🇫🇷
-  type: trojan
-  server: www.calmlunch.com
+- name: 32 🇭🇰
+  type: vmess
+  server: www.shopify.com
   port: 443
-  password: humanity
-  sni: www.calmlunch.com
+  uuid: d187a23a-76a9-4d55-84e3-ea3b8b222cbf
+  alterId: 0
+  cipher: auto
   network: ws
+  tls: true
+  servername: dimensional-regularly-buildings-keys.trycloudflare.com
   ws-opts:
-    path: /assignment
+    path: /d187a23a-76a9-4d55-84e3-ea3b8b222cbf-vm
     headers:
-      Host: www.calmlunch.com
+      Host: dimensional-regularly-buildings-keys.trycloudflare.com
 
-- name: 24 🇫🇷
-  type: trojan
-  server: 45.205.0.6
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 27 🇫🇷
+- name: 51 🇫🇷
   type: trojan
   server: 212.183.88.136
   port: 443
@@ -86,39 +119,15 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 6 🇫🇷
+- name: 3 🇩🇪
   type: vless
-  server: chopin.adaspoloandco.com
-  port: 8443
-  uuid: f798a2c4-c51b-409d-b349-ca8455b36796
+  server: 169.58.143.21
+  port: 443
+  uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c
   network: ws
   tls: true
-  servername: chopin.adaspoloandco.com
+  servername: finite-node.rtxconfigz.com
   ws-opts:
-    path: /download.php
+    path: /
     headers:
-      Host: chopin.adaspoloandco.com
-
-- name: 40 🇳🇱
-  type: trojan
-  server: 188.42.145.180
-  port: 443
-  password: humanity
-  sni: www.volumeroot.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.volumeroot.com
-
-- name: 32 🇫🇷
-  type: trojan
-  server: 185.220.100.168
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
+      Host: telegram.us
