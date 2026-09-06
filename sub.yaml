@@ -1,6 +1,66 @@
 proxies:
 
-- name: 1 🇩🇪
+- name: 40 🇭🇰
+  type: vmess
+  server: 6jdvarazgu3qqr6q.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+
+- name: 49 🇭🇰
+  type: vmess
+  server: m01c7b2z26dtqgee.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: M01c7B2z26DtQGEe.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: M01c7B2z26DtQGEe.v.3dns.vip
+
+- name: 46 🇭🇰
+  type: vmess
+  server: mtckundigepwu3up.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: mTCKUNDiGePwU3uP.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: mTCKUNDiGePwU3uP.v.3dns.vip
+
+- name: 67 🇺🇸
+  type: vmess
+  server: chatgpt.com
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: v2ray1.dozapp.xyz
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: ''
+
+- name: 2 🇩🇪
   type: vless
   server: 94.156.232.254
   port: 443
@@ -13,75 +73,37 @@ proxies:
     headers:
       Host: cf6.rumedia-cdn.com
 
-- name: 33 🇳🇱
-  type: trojan
-  server: 188.42.145.180
+- name: 22 🇳🇱
+  type: vless
+  server: 199.232.78.159
   port: 443
-  password: humanity
-  sni: www.volumeroot.com
+  uuid: e5c5c006-facc-45be-99bc-20d772372d5c
   network: ws
+  tls: true
+  servername: ssl.fastly.com
   ws-opts:
-    path: /assignment
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
     headers:
-      Host: www.volumeroot.com
+      Host: pane3.global.ssl.fastly.net
 
-- name: 25 🇭🇰
+- name: 33 🇭🇰
   type: vmess
-  server: 47.86.107.119
+  server: i2psm3knof5qjjix.v.3dns.vip
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
+  servername: I2PSm3Knof5qjjix.v.3dns.vip
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
+      Host: I2PSm3Knof5qjjix.v.3dns.vip
 
-- name: 16 🇺🇸
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 0f0b7f69-78e1-4e9e-8b35-0986444613e4
-  network: ws
-  tls: true
-  servername: xwrivr.pages.dev
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: xwrivr.pages.dev
-
-- name: 23 🇺🇸
-  type: vless
-  server: cf-vless-4cf55824.aimall.fr
-  port: 443
-  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
-  network: ws
-  tls: true
-  servername: cf-vless-4cf55824.aimall.fr
-  ws-opts:
-    path: /connect
-    headers:
-      Host: cf-vless-4cf55824.aimall.fr
-
-- name: 10 🇳🇱
-  type: vless
-  server: 151.242.2.81
-  port: 443
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-  network: ws
-  tls: true
-  servername: cf9.rumedia-cdn.com
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf9.rumedia-cdn.com
-
-- name: 31 🇫🇷
+- name: 70 🇫🇷
   type: trojan
-  server: 185.220.100.168
+  server: 212.183.88.136
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -91,41 +113,27 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 7 🇫🇮
+- name: 8 🇩🇪
   type: vless
-  server: a2.arshia-nova.ir
+  server: 169.58.143.21
   port: 443
-  uuid: 95b5d1d0-a878-4a52-bf2a-c8e323457b02
+  uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c
   network: ws
   tls: true
-  servername: ssl.fastly.com
+  servername: finite-node.rtxconfigz.com
   ws-opts:
     path: /
     headers:
-      Host: c12.com
+      Host: telegram.us
 
-- name: 24 🇺🇸
-  type: vless
-  server: 188.114.97.6
+- name: 76 🇫🇷
+  type: trojan
+  server: www.calmlunch.com
   port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  password: humanity
+  sni: www.calmlunch.com
   network: ws
-  tls: true
-  servername: a.cwvps.eu.org
   ws-opts:
-    path: /ws
+    path: /assignment
     headers:
-      Host: a.cwvps.eu.org
-
-- name: 22 🇺🇸
-  type: vless
-  server: 002.inc-electrocell-001-002.workers.dev
-  port: 443
-  uuid: 36a857e4-f3d4-43aa-8b90-d7da849da989
-  network: ws
-  tls: true
-  servername: 002.Inc-ElectROcElL-001-002.WoRKERS.DEV
-  ws-opts:
-    path: /eyJqdW5rIjoib0RnakxTZUZvOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
-    headers:
-      Host: 002.inc-electrocell-001-002.workers.dev
+      Host: www.calmlunch.com
