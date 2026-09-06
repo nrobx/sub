@@ -1,110 +1,49 @@
 proxies:
 
-- name: 40 🇭🇰
-  type: vmess
-  server: 6jdvarazgu3qqr6q.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-
-- name: 49 🇭🇰
-  type: vmess
-  server: m01c7b2z26dtqgee.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: M01c7B2z26DtQGEe.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: M01c7B2z26DtQGEe.v.3dns.vip
-
-- name: 46 🇭🇰
-  type: vmess
-  server: mtckundigepwu3up.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: mTCKUNDiGePwU3uP.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: mTCKUNDiGePwU3uP.v.3dns.vip
-
-- name: 67 🇺🇸
-  type: vmess
-  server: chatgpt.com
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: v2ray1.dozapp.xyz
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: ''
-
-- name: 2 🇩🇪
-  type: vless
-  server: 94.156.232.254
-  port: 443
-  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
-  network: ws
-  tls: true
-  servername: cf6.rumedia-cdn.com
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf6.rumedia-cdn.com
-
-- name: 22 🇳🇱
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: e5c5c006-facc-45be-99bc-20d772372d5c
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
-    headers:
-      Host: pane3.global.ssl.fastly.net
-
-- name: 33 🇭🇰
-  type: vmess
-  server: i2psm3knof5qjjix.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: I2PSm3Knof5qjjix.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: I2PSm3Knof5qjjix.v.3dns.vip
-
-- name: 70 🇫🇷
+- name: 37 🇺🇸
   type: trojan
-  server: 212.183.88.136
+  server: 151.101.56.7
   port: 443
+  password: MiTiVPN
+  sni: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: mitivpn-mitivpn-mitivpn--mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
+
+- name: 15 🇭🇰
+  type: vmess
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: qtkdr8jxe3wefxjm.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
+
+- name: 1 🇳🇱
+  type: vless
+  server: uptime.minooman.com
+  port: 443
+  uuid: e26b8a9a-2280-44bf-bf64-b553188d145b
+  network: ws
+  tls: true
+  servername: uptime.minooman.com
+  ws-opts:
+    path: /image/42296
+    headers:
+      Host: uptime.minooman.com
+
+- name: 24 🇫🇷
+  type: trojan
+  server: 212.227.144.37
+  port: 8443
   password: humanity
   sni: www.calmlunch.com
   network: ws
@@ -113,27 +52,83 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 8 🇩🇪
-  type: vless
-  server: 169.58.143.21
+- name: 8 🇭🇰
+  type: vmess
+  server: wwafj5lhl6bi8au9.v.3dns.vip
   port: 443
-  uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
   network: ws
   tls: true
-  servername: finite-node.rtxconfigz.com
+  servername: wwafj5LHl6bI8aU9.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: wwafj5LHl6bI8aU9.v.3dns.vip
+
+- name: 19 🇭🇰
+  type: vmess
+  server: ex1ogt73nzpqkac2.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: ex1ogt73nzpqkac2.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: ex1ogt73nzpqkac2.v.3dns.vip
+
+- name: 31 🇳🇱
+  type: trojan
+  server: 188.42.145.180
+  port: 443
+  password: humanity
+  sni: www.volumeroot.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.volumeroot.com
+
+- name: 26 🇫🇷
+  type: trojan
+  server: 104.19.229.21
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: //assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 18 🇭🇰
+  type: vmess
+  server: 93ucrn4i0pffuabk.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: 93ucrn4i0pffuabk.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: 93ucrn4i0PffUAbk.v.3dns.vip
+
+- name: 39 🇺🇸
+  type: trojan
+  server: 199.232.78.160
+  port: 443
+  password: M%69TiVPN
+  sni: ssl.fastly.com
+  network: ws
   ws-opts:
     path: /
     headers:
-      Host: telegram.us
-
-- name: 76 🇫🇷
-  type: trojan
-  server: www.calmlunch.com
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
+      Host: mitivpn-ss-mitivpn-----mitivpn.global.ssl.fastly.net
