@@ -1,10 +1,9 @@
 //profile-title: base64:d3MtaHR0cHVwZ3JhZGUtcG9ydC00NDMtaGFtZWRwNzE=
 //profile-update-interval: 1
 //subscription-userinfo: filter=ws
-trojan://humanity@212.183.88.136:443?host=www.calmlunch.com&path=/assignment&security=tls&sni=www.calmlunch.com&type=ws#8%20%F0%9F%87%AB%F0%9F%87%B7
-trojan://humanity@185.220.100.168:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#9%20%F0%9F%87%AB%F0%9F%87%B7
-trojan://humanity@188.114.98.0:443?path=%2Fassignment&security=tls&host=www.calmlunch.com&type=ws&sni=www.calmlunch.com#10%20%F0%9F%87%AB%F0%9F%87%B7
-trojan://humanity@188.114.96.3:443?security=tls&sni=www.calmlunch.com&type=ws&host=www.calmlunch.com&path=%2Fassignment#11%20%F0%9F%87%AB%F0%9F%87%B7
-trojan://humanity@213.182.199.137:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&type=ws&allowInsecure=0&sni=www.pleadcourt.org#12%20%F0%9F%87%B3%F0%9F%87%B1
-trojan://MiTiVPN@199.232.78.160:443?type=ws&host=mitivpn-ss-mitivpn-----mitivpn.global.ssl.fastly.net&path=%2F&security=tls&alpn=http%2F1.1&fp=chrome&sni=ssl.fastly.com#13%20%F0%9F%87%BA%F0%9F%87%B8
-trojan://MiTiVPN@199.232.78.160:443?type=ws&host=mitivpn-ss-mitivpn-----mitivpn.global.ssl.fastly.net&path=%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2FNLSs---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN&security=tls&alpn=http%2F1.1&fp=chrome&sni=ssl.fastly.com#14%20%F0%9F%87%BA%F0%9F%87%B8
+trojan://humanity@185.220.100.168:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#31%20%F0%9F%87%AB%F0%9F%87%B7
+trojan://humanity@188.42.145.180:443?path=/assignment&security=tls&alpn=http/1.1&host=www.volumeroot.com&fp=chrome&type=ws&sni=www.volumeroot.com#32%20%F0%9F%87%B3%F0%9F%87%B1
+trojan://humanity@188.42.145.180:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.volumeroot.com&fp=chrome&type=ws&allowInsecure=0&sni=www.volumeroot.com#33%20%F0%9F%87%B3%F0%9F%87%B1
+trojan://humanity@213.182.199.137:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&type=ws&allowInsecure=0&sni=www.pleadcourt.org#34%20%F0%9F%87%B3%F0%9F%87%B1
+trojan://MiTiVPN@199.232.78.160:443?type=ws&host=mitivpn-ss-mitivpn-----mitivpn.global.ssl.fastly.net&path=%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2FNLSs---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN&security=tls&alpn=http%2F1.1&fp=chrome&sni=ssl.fastly.com#35%20%F0%9F%87%BA%F0%9F%87%B8
+trojan://MiTiVPN@199.232.78.160:443?type=ws&host=mitivpn-ss-mitivpn-----mitivpn.global.ssl.fastly.net&path=%2F&security=tls&alpn=http%2F1.1&fp=chrome&sni=ssl.fastly.com#36%20%F0%9F%87%BA%F0%9F%87%B8

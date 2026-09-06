@@ -1,6 +1,175 @@
 proxies:
 
-- name: 1 🇺🇸
+- name: 1 🇩🇪
+  type: vless
+  server: 94.156.232.254
+  port: 443
+  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
+  network: ws
+  tls: true
+  servername: cf6.rumedia-cdn.com
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: cf6.rumedia-cdn.com
+
+- name: 2 🇩🇪
+  type: vless
+  server: 169.58.143.21
+  port: 443
+  uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c
+  network: ws
+  tls: true
+  servername: finite-node.rtxconfigz.com
+  ws-opts:
+    path: /
+    headers:
+      Host: telegram.us
+
+- name: 3 🇩🇪
+  type: vless
+  server: finite-node.rtxconfigz.com
+  port: 443
+  uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c
+  network: ws
+  tls: true
+  servername: finite-node.rtxconfigz.com
+  ws-opts:
+    path: /
+    headers:
+      Host: telegram.us
+
+- name: 4 🇫🇮
+  type: vless
+  server: a2.arshia-nova.ir
+  port: 443
+  uuid: 95b5d1d0-a878-4a52-bf2a-c8e323457b02
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /
+    headers:
+      Host: c12.com
+
+- name: 5 🇫🇮
+  type: vless
+  server: 151.101.56.6
+  port: 443
+  uuid: 95b5d1d0-a878-4a52-bf2a-c8e323457b02
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
+    headers:
+      Host: c12.com
+
+- name: 6 🇫🇮
+  type: vless
+  server: k2.cloud--vpn.site
+  port: 443
+  uuid: 95b5d1d0-a878-4a52-bf2a-c8e323457b02
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /
+    headers:
+      Host: c12.com
+
+- name: 7 🇫🇮
+  type: vless
+  server: a2.arshia-nova.ir
+  port: 443
+  uuid: 95b5d1d0-a878-4a52-bf2a-c8e323457b02
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /
+    headers:
+      Host: c12.com
+
+- name: 8 🇬🇧
+  type: vless
+  server: 129.121.95.159
+  port: 443
+  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
+  network: ws
+  tls: true
+  servername: 129.121.95.159
+  ws-opts:
+    path: /connect
+    headers:
+      Host: 129.121.95.159
+
+- name: 9 🇯🇵
+  type: vless
+  server: 162.159.254.3
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  tls: true
+  servername: jp3.yohototo.top
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+
+- name: 10 🇳🇱
+  type: vless
+  server: 151.242.2.81
+  port: 443
+  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
+  network: ws
+  tls: true
+  servername: cf9.rumedia-cdn.com
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: cf9.rumedia-cdn.com
+
+- name: 11 🇳🇱
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: 330847c8-123e-4f1e-aea4-f22ae1abaec4
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    headers:
+      Host: pane2.global.ssl.fastly.net
+
+- name: 12 🇳🇱
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: e5c5c006-facc-45be-99bc-20d772372d5c
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
+    headers:
+      Host: pane3.global.ssl.fastly.net
+
+- name: 13 🇳🇱
+  type: vless
+  server: uptime.minooman.com
+  port: 443
+  uuid: e26b8a9a-2280-44bf-bf64-b553188d145b
+  network: ws
+  tls: true
+  servername: uptime.minooman.com
+  ws-opts:
+    path: /image/42296
+    headers:
+      Host: uptime.minooman.com
+
+- name: 14 🇺🇸
   type: vless
   server: 188.114.97.6
   port: 2087
@@ -13,7 +182,20 @@ proxies:
     headers:
       Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
 
-- name: 2 🇺🇸
+- name: 15 🇺🇸
+  type: vless
+  server: 129.121.95.159
+  port: 443
+  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
+  network: ws
+  tls: true
+  servername: 129.121.95.159
+  ws-opts:
+    path: /connect
+    headers:
+      Host: 129.121.95.159
+
+- name: 16 🇺🇸
   type: vless
   server: 188.114.97.6
   port: 443
@@ -25,3 +207,107 @@ proxies:
     path: /?ed=2048
     headers:
       Host: xwrivr.pages.dev
+
+- name: 17 🇺🇸
+  type: vless
+  server: 151.101.1.242
+  port: 443
+  uuid: 63fcd1af-02c5-4048-bc03-def26ebe949a
+  network: ws
+  tls: true
+  servername: piracy-android.video-streams.org
+  ws-opts:
+    path: /ws
+    headers:
+      Host: piracy-android.video-streams.org
+
+- name: 18 🇺🇸
+  type: vless
+  server: 188.114.97.7
+  port: 443
+  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
+  network: ws
+  tls: true
+  servername: o94Yv7LIF0-aNXISd9eFehvvS7mxn6bH.Z-ULe-iKa-d-e-ne-K-e.wORkeRs.Dev
+  ws-opts:
+    path: /7J5lLqtBnJg9WjVT?ed=2560
+    headers:
+      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
+
+- name: 19 🇺🇸
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
+  network: ws
+  tls: true
+  servername: O94yv7LIF0-AnXisD9EFEhVVS7mxN6Bh.Z-UlE-iKA-D-E-ne-k-e.wORkers.dEv
+  ws-opts:
+    path: /CmtD3y72juVnvSxU?ed=2560
+    headers:
+      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
+
+- name: 20 🇺🇸
+  type: vless
+  server: 188.114.98.134
+  port: 443
+  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
+  network: ws
+  tls: true
+  servername: o94yv7LiF0-AnxIsd9EFehVvs7mXn6bh.z-UlE-ikA-d-e-nE-k-E.WorkeRs.dEv
+  ws-opts:
+    path: /yraL4HRbwB8cMc0F?ed=2560
+    headers:
+      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
+
+- name: 21 🇺🇸
+  type: vless
+  server: 188.114.96.7
+  port: 443
+  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
+  network: ws
+  tls: true
+  servername: o94yv7lIF0-AnXiSd9EFeHVVS7mxn6Bh.z-ULe-IKA-d-e-Ne-k-E.WORKERs.DEv
+  ws-opts:
+    path: /dbJqwUHWfrXV0Z3Q?ed=2560
+    headers:
+      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
+
+- name: 22 🇺🇸
+  type: vless
+  server: 002.inc-electrocell-001-002.workers.dev
+  port: 443
+  uuid: 36a857e4-f3d4-43aa-8b90-d7da849da989
+  network: ws
+  tls: true
+  servername: 002.Inc-ElectROcElL-001-002.WoRKERS.DEV
+  ws-opts:
+    path: /eyJqdW5rIjoib0RnakxTZUZvOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    headers:
+      Host: 002.inc-electrocell-001-002.workers.dev
+
+- name: 23 🇺🇸
+  type: vless
+  server: cf-vless-4cf55824.aimall.fr
+  port: 443
+  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
+  network: ws
+  tls: true
+  servername: cf-vless-4cf55824.aimall.fr
+  ws-opts:
+    path: /connect
+    headers:
+      Host: cf-vless-4cf55824.aimall.fr
+
+- name: 24 🇺🇸
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  network: ws
+  tls: true
+  servername: a.cwvps.eu.org
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
