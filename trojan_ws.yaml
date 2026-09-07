@@ -40,11 +40,11 @@ proxies:
   type: trojan
   server: 151.101.56.7
   port: 443
-  password: MiTiVPN
+  password: M%69TiVPN
   sni: ssl.fastly.com
   network: ws
   ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    path: '@mehrosaboran'
     headers:
       Host: mitivpn-mitivpn-mitivpn--mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
 
@@ -52,11 +52,11 @@ proxies:
   type: trojan
   server: 151.101.56.7
   port: 443
-  password: M%69TiVPN
+  password: MiTiVPN
   sni: ssl.fastly.com
   network: ws
   ws-opts:
-    path: '@mehrosaboran'
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
       Host: mitivpn-mitivpn-mitivpn--mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
 

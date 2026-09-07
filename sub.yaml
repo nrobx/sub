@@ -1,57 +1,82 @@
 proxies:
 
-- name: 2 🇭🇰
-  type: vmess
-  server: ex1ogt73nzpqkac2.v.3dns.vip
+- name: 18 🇺🇸
+  type: vless
+  server: 104.18.24.194
   port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
+  uuid: 7893b302-3882-4c38-9ab6-6313f1575d1a
   network: ws
   tls: true
-  servername: ex1ogt73nzpqkac2.v.3dns.vip
+  servername: cf.udpid.org
   ws-opts:
-    path: /ws-vmess
+    path: /@zyzzzoao
     headers:
-      Host: ex1ogt73nzpqkac2.v.3dns.vip
+      Host: cf.udpid.org
 
-- name: 7 🇺🇸
-  type: trojan
-  server: 151.101.56.7
+- name: 4 🇬🇧
+  type: vless
+  server: 129.121.95.159
   port: 443
-  password: M%69TiVPN
-  sni: ssl.fastly.com
+  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
   network: ws
+  tls: true
+  servername: 129.121.95.159
   ws-opts:
-    path: '@mehrosaboran'
+    path: /connect
     headers:
-      Host: mitivpn-mitivpn-mitivpn--mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
+      Host: 129.121.95.159
 
-- name: 5 🇳🇱
+- name: 28 🇺🇸
   type: trojan
-  server: 213.182.199.137
-  port: 443
-  password: humanity
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-
-- name: 6 🇺🇸
-  type: trojan
-  server: 151.101.56.7
+  server: 199.232.78.160
   port: 443
   password: MiTiVPN
   sni: ssl.fastly.com
   network: ws
   ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    path: /
     headers:
-      Host: mitivpn-mitivpn-mitivpn--mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
+      Host: mitivpn-ss-mitivpn-----mitivpn.global.ssl.fastly.net
 
-- name: 4 🇳🇱
+- name: 11 🇺🇸
+  type: vless
+  server: 188.114.98.134
+  port: 443
+  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
+  network: ws
+  tls: true
+  servername: o94yv7LiF0-AnxIsd9EFehVvs7mXn6bh.z-UlE-ikA-d-e-nE-k-E.WorkeRs.dEv
+  ws-opts:
+    path: /yraL4HRbwB8cMc0F?ed=2560
+    headers:
+      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
+
+- name: 1 🇩🇪
+  type: vless
+  server: 94.156.232.254
+  port: 443
+  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
+  network: ws
+  tls: true
+  servername: cf6.rumedia-cdn.com
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: cf6.rumedia-cdn.com
+
+- name: 25 🇺🇸
+  type: trojan
+  server: 199.232.78.160
+  port: 443
+  password: MiTiVPN
+  sni: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mitivpn-ss-mitivpn-----mitivpn.global.ssl.fastly.net
+
+- name: 21 🇳🇱
   type: trojan
   server: 104.21.33.59
   port: 443
@@ -63,31 +88,20 @@ proxies:
     headers:
       Host: www.pleadcourt.org
 
-- name: 10 🇺🇸
-  type: trojan
-  server: 151.101.56.7
+- name: 12 🇺🇸
+  type: vless
+  server: 188.114.96.7
   port: 443
-  password: MiTiVPN
-  sni: ssl.fastly.com
+  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
   network: ws
+  tls: true
+  servername: o94yv7lIF0-AnXiSd9EFeHVVS7mxn6Bh.z-ULe-IKA-d-e-Ne-k-E.WORKERs.DEv
   ws-opts:
-    path: '@mehrosaboran'
+    path: /dbJqwUHWfrXV0Z3Q?ed=2560
     headers:
-      Host: mitivpn-mitivpn-mitivpn--mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
+      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
 
-- name: 11 🇺🇸
-  type: trojan
-  server: 199.232.78.160
-  port: 443
-  password: MiTiVPN
-  sni: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mitivpn-ss-mitivpn-----mitivpn.global.ssl.fastly.net
-
-- name: 9 🇺🇸
+- name: 26 🇺🇸
   type: trojan
   server: 199.232.78.160
   port: 443
@@ -99,29 +113,14 @@ proxies:
     headers:
       Host: mitivpn-ss-mitivpn-----mitivpn.global.ssl.fastly.net
 
-- name: 3 🇳🇱
+- name: 24 🇺🇸
   type: trojan
-  server: 188.42.145.180
+  server: 151.101.56.7
   port: 443
-  password: humanity
-  sni: www.volumeroot.com
+  password: MiTiVPN
+  sni: ssl.fastly.com
   network: ws
   ws-opts:
-    path: /assignment
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
-      Host: www.volumeroot.com
-
-- name: 1 🇭🇰
-  type: vmess
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: EX1oGt73NzPQKAc2.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: EX1oGt73NzPQKAc2.v.3dns.vip
+      Host: mitivpn-mitivpn-mitivpn--mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
