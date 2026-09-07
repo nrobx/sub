@@ -1,18 +1,102 @@
 proxies:
 
-- name: 1 🇳🇱
+- name: 1 🇫🇷
   type: trojan
-  server: 188.42.145.180
+  server: 165.215.250.14
   port: 443
   password: humanity
-  sni: www.volumeroot.com
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: //assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 2 🇫🇷
+  type: trojan
+  server: 185.220.100.168
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
     headers:
-      Host: www.volumeroot.com
+      Host: www.calmlunch.com
 
-- name: 2 🇳🇱
+- name: 3 🇫🇷
+  type: trojan
+  server: www.calmlunch.com
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 4 🇫🇷
+  type: trojan
+  server: 188.114.98.0
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 5 🇫🇷
+  type: trojan
+  server: www.calmlunch.com
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 6 🇫🇷
+  type: trojan
+  server: 188.114.96.3
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 7 🇫🇷
+  type: trojan
+  server: 172.64.152.23
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 8 🇫🇷
+  type: trojan
+  server: 104.19.229.21
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: //assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 9 🇳🇱
   type: trojan
   server: 104.21.33.59
   port: 443
@@ -24,19 +108,19 @@ proxies:
     headers:
       Host: www.pleadcourt.org
 
-- name: 3 🇳🇱
+- name: 10 🇳🇱
   type: trojan
-  server: 213.182.199.137
+  server: 188.42.145.180
   port: 443
   password: humanity
-  sni: www.pleadcourt.org
+  sni: www.volumeroot.com
   network: ws
   ws-opts:
     path: /assignment
     headers:
-      Host: www.pleadcourt.org
+      Host: www.volumeroot.com
 
-- name: 4 🇺🇸
+- name: 11 🇺🇸
   type: trojan
   server: 151.101.56.7
   port: 443
@@ -48,7 +132,7 @@ proxies:
     headers:
       Host: mitivpn-mitivpn-mitivpn--mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
 
-- name: 5 🇺🇸
+- name: 12 🇺🇸
   type: trojan
   server: 151.101.56.7
   port: 443
@@ -60,7 +144,7 @@ proxies:
     headers:
       Host: mitivpn-mitivpn-mitivpn--mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
 
-- name: 6 🇺🇸
+- name: 13 🇺🇸
   type: trojan
   server: 199.232.78.160
   port: 443
@@ -72,7 +156,7 @@ proxies:
     headers:
       Host: mitivpn-ss-mitivpn-----mitivpn.global.ssl.fastly.net
 
-- name: 7 🇺🇸
+- name: 14 🇺🇸
   type: trojan
   server: 199.232.78.160
   port: 443
@@ -84,7 +168,7 @@ proxies:
     headers:
       Host: mitivpn-ss-mitivpn-----mitivpn.global.ssl.fastly.net
 
-- name: 8 🇺🇸
+- name: 15 🇺🇸
   type: trojan
   server: 151.101.56.7
   port: 443
@@ -96,7 +180,7 @@ proxies:
     headers:
       Host: mitivpn-mitivpn-mitivpn--mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
 
-- name: 9 🇺🇸
+- name: 16 🇺🇸
   type: trojan
   server: 199.232.78.160
   port: 443
@@ -107,3 +191,27 @@ proxies:
     path: /
     headers:
       Host: mitivpn-ss-mitivpn-----mitivpn.global.ssl.fastly.net
+
+- name: 17 🇺🇸
+  type: trojan
+  server: 151.101.56.7
+  port: 443
+  password: MiTiVPN
+  sni: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /---TOOTFFARANGI
+    headers:
+      Host: mitivpn-mitivpn-mitivpn--mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
+
+- name: 18 🇺🇸
+  type: trojan
+  server: www.speedtest.net
+  port: 443
+  password: A4u%5Ep(_UR*F6
+  sni: 027.ELeCTroCelLco-CF-027.wORkERS.dEv
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoidlhnMXN5OXFUSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    headers:
+      Host: 027.electrocellco-cf-027.workers.dev
