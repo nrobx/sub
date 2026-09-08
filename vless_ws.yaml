@@ -1,17 +1,17 @@
 proxies:
 
-- name: 1 🇩🇪
+- name: 1 🇨🇦
   type: vless
-  server: 94.156.232.254
-  port: 443
-  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
+  server: 54.39.96.233
+  port: 8443
+  uuid: db3f09ae-23f2-42b8-abee-7b89fb392c5e
   network: ws
   tls: true
-  servername: cf6.rumedia-cdn.com
+  servername: maple.adaspoloandco.com
   ws-opts:
-    path: /cdn/v3/live
+    path: /uploader.php
     headers:
-      Host: cf6.rumedia-cdn.com
+      Host: maple.adaspoloandco.com
 
 - name: 2 🇩🇪
   type: vless
@@ -28,7 +28,7 @@ proxies:
 
 - name: 3 🇩🇪
   type: vless
-  server: 169.58.143.21
+  server: finite-node.rtxconfigz.com
   port: 443
   uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c
   network: ws
@@ -41,32 +41,6 @@ proxies:
 
 - name: 4 🇩🇪
   type: vless
-  server: 176.124.214.116
-  port: 8443
-  uuid: b71637c2-94a5-49bd-8233-b4ed5e3170c3
-  network: ws
-  tls: true
-  servername: free-ger1.wooden-table.org
-  ws-opts:
-    path: /images
-    headers:
-      Host: free-ger1.wooden-table.org
-
-- name: 5 🇩🇪
-  type: vless
-  server: finite-node.rtxconfigz.com
-  port: 443
-  uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c
-  network: ws
-  tls: true
-  servername: finite-node.rtxconfigz.com
-  ws-opts:
-    path: /
-    headers:
-      Host: telegram.us
-
-- name: 6 🇩🇪
-  type: vless
   server: 94.156.232.254
   port: 443
   uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
@@ -78,20 +52,20 @@ proxies:
     headers:
       Host: cf6.rumedia-cdn.com
 
-- name: 7 🇩🇪
+- name: 5 🇩🇪
   type: vless
-  server: 94.159.97.247
+  server: fcs013.getdcz.me
   port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  uuid: f081b5e2-f3a0-4ef5-833b-1ea59e0797b6
   network: ws
   tls: true
-  servername: vp58.cc.cd
+  servername: fcs013.getdcz.me
   ws-opts:
-    path: /Telegram🇨🇳 @VPNine1
+    path: /6d2fed050b30
     headers:
-      Host: vp58.cc.cd
+      Host: fcs013.getdcz.me
 
-- name: 8 🇩🇪
+- name: 6 🇩🇪
   type: vless
   server: 169.58.143.21
   port: 443
@@ -104,31 +78,57 @@ proxies:
     headers:
       Host: telegram.us
 
-- name: 9 🇫🇮
+- name: 7 🇩🇪
   type: vless
-  server: 31.76.88.10
+  server: finite-node.rtxconfigz.com
+  port: 443
+  uuid: ce2aa2ab-d893-43c2-ae4c-5b45eb74d49f
+  network: ws
+  tls: true
+  servername: finite-node.rtxconfigz.com
+  ws-opts:
+    path: /
+    headers:
+      Host: tiktok.com
+
+- name: 8 🇩🇪
+  type: vless
+  server: 94.156.232.254
   port: 443
   uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
   network: ws
   tls: true
-  servername: cf5.rumedia-cdn.com
+  servername: cf6.rumedia-cdn.com
   ws-opts:
     path: /cdn/v3/live
     headers:
-      Host: cf5.rumedia-cdn.com
+      Host: cf6.rumedia-cdn.com
 
-- name: 10 🇫🇮
+- name: 9 🇩🇪
   type: vless
-  server: 151.101.56.6
+  server: 199.232.78.160
   port: 443
-  uuid: daee66b7-3f5e-46d7-83c1-4d93a5fb33c3
+  uuid: XpnTeam-72
   network: ws
   tls: true
   servername: ssl.fastly.com
   ws-opts:
-    path: /?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
+    path: /
     headers:
-      Host: c12.com
+      Host: Appxdn.global.ssl.fastly.net
+
+- name: 10 🇩🇪
+  type: vless
+  server: 169.58.143.21
+  port: 443
+  uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c
+  network: ws
+  tls: true
+  servername: finite-node.rtxconfigz.com
+  ws-opts:
+    path: /
+    headers:
+      Host: telegram.us
 
 - name: 11 🇫🇮
   type: vless
@@ -145,6 +145,19 @@ proxies:
 
 - name: 12 🇫🇮
   type: vless
+  server: k2.cloud--vpn.site
+  port: 443
+  uuid: daee66b7-3f5e-46d7-83c1-4d93a5fb33c3
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /
+    headers:
+      Host: c12.com
+
+- name: 13 🇫🇮
+  type: vless
   server: 151.101.56.6
   port: 443
   uuid: daee66b7-3f5e-46d7-83c1-4d93a5fb33c3
@@ -152,22 +165,9 @@ proxies:
   tls: true
   servername: ssl.fastly.com
   ws-opts:
-    path: /?TELEGRAM--KANAL--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray
+    path: /?---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI
     headers:
       Host: c12.com
-
-- name: 13 🇫🇷
-  type: vless
-  server: 81.95.4.189
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  network: ws
-  tls: true
-  servername: bab-6.site
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
 
 - name: 14 🇫🇷
   type: vless
@@ -182,46 +182,7 @@ proxies:
     headers:
       Host: chopin.adaspoloandco.com
 
-- name: 15 🇬🇧
-  type: vless
-  server: 129.121.95.159
-  port: 443
-  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
-  network: ws
-  tls: true
-  servername: 129.121.95.159
-  ws-opts:
-    path: /connect
-    headers:
-      Host: 129.121.95.159
-
-- name: 16 🇬🇧
-  type: vless
-  server: 57.128.177.198
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  network: ws
-  tls: true
-  servername: vp58.cc.cd
-  ws-opts:
-    path: /Telegram🇨🇳 fp=chrome
-    headers:
-      Host: vp58.cc.cd
-
-- name: 17 🇬🇧
-  type: vless
-  server: 129.121.95.159
-  port: 443
-  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
-  network: ws
-  tls: true
-  servername: 129.121.95.159
-  ws-opts:
-    path: /connect
-    headers:
-      Host: 129.121.95.159
-
-- name: 18 🇯🇵
+- name: 15 🇯🇵
   type: vless
   server: 172.67.217.240
   port: 443
@@ -234,20 +195,7 @@ proxies:
     headers:
       Host: jp3.yohototo.top
 
-- name: 19 🇯🇵
-  type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-
-- name: 20 🇯🇵
+- name: 16 🇯🇵
   type: vless
   server: 172.67.156.147
   port: 443
@@ -260,18 +208,70 @@ proxies:
     headers:
       Host: jp3.yohototo.top
 
-- name: 21 🇳🇱
+- name: 17 🇯🇵
   type: vless
-  server: 199.232.78.159
+  server: 104.21.33.59
   port: 443
-  uuid: 330847c8-123e-4f1e-aea4-f22ae1abaec4
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   network: ws
   tls: true
-  servername: ssl.fastly.com
+  servername: jp3.yohototo.top
   ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
+    path: /tyxyws
     headers:
-      Host: pane2.global.ssl.fastly.net
+      Host: jp3.yohototo.top
+
+- name: 18 🇯🇵
+  type: vless
+  server: 104.21.70.21
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  tls: true
+  servername: jp3.yohototo.top
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+
+- name: 19 🇯🇵
+  type: vless
+  server: 172.67.217.240
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  tls: true
+  servername: jp3.yohototo.top
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+
+- name: 20 🇳🇱
+  type: vless
+  server: 151.242.2.81
+  port: 443
+  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
+  network: ws
+  tls: true
+  servername: cf9.rumedia-cdn.com
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: cf9.rumedia-cdn.com
+
+- name: 21 🇳🇱
+  type: vless
+  server: 151.242.2.81
+  port: 443
+  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
+  network: ws
+  tls: true
+  servername: cf9.rumedia-cdn.com
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: cf9.rumedia-cdn.com
 
 - name: 22 🇳🇱
   type: vless
@@ -290,6 +290,19 @@ proxies:
   type: vless
   server: 199.232.78.159
   port: 443
+  uuid: 330847c8-123e-4f1e-aea4-f22ae1abaec4
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    headers:
+      Host: pane2.global.ssl.fastly.net
+
+- name: 24 🇳🇱
+  type: vless
+  server: 199.232.78.159
+  port: 443
   uuid: e5c5c006-facc-45be-99bc-20d772372d5c
   network: ws
   tls: true
@@ -299,20 +312,20 @@ proxies:
     headers:
       Host: pane3.global.ssl.fastly.net
 
-- name: 24 🇳🇱
+- name: 25 🇳🇱
   type: vless
-  server: 151.242.2.81
+  server: 199.232.78.159
   port: 443
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
+  uuid: 330847c8-123e-4f1e-aea4-f22ae1abaec4
   network: ws
   tls: true
-  servername: cf9.rumedia-cdn.com
+  servername: ssl.fastly.com
   ws-opts:
-    path: /cdn/v3/live
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
     headers:
-      Host: cf9.rumedia-cdn.com
+      Host: pane2.global.ssl.fastly.net
 
-- name: 25 🇳🇱
+- name: 26 🇳🇱
   type: vless
   server: 199.232.78.159
   port: 443
@@ -324,19 +337,6 @@ proxies:
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
     headers:
       Host: pan1.global.ssl.fastly.net
-
-- name: 26 🇳🇱
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: 330847c8-123e-4f1e-aea4-f22ae1abaec4
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-    headers:
-      Host: pane2.global.ssl.fastly.net
 
 - name: 27 🇳🇱
   type: vless
@@ -351,20 +351,7 @@ proxies:
     headers:
       Host: pane3.global.ssl.fastly.net
 
-- name: 28 🇷🇺
-  type: vless
-  server: 45.9.15.206
-  port: 443
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  network: ws
-  tls: true
-  servername: ru05.abvpn.ru
-  ws-opts:
-    path: /websocket
-    headers:
-      Host: ru05.abvpn.ru
-
-- name: 29 🇸🇰
+- name: 28 🇸🇰
   type: vless
   server: 185.112.249.201
   port: 8443
@@ -377,20 +364,7 @@ proxies:
     headers:
       Host: web-socket.tgdaosheng.ggff.net
 
-- name: 30 🇺🇸
-  type: vless
-  server: mybb.com
-  port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
-  network: ws
-  tls: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rayan-007.nastaran.dpdns.org
-
-- name: 31 🇺🇸
+- name: 29 🇺🇸
   type: vless
   server: medium.com
   port: 443
@@ -403,33 +377,7 @@ proxies:
     headers:
       Host: rAyAn-007.mAxImA.DpDnS.OrG
 
-- name: 32 🇺🇸
-  type: vless
-  server: 104.21.91.142
-  port: 443
-  uuid: 7893b302-3882-4c38-9ab6-6313f1575d1a
-  network: ws
-  tls: true
-  servername: cf.udpid.org
-  ws-opts:
-    path: /@zyzzzoao
-    headers:
-      Host: cf.udpid.org
-
-- name: 33 🇺🇸
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 34 🇺🇸
+- name: 30 🇺🇸
   type: vless
   server: 43.161.254.71
   port: 443
@@ -442,20 +390,7 @@ proxies:
     headers:
       Host: cf.udpid.org
 
-- name: 35 🇺🇸
-  type: vless
-  server: 152.67.224.161
-  port: 8443
-  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
-  network: ws
-  tls: true
-  servername: kv.074167.xyz
-  ws-opts:
-    path: /
-    headers:
-      Host: kv.074167.xyz
-
-- name: 36 🇺🇸
+- name: 31 🇺🇸
   type: vless
   server: 141.101.122.147
   port: 443
@@ -468,7 +403,7 @@ proxies:
     headers:
       Host: a.cwvps.eu.org
 
-- name: 37 🇺🇸
+- name: 32 🇺🇸
   type: vless
   server: 188.114.97.6
   port: 443
@@ -481,7 +416,20 @@ proxies:
     headers:
       Host: a.cwvps.eu.org
 
-- name: 38 🇺🇸
+- name: 33 🇺🇸
+  type: vless
+  server: 129.121.95.159
+  port: 443
+  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
+  network: ws
+  tls: true
+  servername: 129.121.95.159
+  ws-opts:
+    path: /connect
+    headers:
+      Host: 129.121.95.159
+
+- name: 34 🇺🇸
   type: vless
   server: 104.21.91.142
   port: 443
@@ -494,33 +442,7 @@ proxies:
     headers:
       Host: cf.udpid.org
 
-- name: 39 🇺🇸
-  type: vless
-  server: cf-vless-4cf55824.aimall.fr
-  port: 443
-  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
-  network: ws
-  tls: true
-  servername: cf-vless-4cf55824.aimall.fr
-  ws-opts:
-    path: /connect
-    headers:
-      Host: cf-vless-4cf55824.aimall.fr
-
-- name: 40 🇺🇸
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: 5b374761-e26c-4117-8af8-5c637992fcbf
-  network: ws
-  tls: true
-  servername: vls.baiyi.cloudns.org
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: vls.baiyi.cloudns.org
-
-- name: 41 🇺🇸
+- name: 35 🇺🇸
   type: vless
   server: 104.18.24.194
   port: 443
@@ -533,7 +455,7 @@ proxies:
     headers:
       Host: cf.udpid.org
 
-- name: 42 🇺🇸
+- name: 36 🇺🇸
   type: vless
   server: www.5h.com
   port: 443
@@ -546,7 +468,7 @@ proxies:
     headers:
       Host: youxuanku.kdns.fr
 
-- name: 43 🇺🇸
+- name: 37 🇺🇸
   type: vless
   server: 104.21.85.220
   port: 443
@@ -559,7 +481,7 @@ proxies:
     headers:
       Host: cf.udpid.org
 
-- name: 44 🇺🇸
+- name: 38 🇺🇸
   type: vless
   server: 172.67.213.31
   port: 443
@@ -572,9 +494,126 @@ proxies:
     headers:
       Host: cf.udpid.org
 
-- name: 45 🇺🇸
+- name: 39 🇺🇸
   type: vless
   server: 104.21.53.134
+  port: 443
+  uuid: 7893b302-3882-4c38-9ab6-6313f1575d1a
+  network: ws
+  tls: true
+  servername: cf.udpid.org
+  ws-opts:
+    path: /@zyzzzoao
+    headers:
+      Host: cf.udpid.org
+
+- name: 40 🇺🇸
+  type: vless
+  server: 104.19.109.202
+  port: 443
+  uuid: 7893b302-3882-4c38-9ab6-6313f1575d1a
+  network: ws
+  tls: true
+  servername: cf.udpid.org
+  ws-opts:
+    path: /@zyzzzoao
+    headers:
+      Host: cf.udpid.org
+
+- name: 41 🇺🇸
+  type: vless
+  server: 104.18.81.92
+  port: 443
+  uuid: 7893b302-3882-4c38-9ab6-6313f1575d1a
+  network: ws
+  tls: true
+  servername: cf.udpid.org
+  ws-opts:
+    path: /@zyzzzoao
+    headers:
+      Host: cf.udpid.org
+
+- name: 42 🇺🇸
+  type: vless
+  server: 172.67.173.138
+  port: 443
+  uuid: 813cd228-ebf6-0e21-481a-ba4af8f85b82
+  network: ws
+  tls: true
+  servername: odd-disk-98c5.assassincreed4048.workers.dev
+  ws-opts:
+    path: /sync
+    headers:
+      Host: odd-disk-98c5.assassincreed4048.workers.dev
+
+- name: 43 🇺🇸
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 0926b50d-3a90-18dd-7c8e-0cf100000000
+  network: ws
+  tls: true
+  servername: netlivpn4024.bgfjhd.workers.dev
+  ws-opts:
+    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
+    headers:
+      Host: netlivpn4024.bgfjhd.workers.dev
+
+- name: 44 🇺🇸
+  type: vless
+  server: 104.21.117.9
+  port: 443
+  uuid: 0926b50d-3a90-18dd-7c8e-0cf100000000
+  network: ws
+  tls: true
+  servername: netlivpn4024.bgfjhd.workers.dev
+  ws-opts:
+    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
+    headers:
+      Host: netlivpn4024.bgfjhd.workers.dev
+
+- name: 45 🇺🇸
+  type: vless
+  server: 104.21.45.213
+  port: 443
+  uuid: a5b1d1ec-327c-f1c5-5856-b34600000000
+  network: ws
+  tls: true
+  servername: ez-541f9d.ezaccess1d3db24.workers.dev
+  ws-opts:
+    path: /sync
+    headers:
+      Host: ez-541f9d.ezaccess1d3db24.workers.dev
+
+- name: 46 🇺🇸
+  type: vless
+  server: 129.121.95.159
+  port: 443
+  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
+  network: ws
+  tls: true
+  servername: 129.121.95.159
+  ws-opts:
+    path: /connect
+    headers:
+      Host: 129.121.95.159
+
+- name: 47 🇺🇸
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  network: ws
+  tls: true
+  servername: a.cwvps.eu.org
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+
+- name: 48 🇺🇸
+  type: vless
+  server: 104.21.91.142
   port: 443
   uuid: 7893b302-3882-4c38-9ab6-6313f1575d1a
   network: ws
