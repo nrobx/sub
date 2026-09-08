@@ -1,42 +1,5 @@
 proxies:
 
-- name: 5 🇫🇷
-  type: trojan
-  server: 185.220.100.168
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 1 🇩🇪
-  type: vless
-  server: fcs013.getdcz.me
-  port: 443
-  uuid: f081b5e2-f3a0-4ef5-833b-1ea59e0797b6
-  network: ws
-  tls: true
-  servername: fcs013.getdcz.me
-  ws-opts:
-    path: /6d2fed050b30
-    headers:
-      Host: fcs013.getdcz.me
-
-- name: 6 🇳🇱
-  type: trojan
-  server: 188.42.145.180
-  port: 443
-  password: humanity
-  sni: www.volumeroot.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.volumeroot.com
-
 - name: 2 🇩🇪
   type: vless
   server: fcs013.getdcz.me
@@ -49,21 +12,6 @@ proxies:
     path: /6d2fed050b30
     headers:
       Host: fcs013.getdcz.me
-
-- name: 4 🇭🇰
-  type: vmess
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: ex1ogt73nzpqkac2.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: ex1ogt73nzpqkac2.v.3dns.vip
 
 - name: 3 🇭🇰
   type: vmess
@@ -79,3 +27,55 @@ proxies:
     path: /ws-vmess
     headers:
       Host: EX1oGt73NzPQKAc2.v.3dns.vip
+
+- name: 1 🇩🇪
+  type: vless
+  server: fcs013.getdcz.me
+  port: 443
+  uuid: f081b5e2-f3a0-4ef5-833b-1ea59e0797b6
+  network: ws
+  tls: true
+  servername: fcs013.getdcz.me
+  ws-opts:
+    path: /6d2fed050b30
+    headers:
+      Host: fcs013.getdcz.me
+
+- name: 5 🇫🇷
+  type: trojan
+  server: 185.220.100.168
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 6 🇳🇱
+  type: trojan
+  server: 188.42.145.180
+  port: 443
+  password: humanity
+  sni: www.volumeroot.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.volumeroot.com
+
+- name: 4 🇭🇰
+  type: vmess
+  server: ex1ogt73nzpqkac2.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: ex1ogt73nzpqkac2.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: ex1ogt73nzpqkac2.v.3dns.vip
