@@ -2,90 +2,60 @@ proxies:
 
 - name: 1 🇭🇰
   type: vmess
-  server: 93ucrn4i0pffuabk.v.3dns.vip
+  server: mtckundigepwu3up.v.3dns.vip
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  servername: 93ucrn4i0pffuabk.v.3dns.vip
+  servername: mtckundigepwu3up.v.3dns.vip
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: 93ucrn4i0PffUAbk.v.3dns.vip
+      Host: mtckundigepwu3up.v.3dns.vip
 
 - name: 2 🇭🇰
   type: vmess
-  server: ex1ogt73nzpqkac2.v.3dns.vip
+  server: mtckundigepwu3up.v.3dns.vip
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  servername: ex1ogt73nzpqkac2.v.3dns.vip
+  servername: mTCKUNDiGePwU3uP.v.3dns.vip
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: null
+      Host: mTCKUNDiGePwU3uP.v.3dns.vip
 
 - name: 3 🇭🇰
   type: vmess
-  server: ex1ogt73nzpqkac2.v.3dns.vip
+  server: 47.243.92.155
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  servername: ex1ogt73nzpqkac2.v.3dns.vip
+  servername: mTCKUNDiGePwU3uP.v.3dns.vip
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: ''
+      Host: mTCKUNDiGePwU3uP.v.3dns.vip
 
 - name: 4 🇭🇰
   type: vmess
-  server: drbkg16egf3fzlm3.v.3dns.vip
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: drbkg16egf3fzlm3.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: drbkg16egf3fzlm3.v.3dns.vip
-
-- name: 5 🇭🇰
-  type: vmess
-  server: 47.86.107.119
+  server: 47.76.197.72
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
+  servername: m01c7b2z26dtqgee.v.3dns.vip
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
-
-- name: 6 🇭🇰
-  type: vmess
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
+      Host: m01c7b2z26dtqgee.v.3dns.vip

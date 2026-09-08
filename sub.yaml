@@ -1,128 +1,133 @@
 proxies:
 
-- name: 5 🇭🇰
-  type: vmess
-  server: drbkg16egf3fzlm3.v.3dns.vip
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: drbkg16egf3fzlm3.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: drbkg16egf3fzlm3.v.3dns.vip
-
-- name: 6 🇭🇰
-  type: vmess
-  server: 47.86.107.119
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
-
-- name: 3 🇭🇰
-  type: vmess
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: ex1ogt73nzpqkac2.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: null
-
-- name: 2 🇭🇰
-  type: vmess
-  server: 93ucrn4i0pffuabk.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: 93ucrn4i0pffuabk.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 93ucrn4i0PffUAbk.v.3dns.vip
-
-- name: 9 🇳🇱
-  type: trojan
-  server: 104.21.33.59
-  port: 443
-  password: humanity
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-
-- name: 8 🇳🇱
-  type: trojan
-  server: 188.42.145.180
-  port: 443
-  password: humanity
-  sni: www.volumeroot.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.volumeroot.com
-
-- name: 7 🇭🇰
-  type: vmess
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
-
-- name: 4 🇭🇰
-  type: vmess
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: ex1ogt73nzpqkac2.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: ''
-
-- name: 1 🇸🇰
+- name: 6 🇩🇪
   type: vless
-  server: 185.112.249.201
-  port: 8443
-  uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142
+  server: 94.156.232.254
+  port: 443
+  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
   network: ws
   tls: true
-  servername: web-socket.tgdaosheng.ggff.net
+  servername: cf6.rumedia-cdn.com
   ws-opts:
-    path: /proxyip=bpb.yousef.isegaro.com
+    path: /cdn/v3/live
     headers:
-      Host: web-socket.tgdaosheng.ggff.net
+      Host: cf6.rumedia-cdn.com
+
+- name: 18 🇯🇵
+  type: vless
+  server: 172.67.217.240
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  tls: true
+  servername: jp3.yohototo.top
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+
+- name: 20 🇯🇵
+  type: vless
+  server: 172.67.156.147
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  tls: true
+  servername: jp3.yohototo.top
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+
+- name: 45 🇺🇸
+  type: vless
+  server: 104.21.53.134
+  port: 443
+  uuid: 7893b302-3882-4c38-9ab6-6313f1575d1a
+  network: ws
+  tls: true
+  servername: cf.udpid.org
+  ws-opts:
+    path: /@zyzzzoao
+    headers:
+      Host: cf.udpid.org
+
+- name: 4 🇩🇪
+  type: vless
+  server: 176.124.214.116
+  port: 8443
+  uuid: b71637c2-94a5-49bd-8233-b4ed5e3170c3
+  network: ws
+  tls: true
+  servername: free-ger1.wooden-table.org
+  ws-opts:
+    path: /images
+    headers:
+      Host: free-ger1.wooden-table.org
+
+- name: 31 🇺🇸
+  type: vless
+  server: medium.com
+  port: 443
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  network: ws
+  tls: true
+  servername: rAyAn-007.mAxImA.DpDnS.OrG
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
+
+- name: 3 🇩🇪
+  type: vless
+  server: 169.58.143.21
+  port: 443
+  uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c
+  network: ws
+  tls: true
+  servername: finite-node.rtxconfigz.com
+  ws-opts:
+    path: /
+    headers:
+      Host: telegram.us
+
+- name: 48 🇭🇰
+  type: vmess
+  server: 47.243.92.155
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: mTCKUNDiGePwU3uP.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: mTCKUNDiGePwU3uP.v.3dns.vip
+
+- name: 8 🇩🇪
+  type: vless
+  server: 169.58.143.21
+  port: 443
+  uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c
+  network: ws
+  tls: true
+  servername: finite-node.rtxconfigz.com
+  ws-opts:
+    path: /
+    headers:
+      Host: telegram.us
+
+- name: 36 🇺🇸
+  type: vless
+  server: 141.101.122.147
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  network: ws
+  tls: true
+  servername: a.cwvps.eu.org
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org

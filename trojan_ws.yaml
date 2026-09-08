@@ -14,6 +14,30 @@ proxies:
 
 - name: 2 🇳🇱
   type: trojan
+  server: 188.42.145.180
+  port: 443
+  password: humanity
+  sni: www.volumeroot.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.volumeroot.com
+
+- name: 3 🇳🇱
+  type: trojan
+  server: 213.182.199.137
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+
+- name: 4 🇳🇱
+  type: trojan
   server: 104.21.33.59
   port: 443
   password: humanity
