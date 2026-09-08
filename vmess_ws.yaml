@@ -2,81 +2,6 @@ proxies:
 
 - name: 1 🇭🇰
   type: vmess
-  server: vah4urdzl3jdx5r2.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: vah4urdzl3jdx5r2.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
-
-- name: 2 🇭🇰
-  type: vmess
-  server: 93ucrn4i0pffuabk.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: 93ucrn4i0pffuabk.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 93ucrn4i0PffUAbk.v.3dns.vip
-
-- name: 3 🇭🇰
-  type: vmess
-  server: 47.83.19.148
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: 6jdvarazgu3qqr6q.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: ''
-
-- name: 4 🇭🇰
-  type: vmess
-  server: u2frxj0g13vdi0wo.v.3dns.vip
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: U2FRxj0G13vDI0Wo.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
-
-- name: 5 🇭🇰
-  type: vmess
-  server: 47.83.19.148
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-
-- name: 6 🇭🇰
-  type: vmess
   server: ex1ogt73nzpqkac2.v.3dns.vip
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
@@ -90,37 +15,7 @@ proxies:
     headers:
       Host: EX1oGt73NzPQKAc2.v.3dns.vip
 
-- name: 7 🇭🇰
-  type: vmess
-  server: u2frxj0g13vdi0wo.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: U2FRxj0G13vDI0Wo.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
-
-- name: 8 🇭🇰
-  type: vmess
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: qtkdr8jxe3wefxjm.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
-
-- name: 9 🇭🇰
+- name: 2 🇭🇰
   type: vmess
   server: ex1ogt73nzpqkac2.v.3dns.vip
   port: 443

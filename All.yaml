@@ -15,158 +15,18 @@ proxies:
 
 - name: 2 🇩🇪
   type: vless
-  server: 199.232.78.160
+  server: fcs013.getdcz.me
   port: 443
-  uuid: XpnTeam-1
+  uuid: f081b5e2-f3a0-4ef5-833b-1ea59e0797b6
   network: ws
   tls: true
-  servername: ssl.fastly.com
+  servername: fcs013.getdcz.me
   ws-opts:
-    path: /
+    path: /6d2fed050b30
     headers:
-      Host: Appxdn.global.ssl.fastly.net
+      Host: fcs013.getdcz.me
 
-- name: 3 🇺🇸
-  type: vless
-  server: 8.35.211.115
-  port: 2087
-  uuid: 1e49ee8c-33be-4db8-8445-7203f18aecfa
-  network: ws
-  tls: true
-  servername: mysheep.dpdns.org
-  ws-opts:
-    path: /
-    headers:
-      Host: mysheep.dpdns.org
-
-- name: 4 🇺🇸
-  type: vless
-  server: 104.21.61.42
-  port: 443
-  uuid: 5b14b2cf-57e3-4f96-92f2-9695078f06d8
-  network: ws
-  tls: true
-  servername: 001.inc-electrocell-001-001.workers.dev
-  ws-opts:
-    path: /eyJqdW5rIjoiSGdhak9tRkZLeDdwcCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
-    headers:
-      Host: 001.inc-electrocell-001-001.workers.dev
-
-- name: 5 🇺🇸
-  type: vless
-  server: 8.35.211.115
-  port: 2087
-  uuid: 1e49ee8c-33be-4db8-8445-7203f18aecfa
-  network: ws
-  tls: true
-  servername: mysheep.dpdns.org
-  ws-opts:
-    path: /
-    headers:
-      Host: mysheep.dpdns.org
-
-- name: 6 🇺🇸
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 7 🇺🇸
-  type: vless
-  server: 141.101.122.147
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 8 🇭🇰
-  type: vmess
-  server: vah4urdzl3jdx5r2.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: vah4urdzl3jdx5r2.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
-
-- name: 9 🇭🇰
-  type: vmess
-  server: 93ucrn4i0pffuabk.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: 93ucrn4i0pffuabk.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 93ucrn4i0PffUAbk.v.3dns.vip
-
-- name: 10 🇭🇰
-  type: vmess
-  server: 47.83.19.148
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: 6jdvarazgu3qqr6q.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: ''
-
-- name: 11 🇭🇰
-  type: vmess
-  server: u2frxj0g13vdi0wo.v.3dns.vip
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: U2FRxj0G13vDI0Wo.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
-
-- name: 12 🇭🇰
-  type: vmess
-  server: 47.83.19.148
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-
-- name: 13 🇭🇰
+- name: 3 🇭🇰
   type: vmess
   server: ex1ogt73nzpqkac2.v.3dns.vip
   port: 443
@@ -181,37 +41,7 @@ proxies:
     headers:
       Host: EX1oGt73NzPQKAc2.v.3dns.vip
 
-- name: 14 🇭🇰
-  type: vmess
-  server: u2frxj0g13vdi0wo.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: U2FRxj0G13vDI0Wo.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
-
-- name: 15 🇭🇰
-  type: vmess
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: qtkdr8jxe3wefxjm.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
-
-- name: 16 🇭🇰
+- name: 4 🇭🇰
   type: vmess
   server: ex1ogt73nzpqkac2.v.3dns.vip
   port: 443
@@ -226,31 +56,19 @@ proxies:
     headers:
       Host: ex1ogt73nzpqkac2.v.3dns.vip
 
-- name: 17 🇮🇩
+- name: 5 🇫🇷
   type: trojan
-  server: 104.21.70.21
-  port: 443
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
-  sni: id1.nathaya.web.id
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id1.nathaya.web.id
-
-- name: 18 🇳🇱
-  type: trojan
-  server: 213.182.199.137
+  server: 185.220.100.168
   port: 443
   password: humanity
-  sni: www.pleadcourt.org
+  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
     headers:
-      Host: www.pleadcourt.org
+      Host: www.calmlunch.com
 
-- name: 19 🇳🇱
+- name: 6 🇳🇱
   type: trojan
   server: 188.42.145.180
   port: 443
@@ -261,27 +79,3 @@ proxies:
     path: /assignment
     headers:
       Host: www.volumeroot.com
-
-- name: 20 🇳🇱
-  type: trojan
-  server: 188.42.145.180
-  port: 443
-  password: humanity
-  sni: www.volumeroot.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.volumeroot.com
-
-- name: 21 🇺🇸
-  type: trojan
-  server: www.speedtest.net
-  port: 443
-  password: A4u%5Ep(_UR*F6
-  sni: 027.ELeCTroCelLco-CF-027.wORkERS.dEv
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoidlhnMXN5OXFUSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
-    headers:
-      Host: 027.electrocellco-cf-027.workers.dev

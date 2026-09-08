@@ -15,78 +15,13 @@ proxies:
 
 - name: 2 🇩🇪
   type: vless
-  server: 199.232.78.160
+  server: fcs013.getdcz.me
   port: 443
-  uuid: XpnTeam-1
+  uuid: f081b5e2-f3a0-4ef5-833b-1ea59e0797b6
   network: ws
   tls: true
-  servername: ssl.fastly.com
+  servername: fcs013.getdcz.me
   ws-opts:
-    path: /
+    path: /6d2fed050b30
     headers:
-      Host: Appxdn.global.ssl.fastly.net
-
-- name: 3 🇺🇸
-  type: vless
-  server: 8.35.211.115
-  port: 2087
-  uuid: 1e49ee8c-33be-4db8-8445-7203f18aecfa
-  network: ws
-  tls: true
-  servername: mysheep.dpdns.org
-  ws-opts:
-    path: /
-    headers:
-      Host: mysheep.dpdns.org
-
-- name: 4 🇺🇸
-  type: vless
-  server: 104.21.61.42
-  port: 443
-  uuid: 5b14b2cf-57e3-4f96-92f2-9695078f06d8
-  network: ws
-  tls: true
-  servername: 001.inc-electrocell-001-001.workers.dev
-  ws-opts:
-    path: /eyJqdW5rIjoiSGdhak9tRkZLeDdwcCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
-    headers:
-      Host: 001.inc-electrocell-001-001.workers.dev
-
-- name: 5 🇺🇸
-  type: vless
-  server: 8.35.211.115
-  port: 2087
-  uuid: 1e49ee8c-33be-4db8-8445-7203f18aecfa
-  network: ws
-  tls: true
-  servername: mysheep.dpdns.org
-  ws-opts:
-    path: /
-    headers:
-      Host: mysheep.dpdns.org
-
-- name: 6 🇺🇸
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 7 🇺🇸
-  type: vless
-  server: 141.101.122.147
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
+      Host: fcs013.getdcz.me

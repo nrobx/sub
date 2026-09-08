@@ -2,9 +2,4 @@
 //profile-update-interval: 1
 //subscription-userinfo: filter=ws
 vless://f081b5e2-f3a0-4ef5-833b-1ea59e0797b6@fcs013.getdcz.me:443?path=/6d2fed050b30&security=tls&encryption=none&insecure=0&host=fcs013.getdcz.me&fp=chrome&type=ws&allowInsecure=0&sni=fcs013.getdcz.me#1%20%F0%9F%87%A9%F0%9F%87%AA
-vless://XpnTeam-1@199.232.78.160:443?path=/&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#2%20%F0%9F%87%A9%F0%9F%87%AA
-vless://1e49ee8c-33be-4db8-8445-7203f18aecfa@8.35.211.115:2087?encryption=none&fp=chrome&host=mysheep.dpdns.org&path=%2F&security=tls&sni=mysheep.dpdns.org&type=ws#3%20%F0%9F%87%BA%F0%9F%87%B8
-vless://5b14b2cf-57e3-4f96-92f2-9695078f06d8@104.21.61.42:443?encryption=none&type=ws&host=001.inc-electrocell-001-001.workers.dev&path=%2FeyJqdW5rIjoiSGdhak9tRkZLeDdwcCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0%3D%3Fed%3D2560&security=tls&fp=chrome&sni=001.inc-electrocell-001-001.workers.dev#4%20%F0%9F%87%BA%F0%9F%87%B8
-vless://1e49ee8c-33be-4db8-8445-7203f18aecfa@8.35.211.115:2087?encryption=none&type=ws&host=mysheep.dpdns.org&path=%2F&security=tls&fp=chrome&sni=mysheep.dpdns.org#5%20%F0%9F%87%BA%F0%9F%87%B8
-vless://c4edb87e-8544-4fa4-bd1c-b0cda9a34b46@188.114.97.6:443?encryption=none&type=ws&host=a.cwvps.eu.org&path=%2Fws&security=tls&sni=a.cwvps.eu.org#6%20%F0%9F%87%BA%F0%9F%87%B8
-vless://c4edb87e-8544-4fa4-bd1c-b0cda9a34b46@141.101.122.147:443?&security=tls&fp=chrome&sni=a.cwvps.eu.org&type=ws&headerType=none&host=a.cwvps.eu.org&path=/ws#7%20%F0%9F%87%BA%F0%9F%87%B8
+vless://f081b5e2-f3a0-4ef5-833b-1ea59e0797b6@fcs013.getdcz.me:443?encryption=none&type=ws&host=fcs013.getdcz.me&path=%2F6d2fed050b30&security=tls&fp=chrome&sni=fcs013.getdcz.me#2%20%F0%9F%87%A9%F0%9F%87%AA
