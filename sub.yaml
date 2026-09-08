@@ -1,47 +1,114 @@
 proxies:
 
-- name: 68 🇭🇰
+- name: 16 🇭🇰
   type: vmess
-  server: u2frxj0g13vdi0wo.v.3dns.vip
+  server: ex1ogt73nzpqkac2.v.3dns.vip
   port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  servername: U2FRxj0G13vDI0Wo.v.3dns.vip
+  servername: ex1ogt73nzpqkac2.v.3dns.vip
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
+      Host: ex1ogt73nzpqkac2.v.3dns.vip
 
-- name: 93 🇫🇷
+- name: 4 🇺🇸
+  type: vless
+  server: 104.21.61.42
+  port: 443
+  uuid: 5b14b2cf-57e3-4f96-92f2-9695078f06d8
+  network: ws
+  tls: true
+  servername: 001.inc-electrocell-001-001.workers.dev
+  ws-opts:
+    path: /eyJqdW5rIjoiSGdhak9tRkZLeDdwcCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    headers:
+      Host: 001.inc-electrocell-001-001.workers.dev
+
+- name: 7 🇺🇸
+  type: vless
+  server: 141.101.122.147
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  network: ws
+  tls: true
+  servername: a.cwvps.eu.org
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+
+- name: 3 🇺🇸
+  type: vless
+  server: 8.35.211.115
+  port: 2087
+  uuid: 1e49ee8c-33be-4db8-8445-7203f18aecfa
+  network: ws
+  tls: true
+  servername: mysheep.dpdns.org
+  ws-opts:
+    path: /
+    headers:
+      Host: mysheep.dpdns.org
+
+- name: 15 🇭🇰
+  type: vmess
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: qtkdr8jxe3wefxjm.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
+
+- name: 20 🇳🇱
   type: trojan
-  server: www.calmlunch.com
+  server: 188.42.145.180
   port: 443
   password: humanity
-  sni: www.calmlunch.com
+  sni: www.volumeroot.com
   network: ws
   ws-opts:
     path: /assignment
     headers:
-      Host: www.calmlunch.com
+      Host: www.volumeroot.com
 
-- name: 95 🇫🇷
+- name: 17 🇮🇩
   type: trojan
-  server: 165.215.250.14
+  server: 104.21.70.21
   port: 443
-  password: humanity
-  sni: www.calmlunch.com
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  sni: id1.nathaya.web.id
   network: ws
   ws-opts:
-    path: //assignment
+    path: /trojan
     headers:
-      Host: www.calmlunch.com
+      Host: id1.nathaya.web.id
 
-- name: 65 🇭🇰
+- name: 5 🇺🇸
+  type: vless
+  server: 8.35.211.115
+  port: 2087
+  uuid: 1e49ee8c-33be-4db8-8445-7203f18aecfa
+  network: ws
+  tls: true
+  servername: mysheep.dpdns.org
+  ws-opts:
+    path: /
+    headers:
+      Host: mysheep.dpdns.org
+
+- name: 12 🇭🇰
   type: vmess
-  server: 20.235.220.189
+  server: 47.83.19.148
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
@@ -54,83 +121,14 @@ proxies:
     headers:
       Host: 6JDvArazgU3qQR6Q.v.3dns.vip
 
-- name: 60 🇭🇰
-  type: vmess
-  server: 210.138.37.53
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: DrBKg16eGf3FZlM3.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: DrBKg16eGf3FZlM3.v.3dns.vip
-
-- name: 100 🇮🇩
+- name: 21 🇺🇸
   type: trojan
-  server: 104.21.70.21
+  server: www.speedtest.net
   port: 443
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
-  sni: id1.nathaya.web.id
+  password: A4u%5Ep(_UR*F6
+  sni: 027.ELeCTroCelLco-CF-027.wORkERS.dEv
   network: ws
   ws-opts:
-    path: /trojan
+    path: /eyJqdW5rIjoidlhnMXN5OXFUSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
     headers:
-      Host: id1.nathaya.web.id
-
-- name: 43 🇺🇸
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 0926b50d-3a90-18dd-7c8e-0cf100000000
-  network: ws
-  tls: true
-  servername: netlivpn4024.bgfjhd.workers.dev
-  ws-opts:
-    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
-    headers:
-      Host: netlivpn4024.bgfjhd.workers.dev
-
-- name: 7 🇩🇪
-  type: vless
-  server: finite-node.rtxconfigz.com
-  port: 443
-  uuid: ce2aa2ab-d893-43c2-ae4c-5b45eb74d49f
-  network: ws
-  tls: true
-  servername: finite-node.rtxconfigz.com
-  ws-opts:
-    path: /
-    headers:
-      Host: tiktok.com
-
-- name: 45 🇺🇸
-  type: vless
-  server: 104.21.45.213
-  port: 443
-  uuid: a5b1d1ec-327c-f1c5-5856-b34600000000
-  network: ws
-  tls: true
-  servername: ez-541f9d.ezaccess1d3db24.workers.dev
-  ws-opts:
-    path: /sync
-    headers:
-      Host: ez-541f9d.ezaccess1d3db24.workers.dev
-
-- name: 76 🇭🇰
-  type: vmess
-  server: vah4urdzl3jdx5r2.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: vah4urdzl3jdx5r2.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
+      Host: 027.electrocellco-cf-027.workers.dev
