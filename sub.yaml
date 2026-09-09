@@ -1,122 +1,105 @@
 proxies:
 
-- name: 46 🇺🇸
-  type: vmess
-  server: 172.64.80.1
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: v2ray1.dozapp.xyz
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-
-- name: 14 🇯🇵
-  type: vless
-  server: 172.67.156.147
+- name: 25 🇩🇪
+  type: trojan
+  server: de9w7ehd8ejr9fyd-development-m0t2g.lucity.app
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  password: 1e0cc178-82ff-8111-42b1-916b4210ca9b
+  sni: de9w7ehd8ejr9fyd-development-m0t2g.lucity.app
   network: ws
-  tls: true
-  servername: jp3.yohototo.top
   ws-opts:
-    path: /tyxyws
+    path: /trojan-ws
     headers:
-      Host: jp3.yohototo.top
+      Host: de9w7ehd8ejr9fyd-development-m0t2g.lucity.app
 
-- name: 29 🇭🇰
+- name: 11 🇭🇰
   type: vmess
-  server: vah4urdzl3jdx5r2.v.3dns.vip
+  server: 8.218.184.4
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  servername: vah4urdzl3jdx5r2.v.3dns.vip
+  servername: NYcQg19zkwaCPM1B.v.3dns.vip
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
 
-- name: 35 🇭🇰
+- name: 14 🇭🇰
   type: vmess
-  server: u2frxj0g13vdi0wo.v.3dns.vip
+  server: nycqg19zkwacpm1b.v.3dns.vip
   port: 443
   uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  servername: U2FRxj0G13vDI0Wo.v.3dns.vip
+  servername: NYcQg19zkwaCPM1B.v.3dns.vip
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
 
-- name: 32 🇭🇰
+- name: 19 🇭🇰
   type: vmess
-  server: wwafj5lhl6bi8au9.v.3dns.vip
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  servername: wwafj5LHl6bI8aU9.v.3dns.vip
+  servername: qTKDR8jXE3wEFxJM.v.3dns.vip
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: wwafj5LHl6bI8aU9.v.3dns.vip
+      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
 
-- name: 49 🇺🇸
-  type: vmess
-  server: 13.140.28.46
+- name: 28 🇳🇱
+  type: trojan
+  server: 188.42.145.180
   port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  password: humanity
+  sni: www.volumeroot.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.volumeroot.com
+
+- name: 13 🇭🇰
+  type: vmess
+  server: nycqg19zkwacpm1b.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  servername: renderer-stream-2-62.mirra.now
+  servername: NYcQg19zkwaCPM1B.v.3dns.vip
   ws-opts:
-    path: /api/v1/gpu-stream/socket
+    path: /ws-vmess
     headers:
-      Host: renderer-stream-2-62.mirra.now
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
 
-- name: 51 🇺🇸
+- name: 18 🇭🇰
   type: vmess
-  server: 85.159.228.232
+  server: ce0gedpxwou6cqon.v.3dns.vip
   port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  servername: renderer-stream-2-62.mirra.now
+  servername: cE0gedPXwOU6cqoN.v.3dns.vip
   ws-opts:
-    path: /api/v1/gpu-stream/socket
+    path: /ws-vmess
     headers:
-      Host: renderer-stream-2-62.mirra.now
+      Host: cE0gedPXwOU6cqoN.v.3dns.vip
 
-- name: 25 🇺🇸
-  type: vless
-  server: 141.101.122.147
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 45 🇭🇰
+- name: 23 🇭🇰
   type: vmess
   server: 47.86.107.119
   port: 443
@@ -131,17 +114,30 @@ proxies:
     headers:
       Host: lcv8v9l7OyamxxfZ.v.3dns.vip
 
-- name: 43 🇭🇰
+- name: 17 🇭🇰
   type: vmess
-  server: ex1ogt73nzpqkac2.v.3dns.vip
+  server: 47.243.92.155
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  servername: ex1ogt73nzpqkac2.v.3dns.vip
+  servername: mTCKUNDiGePwU3uP.v.3dns.vip
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: ex1ogt73nzpqkac2.v.3dns.vip
+      Host: mTCKUNDiGePwU3uP.v.3dns.vip
+
+- name: 1 🇩🇪
+  type: vless
+  server: fcs013.getdcz.me
+  port: 443
+  uuid: f081b5e2-f3a0-4ef5-833b-1ea59e0797b6
+  network: ws
+  tls: true
+  servername: fcs013.getdcz.me
+  ws-opts:
+    path: /6d2fed050b30
+    headers:
+      Host: fcs013.getdcz.me
