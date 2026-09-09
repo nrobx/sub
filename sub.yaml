@@ -1,143 +1,126 @@
 proxies:
 
-- name: 25 🇩🇪
+- name: 17 🇳🇱
   type: trojan
-  server: de9w7ehd8ejr9fyd-development-m0t2g.lucity.app
-  port: 443
-  password: 1e0cc178-82ff-8111-42b1-916b4210ca9b
-  sni: de9w7ehd8ejr9fyd-development-m0t2g.lucity.app
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: de9w7ehd8ejr9fyd-development-m0t2g.lucity.app
-
-- name: 11 🇭🇰
-  type: vmess
-  server: 8.218.184.4
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: NYcQg19zkwaCPM1B.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: NYcQg19zkwaCPM1B.v.3dns.vip
-
-- name: 14 🇭🇰
-  type: vmess
-  server: nycqg19zkwacpm1b.v.3dns.vip
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: NYcQg19zkwaCPM1B.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: NYcQg19zkwaCPM1B.v.3dns.vip
-
-- name: 19 🇭🇰
-  type: vmess
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: qTKDR8jXE3wEFxJM.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
-
-- name: 28 🇳🇱
-  type: trojan
-  server: 188.42.145.180
+  server: 213.182.199.137
   port: 443
   password: humanity
-  sni: www.volumeroot.com
+  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
     headers:
-      Host: www.volumeroot.com
+      Host: www.pleadcourt.org
 
-- name: 13 🇭🇰
+- name: 5 🇭🇰
   type: vmess
-  server: nycqg19zkwacpm1b.v.3dns.vip
+  server: i2psm3knof5qjjix.v.3dns.vip
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-  servername: NYcQg19zkwaCPM1B.v.3dns.vip
+  servername: I2PSm3Knof5qjjix.v.3dns.vip
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: NYcQg19zkwaCPM1B.v.3dns.vip
+      Host: I2PSm3Knof5qjjix.v.3dns.vip
 
-- name: 18 🇭🇰
-  type: vmess
-  server: ce0gedpxwou6cqon.v.3dns.vip
+- name: 15 🇫🇷
+  type: trojan
+  server: 5.181.187.58
   port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
+  password: humanity
+  sni: www.calmlunch.com
   network: ws
-  tls: true
-  servername: cE0gedPXwOU6cqoN.v.3dns.vip
   ws-opts:
-    path: /ws-vmess
+    path: /assignment
     headers:
-      Host: cE0gedPXwOU6cqoN.v.3dns.vip
+      Host: www.calmlunch.com
 
-- name: 23 🇭🇰
-  type: vmess
-  server: 47.86.107.119
+- name: 12 🇫🇷
+  type: trojan
+  server: 104.18.32.47
   port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
+  password: humanity
+  sni: www.calmlunch.com
   network: ws
-  tls: true
-  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
   ws-opts:
-    path: /ws-vmess
+    path: /assignment
     headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
+      Host: www.calmlunch.com
 
-- name: 17 🇭🇰
-  type: vmess
-  server: 47.243.92.155
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: mTCKUNDiGePwU3uP.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: mTCKUNDiGePwU3uP.v.3dns.vip
-
-- name: 1 🇩🇪
+- name: 3 🇺🇸
   type: vless
-  server: fcs013.getdcz.me
-  port: 443
-  uuid: f081b5e2-f3a0-4ef5-833b-1ea59e0797b6
+  server: 188.114.97.6
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   network: ws
   tls: true
-  servername: fcs013.getdcz.me
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
   ws-opts:
-    path: /6d2fed050b30
+    path: /?ed=2560
     headers:
-      Host: fcs013.getdcz.me
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+
+- name: 1 🇫🇮
+  type: vless
+  server: k2.cloud--vpn.site
+  port: 443
+  uuid: d9eda159-18d6-4457-8983-55523a21658c
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /
+    headers:
+      Host: c12.com
+
+- name: 13 🇫🇷
+  type: trojan
+  server: 212.183.88.136
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 16 🇳🇱
+  type: trojan
+  server: 213.182.199.137
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+
+- name: 11 🇫🇷
+  type: trojan
+  server: 88.99.189.60
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 14 🇫🇷
+  type: trojan
+  server: 172.64.152.23
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
