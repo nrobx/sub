@@ -1,44 +1,29 @@
 proxies:
 
-- name: 4 🇺🇸
+- name: 3 🇺🇸
   type: vless
-  server: spiderpanel-production-a3ec.up.railway.app
-  port: 443
-  uuid: 3fc7f634-9944-4dcd-b621-c8fe2ca0fe38
+  server: 188.114.97.6
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   network: ws
   tls: true
-  servername: spiderpanel-production-a3ec.up.railway.app
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
   ws-opts:
-    path: /ws/3fc7f634-9944-4dcd-b621-c8fe2ca0fe38
+    path: /?ed=2560
     headers:
-      Host: spiderpanel-production-a3ec.up.railway.app
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
 
-- name: 7 🇭🇰
-  type: vmess
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: EX1oGt73NzPQKAc2.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: EX1oGt73NzPQKAc2.v.3dns.vip
-
-- name: 14 🇫🇷
+- name: 13 🇳🇱
   type: trojan
-  server: 172.64.152.23
+  server: 213.182.199.137
   port: 443
   password: humanity
-  sni: www.calmlunch.com
+  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
     headers:
-      Host: www.calmlunch.com
+      Host: www.pleadcourt.org
 
 - name: 1 🇫🇮
   type: vless
@@ -53,72 +38,9 @@ proxies:
     headers:
       Host: c12.com
 
-- name: 13 🇫🇷
-  type: trojan
-  server: 212.183.88.136
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 11 🇫🇷
+- name: 7 🇫🇷
   type: trojan
   server: 88.99.189.60
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 6 🇭🇰
-  type: vmess
-  server: 47.243.92.155
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: mTCKUNDiGePwU3uP.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: mTCKUNDiGePwU3uP.v.3dns.vip
-
-- name: 10 🇫🇷
-  type: trojan
-  server: 193.233.87.41
-  port: 8443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 16 🇳🇱
-  type: trojan
-  server: 213.182.199.137
-  port: 443
-  password: humanity
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-
-- name: 9 🇫🇷
-  type: trojan
-  server: www.calmlunch.com
   port: 443
   password: humanity
   sni: www.calmlunch.com

@@ -52,67 +52,7 @@ proxies:
     headers:
       Host: spiderpanel-production-a3ec.up.railway.app
 
-- name: 5 🇭🇰
-  type: vmess
-  server: i2psm3knof5qjjix.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: I2PSm3Knof5qjjix.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: I2PSm3Knof5qjjix.v.3dns.vip
-
-- name: 6 🇭🇰
-  type: vmess
-  server: 47.243.92.155
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: mTCKUNDiGePwU3uP.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: mTCKUNDiGePwU3uP.v.3dns.vip
-
-- name: 7 🇭🇰
-  type: vmess
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: EX1oGt73NzPQKAc2.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: EX1oGt73NzPQKAc2.v.3dns.vip
-
-- name: 8 🇭🇰
-  type: vmess
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: EX1oGt73NzPQKAc2.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: EX1oGt73NzPQKAc2.v.3dns.vip
-
-- name: 9 🇫🇷
+- name: 5 🇫🇷
   type: trojan
   server: www.calmlunch.com
   port: 443
@@ -124,7 +64,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 10 🇫🇷
+- name: 6 🇫🇷
   type: trojan
   server: 193.233.87.41
   port: 8443
@@ -136,7 +76,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 11 🇫🇷
+- name: 7 🇫🇷
   type: trojan
   server: 88.99.189.60
   port: 443
@@ -148,7 +88,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 12 🇫🇷
+- name: 8 🇫🇷
   type: trojan
   server: 104.18.32.47
   port: 443
@@ -160,7 +100,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 13 🇫🇷
+- name: 9 🇫🇷
   type: trojan
   server: 212.183.88.136
   port: 443
@@ -172,7 +112,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 14 🇫🇷
+- name: 10 🇫🇷
   type: trojan
   server: 172.64.152.23
   port: 443
@@ -184,7 +124,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 15 🇫🇷
+- name: 11 🇫🇷
   type: trojan
   server: 5.181.187.58
   port: 443
@@ -196,7 +136,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 16 🇳🇱
+- name: 12 🇳🇱
   type: trojan
   server: 213.182.199.137
   port: 443
@@ -208,7 +148,7 @@ proxies:
     headers:
       Host: www.pleadcourt.org
 
-- name: 17 🇳🇱
+- name: 13 🇳🇱
   type: trojan
   server: 213.182.199.137
   port: 443
