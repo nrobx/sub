@@ -1,45 +1,20 @@
 proxies:
 
-- name: 3 🇳🇱
-  type: vless
-  server: 151.242.2.81
-  port: 443
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-  network: ws
-  tls: true
-  servername: cf9.rumedia-cdn.com
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf9.rumedia-cdn.com
-
-- name: 29 🇫🇷
+- name: 23 🇳🇱
   type: trojan
-  server: 45.87.41.18
+  server: 8.47.69.0
   port: 443
   password: humanity
-  sni: www.calmlunch.com
+  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
     headers:
-      Host: www.calmlunch.com
+      Host: www.pleadcourt.org
 
-- name: 30 🇫🇷
+- name: 18 🇫🇷
   type: trojan
-  server: 165.215.250.14
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: //assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 22 🇫🇷
-  type: trojan
-  server: 193.233.87.41
+  server: 5.78.92.27
   port: 8443
   password: humanity
   sni: www.calmlunch.com
@@ -48,3 +23,28 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
+
+- name: 22 🇳🇱
+  type: trojan
+  server: 104.21.33.59
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+
+- name: 7 🇷🇺
+  type: vless
+  server: 46.8.200.91
+  port: 443
+  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
+  network: ws
+  tls: true
+  servername: cf3.rumedia-cdn.com
+  ws-opts:
+    path: /casc
+    headers:
+      Host: cf3.rumedia-cdn.com
