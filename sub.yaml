@@ -1,46 +1,47 @@
 proxies:
 
-- name: 3 🇺🇸
+- name: 35 🇺🇸
   type: vless
-  server: 188.114.97.6
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 104.21.33.59
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   network: ws
   tls: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  servername: a.cwvps.eu.org
   ws-opts:
-    path: /?ed=2560
+    path: /ws
     headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+      Host: a.cwvps.eu.org
 
-- name: 13 🇳🇱
-  type: trojan
-  server: 213.182.199.137
-  port: 443
-  password: humanity
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-
-- name: 1 🇫🇮
+- name: 11 🇬🇧
   type: vless
-  server: k2.cloud--vpn.site
+  server: web-production-6ffd7.up.railway.app
   port: 443
-  uuid: d9eda159-18d6-4457-8983-55523a21658c
+  uuid: c4745383-5e50-4482-8980-8a57a098f58f
   network: ws
   tls: true
-  servername: ssl.fastly.com
+  servername: web-production-6ffd7.up.railway.app
   ws-opts:
-    path: /
+    path: /ws/c4745383-5e50-4482-8980-8a57a098f58f
     headers:
-      Host: c12.com
+      Host: web-production-6ffd7.up.railway.app
 
-- name: 7 🇫🇷
+- name: 19 🇯🇵
+  type: vless
+  server: 104.21.70.21
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  tls: true
+  servername: jp3.yohototo.top
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+
+- name: 56 🇫🇷
   type: trojan
-  server: 88.99.189.60
+  server: 188.114.96.3
   port: 443
   password: humanity
   sni: www.calmlunch.com
