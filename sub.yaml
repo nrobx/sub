@@ -1,16 +1,16 @@
 proxies:
 
-- name: 23 🇳🇱
+- name: 25 🇺🇸
   type: trojan
-  server: 8.47.69.0
+  server: 151.101.56.6
   port: 443
-  password: humanity
-  sni: www.pleadcourt.org
+  password: MiTiVPN
+  sni: ssl.fastly.com
   network: ws
   ws-opts:
-    path: /assignment
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
-      Host: www.pleadcourt.org
+      Host: mitivpn---ss--s---mitivpn-1.global.ssl.fastly.net
 
 - name: 18 🇫🇷
   type: trojan
@@ -24,27 +24,28 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 22 🇳🇱
-  type: trojan
-  server: 104.21.33.59
-  port: 443
-  password: humanity
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-
-- name: 7 🇷🇺
+- name: 6 🇳🇱
   type: vless
-  server: 46.8.200.91
+  server: 151.242.2.81
   port: 443
   uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
   network: ws
   tls: true
-  servername: cf3.rumedia-cdn.com
+  servername: cf9.rumedia-cdn.com
   ws-opts:
-    path: /casc
+    path: /cdn/v3/live
     headers:
-      Host: cf3.rumedia-cdn.com
+      Host: cf9.rumedia-cdn.com
+
+- name: 9 🇺🇸
+  type: vless
+  server: 172.67.217.240
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  network: ws
+  tls: true
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
