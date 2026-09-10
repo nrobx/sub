@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import base64
 import glob
-import json
 import os
 import subprocess
 import sys
@@ -14,7 +13,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.abspath(os.environ.get("OUTPUT_DIR", HERE))
 
 TARGET_TRANSPORTS = ("ws",)
-TARGET_PROTOCOLS = ("vless", "vmess", "trojan")
+TARGET_PROTOCOLS = ("vless", "trojan")
 
 FILE_HEADER = (
     "//profile-title: base64:d3MtaHR0cHVwZ3JhZGUtcG9ydC00NDMtaGFtZWRwNzE=\n"
@@ -23,49 +22,22 @@ FILE_HEADER = (
 )
 
 
-def _b64_decode_vmess(encoded: str):
-    missing = len(encoded) % 4
-    if missing:
-        encoded += "=" * (4 - missing)
-    return json.loads(base64.b64decode(encoded).decode("utf-8"))
-
-
 def detect_transport(protocol: str, rest_no_frag: str):
-    if protocol in ("vless", "trojan"):
-        if "?" not in rest_no_frag:
-            return ""
-        params = urllib.parse.parse_qs(rest_no_frag.split("?", 1)[1])
-        return params.get("type", [""])[0]
-    if protocol == "vmess":
-        try:
-            return _b64_decode_vmess(rest_no_frag).get("net", "")
-        except Exception:
-            return ""
-    return None
+    if "?" not in rest_no_frag:
+        return ""
+    params = urllib.parse.parse_qs(rest_no_frag.split("?", 1)[1])
+    return params.get("type", [""])[0]
 
 
 def has_tls(protocol: str, rest_no_frag: str):
-    if protocol in ("vless", "trojan"):
-        if "?" not in rest_no_frag:
-            return False
-        params = urllib.parse.parse_qs(rest_no_frag.split("?", 1)[1])
-        return params.get("security", [""])[0].lower() == "tls"
-    if protocol == "vmess":
-        try:
-            return (_b64_decode_vmess(rest_no_frag).get("tls") or "") == "tls"
-        except Exception:
-            return False
-    return False
+    if "?" not in rest_no_frag:
+        return False
+    params = urllib.parse.parse_qs(rest_no_frag.split("?", 1)[1])
+    return params.get("security", [""])[0].lower() == "tls"
 
 
 def _port_of(protocol: str, rest_no_frag: str):
     """Extract the port number from a config line, or 0 if unknown."""
-    if protocol == "vmess":
-        try:
-            return int(_b64_decode_vmess(rest_no_frag).get("port", 0))
-        except Exception:
-            return 0
-    # vless / trojan
     server_part = rest_no_frag.split("?", 1)[0]
     core = server_part.split("@", 1)[-1] if "@" in server_part else server_part
     host, _, port = core.rpartition(":")
@@ -77,28 +49,12 @@ def _port_of(protocol: str, rest_no_frag: str):
 
 def get_host_sni(protocol: str, rest_no_frag: str):
     """Return (ws_host_header, sni) for a config, or ('', '') if unknown/empty."""
-    if protocol in ("vless", "trojan"):
-        if "?" not in rest_no_frag:
-            return "", ""
-        params = urllib.parse.parse_qs(rest_no_frag.split("?", 1)[1])
-        host = params.get("host", [""])[0]
-        sni = params.get("sni", [""])[0] or params.get("peer", [""])[0]
-        return host, sni
-    if protocol == "vmess":
-        try:
-            vm = _b64_decode_vmess(rest_no_frag)
-        except Exception:
-            return "", ""
-        host = vm.get("host") or ""
-        sni = vm.get("sni") or ""
-        # for vmess+tls, host and sni are typically the same CDN domain —
-        # fall back to whichever one is set so we don't drop valid configs
-        if not host and sni:
-            host = sni
-        if not sni and host:
-            sni = host
-        return host, sni
-    return "", ""
+    if "?" not in rest_no_frag:
+        return "", ""
+    params = urllib.parse.parse_qs(rest_no_frag.split("?", 1)[1])
+    host = params.get("host", [""])[0]
+    sni = params.get("sni", [""])[0] or params.get("peer", [""])[0]
+    return host, sni
 
 
 def classify(config: str):
@@ -115,11 +71,11 @@ def classify(config: str):
 
 def decode_line(line: str):
     line = line.strip()
-    if line.startswith(("vless://", "vmess://", "trojan://")):
+    if line.startswith(("vless://", "trojan://")):
         return line
     try:
         dec = base64.b64decode(line).decode("utf-8").strip()
-        if dec.startswith(("vless://", "vmess://", "trojan://")):
+        if dec.startswith(("vless://", "trojan://")):
             return dec
     except Exception:
         pass
@@ -179,13 +135,6 @@ def write_file(name, lines):
     print(f"  [ok] {name}  ({len(lines)} config)")
 
 
-def _decode_vmess(encoded: str) -> dict:
-    missing = len(encoded) % 4
-    if missing:
-        encoded += "=" * (4 - missing)
-    return json.loads(base64.b64decode(encoded).decode("utf-8"))
-
-
 def _name_for(config: str) -> str:
     if "#" in config:
         return urllib.parse.unquote(config.rsplit("#", 1)[1])
@@ -208,7 +157,7 @@ def rename_config(cfg: str, new_name: str) -> str:
 
 
 def to_clash_proxy(config: str) -> dict:
-    """Convert a vless/vmess/trojan ws:// config line into a Clash proxy dict."""
+    """Convert a vless/trojan ws:// config line into a Clash proxy dict."""
     proto = config.split("://", 1)[0].lower()
     rest = config.split("://", 1)[1]
     name = _strip_prefix(_name_for(config))
@@ -217,30 +166,6 @@ def to_clash_proxy(config: str) -> dict:
     host, _, port = core.rpartition(":")
     port = int(port) if port.isdigit() else 443
 
-    if proto == "vmess":
-        base = core.rsplit("@", 1)[-1] if "@" in core else core
-        vm = _decode_vmess(base)
-        name = _strip_prefix(vm.get("ps", "node")) or name
-        proxy = {
-            "name": name or vm.get("ps", "node"),
-            "type": "vmess",
-            "server": vm.get("add"),
-            "port": int(vm.get("port", 443)),
-            "uuid": vm.get("id"),
-            "alterId": int(vm.get("aid", 0)),
-            "cipher": vm.get("scy") or vm.get("cipher", "auto"),
-            "network": vm.get("net", "ws"),
-            "tls": vm.get("tls", "") == "tls",
-            "servername": vm.get("sni") or vm.get("host", vm.get("add")),
-        }
-        if vm.get("net") == "ws":
-            proxy["ws-opts"] = {
-                "path": vm.get("path", "/"),
-                "headers": {"Host": vm.get("host", vm.get("add"))},
-            }
-        return proxy
-
-    # vless / trojan
     userinfo, _, host = host.rpartition("@")
     uuid = userinfo
     params = urllib.parse.parse_qs(server_part.split("?", 1)[1]) if "?" in server_part else {}
@@ -394,17 +319,6 @@ def main():
                     vless_cfgs.append(cfg)
     write_clash_yaml("vless_ws.yaml", vless_cfgs)
     print("-" * 50)
-    print("Building vmess_ws.yaml (Clash format, proxies only) ->", OUTPUT_DIR)
-    vmess_cfgs = []
-    p = os.path.join(OUTPUT_DIR, "vmess_ws.txt")
-    if os.path.exists(p):
-        with open(p, encoding="utf-8") as f:
-            for line in f:
-                cfg = decode_line(line)
-                if cfg:
-                    vmess_cfgs.append(cfg)
-    write_clash_yaml("vmess_ws.yaml", vmess_cfgs)
-    print("-" * 50)
     print("Building trojan_ws.yaml (Clash format, proxies only) ->", OUTPUT_DIR)
     trojan_cfgs = []
     p = os.path.join(OUTPUT_DIR, "trojan_ws.txt")
@@ -428,8 +342,8 @@ def main():
                         all_yaml.append(cfg)
     write_clash_yaml("All.yaml", all_yaml)
     print("-" * 50)
-    print("Building sub.yaml (10 random proxies) ->", OUTPUT_DIR)
-    write_random_sub("sub.yaml", 10)
+    print("Building sub.yaml (4 random proxies) ->", OUTPUT_DIR)
+    write_random_sub("sub.yaml", 4)
     print("=" * 50)
     print("Done. Output at:", OUTPUT_DIR)
 
