@@ -1,41 +1,17 @@
 proxies:
 
-- name: 25 🇺🇸
-  type: trojan
-  server: 151.101.56.6
-  port: 443
-  password: MiTiVPN
-  sni: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: mitivpn---ss--s---mitivpn-1.global.ssl.fastly.net
-
-- name: 18 🇫🇷
-  type: trojan
-  server: 5.78.92.27
-  port: 8443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 6 🇳🇱
+- name: 1 🇩🇪
   type: vless
-  server: 151.242.2.81
+  server: 150.241.68.208
   port: 443
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
+  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
   network: ws
   tls: true
-  servername: cf9.rumedia-cdn.com
+  servername: cf13.rumedia-cdn.com
   ws-opts:
     path: /cdn/v3/live
     headers:
-      Host: cf9.rumedia-cdn.com
+      Host: cf13.rumedia-cdn.com
 
 - name: 9 🇺🇸
   type: vless
@@ -49,3 +25,28 @@ proxies:
     path: /?ed=2560
     headers:
       Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+
+- name: 21 🇳🇱
+  type: trojan
+  server: 188.42.145.180
+  port: 443
+  password: humanity
+  sni: www.volumeroot.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.volumeroot.com
+
+- name: 17 🇺🇸
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 3ccba794-1c6d-48a8-acf2-f5caf0e69d86
+  network: ws
+  tls: true
+  servername: all.speedtest03.ccwu.cc
+  ws-opts:
+    path: /
+    headers:
+      Host: all.speedtest03.ccwu.cc
