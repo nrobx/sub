@@ -24,17 +24,17 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 3 🇫🇷
+- name: 3 🇯🇵
   type: trojan
-  server: 5.181.187.58
+  server: 172.64.229.84
   port: 443
-  password: humanity
-  sni: www.calmlunch.com
+  password: 62dbcf02-0989-4441-a01a-93f9c3b93525
+  sni: ot.hyas.space
   network: ws
   ws-opts:
-    path: /assignment
+    path: /x7f9k2m4p8
     headers:
-      Host: www.calmlunch.com
+      Host: ot.hyas.space
 
 - name: 4 🇳🇱
   type: trojan
