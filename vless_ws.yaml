@@ -1,123 +1,32 @@
 proxies:
 
-- name: 1 🇩🇪
+- name: 1 🇮🇳
   type: vless
-  server: aljha.typeshoes.online
+  server: 104.18.3.67
   port: 443
-  uuid: acc591a0-04ae-4676-996a-e6fe01b26ed2
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
   network: ws
   tls: true
-  servername: aljha.typeshoes.online
+  servername: in.520782.xyz
   ws-opts:
-    path: /kdi
+    path: /cdn/packages/runtime-core.tar.gz
     headers:
-      Host: aljha.typeshoes.online
+      Host: in.520782.xyz
 
-- name: 2 🇫🇮
+- name: 2 🇮🇳
   type: vless
-  server: 31.76.88.10
+  server: 104.18.2.67
   port: 443
-  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
   network: ws
   tls: true
-  servername: cf5.rumedia-cdn.com
+  servername: in.520782.xyz
   ws-opts:
-    path: /cdn/v3/live
+    path: /cdn/packages/runtime-core.tar.gz
     headers:
-      Host: cf5.rumedia-cdn.com
+      Host: in.520782.xyz
 
-- name: 3 🇫🇮
-  type: vless
-  server: a2.arshia-nova.ir
-  port: 443
-  uuid: d9eda159-18d6-4457-8983-55523a21658c
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
-
-- name: 4 🇫🇮
-  type: vless
-  server: k2.cloud--vpn.site
-  port: 443
-  uuid: d9eda159-18d6-4457-8983-55523a21658c
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
-
-- name: 5 🇫🇮
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: d9eda159-18d6-4457-8983-55523a21658c
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  ws-opts:
-    path: /?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
-    headers:
-      Host: c12.com
-
-- name: 6 🇫🇮
-  type: vless
-  server: 31.76.88.10
-  port: 443
-  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
-  network: ws
-  tls: true
-  servername: cf5.rumedia-cdn.com
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf5.rumedia-cdn.com
-
-- name: 7 🇬🇧
-  type: vless
-  server: fcs013.getdcz.me
-  port: 443
-  uuid: f081b5e2-f3a0-4ef5-833b-1ea59e0797b6
-  network: ws
-  tls: true
-  servername: fcs013.getdcz.me
-  ws-opts:
-    path: /6d2fed050b30
-    headers:
-      Host: fcs013.getdcz.me
-
-- name: 8 🇯🇵
-  type: vless
-  server: 172.67.156.147
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-
-- name: 9 🇳🇱
-  type: vless
-  server: 151.242.2.81
-  port: 443
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-  network: ws
-  tls: true
-  servername: cf9.rumedia-cdn.com
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf9.rumedia-cdn.com
-
-- name: 10 🇳🇱
+- name: 3 🇳🇱
   type: vless
   server: 199.232.78.159
   port: 443
@@ -130,100 +39,61 @@ proxies:
     headers:
       Host: fancii.global.ssl.fastly.net
 
-- name: 11 🇸🇪
+- name: 4 🇳🇱
   type: vless
-  server: 202.155.11.249
+  server: 199.232.78.159
+  port: 443
+  uuid: 5ff561f7-e1f1-4280-84bf-ac640b4d10d1
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
+    headers:
+      Host: fancii.global.ssl.fastly.net
+
+- name: 5 🇳🇱
+  type: vless
+  server: 151.242.2.81
   port: 443
   uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
   network: ws
   tls: true
-  servername: cf2.rumedia-cdn.com
+  servername: cf9.rumedia-cdn.com
   ws-opts:
     path: /cdn/v3/live
     headers:
-      Host: cf2.rumedia-cdn.com
+      Host: cf9.rumedia-cdn.com
 
-- name: 12 🇸🇬
+- name: 6 🇸🇰
   type: vless
-  server: 104.17.71.206
+  server: 185.112.249.201
   port: 8443
-  uuid: 542fd687-5160-4f80-9223-56678567dd29
+  uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142
   network: ws
   tls: true
-  servername: 8.sahanwickramasinghe.me
+  servername: web-socket.tgdaosheng.ggff.net
+  ws-opts:
+    path: /proxyip=bpb.yousef.isegaro.comfp=chrome
+    headers:
+      Host: web-socket.tgdaosheng.ggff.net
+
+- name: 7 🇺🇸
+  type: vless
+  server: fq.jp188.dpdns.org
+  port: 443
+  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  network: ws
+  tls: true
+  servername: fq.jp188.dpdns.org
   ws-opts:
     path: /
     headers:
-      Host: 8.sahanwickramasinghe.me
+      Host: fq.jp188.dpdns.org
 
-- name: 13 🇺🇸
+- name: 8 🇺🇸
   type: vless
-  server: 129.121.95.159
-  port: 443
-  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
-  network: ws
-  tls: true
-  servername: 129.121.95.159
-  ws-opts:
-    path: /connect
-    headers:
-      Host: 129.121.95.159
-
-- name: 14 🇺🇸
-  type: vless
-  server: mybb.com
-  port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
-  network: ws
-  tls: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rayan-007.nastaran.dpdns.org
-
-- name: 15 🇺🇸
-  type: vless
-  server: medium.com
-  port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  network: ws
-  tls: true
-  servername: rAyAn-007.mAxImA.DpDnS.OrG
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
-
-- name: 16 🇺🇸
-  type: vless
-  server: 172.67.217.240
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-
-- name: 17 🇺🇸
-  type: vless
-  server: 104.21.33.59
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-
-- name: 18 🇺🇸
-  type: vless
-  server: cf.9999669.xyz
+  server: 172.64.52.182
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   network: ws
@@ -234,41 +104,15 @@ proxies:
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 
-- name: 19 🇺🇸
+- name: 9 🇺🇸
   type: vless
-  server: 172.67.217.240
+  server: 104.16.10.185
   port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   network: ws
   tls: true
-  servername: a.cwvps.eu.org
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
   ws-opts:
-    path: /ws
+    path: /?ed=2560
     headers:
-      Host: a.cwvps.eu.org
-
-- name: 20 🇺🇸
-  type: vless
-  server: 104.21.33.59
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 21 🇺🇸
-  type: vless
-  server: 141.101.122.147
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
