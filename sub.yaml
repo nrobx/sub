@@ -1,52 +1,53 @@
 proxies:
 
-- name: 1 🇩🇪
+- name: 9 🇩🇪
   type: vless
-  server: 150.241.68.208
+  server: aljha.typeshoes.online
   port: 443
-  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
+  uuid: acc591a0-04ae-4676-996a-e6fe01b26ed2
   network: ws
   tls: true
-  servername: cf13.rumedia-cdn.com
+  servername: aljha.typeshoes.online
   ws-opts:
-    path: /cdn/v3/live
+    path: /kdi
     headers:
-      Host: cf13.rumedia-cdn.com
+      Host: aljha.typeshoes.online
 
-- name: 9 🇺🇸
+- name: 6 🇩🇪
   type: vless
-  server: 172.67.217.240
+  server: 199.232.78.160
   port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  uuid: XpnTeam-11
   network: ws
   tls: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-
-- name: 21 🇳🇱
-  type: trojan
-  server: 188.42.145.180
-  port: 443
-  password: humanity
-  sni: www.volumeroot.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.volumeroot.com
-
-- name: 17 🇺🇸
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 3ccba794-1c6d-48a8-acf2-f5caf0e69d86
-  network: ws
-  tls: true
-  servername: all.speedtest03.ccwu.cc
+  servername: ssl.fastly.com
   ws-opts:
     path: /
     headers:
-      Host: all.speedtest03.ccwu.cc
+      Host: Appxdn.global.ssl.fastly.net
+
+- name: 36 🇳🇱
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: e5c5c006-facc-45be-99bc-20d772372d5c
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
+    headers:
+      Host: pane3.global.ssl.fastly.net
+
+- name: 45 🇸🇬
+  type: vless
+  server: 104.17.73.206
+  port: 8443
+  uuid: 542fd687-5160-4f80-9223-56678567dd29
+  network: ws
+  tls: true
+  servername: 8.sahanwickramasinghe.me
+  ws-opts:
+    path: /
+    headers:
+      Host: 8.sahanwickramasinghe.me
