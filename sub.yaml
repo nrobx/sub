@@ -1,52 +1,50 @@
 proxies:
 
-- name: 5 🇺🇸
-  type: vless
-  server: 172.64.52.182
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  ws-opts:
-    path: ?ed=2560
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-
-- name: 12 🇳🇱
+- name: 7 🇫🇷
   type: trojan
-  server: 188.42.145.180
+  server: 166.1.36.83
   port: 443
   password: humanity
-  sni: www.volumeroot.com
+  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
     headers:
-      Host: www.volumeroot.com
+      Host: www.calmlunch.com
 
-- name: 1 🇫🇮
-  type: vless
-  server: 151.101.56.6
+- name: 13 🇳🇱
+  type: trojan
+  server: 104.21.33.59
   port: 443
-  uuid: cc4a473a-2e15-4fc6-ec54-47c3aa5cec09
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+
+- name: 2 🇮🇳
+  type: vless
+  server: 104.18.3.67
+  port: 443
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
   network: ws
   tls: true
-  servername: ssl.fastly.com
+  servername: in.520782.xyz
   ws-opts:
-    path: /?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
+    path: /cdn/packages/runtime-core.tar.gz
     headers:
-      Host: c12.com
+      Host: in.520782.xyz
 
-- name: 6 🇺🇸
-  type: vless
-  server: 104.16.10.185
+- name: 14 🇳🇱
+  type: trojan
+  server: 213.182.199.137
   port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  password: humanity
+  sni: www.pleadcourt.org
   network: ws
-  tls: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
   ws-opts:
-    path: /?ed=2560
+    path: /assignment
     headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+      Host: www.pleadcourt.org
