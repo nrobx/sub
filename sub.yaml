@@ -1,29 +1,5 @@
 proxies:
 
-- name: 19 🇫🇷
-  type: trojan
-  server: 104.16.72.50
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 28 🇺🇸
-  type: trojan
-  server: www.speedtest.net
-  port: 443
-  password: A4u%5Ep(_UR*F6
-  sni: 027.ELeCTroCelLco-CF-027.wORkERS.dEv
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoidlhnMXN5OXFUSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
-    headers:
-      Host: 027.electrocellco-cf-027.workers.dev
-
 - name: 18 🇫🇷
   type: trojan
   server: 104.16.72.41
@@ -36,14 +12,40 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 14 🇫🇷
+- name: 7 🇺🇸
+  type: vless
+  server: 172.64.52.230
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  network: ws
+  tls: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+
+- name: 27 🇳🇱
   type: trojan
-  server: 188.114.98.0
+  server: 104.21.33.59
   port: 443
   password: humanity
-  sni: www.calmlunch.com
+  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
     headers:
-      Host: www.calmlunch.com
+      Host: www.pleadcourt.org
+
+- name: 8 🇺🇸
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 3ccba794-1c6d-48a8-acf2-f5caf0e69d86
+  network: ws
+  tls: true
+  servername: all.speedtest03.ccwu.cc
+  ws-opts:
+    path: /
+    headers:
+      Host: all.speedtest03.ccwu.cc
