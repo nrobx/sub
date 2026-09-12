@@ -1,34 +1,8 @@
 proxies:
 
-- name: 9 🇺🇸
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 3 🇮🇳
-  type: vless
-  server: 104.18.3.67
-  port: 443
-  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
-  network: ws
-  tls: true
-  servername: in.520782.xyz
-  ws-opts:
-    path: /cdn/packages/runtime-core.tar.gz
-    headers:
-      Host: in.520782.xyz
-
-- name: 51 🇫🇷
+- name: 19 🇫🇷
   type: trojan
-  server: 212.183.88.136
+  server: 104.16.72.50
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -38,14 +12,38 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 58 🇮🇩
+- name: 28 🇺🇸
   type: trojan
-  server: 172.67.217.240
+  server: www.speedtest.net
   port: 443
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
-  sni: id1.nathaya.web.id
+  password: A4u%5Ep(_UR*F6
+  sni: 027.ELeCTroCelLco-CF-027.wORkERS.dEv
   network: ws
   ws-opts:
-    path: /trojan
+    path: /eyJqdW5rIjoidlhnMXN5OXFUSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
     headers:
-      Host: id1.nathaya.web.id
+      Host: 027.electrocellco-cf-027.workers.dev
+
+- name: 18 🇫🇷
+  type: trojan
+  server: 104.16.72.41
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 14 🇫🇷
+  type: trojan
+  server: 188.114.98.0
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
