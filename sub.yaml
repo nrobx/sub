@@ -1,45 +1,19 @@
 proxies:
 
-- name: 31 🇺🇸
+- name: 9 🇺🇸
   type: vless
-  server: cf.090227.xyz
+  server: 188.114.97.6
   port: 443
-  uuid: 5b374761-e26c-4117-8af8-5c637992fcbf
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   network: ws
   tls: true
-  servername: vls.baiyi.cloudns.org
+  servername: a.cwvps.eu.org
   ws-opts:
-    path: /?ed=2560
+    path: /ws
     headers:
-      Host: vls.baiyi.cloudns.org
+      Host: a.cwvps.eu.org
 
-- name: 37 🇺🇸
-  type: vless
-  server: 104.24.31.89
-  port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
-  network: ws
-  tls: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
-  ws-opts:
-    path: /
-    headers:
-      Host: rayan-007.nastaran.dpdns.org
-
-- name: 16 🇯🇵
-  type: vless
-  server: 104.21.33.59
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-
-- name: 9 🇮🇳
+- name: 3 🇮🇳
   type: vless
   server: 104.18.3.67
   port: 443
@@ -51,3 +25,27 @@ proxies:
     path: /cdn/packages/runtime-core.tar.gz
     headers:
       Host: in.520782.xyz
+
+- name: 51 🇫🇷
+  type: trojan
+  server: 212.183.88.136
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 58 🇮🇩
+  type: trojan
+  server: 172.67.217.240
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  sni: id1.nathaya.web.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
