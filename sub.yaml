@@ -13,9 +13,9 @@ proxies:
     headers:
       Host: a.cwvps.eu.org
 
-- name: 19 🇫🇷
+- name: 24 🇫🇷
   type: trojan
-  server: 104.17.121.43
+  server: www.speedtest.net
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -25,21 +25,21 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 45 🇺🇸
+- name: 16 🇫🇷
   type: trojan
-  server: 151.101.56.101
+  server: 185.220.100.168
   port: 443
-  password: M%69TiVPN
-  sni: ssl.fastly.com
+  password: humanity
+  sni: www.calmlunch.com
   network: ws
   ws-opts:
-    path: '@mehrosaboran'
+    path: /assignment
     headers:
-      Host: mitivpn---ss--s---mitivpn-5.global.ssl.fastly.net
+      Host: www.calmlunch.com
 
-- name: 14 🇫🇷
+- name: 23 🇫🇷
   type: trojan
-  server: 104.17.121.71
+  server: 88.99.189.60
   port: 443
   password: humanity
   sni: www.calmlunch.com
