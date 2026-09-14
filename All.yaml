@@ -1,500 +1,32 @@
 proxies:
 
-- name: 1 🇧🇬
+- name: 1 🇧🇷
   type: vless
-  server: 108.165.233.223
+  server: ct.877774.xyz
   port: 443
-  uuid: 2388e166-3890-33ae-f77e-efac00000001
+  uuid: 563f3112-71fe-4a88-9055-23df3cbf708d
   network: ws
   tls: true
-  servername: netlivpn4813.ddhshhshs.workers.dev
+  servername: br-gru.xhs152.shop
   ws-opts:
-    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
+    path: /announcement?ed=2048
     headers:
-      Host: netlivpn4813.ddhshhshs.workers.dev
+      Host: br-gru.xhs152.shop
 
-- name: 2 🇨🇿
-  type: vless
-  server: 78.159.247.246
-  port: 443
-  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
-  network: ws
-  tls: true
-  servername: sb2.hat.onl
-  ws-opts:
-    path: /ws
-    headers:
-      Host: sb2.hat.onl
-
-- name: 3 🇨🇿
-  type: vless
-  server: 78.159.247.246
-  port: 443
-  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
-  network: ws
-  tls: true
-  servername: sb2.hat.onl
-  ws-opts:
-    path: /ws
-    headers:
-      Host: sb2.hat.onl
-
-- name: 4 🇫🇮
-  type: vless
-  server: 31.76.88.10
-  port: 443
-  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
-  network: ws
-  tls: true
-  servername: cf5.rumedia-cdn.com
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf5.rumedia-cdn.com
-
-- name: 5 🇫🇮
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: 0d4fd99b-06ae-4ee2-fee2-fda93a9434f1
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  ws-opts:
-    path: /?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
-    headers:
-      Host: c12.com
-
-- name: 6 🇫🇮
-  type: vless
-  server: k2.cloud--vpn.site
-  port: 443
-  uuid: 0d4fd99b-06ae-4ee2-fee2-fda93a9434f1
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
-
-- name: 7 🇫🇮
-  type: vless
-  server: 216.24.57.1
-  port: 443
-  uuid: efc8337e-27ce-4ab4-9ef9-c7f9e5eef575
-  network: ws
-  tls: true
-  servername: f.tmkkarss.online
-  ws-opts:
-    path: /
-    headers:
-      Host: f.tmkkarss.online
-
-- name: 8 🇯🇵
-  type: vless
-  server: 172.67.217.240
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-
-- name: 9 🇯🇵
-  type: vless
-  server: 162.159.254.3
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-
-- name: 10 🇯🇵
-  type: vless
-  server: 104.16.10.185
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-
-- name: 11 🇯🇵
-  type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-
-- name: 12 🇯🇵
-  type: vless
-  server: 162.159.254.3
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-
-- name: 13 🇯🇵
-  type: vless
-  server: 104.21.33.59
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-
-- name: 14 🇯🇵
-  type: vless
-  server: 104.21.33.59
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-
-- name: 15 🇳🇱
-  type: vless
-  server: 151.242.2.81
-  port: 443
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-  network: ws
-  tls: true
-  servername: cf9.rumedia-cdn.com
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf9.rumedia-cdn.com
-
-- name: 16 🇳🇱
-  type: vless
-  server: 151.242.2.81
-  port: 443
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-  network: ws
-  tls: true
-  servername: cf9.rumedia-cdn.com
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf9.rumedia-cdn.com
-
-- name: 17 🇳🇱
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: b8908b7c-8e63-4d0b-a4da-8f47c6c9dd6a
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
-    headers:
-      Host: Fijji.global.ssl.fastly.net
-
-- name: 18 🇳🇱
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: 404aa1e8-4935-4919-8b74-60e88b065cf4
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
-    headers:
-      Host: pane2.global.ssl.fastly.net
-
-- name: 19 🇳🇱
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: b8908b7c-8e63-4d0b-a4da-8f47c6c9dd6a
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-    headers:
-      Host: Fijji.global.ssl.fastly.net
-
-- name: 20 🇳🇱
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: 38393c07-aef2-4dd6-bdec-3614bddd8576
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-    headers:
-      Host: pan1.global.ssl.fastly.net
-
-- name: 21 🇷🇺
-  type: vless
-  server: 46.8.200.91
-  port: 443
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-  network: ws
-  tls: true
-  servername: cf3.rumedia-cdn.com
-  ws-opts:
-    path: /casc
-    headers:
-      Host: cf3.rumedia-cdn.com
-
-- name: 22 🇷🇺
-  type: vless
-  server: 46.8.200.91
-  port: 443
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-  network: ws
-  tls: true
-  servername: cf3.rumedia-cdn.com
-  ws-opts:
-    path: /casc
-    headers:
-      Host: cf3.rumedia-cdn.com
-
-- name: 23 🇸🇬
-  type: vless
-  server: 141.193.213.21
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  network: ws
-  tls: true
-  servername: u.srilankangrill.online
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-
-- name: 24 🇸🇬
-  type: vless
-  server: 141.193.213.20
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  network: ws
-  tls: true
-  servername: u.srilankangrill.online
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-
-- name: 25 🇸🇬
-  type: vless
-  server: news.zoom.us
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  network: ws
-  tls: true
-  servername: u.srilankangrill.online
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-
-- name: 26 🇸🇬
-  type: vless
-  server: 190.93.245.7
-  port: 8443
-  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
-  network: ws
-  tls: true
-  servername: speed.dulacloud.store
-  ws-opts:
-    path: /dula?Telegram-WangCai2
-    headers:
-      Host: speed.dulacloud.store
-
-- name: 27 🇹🇭
-  type: vless
-  server: 104.16.10.185
-  port: 443
-  uuid: 3c52e091-6714-4915-949f-2149fe69951b
-  network: ws
-  tls: true
-  servername: v2ray.simspeedup.com
-  ws-opts:
-    path: /ws
-    headers:
-      Host: v2ray.simspeedup.com
-
-- name: 28 🇺🇸
-  type: vless
-  server: 129.121.95.159
-  port: 443
-  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
-  network: ws
-  tls: true
-  servername: 129.121.95.159
-  ws-opts:
-    path: /connect
-    headers:
-      Host: 129.121.95.159
-
-- name: 29 🇺🇸
-  type: vless
-  server: mybb.com
-  port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
-  network: ws
-  tls: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rayan-007.nastaran.dpdns.org
-
-- name: 30 🇺🇸
-  type: vless
-  server: medium.com
-  port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  network: ws
-  tls: true
-  servername: rAyAn-007.mAxImA.DpDnS.OrG
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
-
-- name: 31 🇺🇸
-  type: vless
-  server: 172.67.65.53
-  port: 2087
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
-  network: ws
-  tls: true
-  servername: shanxp.dpdns.org
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: shanxp.dpdns.org
-
-- name: 32 🇺🇸
-  type: vless
-  server: 172.67.217.240
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-
-- name: 33 🇺🇸
-  type: vless
-  server: 172.67.217.240
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 34 🇺🇸
-  type: vless
-  server: 172.64.52.175
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-
-- name: 35 🇺🇸
-  type: vless
-  server: 104.24.31.89
-  port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
-  network: ws
-  tls: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
-  ws-opts:
-    path: /
-    headers:
-      Host: rayan-007.nastaran.dpdns.org
-
-- name: 36 🇺🇸
-  type: vless
-  server: 104.17.147.22
-  port: 443
-  uuid: 5ef04ae8-8d7c-0a66-13f4-6e3f00000003
-  network: ws
-  tls: true
-  servername: relay.lunetcloud.ir
-  ws-opts:
-    path: /lunetnetwork
-    headers:
-      Host: relay.lunetcloud.ir
-
-- name: 37 🇺🇸
-  type: vless
-  server: 8.35.211.115
-  port: 2087
-  uuid: 1e49ee8c-33be-4db8-8445-7203f18aecfa
-  network: ws
-  tls: true
-  servername: mysheep.dpdns.org
-  ws-opts:
-    path: /
-    headers:
-      Host: mysheep.dpdns.org
-
-- name: 38 🇺🇸
+- name: 2 🇨🇦
   type: vless
   server: 188.114.97.6
   port: 443
-  uuid: 1e49ee8c-33be-4db8-8445-7203f18aecfa
+  uuid: d1eeb74f-e5ea-45eb-9934-5376bfeb5ba4
   network: ws
   tls: true
-  servername: mysheep.dpdns.org
+  servername: fragrant-shape-07a0.269-144.workers.dev
   ws-opts:
-    path: /fp=chrome
+    path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
-      Host: mysheep.dpdns.org
+      Host: fragrant-shape-07a0.269-144.workers.dev
 
-- name: 39 🇺🇸
+- name: 3 🇨🇦
   type: vless
   server: 104.21.33.59
   port: 443
@@ -507,189 +39,189 @@ proxies:
     headers:
       Host: cfvvv-ev1.pages.dev
 
-- name: 40 🇺🇸
+- name: 4 🇨🇿
   type: vless
-  server: fq.jp188.dpdns.org
+  server: 78.159.247.246
   port: 443
-  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
   network: ws
   tls: true
-  servername: fq.jp188.dpdns.org
-  ws-opts:
-    path: /
-    headers:
-      Host: fq.jp188.dpdns.org
-
-- name: 41 🇺🇸
-  type: vless
-  server: 104.16.10.185
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
+  servername: sb2.hat.onl
   ws-opts:
     path: /ws
     headers:
-      Host: a.cwvps.eu.org
+      Host: sb2.hat.onl
 
-- name: 42 🇺🇸
+- name: 5 🇫🇮
   type: vless
-  server: 104.21.8.63
+  server: 216.24.57.1
   port: 443
-  uuid: b19419fa-8009-455b-b059-765e2856883a
+  uuid: efc8337e-27ce-4ab4-9ef9-c7f9e5eef575
   network: ws
   tls: true
-  servername: akbarian34.j9z65ce2uyks.workers.dev
-  ws-opts:
-    path: /vl/Q5xRgb8wfW3RTYFIfDA16PzboJrjLuZ9?ed=2560
-    headers:
-      Host: akbarian34.j9z65ce2uyks.workers.dev
-
-- name: 43 🇺🇸
-  type: vless
-  server: www.speedtest.net
-  port: 443
-  uuid: b19419fa-8009-455b-b059-765e2856883a
-  network: ws
-  tls: true
-  servername: akbarian34.j9z65ce2uyks.workers.dev
-  ws-opts:
-    path: /vl/3Qe9Fv1V2cqEtXyBQApZYi?ed=2560
-    headers:
-      Host: akbarian34.j9z65ce2uyks.workers.dev
-
-- name: 44 🇺🇸
-  type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
-  network: ws
-  tls: true
-  servername: damp-dawn-3a96.alvlirm123.workers.dev
+  servername: f.tmkkarss.online
   ws-opts:
     path: /
     headers:
-      Host: damp-dawn-3a96.alvlirm123.workers.dev
+      Host: f.tmkkarss.online
 
-- name: 45 🇺🇸
+- name: 6 🇯🇵
   type: vless
-  server: 104.21.70.223
+  server: ct.877774.xyz
   port: 443
-  uuid: 527451fe-ee1f-4e6f-94ca-808f055f7c9b
+  uuid: 563f3112-71fe-4a88-9055-23df3cbf708d
   network: ws
   tls: true
-  servername: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
+  servername: jp-osa.xhs152.shop
   ws-opts:
-    path: /vl/ERYN0G44hia16zhR
+    path: /announcement?ed=2048
     headers:
-      Host: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
+      Host: jp-osa.xhs152.shop
 
-- name: 46 🇺🇸
+- name: 7 🇳🇱
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: 38393c07-aef2-4dd6-bdec-3614bddd8576
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    headers:
+      Host: pan1.global.ssl.fastly.net
+
+- name: 8 🇳🇱
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: 404aa1e8-4935-4919-8b74-60e88b065cf4
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
+    headers:
+      Host: pane2.global.ssl.fastly.net
+
+- name: 9 🇳🇱
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: b8908b7c-8e63-4d0b-a4da-8f47c6c9dd6a
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
+    headers:
+      Host: Fijji.global.ssl.fastly.net
+
+- name: 10 🇳🇱
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: 38393c07-aef2-4dd6-bdec-3614bddd8576
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    headers:
+      Host: pan1.global.ssl.fastly.net
+
+- name: 11 🇳🇱
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: b8908b7c-8e63-4d0b-a4da-8f47c6c9dd6a
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    headers:
+      Host: Fijji.global.ssl.fastly.net
+
+- name: 12 🇹🇷
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: d7282b41-1f2a-47bb-8593-f464fd6b6d78
+  network: ws
+  tls: true
+  servername: global.fastly.com
+  ws-opts:
+    path: /
+    headers:
+      Host: BechBad.global.ssl.fastly.net
+
+- name: 13 🇺🇸
+  type: vless
+  server: 188.114.97.6
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  network: ws
+  tls: true
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+
+- name: 14 🇺🇸
+  type: vless
+  server: 172.64.147.104
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  network: ws
+  tls: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+
+- name: 15 🇺🇸
+  type: vless
+  server: 104.19.178.244
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  network: ws
+  tls: true
+  servername: cfvvv-ev1.pages.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+
+- name: 16 🇺🇸
+  type: vless
+  server: 104.18.42.54
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  network: ws
+  tls: true
+  servername: cfvvv-ev1.pages.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+
+- name: 17 🇺🇸
   type: vless
   server: 188.114.97.6
   port: 443
-  uuid: d9abc6e3-83bf-4c28-ae68-72465e2abe39
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
   network: ws
   tls: true
-  servername: ikt-kkc25f27k-3tehr8mc.ade-1007.workers.dev
-  ws-opts:
-    path: /vl/xQhNe7rLrdM0emZlaW5LMsNwcoIgnT?ed=2560
-    headers:
-      Host: ikt-kkc25f27k-3tehr8mc.ade-1007.workers.dev
-
-- name: 47 🇺🇸
-  type: vless
-  server: 104.17.147.22
-  port: 443
-  uuid: b19419fa-8009-455b-b059-765e2856883a
-  network: ws
-  tls: true
-  servername: AkbaRiAN34.J9z65CE2UYKs.wORKERS.DEV
-  ws-opts:
-    path: /vl/3Qe9Fv1V2cqEtXyBQApZYi?ed=2560
-    headers:
-      Host: akbarian34.j9z65ce2uyks.workers.dev
-
-- name: 48 🇺🇸
-  type: vless
-  server: 104.27.92.217
-  port: 443
-  uuid: 5f4acc06-8cbf-4172-92d2-8f475e51f781
-  network: ws
-  tls: true
-  servername: p9C85CkpnAI98SdLJZhUWwnOlmCmxW88.CdZsqJE4u3mS.WorKeRs.deV
-  ws-opts:
-    path: /vl/qS74oZnpprf6Qgqx
-    headers:
-      Host: p9c85ckpnai98sdljzhuwwnolmcmxw88.cdzsqje4u3ms.workers.dev
-
-- name: 49 🇺🇸
-  type: vless
-  server: 172.67.140.37
-  port: 443
-  uuid: 527451fe-ee1f-4e6f-94ca-808f055f7c9b
-  network: ws
-  tls: true
-  servername: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
-  ws-opts:
-    path: /vl/ERYN0G44hia16zhR
-    headers:
-      Host: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
-
-- name: 50 🇺🇸
-  type: vless
-  server: 104.21.88.201
-  port: 443
-  uuid: 07f9bc85-613f-4a33-8da1-191973c43c0a
-  network: ws
-  tls: true
-  servername: app-q0zc4t.user-4gfyh5.workers.dev
-  ws-opts:
-    path: /cmh
-    headers:
-      Host: app-q0zc4t.user-4gfyh5.workers.dev
-
-- name: 51 🇺🇸
-  type: vless
-  server: 172.67.155.222
-  port: 443
-  uuid: 82b279c6-5cba-3a96-f8bd-780a00000035
-  network: ws
-  tls: true
-  servername: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-  ws-opts:
-    path: /sync
-    headers:
-      Host: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-
-- name: 52 🇺🇸
-  type: vless
-  server: app-q0zc4t.user-4gfyh5.workers.dev
-  port: 443
-  uuid: 07f9bc85-613f-4a33-8da1-191973c43c0a
-  network: ws
-  tls: true
-  servername: app-q0zc4t.user-4gfyh5.workers.dev
+  servername: cfvvv-ev1.pages.dev
   ws-opts:
     path: /
     headers:
-      Host: app-q0zc4t.user-4gfyh5.workers.dev
+      Host: cfvvv-ev1.pages.dev
 
-- name: 53 🇺🇸
-  type: vless
-  server: 104.17.147.22
-  port: 443
-  uuid: 5ef04ae8-8d7c-0a66-13f4-6e3f00000005
-  network: ws
-  tls: true
-  servername: relay.lunetcloud.ir
-  ws-opts:
-    path: /lunetnetwork
-    headers:
-      Host: relay.lunetcloud.ir
-
-- name: 54 🇨🇭
+- name: 18 🇨🇭
   type: trojan
   server: 172.67.211.79
   port: 443
@@ -701,9 +233,9 @@ proxies:
     headers:
       Host: mfyousheng.nl.eu.org
 
-- name: 55 🇫🇷
+- name: 19 🇫🇷
   type: trojan
-  server: 104.18.37.228
+  server: 162.159.244.91
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -713,9 +245,9 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 56 🇫🇷
+- name: 20 🇫🇷
   type: trojan
-  server: 104.17.121.71
+  server: 104.21.13.204
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -725,235 +257,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 57 🇫🇷
-  type: trojan
-  server: 45.130.125.160
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 58 🇫🇷
-  type: trojan
-  server: 5.78.92.27
-  port: 8443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 59 🇫🇷
-  type: trojan
-  server: 104.21.103.254
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 60 🇫🇷
-  type: trojan
-  server: 185.220.100.168
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 61 🇫🇷
-  type: trojan
-  server: 104.16.72.50
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 62 🇫🇷
-  type: trojan
-  server: chat.openai.com
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 63 🇫🇷
-  type: trojan
-  server: 104.17.121.43
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 64 🇫🇷
-  type: trojan
-  server: 188.114.98.0
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 65 🇫🇷
-  type: trojan
-  server: 104.19.64.105
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 66 🇫🇷
-  type: trojan
-  server: 172.64.150.28
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 67 🇫🇷
-  type: trojan
-  server: www.calmlunch.com
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 68 🇫🇷
-  type: trojan
-  server: 45.130.125.190
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 69 🇫🇷
-  type: trojan
-  server: 88.99.189.60
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 70 🇫🇷
-  type: trojan
-  server: www.speedtest.net
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 71 🇫🇷
-  type: trojan
-  server: 162.159.253.41
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 72 🇫🇷
-  type: trojan
-  server: 104.16.71.213
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 73 🇫🇷
-  type: trojan
-  server: 193.233.87.41
-  port: 8443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 74 🇫🇷
-  type: trojan
-  server: 188.114.96.3
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 75 🇫🇷
-  type: trojan
-  server: 45.205.0.6
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 76 🇫🇷
+- name: 21 🇫🇷
   type: trojan
   server: 104.16.72.41
   port: 443
@@ -965,9 +269,9 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 77 🇫🇷
+- name: 22 🇫🇷
   type: trojan
-  server: 172.64.152.23
+  server: 172.67.231.254
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -977,43 +281,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 78 🇫🇷
-  type: trojan
-  server: 185.255.179.166
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 79 🇫🇷
-  type: trojan
-  server: 165.215.250.14
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: //assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 80 🇫🇷
-  type: trojan
-  server: 212.183.88.136
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 81 🇫🇷
+- name: 23 🇫🇷
   type: trojan
   server: 188.114.98.0
   port: 443
@@ -1025,67 +293,175 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 82 🇮🇩
+- name: 24 🇫🇷
   type: trojan
-  server: 104.21.70.21
+  server: 172.64.152.23
   port: 443
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
-  sni: id1.nathaya.web.id
+  password: humanity
+  sni: www.calmlunch.com
   network: ws
   ws-opts:
-    path: /trojan
+    path: /assignment
     headers:
-      Host: id1.nathaya.web.id
+      Host: www.calmlunch.com
 
-- name: 83 🇮🇩
+- name: 25 🇫🇷
   type: trojan
-  server: 188.114.97.6
+  server: 188.114.96.3
   port: 443
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
-  sni: id1.nathaya.web.id
+  password: humanity
+  sni: www.calmlunch.com
   network: ws
   ws-opts:
-    path: /trojan
+    path: /assignment
     headers:
-      Host: id1.nathaya.web.id
+      Host: www.calmlunch.com
 
-- name: 84 🇮🇩
+- name: 26 🇫🇷
   type: trojan
-  server: 172.67.217.240
+  server: 185.255.179.166
   port: 443
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
-  sni: id1.nathaya.web.id
+  password: humanity
+  sni: www.calmlunch.com
   network: ws
   ws-opts:
-    path: /trojan
+    path: /assignment
     headers:
-      Host: id1.nathaya.web.id
+      Host: www.calmlunch.com
 
-- name: 85 🇮🇩
+- name: 27 🇫🇷
   type: trojan
-  server: 104.21.70.21
+  server: www.speedtest.net
   port: 443
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
-  sni: id1.nathaya.web.id
+  password: humanity
+  sni: www.calmlunch.com
   network: ws
   ws-opts:
-    path: /trojan
+    path: /assignment
     headers:
-      Host: id1.nathaya.web.id
+      Host: www.calmlunch.com
 
-- name: 86 🇮🇩
+- name: 28 🇫🇷
   type: trojan
-  server: 104.21.33.59
+  server: 5.181.187.58
   port: 443
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
-  sni: id1.nathaya.web.id
+  password: humanity
+  sni: www.calmlunch.com
   network: ws
   ws-opts:
-    path: /trojan
+    path: /assignment
     headers:
-      Host: id1.nathaya.web.id
+      Host: www.calmlunch.com
 
-- name: 87 🇳🇱
+- name: 29 🇫🇷
+  type: trojan
+  server: 45.130.125.160
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 30 🇫🇷
+  type: trojan
+  server: 185.220.100.168
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 31 🇫🇷
+  type: trojan
+  server: 212.183.88.136
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 32 🇫🇷
+  type: trojan
+  server: 104.17.121.71
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 33 🇫🇷
+  type: trojan
+  server: 165.215.250.14
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: //assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 34 🇫🇷
+  type: trojan
+  server: www.calmlunch.com
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 35 🇫🇷
+  type: trojan
+  server: 88.99.189.60
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 36 🇫🇷
+  type: trojan
+  server: 188.114.98.0
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 37 🇫🇷
+  type: trojan
+  server: 188.114.96.3
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 38 🇳🇱
   type: trojan
   server: 213.182.199.137
   port: 443
@@ -1097,19 +473,19 @@ proxies:
     headers:
       Host: www.pleadcourt.org
 
-- name: 88 🇳🇱
+- name: 39 🇳🇱
   type: trojan
-  server: 188.42.145.180
+  server: 213.182.199.137
   port: 443
   password: humanity
-  sni: www.volumeroot.com
+  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
     headers:
-      Host: www.volumeroot.com
+      Host: www.pleadcourt.org
 
-- name: 89 🇳🇱
+- name: 40 🇳🇱
   type: trojan
   server: 8.47.69.0
   port: 443
@@ -1121,19 +497,7 @@ proxies:
     headers:
       Host: www.pleadcourt.org
 
-- name: 90 🇳🇱
-  type: trojan
-  server: 8.47.69.0
-  port: 443
-  password: humanity
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-
-- name: 91 🇳🇱
+- name: 41 🇳🇱
   type: trojan
   server: 188.42.145.180
   port: 443
@@ -1145,7 +509,7 @@ proxies:
     headers:
       Host: www.volumeroot.com
 
-- name: 92 🇳🇱
+- name: 42 🇳🇱
   type: trojan
   server: 104.21.33.59
   port: 443
@@ -1157,91 +521,31 @@ proxies:
     headers:
       Host: www.pleadcourt.org
 
-- name: 93 🇺🇸
+- name: 43 🇳🇱
   type: trojan
-  server: 151.101.56.101
+  server: 8.47.69.0
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+
+- name: 44 🇺🇸
+  type: trojan
+  server: 151.101.56.7
   port: 443
   password: MiTiVPN
   sni: ssl.fastly.com
   network: ws
   ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/des---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    path: '---@VPNine1'
     headers:
-      Host: mitivpn---ss--s---mitivpn-5.global.ssl.fastly.net
+      Host: mitivpn---ss--s---mitivpn-22.global.ssl.fastly.net
 
-- name: 94 🇺🇸
-  type: trojan
-  server: 199.232.78.101
-  port: 443
-  password: M%69TiVPN
-  sni: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: '---@mehrosaboran'
-    headers:
-      Host: mitivpn---ss--s---mitivpn-11.global.ssl.fastly.net
-
-- name: 95 🇺🇸
-  type: trojan
-  server: 199.232.78.160
-  port: 443
-  password: M%69TiVPN
-  sni: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: '@mehrosaboran'
-    headers:
-      Host: mitivpn---ss--s---mitivpn-44.global.ssl.fastly.net
-
-- name: 96 🇺🇸
-  type: trojan
-  server: 199.232.78.101
-  port: 443
-  password: MiTiVPN
-  sni: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: '---@bored_vpn'
-    headers:
-      Host: mitivpn---ss--s---mitivpn-11.global.ssl.fastly.net
-
-- name: 97 🇺🇸
-  type: trojan
-  server: 167.82.76.7
-  port: 443
-  password: MiTiVPN
-  sni: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: mitivpn---ss--s---mitivpn-33.global.ssl.fastly.net
-
-- name: 98 🇺🇸
-  type: trojan
-  server: 151.101.56.101
-  port: 443
-  password: M%69TiVPN
-  sni: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: '@mehrosaboran'
-    headers:
-      Host: mitivpn---ss--s---mitivpn-5.global.ssl.fastly.net
-
-- name: 99 🇺🇸
-  type: trojan
-  server: 151.101.56.101
-  port: 443
-  password: MiTiVPN
-  sni: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: '@bored_vpn'
-    headers:
-      Host: mitivpn---ss--s---mitivpn-5.global.ssl.fastly.net
-
-- name: 100 🇺🇸
+- name: 45 🇺🇸
   type: trojan
   server: 199.232.78.101
   port: 443
@@ -1253,7 +557,79 @@ proxies:
     headers:
       Host: mitivpn---ss--s---mitivpn-11.global.ssl.fastly.net
 
-- name: 101 🇺🇸
+- name: 46 🇺🇸
+  type: trojan
+  server: 167.82.76.7
+  port: 443
+  password: M%69TiVPN
+  sni: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: '@mehrosaboran'
+    headers:
+      Host: mitivpn---ss--s---mitivpn-33.global.ssl.fastly.net
+
+- name: 47 🇺🇸
+  type: trojan
+  server: 199.232.78.101
+  port: 443
+  password: M%69TiVPN
+  sni: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: '---@bored_vpn'
+    headers:
+      Host: mitivpn---ss--s---mitivpn-11.global.ssl.fastly.net
+
+- name: 48 🇺🇸
+  type: trojan
+  server: 151.101.56.101
+  port: 443
+  password: M%69TiVPN
+  sni: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: '@mehrosaboran'
+    headers:
+      Host: mitivpn---ss--s---mitivpn-5.global.ssl.fastly.net
+
+- name: 49 🇺🇸
+  type: trojan
+  server: 199.232.78.101
+  port: 443
+  password: MiTiVPN
+  sni: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: '---@bored_vpn'
+    headers:
+      Host: mitivpn---ss--s---mitivpn-11.global.ssl.fastly.net
+
+- name: 50 🇺🇸
+  type: trojan
+  server: 199.232.78.101
+  port: 443
+  password: MiTiVPN
+  sni: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mitivpn---ss--s---mitivpn-11.global.ssl.fastly.net
+
+- name: 51 🇺🇸
+  type: trojan
+  server: 104.17.122.10
+  port: 2087
+  password: '123444'
+  sni: northrendserver.sherekontop.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: northrendserver.sherekontop.workers.dev
+
+- name: 52 🇺🇸
   type: trojan
   server: www.speedtest.net
   port: 443

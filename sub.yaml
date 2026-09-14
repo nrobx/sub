@@ -1,52 +1,49 @@
 proxies:
 
-- name: 15 🇳🇱
-  type: vless
-  server: 151.242.2.81
-  port: 443
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-  network: ws
-  tls: true
-  servername: cf9.rumedia-cdn.com
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf9.rumedia-cdn.com
-
-- name: 10 🇯🇵
-  type: vless
-  server: 104.16.10.185
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-
-- name: 76 🇫🇷
+- name: 48 🇺🇸
   type: trojan
-  server: 104.16.72.41
+  server: 151.101.56.101
+  port: 443
+  password: M%69TiVPN
+  sni: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: '@mehrosaboran'
+    headers:
+      Host: mitivpn---ss--s---mitivpn-5.global.ssl.fastly.net
+
+- name: 43 🇳🇱
+  type: trojan
+  server: 8.47.69.0
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+
+- name: 47 🇺🇸
+  type: trojan
+  server: 199.232.78.101
+  port: 443
+  password: M%69TiVPN
+  sni: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: '---@bored_vpn'
+    headers:
+      Host: mitivpn---ss--s---mitivpn-11.global.ssl.fastly.net
+
+- name: 33 🇫🇷
+  type: trojan
+  server: 165.215.250.14
   port: 443
   password: humanity
   sni: www.calmlunch.com
   network: ws
   ws-opts:
-    path: /assignment
+    path: //assignment
     headers:
       Host: www.calmlunch.com
-
-- name: 4 🇫🇮
-  type: vless
-  server: 31.76.88.10
-  port: 443
-  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
-  network: ws
-  tls: true
-  servername: cf5.rumedia-cdn.com
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf5.rumedia-cdn.com
