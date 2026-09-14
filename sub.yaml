@@ -1,49 +1,51 @@
 proxies:
 
-- name: 48 🇺🇸
-  type: trojan
-  server: 151.101.56.101
+- name: 4 🇳🇱
+  type: vless
+  server: 199.232.78.159
   port: 443
-  password: M%69TiVPN
-  sni: ssl.fastly.com
+  uuid: 38393c07-aef2-4dd6-bdec-3614bddd8576
   network: ws
+  tls: true
+  servername: ssl.fastly.com
   ws-opts:
-    path: '@mehrosaboran'
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
     headers:
-      Host: mitivpn---ss--s---mitivpn-5.global.ssl.fastly.net
+      Host: pan1.global.ssl.fastly.net
 
-- name: 43 🇳🇱
+- name: 8 🇫🇷
   type: trojan
-  server: 8.47.69.0
-  port: 443
-  password: humanity
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-
-- name: 47 🇺🇸
-  type: trojan
-  server: 199.232.78.101
-  port: 443
-  password: M%69TiVPN
-  sni: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: '---@bored_vpn'
-    headers:
-      Host: mitivpn---ss--s---mitivpn-11.global.ssl.fastly.net
-
-- name: 33 🇫🇷
-  type: trojan
-  server: 165.215.250.14
+  server: 104.16.72.41
   port: 443
   password: humanity
   sni: www.calmlunch.com
   network: ws
   ws-opts:
-    path: //assignment
+    path: /assignment
     headers:
       Host: www.calmlunch.com
+
+- name: 7 🇫🇷
+  type: trojan
+  server: 104.21.13.204
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 2 🇭🇰
+  type: vless
+  server: ys6n-mveg4s.truvexel.com
+  port: 443
+  uuid: a85ba9f6-ec48-40d1-ba5e-0ebbb7487789
+  network: ws
+  tls: true
+  servername: ys6n-mveg4s.truvexel.com
+  ws-opts:
+    path: /a85ba9f6-ec48-40d1-ba5e-0ebbb7487789
+    headers:
+      Host: ys6n-mveg4s.truvexel.com
