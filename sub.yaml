@@ -1,53 +1,52 @@
 proxies:
 
-- name: 66 🇺🇸
+- name: 15 🇳🇱
   type: vless
-  server: 172.67.217.240
+  server: 151.242.2.81
   port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
   network: ws
   tls: true
-  servername: a.cwvps.eu.org
+  servername: cf9.rumedia-cdn.com
   ws-opts:
-    path: /ws
+    path: /cdn/v3/live
     headers:
-      Host: a.cwvps.eu.org
+      Host: cf9.rumedia-cdn.com
 
-- name: 51 🇺🇸
+- name: 10 🇯🇵
   type: vless
-  server: www.speedtest.net
+  server: 104.16.10.185
   port: 443
-  uuid: b19419fa-8009-455b-b059-765e2856883a
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   network: ws
   tls: true
-  servername: akbarian34.j9z65ce2uyks.workers.dev
+  servername: jp3.yohototo.top
   ws-opts:
-    path: /vl/3Qe9Fv1V2cqEtXyBQApZYi?ed=2560
+    path: /tyxyws
     headers:
-      Host: akbarian34.j9z65ce2uyks.workers.dev
+      Host: jp3.yohototo.top
 
-- name: 60 🇺🇸
-  type: vless
-  server: 172.67.140.37
+- name: 76 🇫🇷
+  type: trojan
+  server: 104.16.72.41
   port: 443
-  uuid: 527451fe-ee1f-4e6f-94ca-808f055f7c9b
+  password: humanity
+  sni: www.calmlunch.com
   network: ws
-  tls: true
-  servername: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
   ws-opts:
-    path: /vl/ERYN0G44hia16zhR
+    path: /assignment
     headers:
-      Host: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
+      Host: www.calmlunch.com
 
-- name: 55 🇺🇸
+- name: 4 🇫🇮
   type: vless
-  server: 188.114.97.6
+  server: 31.76.88.10
   port: 443
-  uuid: f2f4e2dc-3e7b-402f-a461-b48acc6aa310
+  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
   network: ws
   tls: true
-  servername: steep-bonus-8e6a.amirhon1376.workers.dev
+  servername: cf5.rumedia-cdn.com
   ws-opts:
-    path: /eyJqdW5rIjoid2JBOTRVclNMOVdBSVQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+    path: /cdn/v3/live
     headers:
-      Host: steep-bonus-8e6a.amirhon1376.workers.dev
+      Host: cf5.rumedia-cdn.com
