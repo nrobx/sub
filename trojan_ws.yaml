@@ -1,6 +1,18 @@
 proxies:
 
-- name: 1 🇫🇷
+- name: 1 🇨🇭
+  type: trojan
+  server: 172.67.211.79
+  port: 443
+  password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
+  sni: mfyousheng.nl.eu.org
+  network: ws
+  ws-opts:
+    path: /tjwsLhx0SFASG4l9FERJ1g
+    headers:
+      Host: mfyousheng.nl.eu.org
+
+- name: 2 🇫🇷
   type: trojan
   server: 162.159.244.91
   port: 443
@@ -12,7 +24,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 2 🇫🇷
+- name: 3 🇫🇷
   type: trojan
   server: 104.21.13.204
   port: 443
@@ -24,7 +36,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 3 🇫🇷
+- name: 4 🇫🇷
   type: trojan
   server: 104.16.72.41
   port: 443
@@ -36,21 +48,9 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 4 🇫🇷
-  type: trojan
-  server: 172.67.231.254
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
 - name: 5 🇫🇷
   type: trojan
-  server: 188.114.98.0
+  server: 172.67.231.254
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -96,7 +96,139 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 9 🇳🇱
+- name: 9 🇫🇷
+  type: trojan
+  server: www.speedtest.net
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 10 🇫🇷
+  type: trojan
+  server: 5.181.187.58
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 11 🇫🇷
+  type: trojan
+  server: 45.130.125.160
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 12 🇫🇷
+  type: trojan
+  server: 185.220.100.168
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 13 🇫🇷
+  type: trojan
+  server: 212.183.88.136
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 14 🇫🇷
+  type: trojan
+  server: 104.17.121.71
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 15 🇫🇷
+  type: trojan
+  server: 165.215.250.14
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: //assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 16 🇫🇷
+  type: trojan
+  server: www.calmlunch.com
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 17 🇫🇷
+  type: trojan
+  server: 88.99.189.60
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 18 🇫🇷
+  type: trojan
+  server: 188.114.98.0
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 19 🇫🇷
+  type: trojan
+  server: 188.114.96.3
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 20 🇳🇱
   type: trojan
   server: 188.42.145.180
   port: 443

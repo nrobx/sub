@@ -1,31 +1,45 @@
 proxies:
 
-- name: 4 🇳🇱
+- name: 37 🇺🇸
   type: vless
-  server: 199.232.78.159
+  server: 104.17.147.22
   port: 443
-  uuid: 38393c07-aef2-4dd6-bdec-3614bddd8576
+  uuid: 5ef04ae8-8d7c-0a66-13f4-6e3f00000003
   network: ws
   tls: true
-  servername: ssl.fastly.com
+  servername: relay.lunetcloud.ir
   ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    path: /lunetnetwork
     headers:
-      Host: pan1.global.ssl.fastly.net
+      Host: relay.lunetcloud.ir
 
-- name: 8 🇫🇷
-  type: trojan
-  server: 104.16.72.41
+- name: 25 🇸🇬
+  type: vless
+  server: 188.114.97.6
   port: 443
-  password: humanity
-  sni: www.calmlunch.com
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   network: ws
+  tls: true
+  servername: u.srilankangrill.online
   ws-opts:
-    path: /assignment
+    path: /
     headers:
-      Host: www.calmlunch.com
+      Host: u.srilankangrill.online
 
-- name: 7 🇫🇷
+- name: 68 🇺🇸
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 0432902e-6604-40cd-bbd0-57ab4e5d909f
+  network: ws
+  tls: true
+  servername: bpb-4dc4958b.hxjkcghchv.workers.dev
+  ws-opts:
+    path: /eyJqdW5rIjoiOENNZnB6WTgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+    headers:
+      Host: bpb-4dc4958b.hxjkcghchv.workers.dev
+
+- name: 80 🇫🇷
   type: trojan
   server: 104.21.13.204
   port: 443
@@ -36,16 +50,3 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-
-- name: 2 🇭🇰
-  type: vless
-  server: ys6n-mveg4s.truvexel.com
-  port: 443
-  uuid: a85ba9f6-ec48-40d1-ba5e-0ebbb7487789
-  network: ws
-  tls: true
-  servername: ys6n-mveg4s.truvexel.com
-  ws-opts:
-    path: /a85ba9f6-ec48-40d1-ba5e-0ebbb7487789
-    headers:
-      Host: ys6n-mveg4s.truvexel.com
