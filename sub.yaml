@@ -1,52 +1,52 @@
 proxies:
 
-- name: 4 🇫🇮
-  type: vless
-  server: k2.cloud--vpn.site
+- name: 47 🇺🇸
+  type: trojan
+  server: 199.232.78.101
   port: 443
-  uuid: bdaf42dd-f75b-4594-d5f8-51c0feeb8406
+  password: MITIVPN
+  sni: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: mitivpn---ss--s---mitivpn-11s.global.ssl.fastly.net
+
+- name: 11 🇳🇱
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: 38393c07-aef2-4dd6-bdec-3614bddd8576
   network: ws
   tls: true
   servername: ssl.fastly.com
   ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
+    headers:
+      Host: pan1.global.ssl.fastly.net
+
+- name: 25 🇺🇸
+  type: vless
+  server: 8.35.211.236
+  port: 443
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  network: ws
+  tls: true
+  servername: kkkk-83j.pages.dev
+  ws-opts:
     path: /
     headers:
-      Host: c12.com
+      Host: kkkk-83j.pages.dev
 
-- name: 14 🇸🇪
+- name: 15 🇳🇱
   type: vless
-  server: 104.25.155.45
+  server: 199.232.78.159
   port: 443
-  uuid: 50414e45-4c5f-5a45-5553-4eef5adc237a
+  uuid: 404aa1e8-4935-4919-8b74-60e88b065cf4
   network: ws
   tls: true
-  servername: r5zenrelur2s.pqzdileiu8es.workers.dev
+  servername: ssl.fastly.com
   ws-opts:
-    path: /stream/PANEL_ZEUS/4eef5adc237a/loc-1
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
     headers:
-      Host: r5zenrelur2s.pqzdileiu8es.workers.dev
-
-- name: 59 🇳🇱
-  type: trojan
-  server: 104.21.33.59
-  port: 443
-  password: humanity
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-
-- name: 20 🇺🇸
-  type: vless
-  server: medium.com
-  port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  network: ws
-  tls: true
-  servername: rAyAn-007.mAxImA.DpDnS.OrG
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
+      Host: pane2.global.ssl.fastly.net
