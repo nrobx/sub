@@ -1,52 +1,52 @@
 proxies:
 
-- name: 37 🇺🇸
+- name: 4 🇫🇮
   type: vless
-  server: 104.17.147.22
+  server: k2.cloud--vpn.site
   port: 443
-  uuid: 5ef04ae8-8d7c-0a66-13f4-6e3f00000003
+  uuid: bdaf42dd-f75b-4594-d5f8-51c0feeb8406
   network: ws
   tls: true
-  servername: relay.lunetcloud.ir
-  ws-opts:
-    path: /lunetnetwork
-    headers:
-      Host: relay.lunetcloud.ir
-
-- name: 25 🇸🇬
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  network: ws
-  tls: true
-  servername: u.srilankangrill.online
+  servername: ssl.fastly.com
   ws-opts:
     path: /
     headers:
-      Host: u.srilankangrill.online
+      Host: c12.com
 
-- name: 68 🇺🇸
+- name: 14 🇸🇪
   type: vless
-  server: 188.114.97.6
+  server: 104.25.155.45
   port: 443
-  uuid: 0432902e-6604-40cd-bbd0-57ab4e5d909f
+  uuid: 50414e45-4c5f-5a45-5553-4eef5adc237a
   network: ws
   tls: true
-  servername: bpb-4dc4958b.hxjkcghchv.workers.dev
+  servername: r5zenrelur2s.pqzdileiu8es.workers.dev
   ws-opts:
-    path: /eyJqdW5rIjoiOENNZnB6WTgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+    path: /stream/PANEL_ZEUS/4eef5adc237a/loc-1
     headers:
-      Host: bpb-4dc4958b.hxjkcghchv.workers.dev
+      Host: r5zenrelur2s.pqzdileiu8es.workers.dev
 
-- name: 80 🇫🇷
+- name: 59 🇳🇱
   type: trojan
-  server: 104.21.13.204
+  server: 104.21.33.59
   port: 443
   password: humanity
-  sni: www.calmlunch.com
+  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
     headers:
-      Host: www.calmlunch.com
+      Host: www.pleadcourt.org
+
+- name: 20 🇺🇸
+  type: vless
+  server: medium.com
+  port: 443
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  network: ws
+  tls: true
+  servername: rAyAn-007.mAxImA.DpDnS.OrG
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
