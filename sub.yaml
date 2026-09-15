@@ -1,18 +1,43 @@
 proxies:
 
-- name: 47 🇺🇸
-  type: trojan
-  server: 199.232.78.101
+- name: 2 🇨🇦
+  type: vless
+  server: 104.21.70.21
   port: 443
-  password: MITIVPN
-  sni: ssl.fastly.com
+  uuid: efe19c5a-0ea1-4666-8a4c-4a33f4670775
+  network: ws
+  tls: true
+  servername: bodyshine.help
+  ws-opts:
+    path: /raccoonwsvless
+    headers:
+      Host: bodyshine.help
+
+- name: 16 🇳🇱
+  type: trojan
+  server: 104.21.33.59
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
   network: ws
   ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    path: /assignment
     headers:
-      Host: mitivpn---ss--s---mitivpn-11s.global.ssl.fastly.net
+      Host: www.pleadcourt.org
 
-- name: 11 🇳🇱
+- name: 14 🇳🇱
+  type: trojan
+  server: 8.47.69.0
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+
+- name: 6 🇳🇱
   type: vless
   server: 199.232.78.159
   port: 443
@@ -24,29 +49,3 @@ proxies:
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
     headers:
       Host: pan1.global.ssl.fastly.net
-
-- name: 25 🇺🇸
-  type: vless
-  server: 8.35.211.236
-  port: 443
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  network: ws
-  tls: true
-  servername: kkkk-83j.pages.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: kkkk-83j.pages.dev
-
-- name: 15 🇳🇱
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: 404aa1e8-4935-4919-8b74-60e88b065cf4
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
-    headers:
-      Host: pane2.global.ssl.fastly.net

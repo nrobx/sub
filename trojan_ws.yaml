@@ -2,7 +2,7 @@ proxies:
 
 - name: 1 🇫🇷
   type: trojan
-  server: 172.64.152.23
+  server: 188.114.96.3
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -14,7 +14,7 @@ proxies:
 
 - name: 2 🇫🇷
   type: trojan
-  server: www.speedtest.net
+  server: 165.215.250.14
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -24,67 +24,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 3 🇫🇷
-  type: trojan
-  server: 188.114.98.0
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 4 🇫🇷
-  type: trojan
-  server: 5.181.187.58
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 5 🇳🇱
-  type: trojan
-  server: 188.42.145.180
-  port: 443
-  password: humanity
-  sni: www.volumeroot.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.volumeroot.com
-
-- name: 6 🇳🇱
-  type: trojan
-  server: 188.42.145.180
-  port: 443
-  password: humanity
-  sni: www.volumeroot.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.volumeroot.com
-
-- name: 7 🇳🇱
-  type: trojan
-  server: 104.21.33.59
-  port: 443
-  password: humanity
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-
-- name: 8 🇳🇱
+- name: 3 🇳🇱
   type: trojan
   server: 8.47.69.0
   port: 443
@@ -96,7 +36,31 @@ proxies:
     headers:
       Host: www.pleadcourt.org
 
-- name: 9 🇺🇸
+- name: 4 🇳🇱
+  type: trojan
+  server: 188.42.145.180
+  port: 443
+  password: humanity
+  sni: www.volumeroot.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.volumeroot.com
+
+- name: 5 🇳🇱
+  type: trojan
+  server: 104.21.33.59
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+
+- name: 6 🇺🇸
   type: trojan
   server: 167.82.76.7
   port: 443
@@ -108,7 +72,7 @@ proxies:
     headers:
       Host: mitivpn---ss--s---mitivpn-33s.global.ssl.fastly.net
 
-- name: 10 🇺🇸
+- name: 7 🇺🇸
   type: trojan
   server: 199.232.78.160
   port: 443
@@ -120,7 +84,7 @@ proxies:
     headers:
       Host: mitivpn---ss--s---mitivpn-44s.global.ssl.fastly.net
 
-- name: 11 🇺🇸
+- name: 8 🇺🇸
   type: trojan
   server: 199.232.78.101
   port: 443
@@ -131,15 +95,3 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
       Host: mitivpn---ss--s---mitivpn-11s.global.ssl.fastly.net
-
-- name: 12 🇺🇸
-  type: trojan
-  server: www.speedtest.net
-  port: 443
-  password: A4u%5Ep(_UR*F6
-  sni: 027.ELeCTroCelLco-CF-027.wORkERS.dEv
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoidlhnMXN5OXFUSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
-    headers:
-      Host: 027.electrocellco-cf-027.workers.dev
