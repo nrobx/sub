@@ -14,18 +14,6 @@ proxies:
 
 - name: 2 🇳🇱
   type: trojan
-  server: 188.42.145.180
-  port: 443
-  password: humanity
-  sni: www.volumeroot.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.volumeroot.com
-
-- name: 3 🇳🇱
-  type: trojan
   server: 104.21.33.59
   port: 443
   password: humanity
@@ -35,6 +23,18 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
+
+- name: 3 🇳🇱
+  type: trojan
+  server: 188.42.145.180
+  port: 443
+  password: humanity
+  sni: www.volumeroot.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.volumeroot.com
 
 - name: 4 🇳🇱
   type: trojan
@@ -47,51 +47,3 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-
-- name: 5 🇺🇸
-  type: trojan
-  server: 199.232.78.160
-  port: 443
-  password: MITIVPN
-  sni: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: mehrosaboram
-    headers:
-      Host: mitivpn---ss--s---mitivpn-44s.global.ssl.fastly.net
-
-- name: 6 🇺🇸
-  type: trojan
-  server: 151.101.56.7
-  port: 443
-  password: MITIVPN
-  sni: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: mitivpn---ss--s---mitivpn-22s.global.ssl.fastly.net
-
-- name: 7 🇺🇸
-  type: trojan
-  server: www.speedtest.net
-  port: 443
-  password: A4u%5Ep(_UR*F6
-  sni: 027.ELeCTroCelLco-CF-027.wORkERS.dEv
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoidlhnMXN5OXFUSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
-    headers:
-      Host: 027.electrocellco-cf-027.workers.dev
-
-- name: 8 🇺🇸
-  type: trojan
-  server: 199.232.78.160
-  port: 443
-  password: M%49TIVPN
-  sni: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: mehrosaboram
-    headers:
-      Host: mitivpn---ss--s---mitivpn-44s.global.ssl.fastly.net

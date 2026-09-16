@@ -1,6 +1,19 @@
 proxies:
 
-- name: 33 🇳🇱
+- name: 1 🇫🇮
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: V2XNET
+  network: ws
+  tls: true
+  servername: or.mirikhan.dpdns.org
+  ws-opts:
+    path: /xvpnws/
+    headers:
+      Host: or.mirikhan.dpdns.org
+
+- name: 5 🇳🇱
   type: trojan
   server: 104.21.33.59
   port: 443
@@ -12,41 +25,27 @@ proxies:
     headers:
       Host: www.pleadcourt.org
 
-- name: 30 🇺🇸
+- name: 2 🇳🇱
   type: vless
-  server: fi1.zuoai.cf
+  server: 199.232.78.159
   port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
+  uuid: 5499774c-8b93-4f10-af7e-2a5fe19d22b0
   network: ws
   tls: true
-  servername: xi.tbv.ccwu.cc
+  servername: ssl.fastly.com
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
     headers:
-      Host: xi.tbv.ccwu.cc
+      Host: Fijji.global.ssl.fastly.neT.
 
-- name: 6 🇭🇰
-  type: vless
-  server: 104.16.60.10
+- name: 7 🇳🇱
+  type: trojan
+  server: 8.47.69.0
   port: 443
-  uuid: cdf5205e-897f-46a7-8d7f-21a61a80b466
+  password: humanity
+  sni: www.pleadcourt.org
   network: ws
-  tls: true
-  servername: hk1.69lover.my
   ws-opts:
-    path: /api/v2/e2fe4e52a165854d/stream
+    path: /assignment
     headers:
-      Host: hk1.69lover.my
-
-- name: 16 🇺🇸
-  type: vless
-  server: 104.19.32.132
-  port: 8443
-  uuid: 2b181a3a-c001-4145-845a-5d43a43837d5
-  network: ws
-  tls: true
-  servername: vpn-1fj.pages.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: vpn-1fj.pages.dev
+      Host: www.pleadcourt.org
