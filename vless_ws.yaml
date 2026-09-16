@@ -13,44 +13,44 @@ proxies:
     headers:
       Host: bodyshine.help
 
-- name: 2 🇨🇦
+- name: 2 🇫🇮
   type: vless
-  server: 104.21.70.21
+  server: k2.cloud--vpn.site
   port: 443
-  uuid: efe19c5a-0ea1-4666-8a4c-4a33f4670775
+  uuid: f570779f-bbf7-4ef9-e657-8ebbdef2609b
   network: ws
   tls: true
-  servername: playlux.homes
+  servername: ssl.fastly.com
   ws-opts:
-    path: /raccoonwsvless
+    path: /
     headers:
-      Host: playlux.homes
+      Host: c12.com
 
-- name: 3 🇨🇿
+- name: 3 🇫🇮
   type: vless
-  server: 78.159.247.246
+  server: 151.101.56.6
   port: 443
-  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
+  uuid: f570779f-bbf7-4ef9-e657-8ebbdef2609b
   network: ws
   tls: true
-  servername: sb2.hat.onl
+  servername: ssl.fastly.com
   ws-opts:
-    path: /ws
+    path: //---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI
     headers:
-      Host: sb2.hat.onl
+      Host: c12.com
 
-- name: 4 🇨🇿
+- name: 4 🇫🇮
   type: vless
-  server: 78.159.247.246
+  server: 188.114.98.0
   port: 443
-  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
+  uuid: V2XNET
   network: ws
   tls: true
-  servername: sb2.hat.onl
+  servername: or.mirikhan.dpdns.org
   ws-opts:
-    path: /ws
+    path: /xvpnws/
     headers:
-      Host: sb2.hat.onl
+      Host: or.mirikhan.dpdns.org
 
 - name: 5 🇫🇮
   type: vless
@@ -65,33 +65,7 @@ proxies:
     headers:
       Host: c12.com
 
-- name: 6 🇫🇮
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: f570779f-bbf7-4ef9-e657-8ebbdef2609b
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  ws-opts:
-    path: /?TELEGRAM--KANAL--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray
-    headers:
-      Host: c12.com
-
-- name: 7 🇫🇮
-  type: vless
-  server: fxe3.sorixset.ir
-  port: 443
-  uuid: d7282b41-1f2a-47bb-8593-f464fd6b6d78
-  network: ws
-  tls: true
-  servername: global.fastly.com
-  ws-opts:
-    path: /
-    headers:
-      Host: kayko.global.ssl.fastly.net
-
-- name: 8 🇭🇰
+- name: 6 🇭🇰
   type: vless
   server: 104.16.60.10
   port: 443
@@ -104,7 +78,20 @@ proxies:
     headers:
       Host: hk1.69lover.my
 
-- name: 9 🇳🇱
+- name: 7 🇭🇰
+  type: vless
+  server: 104.16.60.10
+  port: 443
+  uuid: cdf5205e-897f-46a7-8d7f-21a61a80b466
+  network: ws
+  tls: true
+  servername: hk1.69lover.my
+  ws-opts:
+    path: /api/v2/e2fe4e52a165854d/stream
+    headers:
+      Host: hk1.69lover.my
+
+- name: 8 🇳🇱
   type: vless
   server: 199.232.78.159
   port: 443
@@ -117,6 +104,19 @@ proxies:
     headers:
       Host: pan1.global.ssl.fastly.net
 
+- name: 9 🇳🇱
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: 5499774c-8b93-4f10-af7e-2a5fe19d22b0
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    headers:
+      Host: Fijji.global.ssl.fastly.neT.
+
 - name: 10 🇳🇱
   type: vless
   server: 199.232.78.159
@@ -126,7 +126,7 @@ proxies:
   tls: true
   servername: ssl.fastly.com
   ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
     headers:
       Host: pane2.global.ssl.fastly.net
 
@@ -147,6 +147,19 @@ proxies:
   type: vless
   server: 199.232.78.159
   port: 443
+  uuid: 59d75dc8-0de0-452d-bf3b-10a4b1925abc
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    headers:
+      Host: fancii.global.ssl.fastly.net
+
+- name: 13 🇳🇱
+  type: vless
+  server: 199.232.78.159
+  port: 443
   uuid: 38393c07-aef2-4dd6-bdec-3614bddd8576
   network: ws
   tls: true
@@ -156,111 +169,202 @@ proxies:
     headers:
       Host: pan1.global.ssl.fastly.net
 
-- name: 13 🇳🇱
+- name: 14 🇺🇸
   type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: 404aa1e8-4935-4919-8b74-60e88b065cf4
+  server: 188.114.97.8
+  port: 8443
+  uuid: 9c63fd59-f9ee-446e-97ec-0bf2de21ed7b
   network: ws
   tls: true
-  servername: ssl.fastly.com
+  servername: dRy-GLITTer-ef10.gFRYubCdrYujVRtH.WorkErS.DEV
   ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
+    path: /eyJqdW5rIjoiVVhGU1pOZ1oxaTFUUldyVCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
     headers:
-      Host: pane2.global.ssl.fastly.net
+      Host: dry-glitter-ef10.gfryubcdryujvrth.workers.dev
 
-- name: 14 🇳🇱
+- name: 15 🇺🇸
   type: vless
-  server: 199.232.78.159
+  server: 104.24.3.153
   port: 443
-  uuid: 404aa1e8-4935-4919-8b74-60e88b065cf4
+  uuid: 887f0c24-8b2e-40ce-8df5-27b4cb06ce81
   network: ws
   tls: true
-  servername: ssl.fastly.com
+  servername: usER-svc-Ca3845-EdG.PlAtfOrm-37528A.woRkErs.Dev
   ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
+    path: /?proxyip=185.239.48.237
     headers:
-      Host: pane2.global.ssl.fastly.net
+      Host: usER-Svc-ca3845-Edg.PlAtforM-37528a.WoRkERS.deV
 
-- name: 15 🇳🇱
+- name: 16 🇺🇸
   type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: 38393c07-aef2-4dd6-bdec-3614bddd8576
+  server: 104.19.32.132
+  port: 8443
+  uuid: 2b181a3a-c001-4145-845a-5d43a43837d5
   network: ws
   tls: true
-  servername: ssl.fastly.com
+  servername: vpn-1fj.pages.dev
   ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    path: /
     headers:
-      Host: pan1.global.ssl.fastly.net
+      Host: vpn-1fj.pages.dev
 
-- name: 16 🇳🇱
+- name: 17 🇺🇸
   type: vless
-  server: 199.232.78.159
+  server: 104.16.10.185
   port: 443
-  uuid: 5499774c-8b93-4f10-af7e-2a5fe19d22b0
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
   network: ws
   tls: true
-  servername: ssl.fastly.com
+  servername: cfvvv-ev1.pages.dev
   ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    path: /
     headers:
-      Host: Fijji.global.ssl.fastly.neT.
-
-- name: 17 🇹🇷
-  type: vless
-  server: 172.67.134.170
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-635698a6bb9c
-  network: ws
-  tls: true
-  servername: jdzit4e4urks.xwzohsebujps.workers.dev
-  ws-opts:
-    path: /stream/PANEL_ZEUS/635698a6bb9c/loc-0
-    headers:
-      Host: jdzit4e4urks.xwzohsebujps.workers.dev
+      Host: cfvvv-ev1.pages.dev
 
 - name: 18 🇺🇸
   type: vless
-  server: 104.21.1.150
-  port: 2087
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  server: 104.25.220.68
+  port: 443
+  uuid: 9952b71a-6c86-4522-888f-ff9ea9b93536
   network: ws
   tls: true
-  servername: fu.baiproxy.us.ci
+  servername: 1.hshs8227shhshs.workers.dev
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: fu.baiproxy.us.ci
+      Host: 1.hshs8227shhshs.workers.dev
 
 - name: 19 🇺🇸
   type: vless
-  server: 8.35.211.115
-  port: 2087
-  uuid: 1e49ee8c-33be-4db8-8445-7203f18aecfa
+  server: 104.20.30.10
+  port: 443
+  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
   network: ws
   tls: true
-  servername: mysheep.dpdns.org
+  servername: us9.69lover.my
   ws-opts:
-    path: /
+    path: /api/v2/63e9687fa53e441c/stream
     headers:
-      Host: mysheep.dpdns.org
+      Host: us9.69lover.my
 
 - name: 20 🇺🇸
   type: vless
-  server: 172.67.67.180
-  port: 2087
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  server: sa1.zuoai.cf
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   network: ws
   tls: true
-  servername: shanxp.dpdns.org
+  servername: nb.lovecf.ggff.net
   ws-opts:
-    path: /
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: shanxp.dpdns.org
+      Host: nb.lovecf.ggff.net
 
 - name: 21 🇺🇸
+  type: vless
+  server: kz3.zuoai.cf
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  network: ws
+  tls: true
+  servername: xi.tbv.ccwu.cc
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+
+- name: 22 🇺🇸
+  type: vless
+  server: us10.zuoai.cf
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  network: ws
+  tls: true
+  servername: nb.lovecf.ggff.net
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+
+- name: 23 🇺🇸
+  type: vless
+  server: cz1.zuoai.cf
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  network: ws
+  tls: true
+  servername: nb.lovecf.ggff.net
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+
+- name: 24 🇺🇸
+  type: vless
+  server: 172.64.53.42
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  network: ws
+  tls: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  ws-opts:
+    path: ?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+
+- name: 25 🇺🇸
+  type: vless
+  server: 172.64.53.60
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  network: ws
+  tls: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  ws-opts:
+    path: ?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+
+- name: 26 🇺🇸
+  type: vless
+  server: sa1.zuoai.cf
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  network: ws
+  tls: true
+  servername: nb.lovecf.ggff.net
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+
+- name: 27 🇺🇸
+  type: vless
+  server: 104.18.38.47
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  network: ws
+  tls: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  ws-opts:
+    path: ?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+
+- name: 28 🇺🇸
+  type: vless
+  server: 104.18.42.54
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  network: ws
+  tls: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  ws-opts:
+    path: ?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+
+- name: 29 🇺🇸
   type: vless
   server: 172.64.52.97
   port: 2087
@@ -273,54 +377,15 @@ proxies:
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 
-- name: 22 🇺🇸
+- name: 30 🇺🇸
   type: vless
-  server: 104.24.31.89
+  server: fi1.zuoai.cf
   port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
+  uuid: b2593749-691c-428c-9481-14979cba3446
   network: ws
   tls: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
+  servername: xi.tbv.ccwu.cc
   ws-opts:
-    path: /
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: rayan-007.nastaran.dpdns.org
-
-- name: 23 🇺🇸
-  type: vless
-  server: 172.67.65.53
-  port: 2087
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
-  network: ws
-  tls: true
-  servername: shanxp.dpdns.org
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: shanxp.dpdns.org
-
-- name: 24 🇺🇸
-  type: vless
-  server: 104.21.50.18
-  port: 443
-  uuid: 9fa6d846-5961-8e0e-ce27-77de00000000
-  network: ws
-  tls: true
-  servername: fancy-wind-799d.cloudneryacc.workers.dev
-  ws-opts:
-    path: /sync
-    headers:
-      Host: fancy-wind-799d.cloudneryacc.workers.dev
-
-- name: 25 🇺🇸
-  type: vless
-  server: 104.21.117.9
-  port: 443
-  uuid: 0926b50d-3a90-18dd-7c8e-0cf100000000
-  network: ws
-  tls: true
-  servername: netlivpn4024.bgfjhd.workers.dev
-  ws-opts:
-    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
-    headers:
-      Host: netlivpn4024.bgfjhd.workers.dev
+      Host: xi.tbv.ccwu.cc
