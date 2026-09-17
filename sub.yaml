@@ -1,53 +1,52 @@
 proxies:
 
-- name: 34 🇺🇸
+- name: 11 🇳🇱
   type: vless
-  server: 104.21.50.18
+  server: 212.193.1.234
   port: 443
-  uuid: 9fa6d846-5961-8e0e-ce27-77de00000000
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   network: ws
   tls: true
-  servername: fancy-wind-799d.cloudneryacc.workers.dev
+  servername: cdn8848.776676.xyz
   ws-opts:
-    path: /sync
+    path: /image
     headers:
-      Host: fancy-wind-799d.cloudneryacc.workers.dev
+      Host: cdn8848.776676.xyz
 
-- name: 57 🇺🇸
+- name: 35 🇺🇸
   type: vless
-  server: 188.114.97.6
+  server: 104.21.61.42
   port: 443
-  uuid: 813cd228-ebf6-0e21-481a-ba4af8f85b82
+  uuid: 5b14b2cf-57e3-4f96-92f2-9695078f06d8
   network: ws
   tls: true
-  servername: odd-disk-98c5.assassincreed4048.workers.dev
+  servername: 001.inc-electrocell-001-001.workers.dev
   ws-opts:
-    path: /sync
+    path: /eyJqdW5rIjoiSGdhak9tRkZLeDdwcCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
     headers:
-      Host: odd-disk-98c5.assassincreed4048.workers.dev
+      Host: 001.inc-electrocell-001-001.workers.dev
 
-- name: 79 🇺🇸
-  type: vless
-  server: 172.64.53.60
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  ws-opts:
-    path: ?ed=2560
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-
-- name: 39 🇺🇸
-  type: vless
-  server: 104.21.78.9
+- name: 47 🇫🇷
+  type: trojan
+  server: 162.159.244.91
   port: 443
-  uuid: a8890c1b-3622-3106-c4be-d8671be32d2b
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 14 🇳🇱
+  type: vless
+  server: 104.18.32.252
+  port: 443
+  uuid: 6dd13cd4-e378-4742-bef1-d8ac54083626
   network: ws
   tls: true
-  servername: summer-meadow-af5b.woowoorrrkk.workers.dev
+  servername: eb9a7750.69lover.site
   ws-opts:
-    path: /sync
+    path: /api/v2/4ecb1e0e26887759/stream
     headers:
-      Host: summer-meadow-af5b.woowoorrrkk.workers.dev
+      Host: eb9a7750.69lover.site
