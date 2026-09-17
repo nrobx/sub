@@ -2,6 +2,18 @@ proxies:
 
 - name: 1 🇫🇷
   type: trojan
+  server: 185.220.100.168
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 2 🇫🇷
+  type: trojan
   server: 5.181.187.58
   port: 443
   password: humanity
@@ -12,19 +24,19 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 2 🇳🇱
+- name: 3 🇫🇷
   type: trojan
-  server: 104.21.33.59
+  server: 5.181.187.58
   port: 443
   password: humanity
-  sni: www.pleadcourt.org
+  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
     headers:
-      Host: www.pleadcourt.org
+      Host: www.calmlunch.com
 
-- name: 3 🇳🇱
+- name: 4 🇳🇱
   type: trojan
   server: 188.42.145.180
   port: 443
@@ -36,7 +48,19 @@ proxies:
     headers:
       Host: www.volumeroot.com
 
-- name: 4 🇳🇱
+- name: 5 🇳🇱
+  type: trojan
+  server: 104.21.33.59
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+
+- name: 6 🇳🇱
   type: trojan
   server: 8.47.69.0
   port: 443
@@ -47,3 +71,15 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
+
+- name: 7 🇳🇱
+  type: trojan
+  server: 188.42.145.180
+  port: 443
+  password: humanity
+  sni: www.volumeroot.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.volumeroot.com
