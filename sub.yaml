@@ -1,53 +1,53 @@
 proxies:
 
-- name: 65 🇸🇬
+- name: 34 🇺🇸
   type: vless
-  server: 104.16.10.48
+  server: 104.21.50.18
   port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  uuid: 9fa6d846-5961-8e0e-ce27-77de00000000
   network: ws
   tls: true
-  servername: u.srilankangrill.online
+  servername: fancy-wind-799d.cloudneryacc.workers.dev
   ws-opts:
-    path: /
+    path: /sync
     headers:
-      Host: u.srilankangrill.online
+      Host: fancy-wind-799d.cloudneryacc.workers.dev
 
-- name: 18 🇫🇮
+- name: 57 🇺🇸
   type: vless
-  server: k2.cloud--vpn.site
+  server: 188.114.97.6
   port: 443
-  uuid: bd5bbbac-adc3-4b23-d3ac-8506694c0ef9
+  uuid: 813cd228-ebf6-0e21-481a-ba4af8f85b82
   network: ws
   tls: true
-  servername: ssl.fastly.com
+  servername: odd-disk-98c5.assassincreed4048.workers.dev
   ws-opts:
-    path: /
+    path: /sync
     headers:
-      Host: c12.com
+      Host: odd-disk-98c5.assassincreed4048.workers.dev
 
-- name: 70 🇸🇬
+- name: 79 🇺🇸
   type: vless
-  server: news.zoom.us
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  server: 172.64.53.60
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   network: ws
   tls: true
-  servername: u.srilankangrill.online
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   ws-opts:
-    path: /
+    path: ?ed=2560
     headers:
-      Host: u.srilankangrill.online
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 
-- name: 44 🇸🇬
+- name: 39 🇺🇸
   type: vless
-  server: 104.16.10.2
+  server: 104.21.78.9
   port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  uuid: a8890c1b-3622-3106-c4be-d8671be32d2b
   network: ws
   tls: true
-  servername: u.srilankangrill.online
+  servername: summer-meadow-af5b.woowoorrrkk.workers.dev
   ws-opts:
-    path: /
+    path: /sync
     headers:
-      Host: u.srilankangrill.online
+      Host: summer-meadow-af5b.woowoorrrkk.workers.dev
