@@ -1,52 +1,52 @@
 proxies:
 
-- name: 11 🇳🇱
+- name: 59 🇳🇱
+  type: trojan
+  server: 188.114.97.6
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+
+- name: 30 🇺🇸
   type: vless
-  server: 212.193.1.234
+  server: 139.64.235.36
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  network: ws
+  tls: true
+  servername: nb.lovecf.ggff.net
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+
+- name: 10 🇭🇰
+  type: vless
+  server: 109.66.88.158
   port: 443
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   network: ws
   tls: true
   servername: cdn8848.776676.xyz
   ws-opts:
-    path: /image
+    path: /details
     headers:
       Host: cdn8848.776676.xyz
 
 - name: 35 🇺🇸
   type: vless
-  server: 104.21.61.42
+  server: 104.18.26.90
   port: 443
-  uuid: 5b14b2cf-57e3-4f96-92f2-9695078f06d8
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
   network: ws
   tls: true
-  servername: 001.inc-electrocell-001-001.workers.dev
+  servername: cfvvv-ev1.pages.dev
   ws-opts:
-    path: /eyJqdW5rIjoiSGdhak9tRkZLeDdwcCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    path: /
     headers:
-      Host: 001.inc-electrocell-001-001.workers.dev
-
-- name: 47 🇫🇷
-  type: trojan
-  server: 162.159.244.91
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 14 🇳🇱
-  type: vless
-  server: 104.18.32.252
-  port: 443
-  uuid: 6dd13cd4-e378-4742-bef1-d8ac54083626
-  network: ws
-  tls: true
-  servername: eb9a7750.69lover.site
-  ws-opts:
-    path: /api/v2/4ecb1e0e26887759/stream
-    headers:
-      Host: eb9a7750.69lover.site
+      Host: cfvvv-ev1.pages.dev
