@@ -1,20 +1,8 @@
 proxies:
 
-- name: 59 🇳🇱
-  type: trojan
-  server: 188.114.97.6
-  port: 443
-  password: humanity
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-
-- name: 30 🇺🇸
+- name: 45 🇺🇸
   type: vless
-  server: 139.64.235.36
+  server: 139.64.235.115
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   network: ws
@@ -25,28 +13,41 @@ proxies:
     headers:
       Host: nb.lovecf.ggff.net
 
-- name: 10 🇭🇰
+- name: 5 🇩🇪
   type: vless
-  server: 109.66.88.158
+  server: apicdn.4subnodes.com
   port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 1f959100-a98b-47fb-84fa-359246dc458a
   network: ws
   tls: true
-  servername: cdn8848.776676.xyz
+  servername: apicdn.4subnodes.com
   ws-opts:
-    path: /details
+    path: /apiv1/esa1-asda2jcvnbpseflkn-kjweksad
     headers:
-      Host: cdn8848.776676.xyz
+      Host: apicdn.4subnodes.com
 
-- name: 35 🇺🇸
+- name: 33 🇳🇱
   type: vless
-  server: 104.18.26.90
+  server: 199.232.78.159
   port: 443
-  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  uuid: 59d75dc8-0de0-452d-bf3b-10a4b1925abc
   network: ws
   tls: true
-  servername: cfvvv-ev1.pages.dev
+  servername: ssl.fastly.com
   ws-opts:
-    path: /
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
     headers:
-      Host: cfvvv-ev1.pages.dev
+      Host: fancii.global.ssl.fastly.net
+
+- name: 21 🇯🇵
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  tls: true
+  servername: jp3.yohototo.top
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
