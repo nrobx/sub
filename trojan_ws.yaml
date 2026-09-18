@@ -2,15 +2,15 @@ proxies:
 
 - name: 1 🇳🇱
   type: trojan
-  server: 188.42.145.180
+  server: 8.47.69.0
   port: 443
   password: humanity
-  sni: www.volumeroot.com
+  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
     headers:
-      Host: www.volumeroot.com
+      Host: www.pleadcourt.org
 
 - name: 2 🇳🇱
   type: trojan
@@ -26,48 +26,12 @@ proxies:
 
 - name: 3 🇳🇱
   type: trojan
-  server: 8.47.69.0
+  server: 188.42.145.180
   port: 443
   password: humanity
-  sni: www.pleadcourt.org
+  sni: www.volumeroot.com
   network: ws
   ws-opts:
     path: /assignment
     headers:
-      Host: www.pleadcourt.org
-
-- name: 4 🇳🇱
-  type: trojan
-  server: 104.21.33.59
-  port: 443
-  password: humanity
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-
-- name: 5 🇺🇸
-  type: trojan
-  server: www.speedtest.net
-  port: 443
-  password: A4u%5Ep(_UR*F6
-  sni: 027.ELeCTroCelLco-CF-027.wORkERS.dEv
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoidlhnMXN5OXFUSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
-    headers:
-      Host: 027.electrocellco-cf-027.workers.dev
-
-- name: 6 🇺🇸
-  type: trojan
-  server: 104.21.8.63
-  port: 443
-  password: 5855d6850594830f
-  sni: AkbARIan34.j9Z65Ce2uyks.WoRKeRS.DEV
-  network: ws
-  ws-opts:
-    path: /tr/w2O3K3xXNYDKIxwOIw7?ed=2560
-    headers:
-      Host: akbarian34.j9z65ce2uyks.workers.dev
+      Host: www.volumeroot.com

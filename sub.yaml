@@ -1,34 +1,8 @@
 proxies:
 
-- name: 58 🇺🇸
-  type: vless
-  server: 104.16.10.185
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-
 - name: 22 🇺🇸
   type: vless
-  server: 104.20.30.10
-  port: 443
-  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
-  network: ws
-  tls: true
-  servername: us9.69lover.my
-  ws-opts:
-    path: /api/v2/63e9687fa53e441c/stream
-    headers:
-      Host: us9.69lover.my
-
-- name: 24 🇺🇸
-  type: vless
-  server: 139.64.235.77
+  server: 91.209.253.119
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   network: ws
@@ -39,14 +13,41 @@ proxies:
     headers:
       Host: nb.lovecf.ggff.net
 
-- name: 61 🇳🇱
-  type: trojan
-  server: 8.47.69.0
+- name: 14 🇷🇺
+  type: vless
+  server: 46.8.200.91
   port: 443
-  password: humanity
-  sni: www.pleadcourt.org
+  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
   network: ws
+  tls: true
+  servername: cf3.rumedia-cdn.com
   ws-opts:
-    path: /assignment
+    path: /cdn/v3/live
     headers:
-      Host: www.pleadcourt.org
+      Host: cf3.rumedia-cdn.com
+
+- name: 10 🇳🇱
+  type: vless
+  server: 212.193.1.234
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  network: ws
+  tls: true
+  servername: cdn8848.776676.xyz
+  ws-opts:
+    path: /image
+    headers:
+      Host: cdn8848.776676.xyz
+
+- name: 16 🇺🇸
+  type: vless
+  server: 172.67.221.230
+  port: 443
+  uuid: ee556a4f-d9f6-44de-af02-42c51659416a
+  network: ws
+  tls: true
+  servername: novantunnel.tech
+  ws-opts:
+    path: /Novan-AE9
+    headers:
+      Host: novantunnel.tech
