@@ -1,8 +1,21 @@
 proxies:
 
-- name: 45 🇺🇸
+- name: 30 🇺🇸
   type: vless
-  server: 139.64.235.115
+  server: mybb.com
+  port: 443
+  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
+  network: ws
+  tls: true
+  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: rayan-007.nastaran.dpdns.org
+
+- name: 36 🇺🇸
+  type: vless
+  server: 139.64.235.117
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   network: ws
@@ -13,41 +26,28 @@ proxies:
     headers:
       Host: nb.lovecf.ggff.net
 
-- name: 5 🇩🇪
+- name: 48 🇺🇸
   type: vless
-  server: apicdn.4subnodes.com
+  server: 91.209.253.42
   port: 443
-  uuid: 1f959100-a98b-47fb-84fa-359246dc458a
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   network: ws
   tls: true
-  servername: apicdn.4subnodes.com
+  servername: nb.lovecf.ggff.net
   ws-opts:
-    path: /apiv1/esa1-asda2jcvnbpseflkn-kjweksad
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: apicdn.4subnodes.com
+      Host: nb.lovecf.ggff.net
 
-- name: 33 🇳🇱
+- name: 66 🇺🇸
   type: vless
-  server: 199.232.78.159
+  server: 91.209.253.216
   port: 443
-  uuid: 59d75dc8-0de0-452d-bf3b-10a4b1925abc
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   network: ws
   tls: true
-  servername: ssl.fastly.com
+  servername: nb.lovecf.ggff.net
   ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: fancii.global.ssl.fastly.net
-
-- name: 21 🇯🇵
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
+      Host: nb.lovecf.ggff.net
