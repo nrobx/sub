@@ -1,21 +1,34 @@
 proxies:
 
-- name: 30 🇺🇸
+- name: 58 🇺🇸
   type: vless
-  server: mybb.com
+  server: 104.16.10.185
   port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   network: ws
   tls: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: rayan-007.nastaran.dpdns.org
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
 
-- name: 36 🇺🇸
+- name: 22 🇺🇸
   type: vless
-  server: 139.64.235.117
+  server: 104.20.30.10
+  port: 443
+  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
+  network: ws
+  tls: true
+  servername: us9.69lover.my
+  ws-opts:
+    path: /api/v2/63e9687fa53e441c/stream
+    headers:
+      Host: us9.69lover.my
+
+- name: 24 🇺🇸
+  type: vless
+  server: 139.64.235.77
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   network: ws
@@ -26,28 +39,14 @@ proxies:
     headers:
       Host: nb.lovecf.ggff.net
 
-- name: 48 🇺🇸
-  type: vless
-  server: 91.209.253.42
+- name: 61 🇳🇱
+  type: trojan
+  server: 8.47.69.0
   port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  password: humanity
+  sni: www.pleadcourt.org
   network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /assignment
     headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 66 🇺🇸
-  type: vless
-  server: 91.209.253.216
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
+      Host: www.pleadcourt.org
