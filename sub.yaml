@@ -1,8 +1,34 @@
 proxies:
 
-- name: 22 🇺🇸
+- name: 9 🇳🇱
   type: vless
-  server: 91.209.253.119
+  server: 103.251.167.112
+  port: 8443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  network: ws
+  tls: true
+  servername: cdn8848.776676.xyz
+  ws-opts:
+    path: /library/lang
+    headers:
+      Host: cdn8848.776676.xyz
+
+- name: 8 🇳🇱
+  type: vless
+  server: 177.3.208.65
+  port: 443
+  uuid: 4f34bc04-479c-49ba-91a8-6bb9ed15031c
+  network: ws
+  tls: true
+  servername: tgmansion.site
+  ws-opts:
+    path: /vless-il
+    headers:
+      Host: tgmansion.site
+
+- name: 31 🇺🇸
+  type: vless
+  server: us10.zuoai.cf
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   network: ws
@@ -13,41 +39,15 @@ proxies:
     headers:
       Host: nb.lovecf.ggff.net
 
-- name: 14 🇷🇺
+- name: 30 🇺🇸
   type: vless
-  server: 46.8.200.91
+  server: 139.64.235.36
   port: 443
-  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   network: ws
   tls: true
-  servername: cf3.rumedia-cdn.com
+  servername: nb.lovecf.ggff.net
   ws-opts:
-    path: /cdn/v3/live
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: cf3.rumedia-cdn.com
-
-- name: 10 🇳🇱
-  type: vless
-  server: 212.193.1.234
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  network: ws
-  tls: true
-  servername: cdn8848.776676.xyz
-  ws-opts:
-    path: /image
-    headers:
-      Host: cdn8848.776676.xyz
-
-- name: 16 🇺🇸
-  type: vless
-  server: 172.67.221.230
-  port: 443
-  uuid: ee556a4f-d9f6-44de-af02-42c51659416a
-  network: ws
-  tls: true
-  servername: novantunnel.tech
-  ws-opts:
-    path: /Novan-AE9
-    headers:
-      Host: novantunnel.tech
+      Host: nb.lovecf.ggff.net
