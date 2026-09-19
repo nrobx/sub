@@ -1,52 +1,53 @@
 proxies:
 
-- name: 111 🇫🇷
-  type: trojan
-  server: 5.78.92.27
-  port: 8443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 2 🇦🇹
+- name: 68 🇺🇸
   type: vless
-  server: 132.243.203.207
-  port: 8443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  network: ws
-  tls: true
-  servername: cdn8848.776676.xyz
-  ws-opts:
-    path: /lives
-    headers:
-      Host: cdn8848.776676.xyz
-
-- name: 48 🇹🇭
-  type: vless
-  server: 188.114.97.6
+  server: 104.16.111.193
   port: 443
-  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   network: ws
   tls: true
-  servername: v2ray.simspeedup.com
+  servername: a.cwvps.eu.org
   ws-opts:
     path: /ws
     headers:
-      Host: v2ray.simspeedup.com
+      Host: a.cwvps.eu.org
 
-- name: 10 🇫🇮
+- name: 29 🇳🇱
   type: vless
-  server: 151.101.56.6
+  server: 177.3.208.65
   port: 443
-  uuid: 029fc301-ac31-4aae-9fd8-5d0bff6ec5c0
+  uuid: 4f34bc04-479c-49ba-91a8-6bb9ed15031c
+  network: ws
+  tls: true
+  servername: tgmansion.site
+  ws-opts:
+    path: /vless-il
+    headers:
+      Host: tgmansion.site
+
+- name: 9 🇫🇷
+  type: vless
+  server: 199.232.78.170
+  port: 443
+  uuid: XpnTeam-6
   network: ws
   tls: true
   servername: ssl.fastly.com
   ws-opts:
-    path: /?TELEGRAM--BYA--CHANEL---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1--@VPNine1---@VPNine1---@VPNine1---@VPNine1
+    path: /
     headers:
-      Host: c12.com
+      Host: Appxdn.global.ssl.fastly.net
+
+- name: 51 🇺🇸
+  type: vless
+  server: 172.64.146.228
+  port: 443
+  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
+  network: ws
+  tls: true
+  servername: edfc774f.69lover.site
+  ws-opts:
+    path: /api/v2/63e9687fa53e441c/stream
+    headers:
+      Host: edfc774f.69lover.site

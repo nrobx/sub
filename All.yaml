@@ -26,33 +26,7 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
 
-- name: 3 🇨🇦
-  type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: efe19c5a-0ea1-4666-8a4c-4a33f4670775
-  network: ws
-  tls: true
-  servername: playlux.homes
-  ws-opts:
-    path: /raccoonwsvless
-    headers:
-      Host: playlux.homes
-
-- name: 4 🇨🇦
-  type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: efe19c5a-0ea1-4666-8a4c-4a33f4670775
-  network: ws
-  tls: true
-  servername: playlux.homes
-  ws-opts:
-    path: /raccoonwsvless
-    headers:
-      Host: playlux.homes
-
-- name: 5 🇩🇪
+- name: 3 🇩🇪
   type: vless
   server: apicdn.4subnodes.com
   port: 443
@@ -65,7 +39,7 @@ proxies:
     headers:
       Host: apicdn.4subnodes.com
 
-- name: 6 🇩🇪
+- name: 4 🇩🇪
   type: vless
   server: 189.24.106.196
   port: 443
@@ -78,7 +52,7 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
 
-- name: 7 🇩🇪
+- name: 5 🇩🇪
   type: vless
   server: 188.72.103.4
   port: 443
@@ -91,7 +65,7 @@ proxies:
     headers:
       Host: apicdn.4subnodes.com
 
-- name: 8 🇩🇪
+- name: 6 🇩🇪
   type: vless
   server: 185.125.100.76
   port: 8443
@@ -104,7 +78,20 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
 
-- name: 9 🇫🇮
+- name: 7 🇫🇮
+  type: vless
+  server: 31.76.88.10
+  port: 443
+  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
+  network: ws
+  tls: true
+  servername: cf5.rumedia-cdn.com
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: cf5.rumedia-cdn.com
+
+- name: 8 🇫🇮
   type: vless
   server: 151.101.56.6
   port: 443
@@ -117,18 +104,31 @@ proxies:
     headers:
       Host: c12.com
 
-- name: 10 🇫🇮
+- name: 9 🇫🇷
   type: vless
-  server: 151.101.56.6
+  server: 199.232.78.170
   port: 443
-  uuid: 029fc301-ac31-4aae-9fd8-5d0bff6ec5c0
+  uuid: XpnTeam-6
   network: ws
   tls: true
   servername: ssl.fastly.com
   ws-opts:
-    path: /?TELEGRAM--BYA--CHANEL---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1--@VPNine1---@VPNine1---@VPNine1---@VPNine1
+    path: /
     headers:
-      Host: c12.com
+      Host: Appxdn.global.ssl.fastly.net
+
+- name: 10 🇫🇷
+  type: vless
+  server: 199.232.78.160
+  port: 443
+  uuid: XpnFree-5
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
 
 - name: 11 🇫🇷
   type: vless
@@ -169,7 +169,20 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
 
-- name: 14 🇭🇰
+- name: 14 🇫🇷
+  type: vless
+  server: 81.95.4.189
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  network: ws
+  tls: true
+  servername: bab-6.site
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+
+- name: 15 🇭🇰
   type: vless
   server: 68.64.179.129
   port: 443
@@ -181,19 +194,6 @@ proxies:
     path: /code?ed=2560fp=chrome
     headers:
       Host: cdn8848.776676.xyz
-
-- name: 15 🇭🇰
-  type: vless
-  server: 104.16.60.10
-  port: 443
-  uuid: cdf5205e-897f-46a7-8d7f-21a61a80b466
-  network: ws
-  tls: true
-  servername: hk1.69lover.my
-  ws-opts:
-    path: /api/v2/e2fe4e52a165854d/stream
-    headers:
-      Host: hk1.69lover.my
 
 - name: 16 🇭🇰
   type: vless
@@ -223,7 +223,7 @@ proxies:
 
 - name: 18 🇯🇵
   type: vless
-  server: 172.67.156.147
+  server: 172.67.217.240
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   network: ws
@@ -236,6 +236,19 @@ proxies:
 
 - name: 19 🇯🇵
   type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  tls: true
+  servername: jp3.yohototo.top
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+
+- name: 20 🇯🇵
+  type: vless
   server: 172.64.153.3
   port: 443
   uuid: 8779033b-a16a-4a7b-8767-d1980008d82a
@@ -247,20 +260,20 @@ proxies:
     headers:
       Host: 38973b0f.69lover.site
 
-- name: 20 🇯🇵
+- name: 21 🇯🇵
   type: vless
-  server: 172.67.217.240
+  server: 172.64.153.3
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 8779033b-a16a-4a7b-8767-d1980008d82a
   network: ws
   tls: true
-  servername: jp3.yohototo.top
+  servername: 38973b0f.69lover.site
   ws-opts:
-    path: /tyxyws
+    path: /api/v2/e9182405fa1a6489/stream
     headers:
-      Host: jp3.yohototo.top
+      Host: 38973b0f.69lover.site
 
-- name: 21 🇯🇵
+- name: 22 🇯🇵
   type: vless
   server: 207.148.99.230
   port: 443
@@ -273,7 +286,7 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
 
-- name: 22 🇯🇵
+- name: 23 🇯🇵
   type: vless
   server: 45.142.166.211
   port: 443
@@ -286,7 +299,7 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
 
-- name: 23 🇯🇵
+- name: 24 🇯🇵
   type: vless
   server: 172.67.156.147
   port: 443
@@ -299,7 +312,7 @@ proxies:
     headers:
       Host: jp3.yohototo.top
 
-- name: 24 🇯🇵
+- name: 25 🇯🇵
   type: vless
   server: 85.121.50.16
   port: 443
@@ -312,59 +325,20 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
 
-- name: 25 🇯🇵
+- name: 26 🇰🇷
   type: vless
-  server: 104.21.33.59
+  server: 172.64.159.190
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 43e60b75-9920-450a-94ee-8762758ca49c
   network: ws
   tls: true
-  servername: jp3.yohototo.top
+  servername: a860d725.69lover.site
   ws-opts:
-    path: /tyxyws
+    path: /api/v2/288cd04559d84d1d/stream
     headers:
-      Host: jp3.yohototo.top
+      Host: a860d725.69lover.site
 
-- name: 26 🇯🇵
-  type: vless
-  server: 172.64.153.3
-  port: 443
-  uuid: 8779033b-a16a-4a7b-8767-d1980008d82a
-  network: ws
-  tls: true
-  servername: 38973b0f.69lover.site
-  ws-opts:
-    path: /api/v2/e9182405fa1a6489/stream
-    headers:
-      Host: 38973b0f.69lover.site
-
-- name: 27 🇯🇵
-  type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-
-- name: 28 🇯🇵
-  type: vless
-  server: 104.16.10.185
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-
-- name: 29 🇰🇷
+- name: 27 🇰🇷
   type: vless
   server: 123.111.169.70
   port: 443
@@ -377,20 +351,20 @@ proxies:
     headers:
       Host: vip.868068.xyz
 
-- name: 30 🇳🇱
+- name: 28 🇰🇷
   type: vless
-  server: 199.232.78.159
+  server: 104.18.32.252
   port: 443
-  uuid: 59d75dc8-0de0-452d-bf3b-10a4b1925abc
+  uuid: 0d4cb711-c030-4f13-adf5-6a72dab4121c
   network: ws
   tls: true
-  servername: ssl.fastly.com
+  servername: 93bb5ab3.69lover.site
   ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    path: /api/v2/63a40362a7fe912c/stream
     headers:
-      Host: fancii.global.ssl.fastly.net
+      Host: 93bb5ab3.69lover.site
 
-- name: 31 🇳🇱
+- name: 29 🇳🇱
   type: vless
   server: 177.3.208.65
   port: 443
@@ -402,6 +376,32 @@ proxies:
     path: /vless-il
     headers:
       Host: tgmansion.site
+
+- name: 30 🇳🇱
+  type: vless
+  server: 104.18.32.252
+  port: 443
+  uuid: 6dd13cd4-e378-4742-bef1-d8ac54083626
+  network: ws
+  tls: true
+  servername: eb9a7750.69lover.site
+  ws-opts:
+    path: /api/v2/4ecb1e0e26887759/stream
+    headers:
+      Host: eb9a7750.69lover.site
+
+- name: 31 🇳🇱
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: 59d75dc8-0de0-452d-bf3b-10a4b1925abc
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    headers:
+      Host: fancii.global.ssl.fastly.net
 
 - name: 32 🇳🇱
   type: vless
@@ -431,19 +431,6 @@ proxies:
 
 - name: 34 🇳🇱
   type: vless
-  server: 104.18.32.252
-  port: 443
-  uuid: 6dd13cd4-e378-4742-bef1-d8ac54083626
-  network: ws
-  tls: true
-  servername: eb9a7750.69lover.site
-  ws-opts:
-    path: /api/v2/4ecb1e0e26887759/stream
-    headers:
-      Host: eb9a7750.69lover.site
-
-- name: 35 🇳🇱
-  type: vless
   server: 103.251.167.112
   port: 8443
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
@@ -455,20 +442,7 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
 
-- name: 36 🇳🇱
-  type: vless
-  server: 151.242.2.81
-  port: 443
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-  network: ws
-  tls: true
-  servername: cf9.rumedia-cdn.com
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf9.rumedia-cdn.com
-
-- name: 37 🇳🇱
+- name: 35 🇳🇱
   type: vless
   server: 212.193.1.234
   port: 443
@@ -481,59 +455,20 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
 
-- name: 38 🇸🇬
+- name: 36 🇷🇺
   type: vless
-  server: 141.193.213.20
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  network: ws
-  tls: true
-  servername: u.srilankangrill.online
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-
-- name: 39 🇸🇬
-  type: vless
-  server: 104.16.10.191
+  server: 46.8.200.91
   port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
   network: ws
   tls: true
-  servername: u.srilankangrill.online
+  servername: cf3.rumedia-cdn.com
   ws-opts:
-    path: /
+    path: /cdn/v3/live
     headers:
-      Host: u.srilankangrill.online
+      Host: cf3.rumedia-cdn.com
 
-- name: 40 🇸🇬
-  type: vless
-  server: 43.160.220.86
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  network: ws
-  tls: true
-  servername: cdn8848.776676.xyz
-  ws-opts:
-    path: /buy/uploads?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
-
-- name: 41 🇸🇬
-  type: vless
-  server: 43.159.4.80
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  network: ws
-  tls: true
-  servername: cdn8848.776676.xyz
-  ws-opts:
-    path: /episode/files?ed=2560fp=chrome
-    headers:
-      Host: cdn8848.776676.xyz
-
-- name: 42 🇸🇬
+- name: 37 🇸🇬
   type: vless
   server: news.zoom.us
   port: 8443
@@ -546,7 +481,7 @@ proxies:
     headers:
       Host: u.srilankangrill.online
 
-- name: 43 🇸🇬
+- name: 38 🇸🇬
   type: vless
   server: 104.16.3.98
   port: 443
@@ -559,7 +494,33 @@ proxies:
     headers:
       Host: u.srilankangrill.online
 
-- name: 44 🇹🇭
+- name: 39 🇸🇬
+  type: vless
+  server: 43.160.220.86
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  network: ws
+  tls: true
+  servername: cdn8848.776676.xyz
+  ws-opts:
+    path: /buy/uploads?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
+
+- name: 40 🇸🇬
+  type: vless
+  server: 43.159.4.80
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  network: ws
+  tls: true
+  servername: cdn8848.776676.xyz
+  ws-opts:
+    path: /episode/files?ed=2560fp=chrome
+    headers:
+      Host: cdn8848.776676.xyz
+
+- name: 41 🇹🇭
   type: vless
   server: 104.18.26.90
   port: 443
@@ -572,7 +533,7 @@ proxies:
     headers:
       Host: v2ray.simspeedup.com
 
-- name: 45 🇹🇭
+- name: 42 🇹🇭
   type: vless
   server: 104.16.10.2
   port: 443
@@ -585,7 +546,7 @@ proxies:
     headers:
       Host: v2ray.simspeedup.com
 
-- name: 46 🇹🇭
+- name: 43 🇹🇭
   type: vless
   server: 162.159.192.125
   port: 443
@@ -598,7 +559,7 @@ proxies:
     headers:
       Host: v2ray.simspeedup.com
 
-- name: 47 🇹🇭
+- name: 44 🇹🇭
   type: vless
   server: 104.16.10.185
   port: 443
@@ -611,46 +572,33 @@ proxies:
     headers:
       Host: v2ray.simspeedup.com
 
-- name: 48 🇹🇭
+- name: 45 🇺🇸
   type: vless
-  server: 188.114.97.6
+  server: mybb.com
   port: 443
-  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
   network: ws
   tls: true
-  servername: v2ray.simspeedup.com
+  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
   ws-opts:
-    path: /ws
+    path: /?ed=2560
     headers:
-      Host: v2ray.simspeedup.com
+      Host: rayan-007.nastaran.dpdns.org
 
-- name: 49 🇹🇭
+- name: 46 🇺🇸
   type: vless
-  server: 104.16.111.193
+  server: medium.com
   port: 443
-  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
   network: ws
   tls: true
-  servername: v2ray.simspeedup.com
+  servername: rAyAn-007.mAxImA.DpDnS.OrG
   ws-opts:
-    path: /ws
+    path: /?ed=2560
     headers:
-      Host: v2ray.simspeedup.com
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
 
-- name: 50 🇺🇸
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: d1eeb74f-e5ea-45eb-9934-5376bfeb5ba4
-  network: ws
-  tls: true
-  servername: fragrant-shape-07a0.269-144.workers.dev
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: fragrant-shape-07a0.269-144.workers.dev
-
-- name: 51 🇺🇸
+- name: 47 🇺🇸
   type: vless
   server: 103.31.4.10
   port: 443
@@ -663,18 +611,70 @@ proxies:
     headers:
       Host: f871a986.69lover.site
 
-- name: 52 🇺🇸
+- name: 48 🇺🇸
   type: vless
-  server: medium.com
+  server: 104.21.70.21
   port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   network: ws
   tls: true
-  servername: rAyAn-007.mAxImA.DpDnS.OrG
+  servername: a.cwvps.eu.org
   ws-opts:
-    path: /?ed=2560
+    path: /ws
     headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
+      Host: a.cwvps.eu.org
+
+- name: 49 🇺🇸
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: d1eeb74f-e5ea-45eb-9934-5376bfeb5ba4
+  network: ws
+  tls: true
+  servername: fragrant-shape-07a0.269-144.workers.dev
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: fragrant-shape-07a0.269-144.workers.dev
+
+- name: 50 🇺🇸
+  type: vless
+  server: 104.21.89.41
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  network: ws
+  tls: true
+  servername: cfvvv-ev1.pages.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+
+- name: 51 🇺🇸
+  type: vless
+  server: 172.64.146.228
+  port: 443
+  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
+  network: ws
+  tls: true
+  servername: edfc774f.69lover.site
+  ws-opts:
+    path: /api/v2/63e9687fa53e441c/stream
+    headers:
+      Host: edfc774f.69lover.site
+
+- name: 52 🇺🇸
+  type: vless
+  server: 104.19.32.166
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  network: ws
+  tls: true
+  servername: nb.lovecf.ggff.net
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
 
 - name: 53 🇺🇸
   type: vless
@@ -795,19 +795,6 @@ proxies:
 
 - name: 62 🇺🇸
   type: vless
-  server: 104.16.10.185
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-
-- name: 63 🇺🇸
-  type: vless
   server: 91.209.253.119
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
@@ -818,6 +805,19 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
+
+- name: 63 🇺🇸
+  type: vless
+  server: 104.16.10.185
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  network: ws
+  tls: true
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
 
 - name: 64 🇺🇸
   type: vless
@@ -860,19 +860,6 @@ proxies:
 
 - name: 67 🇺🇸
   type: vless
-  server: 104.16.111.193
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 68 🇺🇸
-  type: vless
   server: 172.67.65.53
   port: 2087
   uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
@@ -884,7 +871,33 @@ proxies:
     headers:
       Host: shanxp.dpdns.org
 
+- name: 68 🇺🇸
+  type: vless
+  server: 104.16.111.193
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  network: ws
+  tls: true
+  servername: a.cwvps.eu.org
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+
 - name: 69 🇺🇸
+  type: vless
+  server: 91.209.253.42
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  network: ws
+  tls: true
+  servername: nb.lovecf.ggff.net
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+
+- name: 70 🇺🇸
   type: vless
   server: 141.101.122.147
   port: 443
@@ -897,7 +910,7 @@ proxies:
     headers:
       Host: a.cwvps.eu.org
 
-- name: 70 🇺🇸
+- name: 71 🇺🇸
   type: vless
   server: 104.16.10.2
   port: 443
@@ -910,7 +923,7 @@ proxies:
     headers:
       Host: a.cwvps.eu.org
 
-- name: 71 🇺🇸
+- name: 72 🇺🇸
   type: vless
   server: 104.16.10.185
   port: 443
@@ -923,7 +936,7 @@ proxies:
     headers:
       Host: a.cwvps.eu.org
 
-- name: 72 🇺🇸
+- name: 73 🇺🇸
   type: vless
   server: 103.31.4.10
   port: 443
@@ -936,7 +949,7 @@ proxies:
     headers:
       Host: f871a986.69lover.site
 
-- name: 73 🇺🇸
+- name: 74 🇺🇸
   type: vless
   server: sa1.zuoai.cf
   port: 443
@@ -949,7 +962,7 @@ proxies:
     headers:
       Host: nb.lovecf.ggff.net
 
-- name: 74 🇺🇸
+- name: 75 🇺🇸
   type: vless
   server: 162.159.192.125
   port: 443
@@ -962,22 +975,9 @@ proxies:
     headers:
       Host: a.cwvps.eu.org
 
-- name: 75 🇺🇸
-  type: vless
-  server: 104.16.111.193
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
 - name: 76 🇺🇸
   type: vless
-  server: 91.209.253.244
+  server: 104.16.111.193
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   network: ws
@@ -1003,19 +1003,6 @@ proxies:
 
 - name: 78 🇺🇸
   type: vless
-  server: 8.35.211.185
-  port: 443
-  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
-  network: ws
-  tls: true
-  servername: go.iranfree.de5.net
-  ws-opts:
-    path: /
-    headers:
-      Host: go.iranfree.de5.net
-
-- name: 79 🇺🇸
-  type: vless
   server: 104.19.32.166
   port: 443
   uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
@@ -1027,33 +1014,7 @@ proxies:
     headers:
       Host: a.cwvps.eu.org
 
-- name: 80 🇺🇸
-  type: vless
-  server: 104.21.46.14
-  port: 443
-  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
-  network: ws
-  tls: true
-  servername: cf-vless-4cf55824.aimall.fr
-  ws-opts:
-    path: /connect
-    headers:
-      Host: cf-vless-4cf55824.aimall.fr
-
-- name: 81 🇺🇸
-  type: vless
-  server: 172.67.222.62
-  port: 443
-  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
-  network: ws
-  tls: true
-  servername: cf-vless-4cf55824.aimall.fr
-  ws-opts:
-    path: /connect
-    headers:
-      Host: cf-vless-4cf55824.aimall.fr
-
-- name: 82 🇺🇸
+- name: 79 🇺🇸
   type: vless
   server: 172.67.217.240
   port: 443
@@ -1066,7 +1027,7 @@ proxies:
     headers:
       Host: a.cwvps.eu.org
 
-- name: 83 🇺🇸
+- name: 80 🇺🇸
   type: vless
   server: 188.114.97.6
   port: 443
@@ -1079,7 +1040,7 @@ proxies:
     headers:
       Host: vip.868068.xyz
 
-- name: 84 🇺🇸
+- name: 81 🇺🇸
   type: vless
   server: www.5h.com
   port: 443
@@ -1092,72 +1053,7 @@ proxies:
     headers:
       Host: youxuanku.kdns.fr
 
-- name: 85 🇺🇸
-  type: vless
-  server: 104.21.89.41
-  port: 443
-  uuid: 44eae030-290b-4083-8102-6f8bab05701b
-  network: ws
-  tls: true
-  servername: cfvvv-ev1.pages.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: cfvvv-ev1.pages.dev
-
-- name: 86 🇺🇸
-  type: vless
-  server: 104.19.32.166
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 87 🇺🇸
-  type: vless
-  server: 104.16.10.2
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  network: ws
-  tls: true
-  servername: xi.tbv.ccwu.cc
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-
-- name: 88 🇺🇸
-  type: vless
-  server: 104.21.91.129
-  port: 443
-  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
-  network: ws
-  tls: true
-  servername: edfc774f.69lover.site
-  ws-opts:
-    path: /api/v2/63e9687fa53e441c/stream
-    headers:
-      Host: edfc774f.69lover.site
-
-- name: 89 🇺🇸
-  type: vless
-  server: cf-vless-4cf55824.aimall.fr
-  port: 443
-  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
-  network: ws
-  tls: true
-  servername: cf-vless-4cf55824.aimall.fr
-  ws-opts:
-    path: /connect
-    headers:
-      Host: cf-vless-4cf55824.aimall.fr
-
-- name: 90 🇺🇸
+- name: 82 🇺🇸
   type: vless
   server: 91.209.253.109
   port: 443
@@ -1170,7 +1066,7 @@ proxies:
     headers:
       Host: nb.lovecf.ggff.net
 
-- name: 91 🇺🇸
+- name: 83 🇺🇸
   type: vless
   server: 139.64.235.36
   port: 443
@@ -1183,20 +1079,7 @@ proxies:
     headers:
       Host: nb.lovecf.ggff.net
 
-- name: 92 🇺🇸
-  type: vless
-  server: 104.17.147.22
-  port: 443
-  uuid: 5ef04ae8-8d7c-0a66-13f4-6e3f00000003
-  network: ws
-  tls: true
-  servername: relay.lunetcloud.ir
-  ws-opts:
-    path: /lunetnetwork
-    headers:
-      Host: relay.lunetcloud.ir
-
-- name: 93 🇺🇸
+- name: 84 🇺🇸
   type: vless
   server: us10.zuoai.cf
   port: 443
@@ -1209,7 +1092,7 @@ proxies:
     headers:
       Host: nb.lovecf.ggff.net
 
-- name: 94 🇺🇸
+- name: 85 🇺🇸
   type: vless
   server: 139.64.235.225
   port: 443
@@ -1222,20 +1105,7 @@ proxies:
     headers:
       Host: nb.lovecf.ggff.net
 
-- name: 95 🇺🇸
-  type: vless
-  server: 162.159.153.4
-  port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  network: ws
-  tls: true
-  servername: rAyAn-007.mAxImA.DpDnS.OrG
-  ws-opts:
-    path: /
-    headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
-
-- name: 96 🇺🇸
+- name: 86 🇺🇸
   type: vless
   server: 104.21.33.59
   port: 443
@@ -1248,7 +1118,7 @@ proxies:
     headers:
       Host: a.cwvps.eu.org
 
-- name: 97 🇺🇸
+- name: 87 🇺🇸
   type: vless
   server: 139.64.235.174
   port: 443
@@ -1261,20 +1131,7 @@ proxies:
     headers:
       Host: nb.lovecf.ggff.net
 
-- name: 98 🇺🇸
-  type: vless
-  server: 104.17.147.22
-  port: 443
-  uuid: 5ef04ae8-8d7c-0a66-13f4-6e3f00000005
-  network: ws
-  tls: true
-  servername: relay.lunetcloud.ir
-  ws-opts:
-    path: /lunetnetwork
-    headers:
-      Host: relay.lunetcloud.ir
-
-- name: 99 🇺🇸
+- name: 88 🇺🇸
   type: vless
   server: 91.209.253.229
   port: 443
@@ -1287,20 +1144,7 @@ proxies:
     headers:
       Host: nb.lovecf.ggff.net
 
-- name: 100 🇺🇸
-  type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 101 🇺🇸
+- name: 89 🇺🇸
   type: vless
   server: 188.114.97.6
   port: 443
@@ -1313,7 +1157,7 @@ proxies:
     headers:
       Host: xi.tbv.ccwu.cc
 
-- name: 102 🇺🇸
+- name: 90 🇺🇸
   type: vless
   server: 139.64.235.204
   port: 443
@@ -1326,7 +1170,7 @@ proxies:
     headers:
       Host: nb.lovecf.ggff.net
 
-- name: 103 🇺🇸
+- name: 91 🇺🇸
   type: vless
   server: cf.090227.xyz
   port: 443
@@ -1339,7 +1183,97 @@ proxies:
     headers:
       Host: vls.baiyi.cloudns.org
 
-- name: 104 🇫🇷
+- name: 92 🇺🇸
+  type: vless
+  server: 104.24.0.184
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  network: ws
+  tls: true
+  servername: cfvvv-ev1.pages.dev
+  ws-opts:
+    path: /?TELEGRAM--V2raySamanbot?ed=512
+    headers:
+      Host: cfvvv-ev1.pages.dev
+
+- name: 93 🇺🇸
+  type: vless
+  server: 104.24.0.184
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  network: ws
+  tls: true
+  servername: cfvvv-ev1.pages.dev
+  ws-opts:
+    path: /mtmvpn
+    headers:
+      Host: cfvvv-ev1.pages.dev
+
+- name: 94 🇺🇸
+  type: vless
+  server: 104.24.0.184
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  network: ws
+  tls: true
+  servername: cfvvv-ev1.pages.dev
+  ws-opts:
+    path: /---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/des---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP
+    headers:
+      Host: cfvvv-ev1.pages.dev
+
+- name: 95 🇺🇸
+  type: vless
+  server: 104.21.89.41
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  network: ws
+  tls: true
+  servername: cfvvv-ev1.pages.dev
+  ws-opts:
+    path: /mtmvpn
+    headers:
+      Host: cfvvv-ev1.pages.dev
+
+- name: 96 🇺🇸
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 30235bbe-f791-4e53-89f9-5d9363af9b0a
+  network: ws
+  tls: true
+  servername: sie704.pages.dev
+  ws-opts:
+    path: /XFJVPNfp=chrome
+    headers:
+      Host: sie704.pages.dev
+
+- name: 97 🇺🇸
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 20a25a96-61df-4a4f-8424-165fc9cfc84e
+  network: ws
+  tls: true
+  servername: empty-band-d17d.raana2710.workers.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: empty-band-d17d.raana2710.workers.dev
+
+- name: 98 🇫🇷
+  type: trojan
+  server: 185.255.179.166
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 99 🇫🇷
   type: trojan
   server: 188.114.98.0
   port: 443
@@ -1351,7 +1285,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 105 🇫🇷
+- name: 100 🇫🇷
   type: trojan
   server: 104.16.72.41
   port: 443
@@ -1363,7 +1297,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 106 🇫🇷
+- name: 101 🇫🇷
   type: trojan
   server: 45.205.0.6
   port: 443
@@ -1375,7 +1309,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 107 🇫🇷
+- name: 102 🇫🇷
   type: trojan
   server: 165.215.250.14
   port: 443
@@ -1387,7 +1321,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 108 🇫🇷
+- name: 103 🇫🇷
   type: trojan
   server: 212.183.88.136
   port: 443
@@ -1399,7 +1333,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 109 🇫🇷
+- name: 104 🇫🇷
   type: trojan
   server: 188.114.96.3
   port: 443
@@ -1411,7 +1345,19 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 110 🇫🇷
+- name: 105 🇫🇷
+  type: trojan
+  server: 88.99.189.60
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 106 🇫🇷
   type: trojan
   server: 104.16.7.70
   port: 443
@@ -1423,31 +1369,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 111 🇫🇷
-  type: trojan
-  server: 5.78.92.27
-  port: 8443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 112 🇫🇷
-  type: trojan
-  server: 104.19.64.105
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 113 🇫🇷
+- name: 107 🇫🇷
   type: trojan
   server: 104.17.121.71
   port: 443
@@ -1459,7 +1381,31 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 114 🇫🇷
+- name: 108 🇫🇷
+  type: trojan
+  server: 104.19.64.105
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 109 🇫🇷
+  type: trojan
+  server: 5.78.92.27
+  port: 8443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 110 🇫🇷
   type: trojan
   server: 172.64.150.28
   port: 443
@@ -1471,7 +1417,19 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 115 🇫🇷
+- name: 111 🇫🇷
+  type: trojan
+  server: 193.233.87.41
+  port: 8443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 112 🇫🇷
   type: trojan
   server: 172.64.152.23
   port: 443
@@ -1483,7 +1441,31 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 116 🇫🇷
+- name: 113 🇫🇷
+  type: trojan
+  server: 45.87.41.18
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 114 🇫🇷
+  type: trojan
+  server: 185.220.100.168
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 115 🇫🇷
   type: trojan
   server: 172.67.231.254
   port: 443
@@ -1495,7 +1477,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 117 🇫🇷
+- name: 116 🇫🇷
   type: trojan
   server: 185.225.68.232
   port: 443
@@ -1507,7 +1489,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 118 🇫🇷
+- name: 117 🇫🇷
   type: trojan
   server: 45.130.125.160
   port: 443
@@ -1519,9 +1501,21 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
+- name: 118 🇫🇷
+  type: trojan
+  server: 104.21.13.204
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
 - name: 119 🇫🇷
   type: trojan
-  server: 188.114.98.0
+  server: 104.16.72.50
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -1533,7 +1527,7 @@ proxies:
 
 - name: 120 🇫🇷
   type: trojan
-  server: www.calmlunch.com
+  server: 162.159.244.91
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -1557,7 +1551,7 @@ proxies:
 
 - name: 122 🇫🇷
   type: trojan
-  server: 104.21.13.204
+  server: 188.114.98.0
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -1569,7 +1563,7 @@ proxies:
 
 - name: 123 🇫🇷
   type: trojan
-  server: 104.16.72.50
+  server: www.calmlunch.com
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -1579,53 +1573,53 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 124 🇫🇷
+- name: 124 🇮🇩
   type: trojan
-  server: 162.159.244.91
+  server: 104.21.70.21
   port: 443
-  password: humanity
-  sni: www.calmlunch.com
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  sni: id1.nathaya.web.id
   network: ws
   ws-opts:
-    path: /assignment
+    path: /trojan
     headers:
-      Host: www.calmlunch.com
+      Host: id1.nathaya.web.id
 
-- name: 125 🇳🇱
+- name: 125 🇮🇩
   type: trojan
   server: 188.114.97.6
   port: 443
-  password: humanity
-  sni: www.pleadcourt.org
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  sni: id1.nathaya.web.id
   network: ws
   ws-opts:
-    path: /assignment
+    path: /trojan
     headers:
-      Host: www.pleadcourt.org
+      Host: id1.nathaya.web.id
 
-- name: 126 🇳🇱
+- name: 126 🇮🇩
   type: trojan
-  server: 188.42.145.180
+  server: 172.67.217.240
   port: 443
-  password: humanity
-  sni: www.volumeroot.com
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  sni: id1.nathaya.web.id
   network: ws
   ws-opts:
-    path: /assignment
+    path: /trojan
     headers:
-      Host: www.volumeroot.com
+      Host: id1.nathaya.web.id
 
-- name: 127 🇳🇱
+- name: 127 🇮🇩
   type: trojan
-  server: 188.114.97.6
+  server: 104.21.33.59
   port: 443
-  password: humanity
-  sni: www.pleadcourt.org
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  sni: id1.nathaya.web.id
   network: ws
   ws-opts:
-    path: /assignment
+    path: /trojan
     headers:
-      Host: www.pleadcourt.org
+      Host: id1.nathaya.web.id
 
 - name: 128 🇳🇱
   type: trojan
@@ -1638,3 +1632,75 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
+
+- name: 129 🇳🇱
+  type: trojan
+  server: 8.47.69.0
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+
+- name: 130 🇳🇱
+  type: trojan
+  server: 188.114.97.6
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+
+- name: 131 🇳🇱
+  type: trojan
+  server: 78.47.146.151
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+
+- name: 132 🇳🇱
+  type: trojan
+  server: 104.21.33.59
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+
+- name: 133 🇳🇱
+  type: trojan
+  server: 188.42.145.180
+  port: 443
+  password: humanity
+  sni: www.volumeroot.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.volumeroot.com
+
+- name: 134 🇺🇸
+  type: trojan
+  server: www.speedtest.net
+  port: 443
+  password: A4u%5Ep(_UR*F6
+  sni: 027.ELeCTroCelLco-CF-027.wORkERS.dEv
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoidlhnMXN5OXFUSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    headers:
+      Host: 027.electrocellco-cf-027.workers.dev
