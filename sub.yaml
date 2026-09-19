@@ -1,53 +1,52 @@
 proxies:
 
-- name: 9 🇳🇱
+- name: 111 🇫🇷
+  type: trojan
+  server: 5.78.92.27
+  port: 8443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 2 🇦🇹
   type: vless
-  server: 103.251.167.112
+  server: 132.243.203.207
   port: 8443
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   network: ws
   tls: true
   servername: cdn8848.776676.xyz
   ws-opts:
-    path: /library/lang
+    path: /lives
     headers:
       Host: cdn8848.776676.xyz
 
-- name: 8 🇳🇱
+- name: 48 🇹🇭
   type: vless
-  server: 177.3.208.65
+  server: 188.114.97.6
   port: 443
-  uuid: 4f34bc04-479c-49ba-91a8-6bb9ed15031c
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
   network: ws
   tls: true
-  servername: tgmansion.site
+  servername: v2ray.simspeedup.com
   ws-opts:
-    path: /vless-il
+    path: /ws
     headers:
-      Host: tgmansion.site
+      Host: v2ray.simspeedup.com
 
-- name: 31 🇺🇸
+- name: 10 🇫🇮
   type: vless
-  server: us10.zuoai.cf
+  server: 151.101.56.6
   port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  uuid: 029fc301-ac31-4aae-9fd8-5d0bff6ec5c0
   network: ws
   tls: true
-  servername: nb.lovecf.ggff.net
+  servername: ssl.fastly.com
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /?TELEGRAM--BYA--CHANEL---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1--@VPNine1---@VPNine1---@VPNine1---@VPNine1
     headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 30 🇺🇸
-  type: vless
-  server: 139.64.235.36
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
+      Host: c12.com
