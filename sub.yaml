@@ -1,16 +1,17 @@
 proxies:
 
-- name: 81 🇫🇷
-  type: trojan
-  server: 185.225.68.232
+- name: 15 🇳🇱
+  type: vless
+  server: 104.18.32.252
   port: 443
-  password: humanity
-  sni: www.calmlunch.com
+  uuid: 6dd13cd4-e378-4742-bef1-d8ac54083626
   network: ws
+  tls: true
+  servername: eb9a7750.69lover.site
   ws-opts:
-    path: /assignment
+    path: /api/v2/4ecb1e0e26887759/stream
     headers:
-      Host: www.calmlunch.com
+      Host: eb9a7750.69lover.site
 
 - name: 6 🇫🇮
   type: vless
@@ -25,22 +26,9 @@ proxies:
     headers:
       Host: cf5.rumedia-cdn.com
 
-- name: 71 🇺🇸
+- name: 73 🇺🇸
   type: vless
-  server: sa1.zuoai.cf
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 28 🇺🇸
-  type: vless
-  server: 104.21.89.41
+  server: 104.16.10.10
   port: 443
   uuid: 44eae030-290b-4083-8102-6f8bab05701b
   network: ws
@@ -50,3 +38,16 @@ proxies:
     path: /
     headers:
       Host: cfvvv-ev1.pages.dev
+
+- name: 8 🇫🇮
+  type: vless
+  server: a2.arshia-nova.ir
+  port: 443
+  uuid: 029fc301-ac31-4aae-9fd8-5d0bff6ec5c0
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /
+    headers:
+      Host: c12.com
