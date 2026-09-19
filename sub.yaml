@@ -1,8 +1,33 @@
 proxies:
 
-- name: 42 🇺🇸
+- name: 81 🇫🇷
+  type: trojan
+  server: 185.225.68.232
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 6 🇫🇮
   type: vless
-  server: cz1.zuoai.cf
+  server: 31.76.88.10
+  port: 443
+  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
+  network: ws
+  tls: true
+  servername: cf5.rumedia-cdn.com
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: cf5.rumedia-cdn.com
+
+- name: 71 🇺🇸
+  type: vless
+  server: sa1.zuoai.cf
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   network: ws
@@ -13,41 +38,15 @@ proxies:
     headers:
       Host: nb.lovecf.ggff.net
 
-- name: 15 🇳🇱
+- name: 28 🇺🇸
   type: vless
-  server: 104.18.32.252
+  server: 104.21.89.41
   port: 443
-  uuid: 6dd13cd4-e378-4742-bef1-d8ac54083626
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
   network: ws
   tls: true
-  servername: eb9a7750.69lover.site
+  servername: cfvvv-ev1.pages.dev
   ws-opts:
-    path: /api/v2/4ecb1e0e26887759/stream
+    path: /
     headers:
-      Host: eb9a7750.69lover.site
-
-- name: 67 🇺🇸
-  type: vless
-  server: 188.114.97.6
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-
-- name: 13 🇳🇱
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: 59d75dc8-0de0-452d-bf3b-10a4b1925abc
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-    headers:
-      Host: fancii.global.ssl.fastly.net
+      Host: cfvvv-ev1.pages.dev
