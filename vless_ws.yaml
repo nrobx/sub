@@ -9,7 +9,7 @@ proxies:
   tls: true
   servername: cdn8848.776676.xyz
   ws-opts:
-    path: /v?ed=2560
+    path: /v
     headers:
       Host: cdn8848.776676.xyz
 
@@ -26,111 +26,98 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
 
-- name: 3 🇧🇪
+- name: 3 🇩🇪
   type: vless
-  server: 199.232.78.160
+  server: 45.131.71.183
+  port: 8443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  network: ws
+  tls: true
+  servername: cdn8848.776676.xyz
+  ws-opts:
+    path: /player
+    headers:
+      Host: cdn8848.776676.xyz
+
+- name: 4 🇩🇪
+  type: vless
+  server: 164.92.193.243
   port: 443
-  uuid: XpnTeam-10
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  network: ws
+  tls: true
+  servername: cdn8848.776676.xyz
+  ws-opts:
+    path: /topics
+    headers:
+      Host: cdn8848.776676.xyz
+
+- name: 5 🇩🇪
+  type: vless
+  server: 157.173.125.214
+  port: 2087
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  network: ws
+  tls: true
+  servername: cdn8848.776676.xyz
+  ws-opts:
+    path: /redirect/china/view
+    headers:
+      Host: cdn8848.776676.xyz
+
+- name: 6 🇫🇮
+  type: vless
+  server: 151.101.56.6
+  port: 443
+  uuid: 9503e890-3702-4847-af0a-2bceac2f0da0
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /?RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS
+    headers:
+      Host: c12.com
+
+- name: 7 🇫🇮
+  type: vless
+  server: a2.arshia-nova.ir
+  port: 443
+  uuid: 9503e890-3702-4847-af0a-2bceac2f0da0
   network: ws
   tls: true
   servername: ssl.fastly.com
   ws-opts:
     path: /
     headers:
-      Host: Appxdn.global.ssl.fastly.net
+      Host: c12.com
 
-- name: 4 🇧🇪
+- name: 8 🇫🇮
   type: vless
-  server: 199.232.78.160
+  server: 151.101.56.6
   port: 443
-  uuid: XpnTeam-9
+  uuid: 9503e890-3702-4847-af0a-2bceac2f0da0
   network: ws
   tls: true
   servername: ssl.fastly.com
   ws-opts:
-    path: /
+    path: /?RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS
     headers:
-      Host: Appxdn.global.ssl.fastly.net
+      Host: c12.com
 
-- name: 5 🇧🇪
+- name: 9 🇫🇷
   type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: XpnTeam-10
+  server: 31.58.76.68
+  port: 8443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   network: ws
   tls: true
-  servername: ssl.fastly.com
+  servername: cdn8848.776676.xyz
   ws-opts:
-    path: /
+    path: /new/dh
     headers:
-      Host: Appxdn.global.ssl.fastly.net
+      Host: cdn8848.776676.xyz
 
-- name: 6 🇧🇪
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: XpnTeam-9
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  ws-opts:
-    path: /
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-
-- name: 7 🇩🇪
-  type: vless
-  server: 188.72.103.4
-  port: 443
-  uuid: 1f959100-a98b-47fb-84fa-359246dc458a
-  network: ws
-  tls: true
-  servername: apicdn.4subnodes.com
-  ws-opts:
-    path: /apiv1/esa1-asda2jcvnbpseflkn-kjweksad
-    headers:
-      Host: apicdn.4subnodes.com
-
-- name: 8 🇩🇪
-  type: vless
-  server: apicdn.4subnodes.com
-  port: 443
-  uuid: 1f959100-a98b-47fb-84fa-359246dc458a
-  network: ws
-  tls: true
-  servername: apicdn.4subnodes.com
-  ws-opts:
-    path: /apiv1/esa1-asda2jcvnbpseflkn-kjweksad
-    headers:
-      Host: apicdn.4subnodes.com
-
-- name: 9 🇫🇮
-  type: vless
-  server: 31.76.88.10
-  port: 443
-  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
-  network: ws
-  tls: true
-  servername: cf5.rumedia-cdn.com
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf5.rumedia-cdn.com
-
-- name: 10 🇫🇷
-  type: vless
-  server: 81.95.4.189
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  network: ws
-  tls: true
-  servername: bab-6.site
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-
-- name: 11 🇬🇧
+- name: 10 🇬🇧
   type: vless
   server: 165.232.39.158
   port: 443
@@ -143,163 +130,98 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
 
+- name: 11 🇭🇰
+  type: vless
+  server: 104.16.60.10
+  port: 443
+  uuid: cdf5205e-897f-46a7-8d7f-21a61a80b466
+  network: ws
+  tls: true
+  servername: hk1.69lover.my
+  ws-opts:
+    path: /api/v2/e2fe4e52a165854d/stream
+    headers:
+      Host: hk1.69lover.my
+
 - name: 12 🇭🇰
   type: vless
-  server: 109.66.88.158
+  server: 188.114.97.6
+  port: 443
+  uuid: cdf5205e-897f-46a7-8d7f-21a61a80b466
+  network: ws
+  tls: true
+  servername: hk1.69lover.my
+  ws-opts:
+    path: /api/v2/e2fe4e52a165854d/stream
+    headers:
+      Host: hk1.69lover.my
+
+- name: 13 🇯🇵
+  type: vless
+  server: 80.96.156.58
   port: 443
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   network: ws
   tls: true
   servername: cdn8848.776676.xyz
   ws-opts:
-    path: /details
+    path: /tools/seller
     headers:
       Host: cdn8848.776676.xyz
 
-- name: 13 🇮🇪
-  type: vless
-  server: ams.sepporated.com
-  port: 443
-  uuid: 218ae360-0e5f-4856-91f3-1823adfc9037
-  network: ws
-  tls: true
-  servername: ams.sepporated.com
-  ws-opts:
-    path: /ws
-    headers:
-      Host: ams.sepporated.com
-
 - name: 14 🇯🇵
   type: vless
-  server: 172.67.156.147
+  server: 64.83.39.176
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   network: ws
   tls: true
-  servername: jp3.yohototo.top
+  servername: cdn8848.776676.xyz
   ws-opts:
-    path: /tyxyws
+    path: /seller?ed=2560
     headers:
-      Host: jp3.yohototo.top
+      Host: cdn8848.776676.xyz
 
-- name: 15 🇯🇵
+- name: 15 🇰🇷
   type: vless
-  server: 104.16.10.185
+  server: 172.64.153.3
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: e85ca8bc-21a5-418d-a639-00236f0c3d81
   network: ws
   tls: true
-  servername: jp3.yohototo.top
+  servername: d9a9ecdf.69lover.site
   ws-opts:
-    path: /tyxyws
+    path: /api/v2/c17245904dc7e388/stream
     headers:
-      Host: jp3.yohototo.top
+      Host: d9a9ecdf.69lover.site
 
-- name: 16 🇯🇵
+- name: 16 🇳🇱
   type: vless
-  server: 162.159.254.3
+  server: 199.232.78.159
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 59d75dc8-0de0-452d-bf3b-10a4b1925abc
   network: ws
   tls: true
-  servername: jp3.yohototo.top
+  servername: ssl.fastly.com
   ws-opts:
-    path: /tyxyws
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
     headers:
-      Host: jp3.yohototo.top
+      Host: fancii.global.ssl.fastly.net
 
-- name: 17 🇯🇵
+- name: 17 🇳🇱
   type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-
-- name: 18 🇯🇵
-  type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-
-- name: 19 🇯🇵
-  type: vless
-  server: 172.67.156.147
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-
-- name: 20 🇯🇵
-  type: vless
-  server: 172.67.217.240
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-
-- name: 21 🇰🇷
-  type: vless
-  server: 104.18.32.252
-  port: 443
-  uuid: f5851a6e-72da-4e4e-99b2-c79629149503
-  network: ws
-  tls: true
-  servername: d24e02c6.69lover.site
-  ws-opts:
-    path: /api/v2/e916944b060a3543/stream
-    headers:
-      Host: d24e02c6.69lover.site
-
-- name: 22 🇳🇱
-  type: vless
-  server: 64.225.65.116
+  server: 103.251.167.112
   port: 8443
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   network: ws
   tls: true
   servername: cdn8848.776676.xyz
   ws-opts:
-    path: /bd/pictures
+    path: /library/lang?ed=2560fp=chrome
     headers:
       Host: cdn8848.776676.xyz
 
-- name: 23 🇳🇱
-  type: vless
-  server: 164.92.147.213
-  port: 2087
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  network: ws
-  tls: true
-  servername: cdn8848.776676.xyz
-  ws-opts:
-    path: /city/my?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
-
-- name: 24 🇳🇱
+- name: 18 🇳🇱
   type: vless
   server: 177.3.208.65
   port: 443
@@ -311,6 +233,84 @@ proxies:
     path: /vless-il
     headers:
       Host: tgmansion.site
+
+- name: 19 🇳🇱
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: 805df9b3-f18c-4392-a624-c4213c0560f4
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    headers:
+      Host: Fijji.global.ssl.fastly.net
+
+- name: 20 🇳🇱
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: 59d75dc8-0d%650-452d-bf3b-10%614b1925%61bc
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    headers:
+      Host: fancii.global.ssl.fastly.net
+
+- name: 21 🇳🇱
+  type: vless
+  server: 89.110.66.154
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  network: ws
+  tls: true
+  servername: cdn8848.776676.xyz
+  ws-opts:
+    path: /streams/home?ed=2560fp=chrome
+    headers:
+      Host: cdn8848.776676.xyz
+
+- name: 22 🇳🇱
+  type: vless
+  server: 164.92.147.213
+  port: 2087
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  network: ws
+  tls: true
+  servername: cdn8848.776676.xyz
+  ws-opts:
+    path: /city/my
+    headers:
+      Host: cdn8848.776676.xyz
+
+- name: 23 🇳🇱
+  type: vless
+  server: 147.90.89.173
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  network: ws
+  tls: true
+  servername: cdn8848.776676.xyz
+  ws-opts:
+    path: /source/buy/f
+    headers:
+      Host: cdn8848.776676.xyz
+
+- name: 24 🇳🇱
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: 805df9b3-f18c-4392-a624-c4213c0560f4
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    headers:
+      Host: Fijji.global.ssl.fastly.net
 
 - name: 25 🇳🇱
   type: vless
@@ -327,32 +327,6 @@ proxies:
 
 - name: 26 🇳🇱
   type: vless
-  server: 177.3.208.65
-  port: 443
-  uuid: 4f34bc04-479c-49ba-91a8-6bb9ed15031c
-  network: ws
-  tls: true
-  servername: tgmansion.site
-  ws-opts:
-    path: /vless-il
-    headers:
-      Host: tgmansion.site
-
-- name: 27 🇳🇱
-  type: vless
-  server: 104.18.32.252
-  port: 443
-  uuid: 6dd13cd4-e378-4742-bef1-d8ac54083626
-  network: ws
-  tls: true
-  servername: eb9a7750.69lover.site
-  ws-opts:
-    path: /api/v2/4ecb1e0e26887759/stream
-    headers:
-      Host: eb9a7750.69lover.site
-
-- name: 28 🇳🇱
-  type: vless
   server: 199.232.78.159
   port: 443
   uuid: 1ee3c7ee-c8dd-44a5-bd22-ac5d3f34eaa9
@@ -364,59 +338,33 @@ proxies:
     headers:
       Host: pan1.global.ssl.fastly.net
 
-- name: 29 🇳🇱
+- name: 27 🇳🇱
   type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: 59d75dc8-0de0-452d-bf3b-10a4b1925abc
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-    headers:
-      Host: fancii.global.ssl.fastly.net
-
-- name: 30 🇳🇱
-  type: vless
-  server: 103.251.167.112
+  server: 31.59.46.140
   port: 8443
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   network: ws
   tls: true
   servername: cdn8848.776676.xyz
   ws-opts:
-    path: /library/lang
+    path: /travel/intro
     headers:
       Host: cdn8848.776676.xyz
 
-- name: 31 🇳🇱
+- name: 28 🇷🇺
   type: vless
-  server: 212.193.1.234
+  server: 46.8.200.91
   port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
   network: ws
   tls: true
-  servername: cdn8848.776676.xyz
+  servername: cf3.rumedia-cdn.com
   ws-opts:
-    path: /image
+    path: /cdn/v3/live
     headers:
-      Host: cdn8848.776676.xyz
+      Host: cf3.rumedia-cdn.com
 
-- name: 32 🇵🇱
-  type: vless
-  server: 2.27.244.164
-  port: 8443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  network: ws
-  tls: true
-  servername: cdn8848.776676.xyz
-  ws-opts:
-    path: /channels/act
-    headers:
-      Host: cdn8848.776676.xyz
-
-- name: 33 🇷🇺
+- name: 29 🇷🇺
   type: vless
   server: 46.8.200.91
   port: 443
@@ -429,20 +377,33 @@ proxies:
     headers:
       Host: cf3.rumedia-cdn.com
 
-- name: 34 🇸🇪
+- name: 30 🇷🇺
   type: vless
-  server: 104.24.143.217
+  server: 46.8.200.91
   port: 443
-  uuid: 50414e45-4c5f-5a45-5553-4eef5adc237a
+  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
   network: ws
   tls: true
-  servername: r5zenrelur2s.pqzdileiu8es.workers.dev
+  servername: cf3.rumedia-cdn.com
   ws-opts:
-    path: /stream/PANEL_ZEUS/4eef5adc237a/loc-1
+    path: /cdn/v3/live
     headers:
-      Host: r5zenrelur2s.pqzdileiu8es.workers.dev
+      Host: cf3.rumedia-cdn.com
 
-- name: 35 🇸🇪
+- name: 31 🇸🇪
+  type: vless
+  server: 157.228.142.148
+  port: 8443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  network: ws
+  tls: true
+  servername: cdn8848.776676.xyz
+  ws-opts:
+    path: /act/rank/lang
+    headers:
+      Host: cdn8848.776676.xyz
+
+- name: 32 🇸🇪
   type: vless
   server: 202.181.177.8
   port: 8443
@@ -455,59 +416,7 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
 
-- name: 36 🇸🇪
-  type: vless
-  server: 84.32.217.120
-  port: 8443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  network: ws
-  tls: true
-  servername: cdn8848.776676.xyz
-  ws-opts:
-    path: /channels/act
-    headers:
-      Host: cdn8848.776676.xyz
-
-- name: 37 🇸🇬
-  type: vless
-  server: 141.193.213.21
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  network: ws
-  tls: true
-  servername: u.srilankangrill.online
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-
-- name: 38 🇸🇬
-  type: vless
-  server: 104.16.10.233
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  network: ws
-  tls: true
-  servername: u.srilankangrill.online
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-
-- name: 39 🇸🇬
-  type: vless
-  server: 141.193.213.21
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  network: ws
-  tls: true
-  servername: u.srilankangrill.online
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-
-- name: 40 🇸🇬
+- name: 33 🇸🇬
   type: vless
   server: 43.159.4.80
   port: 443
@@ -520,33 +429,85 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
 
-- name: 41 🇹🇭
+- name: 34 🇸🇬
   type: vless
-  server: 104.19.32.166
+  server: 103.190.178.195
   port: 443
-  uuid: 3c52e091-6714-4915-949f-2149fe69951b
-  network: ws
-  tls: true
-  servername: v2ray.simspeedup.com
-  ws-opts:
-    path: /ws
-    headers:
-      Host: v2ray.simspeedup.com
-
-- name: 42 🇹🇷
-  type: vless
-  server: 185.113.223.183
-  port: 8443
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   network: ws
   tls: true
   servername: cdn8848.776676.xyz
   ws-opts:
-    path: /channels/act
+    path: /topic/htm?ed=2560fp=chrome
     headers:
       Host: cdn8848.776676.xyz
 
-- name: 43 🇺🇸
+- name: 35 🇺🇸
+  type: vless
+  server: 188.114.97.8
+  port: 8443
+  uuid: 9c63fd59-f9ee-446e-97ec-0bf2de21ed7b
+  network: ws
+  tls: true
+  servername: dRy-GLITTer-ef10.gFRYubCdrYujVRtH.WorkErS.DEV
+  ws-opts:
+    path: /eyJqdW5rIjoiVVhGU1pOZ1oxaTFUUldyVCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    headers:
+      Host: dry-glitter-ef10.gfryubcdryujvrth.workers.dev
+
+- name: 36 🇺🇸
+  type: vless
+  server: web-tomcat.pages.dev
+  port: 443
+  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
+  network: ws
+  tls: true
+  servername: web-tomcat.pages.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: web-tomcat.pages.dev
+
+- name: 37 🇺🇸
+  type: vless
+  server: 104.21.34.106
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  network: ws
+  tls: true
+  servername: cfvvv-ev1.pages.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+
+- name: 38 🇺🇸
+  type: vless
+  server: 104.27.92.217
+  port: 443
+  uuid: 5f4acc06-8cbf-4172-92d2-8f475e51f781
+  network: ws
+  tls: true
+  servername: p9C85CkpnAI98SdLJZhUWwnOlmCmxW88.CdZsqJE4u3mS.WorKeRs.deV
+  ws-opts:
+    path: /vl/qS74oZnpprf6Qgqx
+    headers:
+      Host: p9c85ckpnai98sdljzhuwwnolmcmxw88.cdzsqje4u3ms.workers.dev
+
+- name: 39 🇺🇸
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 645ea5d2-7d0a-4d66-940d-eefc2b84f4e9
+  network: ws
+  tls: true
+  servername: fragrant-surf-4797.496-345.workers.dev
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: fragrant-surf-4797.496-345.workers.dev
+
+- name: 40 🇺🇸
   type: vless
   server: 172.64.146.228
   port: 443
@@ -559,618 +520,7 @@ proxies:
     headers:
       Host: edfc774f.69lover.site
 
-- name: 44 🇺🇸
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 45 🇺🇸
-  type: vless
-  server: mybb.com
-  port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
-  network: ws
-  tls: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rayan-007.nastaran.dpdns.org
-
-- name: 46 🇺🇸
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 142d1453-9cfe-4045-8e54-f3fb33342185
-  network: ws
-  tls: true
-  servername: lively-scene-744f.107-47a.workers.dev
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: lively-scene-744f.107-47a.workers.dev
-
-- name: 47 🇺🇸
-  type: vless
-  server: 31.43.179.8
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  network: ws
-  tls: true
-  servername: xi.tbv.ccwu.cc
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-
-- name: 48 🇺🇸
-  type: vless
-  server: 195.26.229.127
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  network: ws
-  tls: true
-  servername: xi.tbv.ccwu.cc
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-
-- name: 49 🇺🇸
-  type: vless
-  server: 91.209.253.109
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 50 🇺🇸
-  type: vless
-  server: us15.zuoai.cf
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  network: ws
-  tls: true
-  servername: xi.tbv.ccwu.cc
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-
-- name: 51 🇺🇸
-  type: vless
-  server: 139.64.235.1
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 52 🇺🇸
-  type: vless
-  server: 195.26.229.156
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  network: ws
-  tls: true
-  servername: xi.tbv.ccwu.cc
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-
-- name: 53 🇺🇸
-  type: vless
-  server: 91.209.253.216
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 54 🇺🇸
-  type: vless
-  server: 139.64.235.115
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 55 🇺🇸
-  type: vless
-  server: 104.16.10.2
-  port: 443
-  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
-  network: ws
-  tls: true
-  servername: vip.868068.xyz
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: vip.868068.xyz
-
-- name: 56 🇺🇸
-  type: vless
-  server: cz1.zuoai.cf
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 57 🇺🇸
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 58 🇺🇸
-  type: vless
-  server: 31.43.179.36
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  network: ws
-  tls: true
-  servername: xi.tbv.ccwu.cc
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-
-- name: 59 🇺🇸
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  network: ws
-  tls: true
-  servername: xi.tbv.ccwu.cc
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-
-- name: 60 🇺🇸
-  type: vless
-  server: 139.64.235.117
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 61 🇺🇸
-  type: vless
-  server: 91.209.253.119
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 62 🇺🇸
-  type: vless
-  server: cf3.danfeng.eu.org
-  port: 8443
-  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
-  network: ws
-  tls: true
-  servername: vip.868068.xyz
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: vip.868068.xyz
-
-- name: 63 🇺🇸
-  type: vless
-  server: 104.16.10.2
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 64 🇺🇸
-  type: vless
-  server: 31.43.179.87
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  network: ws
-  tls: true
-  servername: xi.tbv.ccwu.cc
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-
-- name: 65 🇺🇸
-  type: vless
-  server: 91.209.253.229
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 66 🇺🇸
-  type: vless
-  server: 91.209.253.68
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 67 🇺🇸
-  type: vless
-  server: 162.159.192.125
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 68 🇺🇸
-  type: vless
-  server: 139.64.235.225
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 69 🇺🇸
-  type: vless
-  server: 91.209.253.250
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 70 🇺🇸
-  type: vless
-  server: 104.19.32.166
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 71 🇺🇸
-  type: vless
-  server: nexusmods.com
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  network: ws
-  tls: true
-  servername: xi.tbv.ccwu.cc
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-
-- name: 72 🇺🇸
-  type: vless
-  server: 91.209.253.25
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 73 🇺🇸
-  type: vless
-  server: 104.20.30.10
-  port: 443
-  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
-  network: ws
-  tls: true
-  servername: us9.69lover.my
-  ws-opts:
-    path: /api/v2/63e9687fa53e441c/stream
-    headers:
-      Host: us9.69lover.my
-
-- name: 74 🇺🇸
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
-  network: ws
-  tls: true
-  servername: vip.868068.xyz
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: vip.868068.xyz
-
-- name: 75 🇺🇸
-  type: vless
-  server: teddy.automizely.com
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  network: ws
-  tls: true
-  servername: xi.tbv.ccwu.cc
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-
-- name: 76 🇺🇸
-  type: vless
-  server: 66.235.200.207
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  network: ws
-  tls: true
-  servername: xi.tbv.ccwu.cc
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-
-- name: 77 🇺🇸
-  type: vless
-  server: 104.16.10.185
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 78 🇺🇸
-  type: vless
-  server: 31.43.179.106
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  network: ws
-  tls: true
-  servername: xi.tbv.ccwu.cc
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-
-- name: 79 🇺🇸
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 0aab6adc-104c-4339-8d25-09755ffe2cbd
-  network: ws
-  tls: true
-  servername: liang92.dpdns.org
-  ws-opts:
-    path: /
-    headers:
-      Host: liang92.dpdns.org
-
-- name: 80 🇺🇸
-  type: vless
-  server: 91.209.253.42
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 81 🇺🇸
-  type: vless
-  server: 139.64.235.77
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 82 🇺🇸
-  type: vless
-  server: 139.64.235.36
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 83 🇺🇸
-  type: vless
-  server: 104.16.111.193
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  network: ws
-  tls: true
-  servername: xi.tbv.ccwu.cc
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-
-- name: 84 🇺🇸
-  type: vless
-  server: 91.209.253.243
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 85 🇺🇸
-  type: vless
-  server: 188.114.97.6
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  network: ws
-  tls: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-
-- name: 86 🇺🇸
-  type: vless
-  server: 104.16.111.193
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 87 🇺🇸
-  type: vless
-  server: 172.67.217.240
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 88 🇺🇸
-  type: vless
-  server: 104.21.34.106
-  port: 443
-  uuid: 44eae030-290b-4083-8102-6f8bab05701b
-  network: ws
-  tls: true
-  servername: cfvvv-ev1.pages.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: cfvvv-ev1.pages.dev
-
-- name: 89 🇺🇸
-  type: vless
-  server: 91.209.253.250
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  network: ws
-  tls: true
-  servername: nb.lovecf.ggff.net
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-
-- name: 90 🇺🇸
-  type: vless
-  server: 104.20.30.10
-  port: 443
-  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
-  network: ws
-  tls: true
-  servername: us9.69lover.my
-  ws-opts:
-    path: /api/v2/63e9687fa53e441c/stream
-    headers:
-      Host: us9.69lover.my
-
-- name: 91 🇺🇸
+- name: 41 🇺🇸
   type: vless
   server: 195.26.229.222
   port: 443
@@ -1183,46 +533,241 @@ proxies:
     headers:
       Host: xi.tbv.ccwu.cc
 
-- name: 92 🇺🇸
+- name: 42 🇺🇸
   type: vless
-  server: 104.21.34.106
+  server: 104.21.70.21
   port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  uuid: 75323b6f-184f-4d00-839d-323b8fc70221
   network: ws
   tls: true
-  servername: a.cwvps.eu.org
+  servername: dry-sunset-f3c4.282.workers.dev
   ws-opts:
-    path: /ws
+    path: /pyip=ProxyIP.US.CMLiussss.net
     headers:
-      Host: a.cwvps.eu.org
+      Host: dry-sunset-f3c4.282.workers.dev
 
-- name: 93 🇺🇸
+- name: 43 🇺🇸
   type: vless
-  server: www.5h.com
+  server: 104.16.10.2
   port: 443
-  uuid: 4c0b7280-76bb-495c-9c8b-f05712ebf805
+  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
   network: ws
   tls: true
-  servername: youxuanku.kdns.fr
+  servername: vip.868068.xyz
   ws-opts:
-    path: /
+    path: MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN/proxyip=us.xiabibi.cf
     headers:
-      Host: youxuanku.kdns.fr
+      Host: vip.868068.xyz
 
-- name: 94 🇺🇸
+- name: 44 🇺🇸
   type: vless
-  server: cf.090227.xyz
+  server: 91.209.253.216
   port: 443
-  uuid: 5b374761-e26c-4117-8af8-5c637992fcbf
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   network: ws
   tls: true
-  servername: vls.baiyi.cloudns.org
+  servername: nb.lovecf.ggff.net
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+
+- name: 45 🇺🇸
+  type: vless
+  server: 195.26.229.222
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  network: ws
+  tls: true
+  servername: xi.tbv.ccwu.cc
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+
+- name: 46 🇺🇸
+  type: vless
+  server: 104.18.41.190
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  network: ws
+  tls: true
+  servername: xi.tbv.ccwu.cc
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+
+- name: 47 🇺🇸
+  type: vless
+  server: 66.235.200.171
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  network: ws
+  tls: true
+  servername: xi.tbv.ccwu.cc
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+
+- name: 48 🇺🇸
+  type: vless
+  server: 195.26.229.131
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  network: ws
+  tls: true
+  servername: xi.tbv.ccwu.cc
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+
+- name: 49 🇺🇸
+  type: vless
+  server: 139.64.235.23
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  network: ws
+  tls: true
+  servername: nb.lovecf.ggff.net
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+
+- name: 50 🇺🇸
+  type: vless
+  server: 172.64.52.230
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  network: ws
+  tls: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: vls.baiyi.cloudns.org
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 
-- name: 95 🇺🇸
+- name: 51 🇺🇸
+  type: vless
+  server: cz1.zuoai.cf
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  network: ws
+  tls: true
+  servername: nb.lovecf.ggff.net
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+
+- name: 52 🇺🇸
+  type: vless
+  server: 66.235.200.251
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  network: ws
+  tls: true
+  servername: xi.tbv.ccwu.cc
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+
+- name: 53 🇺🇸
+  type: vless
+  server: 66.235.200.186
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  network: ws
+  tls: true
+  servername: xi.tbv.ccwu.cc
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+
+- name: 54 🇺🇸
+  type: vless
+  server: us10.zuoai.cf
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  network: ws
+  tls: true
+  servername: nb.lovecf.ggff.net
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+
+- name: 55 🇺🇸
+  type: vless
+  server: 172.64.146.228
+  port: 443
+  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
+  network: ws
+  tls: true
+  servername: edfc774f.69lover.site
+  ws-opts:
+    path: /api/v2/63e9687fa53e441c/stream
+    headers:
+      Host: edfc774f.69lover.site
+
+- name: 56 🇺🇸
+  type: vless
+  server: us15.zuoai.cf
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  network: ws
+  tls: true
+  servername: xi.tbv.ccwu.cc
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+
+- name: 57 🇺🇸
+  type: vless
+  server: 104.16.10.185
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  network: ws
+  tls: true
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+
+- name: 58 🇺🇸
+  type: vless
+  server: 195.26.229.156
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  network: ws
+  tls: true
+  servername: xi.tbv.ccwu.cc
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+
+- name: 59 🇺🇸
+  type: vless
+  server: 91.209.253.250
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  network: ws
+  tls: true
+  servername: nb.lovecf.ggff.net
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+
+- name: 60 🇺🇸
   type: vless
   server: 139.64.235.174
   port: 443
@@ -1235,74 +780,22 @@ proxies:
     headers:
       Host: nb.lovecf.ggff.net
 
-- name: 96 🇺🇸
+- name: 61 🇺🇸
+  type: vless
+  server: 104.21.34.106
+  port: 443
+  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
+  network: ws
+  tls: true
+  servername: vip.868068.xyz
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: vip.868068.xyz
+
+- name: 62 🇺🇸
   type: vless
   server: 104.18.26.90
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 97 🇺🇸
-  type: vless
-  server: 104.16.10.2
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 98 🇺🇸
-  type: vless
-  server: 104.19.32.166
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 99 🇺🇸
-  type: vless
-  server: 141.101.122.147
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 100 🇺🇸
-  type: vless
-  server: 104.21.33.59
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 101 🇺🇸
-  type: vless
-  server: sa1.zuoai.cf
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   network: ws
@@ -1313,54 +806,93 @@ proxies:
     headers:
       Host: nb.lovecf.ggff.net
 
-- name: 102 🇺🇸
+- name: 63 🇺🇸
   type: vless
-  server: 104.21.70.21
+  server: 66.235.200.242
   port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  uuid: b2593749-691c-428c-9481-14979cba3446
   network: ws
   tls: true
-  servername: a.cwvps.eu.org
+  servername: xi.tbv.ccwu.cc
   ws-opts:
-    path: /ws
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: a.cwvps.eu.org
+      Host: xi.tbv.ccwu.cc
 
-- name: 103 🇺🇸
+- name: 64 🇺🇸
   type: vless
-  server: 104.16.156.227
+  server: kz3.zuoai.cf
   port: 443
-  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  uuid: b2593749-691c-428c-9481-14979cba3446
   network: ws
   tls: true
-  servername: cfvvv-ev1.pages.dev
+  servername: xi.tbv.ccwu.cc
   ws-opts:
-    path: /
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: cfvvv-ev1.pages.dev
+      Host: xi.tbv.ccwu.cc
 
-- name: 104 🇺🇸
+- name: 65 🇺🇸
   type: vless
-  server: 104.17.117.137
+  server: 104.16.10.2
   port: 443
-  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   network: ws
   tls: true
-  servername: cfvvv-ev1.pages.dev
+  servername: nb.lovecf.ggff.net
   ws-opts:
-    path: /
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: cfvvv-ev1.pages.dev
+      Host: nb.lovecf.ggff.net
 
-- name: 105 🇺🇸
+- name: 66 🇺🇸
   type: vless
-  server: 104.18.42.54
+  server: 139.64.235.1
   port: 443
-  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   network: ws
   tls: true
-  servername: cfvvv-ev1.pages.dev
+  servername: nb.lovecf.ggff.net
   ws-opts:
-    path: /
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: cfvvv-ev1.pages.dev
+      Host: nb.lovecf.ggff.net
+
+- name: 67 🇺🇸
+  type: vless
+  server: 172.67.217.240
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  network: ws
+  tls: true
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+
+- name: 68 🇺🇸
+  type: vless
+  server: 104.20.30.10
+  port: 443
+  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
+  network: ws
+  tls: true
+  servername: us9.69lover.my
+  ws-opts:
+    path: /api/v2/63e9687fa53e441c/stream
+    headers:
+      Host: us9.69lover.my
+
+- name: 69 🇺🇸
+  type: vless
+  server: 103.31.4.10
+  port: 443
+  uuid: 77dc177b-79d9-49ac-92e1-2f1011faa5e3
+  network: ws
+  tls: true
+  servername: f871a986.69lover.site
+  ws-opts:
+    path: /api/v2/b8ee4ba356df307c/stream
+    headers:
+      Host: f871a986.69lover.site

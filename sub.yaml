@@ -1,8 +1,8 @@
 proxies:
 
-- name: 66 🇺🇸
+- name: 60 🇺🇸
   type: vless
-  server: 91.209.253.68
+  server: 139.64.235.174
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   network: ws
@@ -13,39 +13,41 @@ proxies:
     headers:
       Host: nb.lovecf.ggff.net
 
-- name: 117 🇫🇷
-  type: trojan
-  server: 172.67.217.240
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 134 🇫🇷
-  type: trojan
-  server: 5.78.92.27
-  port: 8443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 77 🇺🇸
+- name: 42 🇺🇸
   type: vless
-  server: 104.16.10.185
+  server: 104.21.70.21
   port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  uuid: 75323b6f-184f-4d00-839d-323b8fc70221
   network: ws
   tls: true
-  servername: a.cwvps.eu.org
+  servername: dry-sunset-f3c4.282.workers.dev
   ws-opts:
-    path: /ws
+    path: /pyip=ProxyIP.US.CMLiussss.net
     headers:
-      Host: a.cwvps.eu.org
+      Host: dry-sunset-f3c4.282.workers.dev
+
+- name: 11 🇭🇰
+  type: vless
+  server: 104.16.60.10
+  port: 443
+  uuid: cdf5205e-897f-46a7-8d7f-21a61a80b466
+  network: ws
+  tls: true
+  servername: hk1.69lover.my
+  ws-opts:
+    path: /api/v2/e2fe4e52a165854d/stream
+    headers:
+      Host: hk1.69lover.my
+
+- name: 15 🇰🇷
+  type: vless
+  server: 172.64.153.3
+  port: 443
+  uuid: e85ca8bc-21a5-418d-a639-00236f0c3d81
+  network: ws
+  tls: true
+  servername: d9a9ecdf.69lover.site
+  ws-opts:
+    path: /api/v2/c17245904dc7e388/stream
+    headers:
+      Host: d9a9ecdf.69lover.site
