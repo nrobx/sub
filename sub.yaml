@@ -1,43 +1,30 @@
 proxies:
 
-- name: 60 🇺🇸
+- name: 1 🇦🇹
   type: vless
-  server: 139.64.235.174
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  server: 132.243.203.218
+  port: 8443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   network: ws
   tls: true
-  servername: nb.lovecf.ggff.net
+  servername: cdn8848.776676.xyz
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /v
     headers:
-      Host: nb.lovecf.ggff.net
+      Host: cdn8848.776676.xyz
 
-- name: 42 🇺🇸
+- name: 5 🇩🇪
   type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: 75323b6f-184f-4d00-839d-323b8fc70221
+  server: 157.173.125.214
+  port: 2087
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   network: ws
   tls: true
-  servername: dry-sunset-f3c4.282.workers.dev
+  servername: cdn8848.776676.xyz
   ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
+    path: /redirect/china/view
     headers:
-      Host: dry-sunset-f3c4.282.workers.dev
-
-- name: 11 🇭🇰
-  type: vless
-  server: 104.16.60.10
-  port: 443
-  uuid: cdf5205e-897f-46a7-8d7f-21a61a80b466
-  network: ws
-  tls: true
-  servername: hk1.69lover.my
-  ws-opts:
-    path: /api/v2/e2fe4e52a165854d/stream
-    headers:
-      Host: hk1.69lover.my
+      Host: cdn8848.776676.xyz
 
 - name: 15 🇰🇷
   type: vless
@@ -51,3 +38,16 @@ proxies:
     path: /api/v2/c17245904dc7e388/stream
     headers:
       Host: d9a9ecdf.69lover.site
+
+- name: 35 🇺🇸
+  type: vless
+  server: 188.114.97.8
+  port: 8443
+  uuid: 9c63fd59-f9ee-446e-97ec-0bf2de21ed7b
+  network: ws
+  tls: true
+  servername: dRy-GLITTer-ef10.gFRYubCdrYujVRtH.WorkErS.DEV
+  ws-opts:
+    path: /eyJqdW5rIjoiVVhGU1pOZ1oxaTFUUldyVCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    headers:
+      Host: dry-glitter-ef10.gfryubcdryujvrth.workers.dev
