@@ -1,53 +1,53 @@
 proxies:
 
-- name: 15 🇳🇱
+- name: 55 🇹🇭
   type: vless
-  server: 104.18.32.252
+  server: 162.159.192.125
   port: 443
-  uuid: 6dd13cd4-e378-4742-bef1-d8ac54083626
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
   network: ws
   tls: true
-  servername: eb9a7750.69lover.site
+  servername: v2ray.simspeedup.com
   ws-opts:
-    path: /api/v2/4ecb1e0e26887759/stream
+    path: /ws
     headers:
-      Host: eb9a7750.69lover.site
+      Host: v2ray.simspeedup.com
 
-- name: 6 🇫🇮
+- name: 119 🇺🇸
   type: vless
-  server: 31.76.88.10
+  server: 104.21.33.59
   port: 443
-  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   network: ws
   tls: true
-  servername: cf5.rumedia-cdn.com
+  servername: a.cwvps.eu.org
   ws-opts:
-    path: /cdn/v3/live
+    path: /ws
     headers:
-      Host: cf5.rumedia-cdn.com
+      Host: a.cwvps.eu.org
 
-- name: 73 🇺🇸
+- name: 47 🇸🇪
   type: vless
-  server: 104.16.10.10
-  port: 443
-  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  server: 202.181.177.8
+  port: 8443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   network: ws
   tls: true
-  servername: cfvvv-ev1.pages.dev
+  servername: cdn8848.776676.xyz
   ws-opts:
-    path: /
+    path: /channels/act
     headers:
-      Host: cfvvv-ev1.pages.dev
+      Host: cdn8848.776676.xyz
 
-- name: 8 🇫🇮
+- name: 83 🇺🇸
   type: vless
-  server: a2.arshia-nova.ir
-  port: 443
-  uuid: 029fc301-ac31-4aae-9fd8-5d0bff6ec5c0
+  server: cf3.danfeng.eu.org
+  port: 8443
+  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
   network: ws
   tls: true
-  servername: ssl.fastly.com
+  servername: vip.868068.xyz
   ws-opts:
-    path: /
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: c12.com
+      Host: vip.868068.xyz
