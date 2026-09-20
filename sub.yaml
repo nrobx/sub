@@ -1,53 +1,52 @@
 proxies:
 
-- name: 1 🇦🇹
-  type: vless
-  server: 132.243.203.218
-  port: 8443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  network: ws
-  tls: true
-  servername: cdn8848.776676.xyz
-  ws-opts:
-    path: /v
-    headers:
-      Host: cdn8848.776676.xyz
-
-- name: 5 🇩🇪
-  type: vless
-  server: 157.173.125.214
-  port: 2087
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  network: ws
-  tls: true
-  servername: cdn8848.776676.xyz
-  ws-opts:
-    path: /redirect/china/view
-    headers:
-      Host: cdn8848.776676.xyz
-
-- name: 15 🇰🇷
-  type: vless
-  server: 172.64.153.3
+- name: 76 🇺🇸
+  type: trojan
+  server: 199.232.78.160
   port: 443
-  uuid: e85ca8bc-21a5-418d-a639-00236f0c3d81
+  password: MiTIVPN
+  sni: ssl.fastly.com
   network: ws
-  tls: true
-  servername: d9a9ecdf.69lover.site
   ws-opts:
-    path: /api/v2/c17245904dc7e388/stream
+    path: /
     headers:
-      Host: d9a9ecdf.69lover.site
+      Host: mitivpn---ss--s---mitivpn-44e.global.ssl.fastly.net
 
-- name: 35 🇺🇸
+- name: 58 🇺🇸
   type: vless
-  server: 188.114.97.8
-  port: 8443
-  uuid: 9c63fd59-f9ee-446e-97ec-0bf2de21ed7b
+  server: 195.26.229.156
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
   network: ws
   tls: true
-  servername: dRy-GLITTer-ef10.gFRYubCdrYujVRtH.WorkErS.DEV
+  servername: xi.tbv.ccwu.cc
   ws-opts:
-    path: /eyJqdW5rIjoiVVhGU1pOZ1oxaTFUUldyVCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: dry-glitter-ef10.gfryubcdryujvrth.workers.dev
+      Host: xi.tbv.ccwu.cc
+
+- name: 42 🇺🇸
+  type: vless
+  server: 104.21.70.21
+  port: 443
+  uuid: 75323b6f-184f-4d00-839d-323b8fc70221
+  network: ws
+  tls: true
+  servername: dry-sunset-f3c4.282.workers.dev
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: dry-sunset-f3c4.282.workers.dev
+
+- name: 41 🇺🇸
+  type: vless
+  server: 195.26.229.222
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  network: ws
+  tls: true
+  servername: xi.tbv.ccwu.cc
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
