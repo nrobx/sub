@@ -1,21 +1,45 @@
 proxies:
 
-- name: 55 🇹🇭
+- name: 66 🇺🇸
   type: vless
-  server: 162.159.192.125
+  server: 91.209.253.68
   port: 443
-  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   network: ws
   tls: true
-  servername: v2ray.simspeedup.com
+  servername: nb.lovecf.ggff.net
   ws-opts:
-    path: /ws
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: v2ray.simspeedup.com
+      Host: nb.lovecf.ggff.net
 
-- name: 119 🇺🇸
+- name: 117 🇫🇷
+  type: trojan
+  server: 172.67.217.240
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 134 🇫🇷
+  type: trojan
+  server: 5.78.92.27
+  port: 8443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 77 🇺🇸
   type: vless
-  server: 104.21.33.59
+  server: 104.16.10.185
   port: 443
   uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   network: ws
@@ -25,29 +49,3 @@ proxies:
     path: /ws
     headers:
       Host: a.cwvps.eu.org
-
-- name: 47 🇸🇪
-  type: vless
-  server: 202.181.177.8
-  port: 8443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  network: ws
-  tls: true
-  servername: cdn8848.776676.xyz
-  ws-opts:
-    path: /channels/act
-    headers:
-      Host: cdn8848.776676.xyz
-
-- name: 83 🇺🇸
-  type: vless
-  server: cf3.danfeng.eu.org
-  port: 8443
-  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
-  network: ws
-  tls: true
-  servername: vip.868068.xyz
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: vip.868068.xyz
