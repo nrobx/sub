@@ -1,50 +1,52 @@
 proxies:
 
-- name: 149 🇫🇷
+- name: 79 🇺🇸
   type: trojan
-  server: 104.16.72.50
+  server: 151.101.56.56
   port: 443
-  password: humanity
-  sni: www.calmlunch.com
+  password: MiTIVPN
+  sni: ssl.fastly.com
   network: ws
   ws-opts:
-    path: /assignment
+    path: /---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/des---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP
     headers:
-      Host: www.calmlunch.com
+      Host: mitivpn---ss--s---mitivpn-66e.global.ssl.fastly.net
 
-- name: 133 🇺🇸
+- name: 67 🇺🇸
   type: vless
-  server: cf.090227.xyz
+  server: nl4.zuoai.cf
   port: 443
-  uuid: 5b374761-e26c-4117-8af8-5c637992fcbf
+  uuid: b2593749-691c-428c-9481-14979cba3446
   network: ws
   tls: true
-  servername: vls.baiyi.cloudns.org
+  servername: xi.tbv.ccwu.cc
   ws-opts:
-    path: /?ed=2560
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: vls.baiyi.cloudns.org
+      Host: xi.tbv.ccwu.cc
 
-- name: 183 🇳🇱
-  type: trojan
-  server: 8.47.69.0
+- name: 5 🇩🇪
+  type: vless
+  server: 164.92.193.243
   port: 443
-  password: humanity
-  sni: www.pleadcourt.org
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   network: ws
+  tls: true
+  servername: cdn8848.776676.xyz
   ws-opts:
-    path: /assignment
+    path: /topics
     headers:
-      Host: www.pleadcourt.org
+      Host: cdn8848.776676.xyz
 
-- name: 185 🇳🇱
-  type: trojan
-  server: 78.47.146.151
+- name: 46 🇺🇸
+  type: vless
+  server: 139.64.235.210
   port: 443
-  password: humanity
-  sni: www.pleadcourt.org
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   network: ws
+  tls: true
+  servername: nb.lovecf.ggff.net
   ws-opts:
-    path: /assignment
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: www.pleadcourt.org
+      Host: nb.lovecf.ggff.net
