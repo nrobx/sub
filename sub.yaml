@@ -1,53 +1,50 @@
 proxies:
 
-- name: 22 🇯🇵
-  type: vless
-  server: 64.83.39.176
+- name: 149 🇫🇷
+  type: trojan
+  server: 104.16.72.50
   port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  password: humanity
+  sni: www.calmlunch.com
   network: ws
-  tls: true
-  servername: cdn8848.776676.xyz
   ws-opts:
-    path: /seller?ed=2560
+    path: /assignment
     headers:
-      Host: cdn8848.776676.xyz
+      Host: www.calmlunch.com
 
-- name: 96 🇺🇸
+- name: 133 🇺🇸
   type: vless
-  server: 91.209.253.25
+  server: cf.090227.xyz
   port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  uuid: 5b374761-e26c-4117-8af8-5c637992fcbf
   network: ws
   tls: true
-  servername: nb.lovecf.ggff.net
+  servername: vls.baiyi.cloudns.org
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /?ed=2560
     headers:
-      Host: nb.lovecf.ggff.net
+      Host: vls.baiyi.cloudns.org
 
-- name: 63 🇸🇬
-  type: vless
-  server: 104.24.11.68
+- name: 183 🇳🇱
+  type: trojan
+  server: 8.47.69.0
   port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  password: humanity
+  sni: www.pleadcourt.org
   network: ws
-  tls: true
-  servername: u.srilankangrill.online
   ws-opts:
-    path: /
+    path: /assignment
     headers:
-      Host: u.srilankangrill.online
+      Host: www.pleadcourt.org
 
-- name: 104 🇺🇸
-  type: vless
-  server: us15.zuoai.cf
+- name: 185 🇳🇱
+  type: trojan
+  server: 78.47.146.151
   port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
+  password: humanity
+  sni: www.pleadcourt.org
   network: ws
-  tls: true
-  servername: xi.tbv.ccwu.cc
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /assignment
     headers:
-      Host: xi.tbv.ccwu.cc
+      Host: www.pleadcourt.org
