@@ -1,46 +1,47 @@
 proxies:
 
-- name: 76 🇺🇸
-  type: trojan
-  server: 199.232.78.160
-  port: 443
-  password: MiTIVPN
-  sni: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mitivpn---ss--s---mitivpn-44e.global.ssl.fastly.net
-
-- name: 58 🇺🇸
+- name: 22 🇯🇵
   type: vless
-  server: 195.26.229.156
+  server: 64.83.39.176
   port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   network: ws
   tls: true
-  servername: xi.tbv.ccwu.cc
+  servername: cdn8848.776676.xyz
+  ws-opts:
+    path: /seller?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
+
+- name: 96 🇺🇸
+  type: vless
+  server: 91.209.253.25
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  network: ws
+  tls: true
+  servername: nb.lovecf.ggff.net
   ws-opts:
     path: /proxyip=us.xiabibi.cf
     headers:
-      Host: xi.tbv.ccwu.cc
+      Host: nb.lovecf.ggff.net
 
-- name: 42 🇺🇸
+- name: 63 🇸🇬
   type: vless
-  server: 104.21.70.21
+  server: 104.24.11.68
   port: 443
-  uuid: 75323b6f-184f-4d00-839d-323b8fc70221
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   network: ws
   tls: true
-  servername: dry-sunset-f3c4.282.workers.dev
+  servername: u.srilankangrill.online
   ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
+    path: /
     headers:
-      Host: dry-sunset-f3c4.282.workers.dev
+      Host: u.srilankangrill.online
 
-- name: 41 🇺🇸
+- name: 104 🇺🇸
   type: vless
-  server: 195.26.229.222
+  server: us15.zuoai.cf
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   network: ws
