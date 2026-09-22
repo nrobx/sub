@@ -2,6 +2,18 @@ proxies:
 
 - name: 1 🇳🇱
   type: trojan
+  server: 8.47.69.0
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+
+- name: 2 🇳🇱
+  type: trojan
   server: 188.42.145.180
   port: 443
   password: humanity
@@ -11,15 +23,3 @@ proxies:
     path: /assignment
     headers:
       Host: www.volumeroot.com
-
-- name: 2 🇺🇸
-  type: trojan
-  server: 199.232.78.160
-  port: 443
-  password: MiTIVPN
-  sni: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mitivpn---ss--s---mitivpn-44e.global.ssl.fastly.net

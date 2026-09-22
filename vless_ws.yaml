@@ -39,7 +39,85 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
 
-- name: 4 🇨🇭
+- name: 4 🇨🇦
+  type: vless
+  server: 104.21.70.21
+  port: 443
+  uuid: efe19c5a-0ea1-4666-8a4c-4a33f4670775
+  network: ws
+  tls: true
+  servername: playlux.homes
+  ws-opts:
+    path: /raccoonwsvless
+    headers:
+      Host: playlux.homes
+
+- name: 5 🇨🇦
+  type: vless
+  server: 104.21.63.28
+  port: 443
+  uuid: 4c0b7280-76bb-495c-9c8b-f05712ebf805
+  network: ws
+  tls: true
+  servername: youxuanku.kdns.fr
+  ws-opts:
+    path: /
+    headers:
+      Host: youxuanku.kdns.fr
+
+- name: 6 🇨🇦
+  type: vless
+  server: 172.67.77.58
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  network: ws
+  tls: true
+  servername: shuma.ccwu.cc
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+
+- name: 7 🇨🇦
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  network: ws
+  tls: true
+  servername: xi.tbv.ccwu.cc
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+
+- name: 8 🇨🇦
+  type: vless
+  server: 172.67.217.240
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  network: ws
+  tls: true
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+
+- name: 9 🇨🇦
+  type: vless
+  server: 104.21.63.28
+  port: 443
+  uuid: 4c0b7280-76bb-495c-9c8b-f05712ebf805
+  network: ws
+  tls: true
+  servername: youxuanku.kdns.fr
+  ws-opts:
+    path: /
+    headers:
+      Host: youxuanku.kdns.fr
+
+- name: 10 🇨🇭
   type: vless
   server: 107.189.2.206
   port: 8443
@@ -52,7 +130,7 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
 
-- name: 5 🇨🇭
+- name: 11 🇨🇭
   type: vless
   server: 103.63.30.163
   port: 443
@@ -65,20 +143,7 @@ proxies:
     headers:
       Host: xi.tbv.ccwu.cc
 
-- name: 6 🇩🇪
-  type: vless
-  server: 103.63.30.73
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  network: ws
-  tls: true
-  servername: xi.tbv.ccwu.cc
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-
-- name: 7 🇩🇰
+- name: 12 🇩🇰
   type: vless
   server: 193.180.208.169
   port: 8443
@@ -91,7 +156,7 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
 
-- name: 8 🇪🇸
+- name: 13 🇪🇸
   type: vless
   server: 195.133.92.20
   port: 443
@@ -104,7 +169,7 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
 
-- name: 9 🇪🇸
+- name: 14 🇪🇸
   type: vless
   server: 152.114.195.163
   port: 8443
@@ -116,71 +181,6 @@ proxies:
     path: /
     headers:
       Host: shuma.ccwu.cc
-
-- name: 10 🇫🇮
-  type: vless
-  server: 202.166.187.132
-  port: 443
-  uuid: 8be20011-59b1-4118-91ed-83e8e6b662cd
-  network: ws
-  tls: true
-  servername: f.yoptybla.ru
-  ws-opts:
-    path: /
-    headers:
-      Host: f.yoptybla.ru
-
-- name: 11 🇫🇮
-  type: vless
-  server: 31.76.88.10
-  port: 443
-  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
-  network: ws
-  tls: true
-  servername: cf5.rumedia-cdn.com
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf5.rumedia-cdn.com
-
-- name: 12 🇫🇮
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  ws-opts:
-    path: /?TELEGRAM--KANAL--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray
-    headers:
-      Host: c12.com
-
-- name: 13 🇫🇮
-  type: vless
-  server: 202.166.187.132
-  port: 443
-  uuid: 8be20011-59b1-4118-91ed-83e8e6b662cd
-  network: ws
-  tls: true
-  servername: f.yoptybla.ru
-  ws-opts:
-    path: /
-    headers:
-      Host: f.yoptybla.ru
-
-- name: 14 🇫🇮
-  type: vless
-  server: 202.166.187.132
-  port: 443
-  uuid: 8be20011-59b1-4118-91ed-83e8e6b662cd
-  network: ws
-  tls: true
-  servername: f.yoptybla.ru
-  ws-opts:
-    path: /
-    headers:
-      Host: f.yoptybla.ru
 
 - name: 15 🇫🇮
   type: vless
@@ -195,20 +195,7 @@ proxies:
     headers:
       Host: c12.com
 
-- name: 16 🇫🇮
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  ws-opts:
-    path: /?RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS
-    headers:
-      Host: c12.com
-
-- name: 17 🇫🇷
+- name: 16 🇫🇷
   type: vless
   server: 104.194.84.188
   port: 8443
@@ -221,7 +208,7 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
 
-- name: 18 🇫🇷
+- name: 17 🇫🇷
   type: vless
   server: 141.227.188.153
   port: 443
@@ -234,7 +221,7 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
 
-- name: 19 🇬🇧
+- name: 18 🇬🇧
   type: vless
   server: 104.194.140.26
   port: 443
@@ -247,20 +234,7 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
 
-- name: 20 🇭🇰
-  type: vless
-  server: 103.101.0.73
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  network: ws
-  tls: true
-  servername: shuma.ccwu.cc
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-
-- name: 21 🇭🇰
+- name: 19 🇭🇰
   type: vless
   server: 122.10.119.252
   port: 443
@@ -273,20 +247,7 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
 
-- name: 22 🇭🇰
-  type: vless
-  server: 103.118.254.37
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  network: ws
-  tls: true
-  servername: shuma.ccwu.cc
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-
-- name: 23 🇮🇪
+- name: 20 🇮🇪
   type: vless
   server: 107.150.20.112
   port: 8443
@@ -299,7 +260,7 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
 
-- name: 24 🇮🇳
+- name: 21 🇮🇳
   type: vless
   server: 13.200.106.232
   port: 443
@@ -312,7 +273,7 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
 
-- name: 25 🇮🇳
+- name: 22 🇮🇳
   type: vless
   server: 139.84.135.130
   port: 443
@@ -325,7 +286,7 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
 
-- name: 26 🇯🇵
+- name: 23 🇯🇵
   type: vless
   server: 45.202.254.133
   port: 443
@@ -338,20 +299,20 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
 
-- name: 27 🇯🇵
+- name: 24 🇳🇱
   type: vless
-  server: 92.113.124.228
+  server: 199.232.78.159
   port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  uuid: 1ee3c7ee-c8dd-44a5-bd22-ac5d3f34eaa9
   network: ws
   tls: true
-  servername: shuma.ccwu.cc
+  servername: ssl.fastly.com
   ws-opts:
-    path: /
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
     headers:
-      Host: shuma.ccwu.cc
+      Host: pan1.global.ssl.fastly.net
 
-- name: 28 🇳🇱
+- name: 25 🇳🇱
   type: vless
   server: 109.176.202.20
   port: 443
@@ -364,20 +325,7 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
 
-- name: 29 🇳🇱
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: 00864d0f-3c82-419a-a65e-52534d023242
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-    headers:
-      Host: fancii.global.ssl.fastly.net
-
-- name: 30 🇳🇱
+- name: 26 🇳🇱
   type: vless
   server: 103.137.248.227
   port: 443
@@ -390,7 +338,7 @@ proxies:
     headers:
       Host: xi.tbv.ccwu.cc
 
-- name: 31 🇳🇱
+- name: 27 🇳🇱
   type: vless
   server: 194.71.227.213
   port: 443
@@ -403,7 +351,20 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
 
-- name: 32 🇳🇱
+- name: 28 🇳🇱
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: 1ee3c7ee-c8dd-44a5-bd22-ac5d3f34eaa9
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
+    headers:
+      Host: pan1.global.ssl.fastly.net
+
+- name: 29 🇳🇱
   type: vless
   server: 199.232.78.159
   port: 443
@@ -416,46 +377,7 @@ proxies:
     headers:
       Host: Fijji.global.ssl.fastly.net
 
-- name: 33 🇳🇱
-  type: vless
-  server: 177.3.208.65
-  port: 443
-  uuid: 4f34bc04-479c-49ba-91a8-6bb9ed15031c
-  network: ws
-  tls: true
-  servername: tgmansion.site
-  ws-opts:
-    path: /vless-il
-    headers:
-      Host: tgmansion.site
-
-- name: 34 🇳🇱
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: 00864d0f-3c82-419a-a65e-52534d023242
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-    headers:
-      Host: fancii.global.ssl.fastly.net
-
-- name: 35 🇳🇱
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: 805df9b3-f18c-4392-a624-c4213c0560f4
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-    headers:
-      Host: Fijji.global.ssl.fastly.net
-
-- name: 36 🇳🇴
+- name: 30 🇳🇴
   type: vless
   server: 194.32.107.150
   port: 443
@@ -468,7 +390,7 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
 
-- name: 37 🇵🇱
+- name: 31 🇵🇱
   type: vless
   server: 185.179.82.201
   port: 443
@@ -481,7 +403,7 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
 
-- name: 38 🇵🇱
+- name: 32 🇵🇱
   type: vless
   server: 103.167.234.26
   port: 443
@@ -494,9 +416,22 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
 
-- name: 39 🇷🇴
+- name: 33 🇷🇺
   type: vless
-  server: 154.46.31.118
+  server: 46.8.200.91
+  port: 443
+  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
+  network: ws
+  tls: true
+  servername: cf3.rumedia-cdn.com
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: cf3.rumedia-cdn.com
+
+- name: 34 🇸🇬
+  type: vless
+  server: 103.195.188.206
   port: 443
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   network: ws
@@ -507,7 +442,7 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
 
-- name: 40 🇸🇬
+- name: 35 🇸🇬
   type: vless
   server: 103.195.188.192
   port: 443
@@ -520,7 +455,7 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
 
-- name: 41 🇹🇼
+- name: 36 🇹🇼
   type: vless
   server: 140.235.39.19
   port: 443
@@ -533,22 +468,87 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
 
-- name: 42 🇺🇸
+- name: 37 🇺🇸
   type: vless
-  server: 172.64.146.228
-  port: 443
-  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
+  server: 104.19.32.132
+  port: 8443
+  uuid: 2b181a3a-c001-4145-845a-5d43a43837d5
   network: ws
   tls: true
-  servername: edfc774f.69lover.site
+  servername: vpn-1fj.pages.dev
   ws-opts:
-    path: /api/v2/63e9687fa53e441c/stream
+    path: /
     headers:
-      Host: edfc774f.69lover.site
+      Host: vpn-1fj.pages.dev
+
+- name: 38 🇺🇸
+  type: vless
+  server: web-tomcat.pages.dev
+  port: 443
+  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
+  network: ws
+  tls: true
+  servername: web-tomcat.pages.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: web-tomcat.pages.dev
+
+- name: 39 🇺🇸
+  type: vless
+  server: 104.25.220.68
+  port: 443
+  uuid: 9952b71a-6c86-4522-888f-ff9ea9b93536
+  network: ws
+  tls: true
+  servername: 1.hshs8227shhshs.workers.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: 1.hshs8227shhshs.workers.dev
+
+- name: 40 🇺🇸
+  type: vless
+  server: us4.998998.best
+  port: 443
+  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
+  network: ws
+  tls: true
+  servername: server14.9966338.xyz
+  ws-opts:
+    path: /ujhgfytsrtw563675eud
+    headers:
+      Host: server14.9966338.xyz
+
+- name: 41 🇺🇸
+  type: vless
+  server: 104.18.34.168
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  network: ws
+  tls: true
+  servername: xi.tbv.ccwu.cc
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+
+- name: 42 🇺🇸
+  type: vless
+  server: www.terence-tunnel.org
+  port: 443
+  uuid: c47eb7ab-2c2d-44e0-80cc-bb104f89a137
+  network: ws
+  tls: true
+  servername: www.terence-tunnel.org
+  ws-opts:
+    path: /tunnel
+    headers:
+      Host: www.terence-tunnel.org
 
 - name: 43 🇺🇸
   type: vless
-  server: 66.235.200.251
+  server: 195.26.229.157
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   network: ws
@@ -574,20 +574,20 @@ proxies:
 
 - name: 45 🇺🇸
   type: vless
-  server: 104.20.30.10
+  server: teddy.automizely.com
   port: 443
-  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
+  uuid: b2593749-691c-428c-9481-14979cba3446
   network: ws
   tls: true
-  servername: us9.69lover.my
+  servername: xi.tbv.ccwu.cc
   ws-opts:
-    path: /api/v2/63e9687fa53e441c/stream
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: us9.69lover.my
+      Host: xi.tbv.ccwu.cc
 
 - name: 46 🇺🇸
   type: vless
-  server: 31.43.179.8
+  server: 104.21.34.106
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   network: ws
@@ -601,19 +601,19 @@ proxies:
 - name: 47 🇺🇸
   type: vless
   server: 188.114.97.6
-  port: 443
-  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   network: ws
   tls: true
-  servername: us9.69lover.my
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
   ws-opts:
-    path: /api/v2/63e9687fa53e441c/stream
+    path: /?ed=2560
     headers:
-      Host: us9.69lover.my
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
 
 - name: 48 🇺🇸
   type: vless
-  server: 162.159.192.125
+  server: 172.64.153.88
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   network: ws
@@ -626,65 +626,26 @@ proxies:
 
 - name: 49 🇺🇸
   type: vless
-  server: 172.64.53.194
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 66.235.200.101
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
   network: ws
   tls: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: xi.tbv.ccwu.cc
   ws-opts:
-    path: /?ed=2560
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: xi.tbv.ccwu.cc
 
 - name: 50 🇺🇸
   type: vless
-  server: us4.998998.best
+  server: 162.159.192.125
   port: 443
-  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
+  uuid: b2593749-691c-428c-9481-14979cba3446
   network: ws
   tls: true
-  servername: server14.9966338.xyz
+  servername: xi.tbv.ccwu.cc
   ws-opts:
-    path: /ujhgfytsrtw563675eud
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: server14.9966338.xyz
-
-- name: 51 🇺🇸
-  type: vless
-  server: 104.21.63.28
-  port: 443
-  uuid: 4c0b7280-76bb-495c-9c8b-f05712ebf805
-  network: ws
-  tls: true
-  servername: youxuanku.kdns.fr
-  ws-opts:
-    path: /
-    headers:
-      Host: youxuanku.kdns.fr
-
-- name: 52 🇺🇸
-  type: vless
-  server: 104.20.30.10
-  port: 443
-  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
-  network: ws
-  tls: true
-  servername: us9.69lover.my
-  ws-opts:
-    path: /api/v2/63e9687fa53e441c/stream
-    headers:
-      Host: us9.69lover.my
-
-- name: 53 🇺🇸
-  type: vless
-  server: www.terence-tunnel.org
-  port: 443
-  uuid: c47eb7ab-2c2d-44e0-80cc-bb104f89a137
-  network: ws
-  tls: true
-  servername: www.terence-tunnel.org
-  ws-opts:
-    path: /tunnel
-    headers:
-      Host: www.terence-tunnel.org
+      Host: xi.tbv.ccwu.cc

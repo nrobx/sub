@@ -1,21 +1,34 @@
 proxies:
 
-- name: 35 🇳🇱
+- name: 15 🇫🇮
+  type: vless
+  server: k2.cloud--vpn.site
+  port: 443
+  uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  ws-opts:
+    path: /
+    headers:
+      Host: c12.com
+
+- name: 24 🇳🇱
   type: vless
   server: 199.232.78.159
   port: 443
-  uuid: 805df9b3-f18c-4392-a624-c4213c0560f4
+  uuid: 1ee3c7ee-c8dd-44a5-bd22-ac5d3f34eaa9
   network: ws
   tls: true
   servername: ssl.fastly.com
   ws-opts:
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
     headers:
-      Host: Fijji.global.ssl.fastly.net
+      Host: pan1.global.ssl.fastly.net
 
-- name: 41 🇹🇼
+- name: 31 🇵🇱
   type: vless
-  server: 140.235.39.19
+  server: 185.179.82.201
   port: 443
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   network: ws
@@ -26,28 +39,15 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
 
-- name: 21 🇭🇰
+- name: 40 🇺🇸
   type: vless
-  server: 122.10.119.252
+  server: us4.998998.best
   port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
   network: ws
   tls: true
-  servername: shuma.ccwu.cc
+  servername: server14.9966338.xyz
   ws-opts:
-    path: /
+    path: /ujhgfytsrtw563675eud
     headers:
-      Host: shuma.ccwu.cc
-
-- name: 51 🇺🇸
-  type: vless
-  server: 104.21.63.28
-  port: 443
-  uuid: 4c0b7280-76bb-495c-9c8b-f05712ebf805
-  network: ws
-  tls: true
-  servername: youxuanku.kdns.fr
-  ws-opts:
-    path: /
-    headers:
-      Host: youxuanku.kdns.fr
+      Host: server14.9966338.xyz

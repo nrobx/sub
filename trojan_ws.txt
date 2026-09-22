@@ -1,5 +1,5 @@
 //profile-title: base64:d3MtaHR0cHVwZ3JhZGUtcG9ydC00NDMtaGFtZWRwNzE=
 //profile-update-interval: 1
 //subscription-userinfo: filter=ws
-trojan://humanity@188.42.145.180:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=0&host=www.volumeroot.com&fp=chrome&type=ws&allowInsecure=0&sni=www.volumeroot.com#54%20%F0%9F%87%B3%F0%9F%87%B1
-trojan://MiTIVPN@199.232.78.160:443?security=tls&type=ws&sni=ssl.fastly.com&host=mitivpn---ss--s---mitivpn-44e.global.ssl.fastly.net#55%20%F0%9F%87%BA%F0%9F%87%B8
+trojan://humanity@8.47.69.0:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&type=ws&allowInsecure=0&sni=www.pleadcourt.org#51%20%F0%9F%87%B3%F0%9F%87%B1
+trojan://humanity@188.42.145.180:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=0&host=www.volumeroot.com&fp=chrome&type=ws&allowInsecure=0&sni=www.volumeroot.com#52%20%F0%9F%87%B3%F0%9F%87%B1
