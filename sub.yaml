@@ -1,53 +1,53 @@
 proxies:
 
-- name: 77 🇺🇸
+- name: 16 🇯🇵
   type: vless
-  server: cf-vless-4cf55824.aimall.fr
+  server: 104.21.70.21
   port: 443
-  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   network: ws
   tls: true
-  servername: cf-vless-4cf55824.aimall.fr
+  servername: jp3.yohototo.top
   ws-opts:
-    path: /connect
+    path: /tyxyws
     headers:
-      Host: cf-vless-4cf55824.aimall.fr
+      Host: jp3.yohototo.top
 
-- name: 52 🇺🇸
+- name: 7 🇫🇮
   type: vless
-  server: 172.237.0.160
+  server: 151.101.56.7
   port: 443
-  uuid: c92e12ca-ea66-4785-8675-652b35134117
+  uuid: 8abb648a-b004-42a4-aa05-49cdc2f94d4e
   network: ws
   tls: true
-  servername: thus-k.netnode.cc.cd
-  ws-opts:
-    path: /t.me/daily_free_vpn
-    headers:
-      Host: thus-k.netnode.cc.cd
-
-- name: 59 🇺🇸
-  type: vless
-  server: 162.159.192.125
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  network: ws
-  tls: true
-  servername: xi.tbv.ccwu.cc
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-
-- name: 2 🇩🇪
-  type: vless
-  server: 164.90.217.130
-  port: 443
-  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
-  network: ws
-  tls: true
-  servername: white-forest-2c01.alvlirm222.workers.dev
+  servername: global.fastly.com
   ws-opts:
     path: /
     headers:
-      Host: white-forest-2c01.alvlirm222.workers.dev
+      Host: kayko.global.ssl.fastly.net
+
+- name: 79 🇺🇸
+  type: vless
+  server: 104.19.32.166
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  network: ws
+  tls: true
+  servername: a.cwvps.eu.org
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+
+- name: 69 🇺🇸
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 77dc177b-79d9-49ac-92e1-2f1011faa5e3
+  network: ws
+  tls: true
+  servername: f871a986.69lover.site
+  ws-opts:
+    path: /api/v2/b8ee4ba356df307c/stream
+    headers:
+      Host: f871a986.69lover.site
