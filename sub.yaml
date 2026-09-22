@@ -1,53 +1,53 @@
 proxies:
 
-- name: 16 🇯🇵
+- name: 77 🇺🇸
   type: vless
-  server: 45.76.206.46
+  server: cf-vless-4cf55824.aimall.fr
   port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
   network: ws
   tls: true
-  servername: cdn8848.776676.xyz
+  servername: cf-vless-4cf55824.aimall.fr
   ws-opts:
-    path: /tags/go/groups?ed=2560
+    path: /connect
     headers:
-      Host: cdn8848.776676.xyz
+      Host: cf-vless-4cf55824.aimall.fr
 
-- name: 23 🇳🇱
+- name: 52 🇺🇸
   type: vless
-  server: 199.232.78.159
+  server: 172.237.0.160
   port: 443
-  uuid: 805df9b3-f18c-4392-a624-c4213c0560f4
+  uuid: c92e12ca-ea66-4785-8675-652b35134117
   network: ws
   tls: true
-  servername: ssl.fastly.com
+  servername: thus-k.netnode.cc.cd
   ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    path: /t.me/daily_free_vpn
     headers:
-      Host: Fijji.global.ssl.fastly.net
+      Host: thus-k.netnode.cc.cd
 
-- name: 32 🇺🇸
+- name: 59 🇺🇸
   type: vless
-  server: 139.64.235.77
+  server: 162.159.192.125
   port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  uuid: b2593749-691c-428c-9481-14979cba3446
   network: ws
   tls: true
-  servername: nb.lovecf.ggff.net
+  servername: xi.tbv.ccwu.cc
   ws-opts:
     path: /proxyip=us.xiabibi.cf
     headers:
-      Host: nb.lovecf.ggff.net
+      Host: xi.tbv.ccwu.cc
 
-- name: 20 🇳🇱
+- name: 2 🇩🇪
   type: vless
-  server: 158.173.195.103
+  server: 164.90.217.130
   port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
   network: ws
   tls: true
-  servername: cdn8848.776676.xyz
+  servername: white-forest-2c01.alvlirm222.workers.dev
   ws-opts:
-    path: /www?ed=2560
+    path: /
     headers:
-      Host: cdn8848.776676.xyz
+      Host: white-forest-2c01.alvlirm222.workers.dev
