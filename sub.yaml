@@ -1,52 +1,53 @@
 proxies:
 
-- name: 46 🇳🇱
+- name: 44 🇺🇸
   type: vless
-  server: 199.232.78.159
+  server: 172.67.217.240
   port: 443
-  uuid: 805df9b3-f18c-4392-a624-c4213c0560f4
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  network: ws
+  tls: true
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+
+- name: 2 🇫🇮
+  type: vless
+  server: k2.cloud--vpn.site
+  port: 443
+  uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
   network: ws
   tls: true
   servername: ssl.fastly.com
   ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    path: /
     headers:
-      Host: Fijji.global.ssl.fastly.net
+      Host: c12.com
 
-- name: 142 🇺🇸
+- name: 23 🇷🇺
   type: vless
-  server: 104.18.32.47
-  port: 8443
-  uuid: 4ff70740-8c80-48ae-985f-2afe4924e908
+  server: 46.8.200.91
+  port: 443
+  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
   network: ws
   tls: true
-  servername: pubb.clnahanpnln.workers.dev
+  servername: cf3.rumedia-cdn.com
   ws-opts:
-    path: /sync
+    path: /cdn/v3/live
     headers:
-      Host: pubb.clnahanpnln.workers.dev
+      Host: cf3.rumedia-cdn.com
 
-- name: 1 🇧🇪
+- name: 47 🇺🇸
   type: vless
-  server: 141.98.233.6
+  server: 104.20.30.10
   port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
+  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
   network: ws
   tls: true
-  servername: xi.tbv.ccwu.cc
+  servername: us9.69lover.my
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /api/v2/63e9687fa53e441c/stream
     headers:
-      Host: xi.tbv.ccwu.cc
-
-- name: 188 🇳🇱
-  type: trojan
-  server: 188.42.145.180
-  port: 443
-  password: humanity
-  sni: wWw.Volumeroot.cOm.
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.volumerOot.coM.
+      Host: us9.69lover.my
