@@ -1,21 +1,20 @@
 proxies:
 
-- name: 5 🇫🇮
-  type: vless
-  server: a2.arshia-nova.ir
+- name: 58 🇺🇸
+  type: trojan
+  server: 199.232.78.101
   port: 443
-  uuid: 622cd467-ae00-4afe-b7ee-15dca6b9649a
+  password: MITIVpN
+  sni: ssl.fastly.com
   network: ws
-  tls: true
-  servername: ssl.fastly.com
   ws-opts:
     path: /
     headers:
-      Host: c12.com
+      Host: mitivpn---ss--s---mitivpn-11e.global.ssl.fastly.net
 
-- name: 46 🇺🇸
+- name: 37 🇺🇸
   type: vless
-  server: 104.16.10.185
+  server: 188.114.97.6
   port: 443
   uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   network: ws
@@ -26,26 +25,27 @@ proxies:
     headers:
       Host: a.cwvps.eu.org
 
-- name: 80 🇫🇷
-  type: trojan
-  server: 45.205.0.6
+- name: 41 🇺🇸
+  type: vless
+  server: 104.16.111.193
   port: 443
-  password: humanity
-  sni: www.calmlunch.com
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   network: ws
+  tls: true
+  servername: a.cwvps.eu.org
   ws-opts:
-    path: /assignment
+    path: /ws
     headers:
-      Host: www.calmlunch.com
+      Host: a.cwvps.eu.org
 
-- name: 72 🇫🇷
+- name: 57 🇺🇸
   type: trojan
-  server: 104.17.121.71
+  server: 151.101.56.90
   port: 443
-  password: humanity
-  sni: www.calmlunch.com
+  password: MITIVpN
+  sni: ssl.fastly.com
   network: ws
   ws-opts:
-    path: /assignment
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
-      Host: www.calmlunch.com
+      Host: mitivpn---ss--s---mitivpn-66e.global.ssl.fastly.net
