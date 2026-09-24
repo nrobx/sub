@@ -1,19 +1,6 @@
 proxies:
 
-- name: 5 🇺🇸
-  type: vless
-  server: 172.64.146.228
-  port: 443
-  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
-  network: ws
-  tls: true
-  servername: edfc774f.69lover.site
-  ws-opts:
-    path: /api/v2/63e9687fa53e441c/stream
-    headers:
-      Host: edfc774f.69lover.site
-
-- name: 11 🇺🇸
+- name: 7 🇺🇸
   type: vless
   server: 188.114.97.6
   port: 443
@@ -26,27 +13,40 @@ proxies:
     headers:
       Host: www.terence-tunnel.org
 
-- name: 21 🇺🇸
-  type: trojan
-  server: 151.101.56.7
-  port: 443
-  password: MITIVpN
-  sni: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: mitivpn---ss--s---mitivpn-22e.global.ssl.fastly.net
-
-- name: 9 🇺🇸
+- name: 1 🇫🇮
   type: vless
-  server: 103.31.4.10
+  server: 151.101.56.6
   port: 443
-  uuid: 77dc177b-79d9-49ac-92e1-2f1011faa5e3
+  uuid: 64c2bc5c-7534-4359-9b1e-e1dce5a380cd
   network: ws
   tls: true
-  servername: f871a986.69lover.site
+  servername: ssl.fastly.com
   ws-opts:
-    path: /api/v2/b8ee4ba356df307c/stream
+    path: /
     headers:
-      Host: f871a986.69lover.site
+      Host: c12.com
+
+- name: 2 🇷🇺
+  type: vless
+  server: fbsv6.guardora.pro
+  port: 443
+  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+  network: ws
+  tls: true
+  servername: fbsv6.guardora.pro
+  ws-opts:
+    path: /ws
+    headers:
+      Host: fbsv6.guardora.pro
+
+- name: 9 🇳🇱
+  type: trojan
+  server: 8.47.69.0
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
