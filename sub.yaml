@@ -1,34 +1,34 @@
 proxies:
 
-- name: 8 🇯🇵
+- name: 5 🇫🇮
   type: vless
-  server: 162.159.254.3
+  server: a2.arshia-nova.ir
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 622cd467-ae00-4afe-b7ee-15dca6b9649a
   network: ws
   tls: true
-  servername: jp3.yohototo.top
+  servername: ssl.fastly.com
   ws-opts:
-    path: /tyxyws
+    path: /
     headers:
-      Host: jp3.yohototo.top
+      Host: c12.com
 
-- name: 15 🇹🇭
+- name: 46 🇺🇸
   type: vless
-  server: 104.16.111.193
+  server: 104.16.10.185
   port: 443
-  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   network: ws
   tls: true
-  servername: v2ray.simspeedup.com
+  servername: a.cwvps.eu.org
   ws-opts:
     path: /ws
     headers:
-      Host: v2ray.simspeedup.com
+      Host: a.cwvps.eu.org
 
-- name: 39 🇫🇷
+- name: 80 🇫🇷
   type: trojan
-  server: 88.99.189.60
+  server: 45.205.0.6
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -38,9 +38,9 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 46 🇫🇷
+- name: 72 🇫🇷
   type: trojan
-  server: 185.220.100.168
+  server: 104.17.121.71
   port: 443
   password: humanity
   sni: www.calmlunch.com

@@ -38,7 +38,7 @@ proxies:
 
 - name: 4 🇫🇷
   type: trojan
-  server: 88.99.189.60
+  server: 185.18.250.252
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -50,18 +50,6 @@ proxies:
 
 - name: 5 🇫🇷
   type: trojan
-  server: 185.18.250.252
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-
-- name: 6 🇫🇷
-  type: trojan
   server: 165.215.250.14
   port: 443
   password: humanity
@@ -72,7 +60,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 7 🇫🇷
+- name: 6 🇫🇷
   type: trojan
   server: 172.64.150.28
   port: 443
@@ -84,7 +72,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 8 🇫🇷
+- name: 7 🇫🇷
   type: trojan
   server: 162.159.253.41
   port: 443
@@ -96,7 +84,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 9 🇫🇷
+- name: 8 🇫🇷
   type: trojan
   server: www.speedtest.net
   port: 443
@@ -108,7 +96,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 10 🇫🇷
+- name: 9 🇫🇷
   type: trojan
   server: 104.19.229.21
   port: 443
@@ -120,9 +108,21 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 11 🇫🇷
+- name: 10 🇫🇷
   type: trojan
   server: 185.220.100.168
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 11 🇫🇷
+  type: trojan
+  server: 185.225.68.232
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -372,55 +372,19 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 32 🇮🇩
+- name: 32 🇳🇱
   type: trojan
-  server: 172.67.217.240
+  server: 8.47.69.0
   port: 443
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
-  sni: id1.nathaya.web.id
+  password: humanity
+  sni: www.pleadcourt.org
   network: ws
   ws-opts:
-    path: /trojan
+    path: /assignment
     headers:
-      Host: id1.nathaya.web.id
+      Host: www.pleadcourt.org
 
-- name: 33 🇮🇩
-  type: trojan
-  server: 104.21.33.59
-  port: 443
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
-  sni: id1.nathaya.web.id
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id1.nathaya.web.id
-
-- name: 34 🇮🇩
-  type: trojan
-  server: 188.114.97.6
-  port: 443
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
-  sni: id1.nathaya.web.id
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id1.nathaya.web.id
-
-- name: 35 🇮🇩
-  type: trojan
-  server: 104.21.70.21
-  port: 443
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
-  sni: id1.nathaya.web.id
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id1.nathaya.web.id
-
-- name: 36 🇳🇱
+- name: 33 🇳🇱
   type: trojan
   server: 188.42.145.180
   port: 443
@@ -432,19 +396,7 @@ proxies:
     headers:
       Host: www.volumerOot.coM.
 
-- name: 37 🇺🇸
-  type: trojan
-  server: 151.101.56.90
-  port: 443
-  password: MITIVpN
-  sni: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/NLSs---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1
-    headers:
-      Host: mitivpn---ss--s---mitivpn-66e.global.ssl.fastly.net
-
-- name: 38 🇺🇸
+- name: 34 🇺🇸
   type: trojan
   server: 199.232.78.160
   port: 443
@@ -456,31 +408,7 @@ proxies:
     headers:
       Host: mitivpn---ss--s---mitivpn-44e.global.ssl.fastly.net
 
-- name: 39 🇺🇸
-  type: trojan
-  server: 167.82.76.7
-  port: 443
-  password: MITIVpN
-  sni: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: mitivpn---ss--s---mitivpn-33e.global.ssl.fastly.net
-
-- name: 40 🇺🇸
-  type: trojan
-  server: 199.232.78.101
-  port: 443
-  password: MITIVpN
-  sni: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mitivpn---ss--s---mitivpn-11e.global.ssl.fastly.net
-
-- name: 41 🇺🇸
+- name: 35 🇺🇸
   type: trojan
   server: 151.101.56.7
   port: 443
@@ -492,7 +420,7 @@ proxies:
     headers:
       Host: mitivpn---ss--s---mitivpn-22e.global.ssl.fastly.net
 
-- name: 42 🇺🇸
+- name: 36 🇺🇸
   type: trojan
   server: 151.101.56.90
   port: 443
@@ -503,3 +431,15 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
       Host: mitivpn---ss--s---mitivpn-66e.global.ssl.fastly.net
+
+- name: 37 🇺🇸
+  type: trojan
+  server: 199.232.78.101
+  port: 443
+  password: MITIVpN
+  sni: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mitivpn---ss--s---mitivpn-11e.global.ssl.fastly.net
