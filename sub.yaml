@@ -1,52 +1,52 @@
 proxies:
 
-- name: 7 🇺🇸
+- name: 40 🇺🇸
   type: vless
-  server: 188.114.97.6
+  server: cf-vless-4cf55824.aimall.fr
   port: 443
-  uuid: c47eb7ab-2c2d-44e0-80cc-bb104f89a137
+  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
   network: ws
   tls: true
-  servername: www.terence-tunnel.org
+  servername: cf-vless-4cf55824.aimall.fr
   ws-opts:
-    path: /tunnel
+    path: /connect
     headers:
-      Host: www.terence-tunnel.org
+      Host: cf-vless-4cf55824.aimall.fr
 
-- name: 1 🇫🇮
+- name: 38 🇺🇸
   type: vless
-  server: 151.101.56.6
+  server: 151.101.1.242
   port: 443
-  uuid: 64c2bc5c-7534-4359-9b1e-e1dce5a380cd
+  uuid: d072677e-98c2-4ff0-a38f-4853af740ee1
   network: ws
   tls: true
-  servername: ssl.fastly.com
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
-
-- name: 2 🇷🇺
-  type: vless
-  server: fbsv6.guardora.pro
-  port: 443
-  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
-  network: ws
-  tls: true
-  servername: fbsv6.guardora.pro
+  servername: minimize-evenness.cdn-content.com
   ws-opts:
     path: /ws
     headers:
-      Host: fbsv6.guardora.pro
+      Host: minimize-evenness.cdn-content.com
 
-- name: 9 🇳🇱
+- name: 29 🇺🇸
+  type: vless
+  server: 172.67.217.240
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  network: ws
+  tls: true
+  servername: a.cwvps.eu.org
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+
+- name: 48 🇫🇷
   type: trojan
-  server: 8.47.69.0
+  server: 185.225.68.232
   port: 443
   password: humanity
-  sni: www.pleadcourt.org
+  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
     headers:
-      Host: www.pleadcourt.org
+      Host: www.calmlunch.com
