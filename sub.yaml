@@ -1,47 +1,8 @@
 proxies:
 
-- name: 40 🇺🇸
-  type: vless
-  server: cf-vless-4cf55824.aimall.fr
-  port: 443
-  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
-  network: ws
-  tls: true
-  servername: cf-vless-4cf55824.aimall.fr
-  ws-opts:
-    path: /connect
-    headers:
-      Host: cf-vless-4cf55824.aimall.fr
-
-- name: 38 🇺🇸
-  type: vless
-  server: 151.101.1.242
-  port: 443
-  uuid: d072677e-98c2-4ff0-a38f-4853af740ee1
-  network: ws
-  tls: true
-  servername: minimize-evenness.cdn-content.com
-  ws-opts:
-    path: /ws
-    headers:
-      Host: minimize-evenness.cdn-content.com
-
-- name: 29 🇺🇸
-  type: vless
-  server: 172.67.217.240
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  tls: true
-  servername: a.cwvps.eu.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-
-- name: 48 🇫🇷
+- name: 57 🇫🇷
   type: trojan
-  server: 185.225.68.232
+  server: 185.18.250.252
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -50,3 +11,41 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
+
+- name: 44 🇫🇷
+  type: trojan
+  server: 172.64.152.23
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 15 🇯🇵
+  type: vless
+  server: 104.21.33.59
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  tls: true
+  servername: jp3.yohototo.top
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+
+- name: 6 🇫🇷
+  type: vless
+  server: 81.95.4.189
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  network: ws
+  tls: true
+  servername: bab-6.site
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site

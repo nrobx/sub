@@ -223,19 +223,6 @@ proxies:
 
 - name: 18 🇷🇺
   type: vless
-  server: fbsv6.guardora.pro
-  port: 443
-  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
-  network: ws
-  tls: true
-  servername: fbsv6.guardora.pro
-  ws-opts:
-    path: /ws
-    headers:
-      Host: fbsv6.guardora.pro
-
-- name: 19 🇷🇺
-  type: vless
   server: 46.8.200.91
   port: 443
   uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
@@ -247,7 +234,7 @@ proxies:
     headers:
       Host: cf3.rumedia-cdn.com
 
-- name: 20 🇸🇬
+- name: 19 🇸🇬
   type: vless
   server: 190.93.245.7
   port: 8443
@@ -260,7 +247,7 @@ proxies:
     headers:
       Host: speed.dulacloud.store
 
-- name: 21 🇹🇭
+- name: 20 🇹🇭
   type: vless
   server: 162.159.192.125
   port: 443
@@ -273,7 +260,7 @@ proxies:
     headers:
       Host: v2ray.simspeedup.com
 
-- name: 22 🇹🇭
+- name: 21 🇹🇭
   type: vless
   server: 104.16.111.193
   port: 443
@@ -286,20 +273,7 @@ proxies:
     headers:
       Host: v2ray.simspeedup.com
 
-- name: 23 🇹🇭
-  type: vless
-  server: 104.18.26.90
-  port: 443
-  uuid: 3c52e091-6714-4915-949f-2149fe69951b
-  network: ws
-  tls: true
-  servername: v2ray.simspeedup.com
-  ws-opts:
-    path: /ws
-    headers:
-      Host: v2ray.simspeedup.com
-
-- name: 24 🇹🇭
+- name: 22 🇹🇭
   type: vless
   server: 104.21.34.106
   port: 443
@@ -312,33 +286,7 @@ proxies:
     headers:
       Host: v2ray.simspeedup.com
 
-- name: 25 🇺🇸
-  type: vless
-  server: mybb.com
-  port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
-  network: ws
-  tls: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rayan-007.nastaran.dpdns.org
-
-- name: 26 🇺🇸
-  type: vless
-  server: medium.com
-  port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  network: ws
-  tls: true
-  servername: rAyAn-007.mAxImA.DpDnS.OrG
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
-
-- name: 27 🇺🇸
+- name: 23 🇺🇸
   type: vless
   server: 104.21.91.129
   port: 443
@@ -351,7 +299,7 @@ proxies:
     headers:
       Host: edfc774f.69lover.site
 
-- name: 28 🇺🇸
+- name: 24 🇺🇸
   type: vless
   server: 103.31.4.10
   port: 443
@@ -364,7 +312,7 @@ proxies:
     headers:
       Host: f871a986.69lover.site
 
-- name: 29 🇺🇸
+- name: 25 🇺🇸
   type: vless
   server: 172.67.217.240
   port: 443
@@ -377,20 +325,7 @@ proxies:
     headers:
       Host: a.cwvps.eu.org
 
-- name: 30 🇺🇸
-  type: vless
-  server: us7-2.998998.best
-  port: 443
-  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
-  network: ws
-  tls: true
-  servername: server9.9966338.xyz
-  ws-opts:
-    path: /imnotarealherox
-    headers:
-      Host: server9.9966338.xyz
-
-- name: 31 🇺🇸
+- name: 26 🇺🇸
   type: vless
   server: 141.101.121.196
   port: 443
@@ -403,7 +338,7 @@ proxies:
     headers:
       Host: blackshadow.dpdns.org
 
-- name: 32 🇺🇸
+- name: 27 🇺🇸
   type: vless
   server: 188.114.97.6
   port: 443
@@ -416,20 +351,7 @@ proxies:
     headers:
       Host: server9.9966338.xyz
 
-- name: 33 🇺🇸
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: 5b374761-e26c-4117-8af8-5c637992fcbf
-  network: ws
-  tls: true
-  servername: vls.baiyi.cloudns.org
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: vls.baiyi.cloudns.org
-
-- name: 34 🇺🇸
+- name: 28 🇺🇸
   type: vless
   server: 188.114.97.6
   port: 443
@@ -442,7 +364,7 @@ proxies:
     headers:
       Host: www.terence-tunnel.org
 
-- name: 35 🇺🇸
+- name: 29 🇺🇸
   type: vless
   server: 104.21.33.59
   port: 443
@@ -455,7 +377,7 @@ proxies:
     headers:
       Host: a.cwvps.eu.org
 
-- name: 36 🇺🇸
+- name: 30 🇺🇸
   type: vless
   server: www.terence-tunnel.org
   port: 443
@@ -468,7 +390,7 @@ proxies:
     headers:
       Host: www.terence-tunnel.org
 
-- name: 37 🇺🇸
+- name: 31 🇺🇸
   type: vless
   server: 139.84.156.127
   port: 443
@@ -481,46 +403,7 @@ proxies:
     headers:
       Host: thus-k.netnode.cc.cd
 
-- name: 38 🇺🇸
-  type: vless
-  server: 151.101.1.242
-  port: 443
-  uuid: d072677e-98c2-4ff0-a38f-4853af740ee1
-  network: ws
-  tls: true
-  servername: minimize-evenness.cdn-content.com
-  ws-opts:
-    path: /ws
-    headers:
-      Host: minimize-evenness.cdn-content.com
-
-- name: 39 🇺🇸
-  type: vless
-  server: 104.21.91.129
-  port: 443
-  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
-  network: ws
-  tls: true
-  servername: edfc774f.69lover.site
-  ws-opts:
-    path: /api/v2/63e9687fa53e441c/stream
-    headers:
-      Host: edfc774f.69lover.site
-
-- name: 40 🇺🇸
-  type: vless
-  server: cf-vless-4cf55824.aimall.fr
-  port: 443
-  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
-  network: ws
-  tls: true
-  servername: cf-vless-4cf55824.aimall.fr
-  ws-opts:
-    path: /connect
-    headers:
-      Host: cf-vless-4cf55824.aimall.fr
-
-- name: 41 🇺🇸
+- name: 32 🇺🇸
   type: vless
   server: 104.18.26.90
   port: 443
@@ -533,7 +416,7 @@ proxies:
     headers:
       Host: a.cwvps.eu.org
 
-- name: 42 🇺🇸
+- name: 33 🇺🇸
   type: vless
   server: 104.16.10.185
   port: 443
@@ -546,7 +429,7 @@ proxies:
     headers:
       Host: a.cwvps.eu.org
 
-- name: 43 🇺🇸
+- name: 34 🇺🇸
   type: vless
   server: 104.21.70.21
   port: 443
@@ -559,7 +442,7 @@ proxies:
     headers:
       Host: a.cwvps.eu.org
 
-- name: 44 🇺🇸
+- name: 35 🇺🇸
   type: vless
   server: 104.16.10.2
   port: 443
@@ -572,7 +455,7 @@ proxies:
     headers:
       Host: a.cwvps.eu.org
 
-- name: 45 🇺🇸
+- name: 36 🇺🇸
   type: vless
   server: 104.16.111.193
   port: 443
@@ -585,7 +468,7 @@ proxies:
     headers:
       Host: a.cwvps.eu.org
 
-- name: 46 🇺🇸
+- name: 37 🇺🇸
   type: vless
   server: 188.114.97.6
   port: 443
@@ -598,7 +481,7 @@ proxies:
     headers:
       Host: a.cwvps.eu.org
 
-- name: 47 🇺🇸
+- name: 38 🇺🇸
   type: vless
   server: 104.19.32.166
   port: 443
