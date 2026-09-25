@@ -1,58 +1,6 @@
 proxies:
 
-- name: 1 🇨🇦
-  type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: efe19c5a-0ea1-4666-8a4c-4a33f4670775
-  network: ws
-  tls: true
-  servername: playlux.homes
-  ws-opts:
-    path: /raccoonwsvless
-    headers:
-      Host: playlux.homes
-
-- name: 2 🇨🇦
-  type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: efe19c5a-0ea1-4666-8a4c-4a33f4670775
-  network: ws
-  tls: true
-  servername: playlux.homes
-  ws-opts:
-    path: /raccoonwsvless
-    headers:
-      Host: playlux.homes
-
-- name: 3 🇫🇮
-  type: vless
-  server: a2.arshia-nova.ir
-  port: 443
-  uuid: 64c2bc5c-7534-4359-9b1e-e1dce5a380cd
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
-
-- name: 4 🇫🇮
-  type: vless
-  server: a2.arshia-nova.ir
-  port: 443
-  uuid: 64c2bc5c-7534-4359-9b1e-e1dce5a380cd
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
-
-- name: 5 🇫🇮
+- name: 1 🇫🇮
   type: vless
   server: k2.cloud--vpn.site
   port: 443
@@ -65,33 +13,20 @@ proxies:
     headers:
       Host: c12.com
 
-- name: 6 🇫🇮
+- name: 2 🇷🇺
   type: vless
-  server: 151.101.56.6
+  server: fbsv6.guardora.pro
   port: 443
-  uuid: 64c2bc5c-7534-4359-9b1e-e1dce5a380cd
+  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
   network: ws
   tls: true
-  servername: ssl.fastly.com
+  servername: fbsv6.guardora.pro
   ws-opts:
-    path: /?TELEGRAM--BYA---@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud
+    path: /ws
     headers:
-      Host: c12.com
+      Host: fbsv6.guardora.pro
 
-- name: 7 🇳🇱
-  type: vless
-  server: 151.242.2.81
-  port: 443
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-  network: ws
-  tls: true
-  servername: cf9.rumedia-cdn.com
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf9.rumedia-cdn.com
-
-- name: 8 🇺🇸
+- name: 3 🇺🇸
   type: vless
   server: www.terence-tunnel.org
   port: 443
@@ -104,33 +39,20 @@ proxies:
     headers:
       Host: www.terence-tunnel.org
 
-- name: 9 🇺🇸
+- name: 4 🇺🇸
   type: vless
-  server: 103.31.4.10
+  server: www.terence-tunnel.org
   port: 443
-  uuid: 77dc177b-79d9-49ac-92e1-2f1011faa5e3
+  uuid: c47eb7ab-2c2d-44e0-80cc-bb104f89a137
   network: ws
   tls: true
-  servername: f871a986.69lover.site
+  servername: www.terence-tunnel.org
   ws-opts:
-    path: /api/v2/b8ee4ba356df307c/stream
+    path: /tunnel
     headers:
-      Host: f871a986.69lover.site
+      Host: www.terence-tunnel.org
 
-- name: 10 🇺🇸
-  type: vless
-  server: 172.64.146.228
-  port: 443
-  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
-  network: ws
-  tls: true
-  servername: edfc774f.69lover.site
-  ws-opts:
-    path: /api/v2/63e9687fa53e441c/stream
-    headers:
-      Host: edfc774f.69lover.site
-
-- name: 11 🇺🇸
+- name: 5 🇺🇸
   type: vless
   server: 172.66.43.95
   port: 443
@@ -143,7 +65,7 @@ proxies:
     headers:
       Host: www.terence-tunnel.org
 
-- name: 12 🇺🇸
+- name: 6 🇺🇸
   type: vless
   server: 172.66.40.161
   port: 443
@@ -155,3 +77,16 @@ proxies:
     path: /tunnel
     headers:
       Host: www.terence-tunnel.org
+
+- name: 7 🇺🇸
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
+  network: ws
+  tls: true
+  servername: server9.9966338.xyz
+  ws-opts:
+    path: /imnotarealherox
+    headers:
+      Host: server9.9966338.xyz
