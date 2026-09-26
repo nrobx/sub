@@ -314,7 +314,7 @@ proxies:
 
 - name: 27 🇫🇷
   type: trojan
-  server: 45.130.125.190
+  server: 185.220.100.168
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -326,7 +326,7 @@ proxies:
 
 - name: 28 🇫🇷
   type: trojan
-  server: 188.114.98.0
+  server: 45.130.125.190
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -338,7 +338,7 @@ proxies:
 
 - name: 29 🇫🇷
   type: trojan
-  server: www.calmlunch.com
+  server: 188.114.98.0
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -360,7 +360,67 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 31 🇳🇱
+- name: 31 🇫🇷
+  type: trojan
+  server: www.calmlunch.com
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 32 🇮🇩
+  type: trojan
+  server: 104.21.33.59
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  sni: id1.nathaya.web.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+
+- name: 33 🇮🇩
+  type: trojan
+  server: 172.67.217.240
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  sni: id1.nathaya.web.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+
+- name: 34 🇮🇩
+  type: trojan
+  server: 188.114.97.6
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  sni: id1.nathaya.web.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+
+- name: 35 🇮🇩
+  type: trojan
+  server: 104.21.70.21
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  sni: id1.nathaya.web.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+
+- name: 36 🇳🇱
   type: trojan
   server: 8.47.69.0
   port: 443
@@ -371,3 +431,51 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
+
+- name: 37 🇳🇱
+  type: trojan
+  server: 188.42.145.180
+  port: 443
+  password: humanity
+  sni: www.volumeroot.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.volumeroot.com
+
+- name: 38 🇳🇱
+  type: trojan
+  server: 78.47.146.151
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+
+- name: 39 🇳🇱
+  type: trojan
+  server: 8.47.69.0
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+
+- name: 40 🇳🇱
+  type: trojan
+  server: 188.42.145.180
+  port: 443
+  password: humanity
+  sni: wWw.Volumeroot.cOm.
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.volumerOot.coM.
