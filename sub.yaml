@@ -1,47 +1,46 @@
 proxies:
 
-- name: 5 🇺🇸
-  type: vless
-  server: 172.66.43.95
-  port: 443
-  uuid: c47eb7ab-2c2d-44e0-80cc-bb104f89a137
-  network: ws
-  tls: true
-  servername: www.terence-tunnel.org
-  ws-opts:
-    path: /tunnel
-    headers:
-      Host: www.terence-tunnel.org
-
-- name: 7 🇺🇸
+- name: 31 🇺🇸
   type: vless
   server: 188.114.97.6
   port: 443
-  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
+  uuid: b9ede7a5-5b4b-4aee-ac37-2c307e587e47
   network: ws
   tls: true
-  servername: server9.9966338.xyz
+  servername: courses.mftplus.qzz.io
   ws-opts:
-    path: /imnotarealherox
+    path: /eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
     headers:
-      Host: server9.9966338.xyz
+      Host: courses.mftplus.qzz.io
 
-- name: 2 🇷🇺
-  type: vless
-  server: fbsv6.guardora.pro
+- name: 67 🇫🇷
+  type: trojan
+  server: 104.16.72.41
   port: 443
-  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+  password: humanity
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+
+- name: 6 🇫🇷
+  type: vless
+  server: 81.95.4.189
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   network: ws
   tls: true
-  servername: fbsv6.guardora.pro
+  servername: bab-6.site
   ws-opts:
-    path: /ws
+    path: /vws/
     headers:
-      Host: fbsv6.guardora.pro
+      Host: bab-6.site
 
-- name: 4 🇺🇸
+- name: 26 🇺🇸
   type: vless
-  server: www.terence-tunnel.org
+  server: 172.66.43.95
   port: 443
   uuid: c47eb7ab-2c2d-44e0-80cc-bb104f89a137
   network: ws
