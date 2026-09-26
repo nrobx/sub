@@ -1,8 +1,8 @@
 proxies:
 
-- name: 41 🇫🇷
+- name: 51 🇫🇷
   type: trojan
-  server: 104.19.229.21
+  server: 172.64.150.28
   port: 443
   password: humanity
   sni: www.calmlunch.com
@@ -12,21 +12,21 @@ proxies:
     headers:
       Host: www.calmlunch.com
 
-- name: 69 🇮🇩
+- name: 50 🇫🇷
   type: trojan
-  server: 172.67.217.240
+  server: www.speedtest.net
   port: 443
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
-  sni: id1.nathaya.web.id
+  password: humanity
+  sni: www.calmlunch.com
   network: ws
   ws-opts:
-    path: /trojan
+    path: /assignment
     headers:
-      Host: id1.nathaya.web.id
+      Host: www.calmlunch.com
 
-- name: 6 🇯🇵
+- name: 7 🇯🇵
   type: vless
-  server: 172.67.217.240
+  server: 104.21.70.21
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   network: ws
@@ -37,15 +37,15 @@ proxies:
     headers:
       Host: jp3.yohototo.top
 
-- name: 2 🇫🇮
+- name: 34 🇺🇸
   type: vless
-  server: a2.arshia-nova.ir
+  server: 104.20.30.10
   port: 443
-  uuid: 64c2bc5c-7534-4359-9b1e-e1dce5a380cd
+  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
   network: ws
   tls: true
-  servername: ssl.fastly.com
+  servername: us9.69lover.my
   ws-opts:
-    path: /
+    path: /api/v2/63e9687fa53e441c/stream
     headers:
-      Host: c12.com
+      Host: us9.69lover.my
